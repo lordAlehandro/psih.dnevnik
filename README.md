@@ -116,7 +116,13 @@ storeFile=path/to/keystore.jks
 
 ### Screenshots
 
-The screenshots above (in Russian UI) show: welcome screen, diary, new entry, tests, emotion statistics, mood chart, settings, color themes and PIN setup.
+*(The app interface in the screenshots is in Russian.)*
+
+| | | |
+|:-:|:-:|:-:|
+| <img src="docs/screenshots/01-welcome.jpg" width="220"><br>Welcome | <img src="docs/screenshots/02-diary.jpg" width="220"><br>Diary | <img src="docs/screenshots/03-new-entry.jpg" width="220"><br>New entry |
+| <img src="docs/screenshots/04-tests.jpg" width="220"><br>Tests | <img src="docs/screenshots/05-stats-emotions.jpg" width="220"><br>Emotion statistics | <img src="docs/screenshots/06-stats-mood.jpg" width="220"><br>Mood chart |
+| <img src="docs/screenshots/07-settings.jpg" width="220"><br>Settings | <img src="docs/screenshots/08-themes.jpg" width="220"><br>Color themes | <img src="docs/screenshots/09-pin.jpg" width="220"><br>PIN code |
 
 ### Tech stack
 
