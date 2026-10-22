@@ -66,6 +66,31 @@
 - **Приветственные картинки** — пейзажи или котики при входе, чтобы начинать запись с улыбки.
 - **Подсказки «?»** на экранах — объясняют, как пользоваться функциями.
 
+### 📄 Выгрузка результатов в PDF
+
+Записи не остаются «вещью в себе»: за пару касаний дневник превращается в **аккуратный PDF-отчёт**, который удобно показать психологу, психотерапевту или врачу. С ним проще начать разговор на приёме и видно, что происходило между встречами.
+
+**Что можно выбрать:**
+
+- **Период** — неделя, 2 недели, месяц, всё время или свои даты.
+- **Разделы** — позитивный дневник, негативный дневник, календарь настроения и любые тесты по отдельности, включая собственные.
+
+**Что внутри отчёта:**
+
+| Раздел | Содержимое |
+|---|---|
+| 📔 Дневники | все записи за период + круговая диаграмма тем и эмоций |
+| 🙂 Настроение | календарь отметок, **график динамики** и короткий итог: держалось ли настроение в положительной зоне, было смешанным или чаще смещалось в тяжёлую |
+| 📋 Тесты | результаты каждого прохождения и **столбчатая диаграмма динамики** баллов |
+
+**Куда отправить:**
+
+- **Выгрузить** — сохранить в папку приложения;
+- **Выгрузить в…** — выбрать папку самому;
+- **Выгрузить и отослать** — сразу поделиться через мессенджер, почту или облако.
+
+Отчёт формируется прямо на телефоне, без интернета, и на языке приложения — на любом из пяти.
+
 ### ✨ Возможности
 
 | | |
@@ -171,6 +196,31 @@ The app is designed so that daily journaling never feels like a chore:
 - **Nothing extra** — five clear tabs: add · diary · tests · statistics · settings.
 - **Welcome images** — landscapes or cats on launch, so every entry starts with a smile.
 - **"?" hints** on screens explain how each feature works.
+
+### 📄 Exporting results to PDF
+
+Your entries don't just sit in the app: in a couple of taps the diary becomes a **clean PDF report** you can show to a psychologist, therapist or doctor. It makes it easier to start the conversation at an appointment and shows what happened between sessions.
+
+**What you choose:**
+
+- **Period** — a week, 2 weeks, a month, all time or custom dates.
+- **Sections** — positive diary, negative diary, mood calendar and any tests individually, including your own custom ones.
+
+**What's in the report:**
+
+| Section | Contents |
+|---|---|
+| 📔 Diaries | all entries for the period + a pie chart of themes and emotions |
+| 🙂 Mood | mood calendar, a **trend chart** and a short summary: whether mood stayed mostly positive, was mixed, or leaned toward the low side |
+| 📋 Tests | every result and a **bar chart of score changes** over time |
+
+**Where it goes:**
+
+- **Export** — save to the app folder;
+- **Export to…** — pick a folder yourself;
+- **Export and share** — send it right away via a messenger, email or cloud storage.
+
+The report is generated on the phone itself, offline, in the app's language — any of the five.
 
 ### ✨ Features
 
