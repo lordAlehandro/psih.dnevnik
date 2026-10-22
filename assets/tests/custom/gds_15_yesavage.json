@@ -1,0 +1,595 @@
+[
+  {
+    "id": "gds_15",
+    "category": "depression",
+    "title": {
+      "ru": "Гериатрическая шкала депрессии (GDS-15)",
+      "en": "Geriatric Depression Scale (GDS-15)",
+      "fr": "Échelle de dépression gériatrique (GDS-15)",
+      "de": "Geriatrische Depressionsskala (GDS-15)",
+      "pt": "Escala de Depressão Geriátrica (GDS-15)"
+    },
+    "subtitle": {
+      "ru": "Краткий скрининг депрессии для людей старшего возраста.",
+      "en": "Brief depression screening for older adults.",
+      "fr": "Dépistage bref de la dépression chez les personnes âgées.",
+      "de": "Kurzes Depressionsscreening bei älteren Menschen.",
+      "pt": "Triagem breve de depressão em idosos."
+    },
+    "description": {
+      "ru": "Короткий скрининг депрессии у людей пожилого возраста.",
+      "en": "A brief screening tool for depression in older adults (by Yesavage J.A. et al.).",
+      "fr": "Outil bref de dépistage de la dépression chez les personnes âgées (par Yesavage J.A. et al.).",
+      "de": "Kurzes Screening-Instrument für Depression bei älteren Menschen (nach Yesavage J.A. et al.).",
+      "pt": "Ferramenta breve de triagem para depressão em pessoas idosas (por Yesavage J.A. et al.)."
+    },
+    "instructions": {
+      "ru": "Ответьте «Да» или «Нет» на каждый вопрос. Выберите вариант, который лучше всего описывает ваше состояние в последнее время.",
+      "en": "Answer “Yes” or “No” to each question. Choose the option that best describes how you have been feeling recently.",
+      "fr": "Répondez « Oui » ou « Non » à chaque question. Choisissez l’option qui décrit le mieux comment vous vous sentez récemment.",
+      "de": "Beantworten Sie jede Frage mit „Ja“ oder „Nein“. Wählen Sie die Antwort, die am besten beschreibt, wie Sie sich in letzter Zeit fühlen.",
+      "pt": "Responda “Sim” ou “Não” a cada pergunta. Escolha a opção que melhor descreve como você tem se sentido recentemente."
+    },
+    "questions": [
+      {
+        "id": "gds_1",
+        "text": {
+          "ru": "В целом, удовлетворены ли Вы своей жизнью?",
+          "en": "Are you basically satisfied with your life?",
+          "fr": "Dans l’ensemble, êtes-vous satisfait(e) de votre vie ?",
+          "de": "Sind Sie im Großen und Ganzen mit Ihrem Leben zufrieden?",
+          "pt": "No geral, você está satisfeito(a) com a sua vida?"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Да",
+              "en": "Yes",
+              "fr": "Oui",
+              "de": "Ja",
+              "pt": "Sim"
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Нет",
+              "en": "No",
+              "fr": "Non",
+              "de": "Nein",
+              "pt": "Não"
+            },
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "gds_2",
+        "text": {
+          "ru": "Вы забросили большую часть своих занятий и интересов?",
+          "en": "Have you dropped many of your activities and interests?",
+          "fr": "Avez-vous abandonné beaucoup de vos activités et centres d’intérêt ?",
+          "de": "Haben Sie viele Ihrer Aktivitäten und Interessen aufgegeben?",
+          "pt": "Você abandonou muitas de suas atividades e interesses?"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Да",
+              "en": "Yes",
+              "fr": "Oui",
+              "de": "Ja",
+              "pt": "Sim"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Нет",
+              "en": "No",
+              "fr": "Non",
+              "de": "Nein",
+              "pt": "Não"
+            },
+            "score": 0
+          }
+        ]
+      },
+      {
+        "id": "gds_3",
+        "text": {
+          "ru": "Вы чувствуете, что Ваша жизнь пуста?",
+          "en": "Do you feel that your life is empty?",
+          "fr": "Avez-vous l’impression que votre vie est vide ?",
+          "de": "Haben Sie das Gefühl, dass Ihr Leben leer ist?",
+          "pt": "Você sente que sua vida está vazia?"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Да",
+              "en": "Yes",
+              "fr": "Oui",
+              "de": "Ja",
+              "pt": "Sim"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Нет",
+              "en": "No",
+              "fr": "Non",
+              "de": "Nein",
+              "pt": "Não"
+            },
+            "score": 0
+          }
+        ]
+      },
+      {
+        "id": "gds_4",
+        "text": {
+          "ru": "Вам часто становится скучно?",
+          "en": "Do you often get bored?",
+          "fr": "Vous ennuyez-vous souvent ?",
+          "de": "Langweilen Sie sich oft?",
+          "pt": "Você costuma se entediar?"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Да",
+              "en": "Yes",
+              "fr": "Oui",
+              "de": "Ja",
+              "pt": "Sim"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Нет",
+              "en": "No",
+              "fr": "Non",
+              "de": "Nein",
+              "pt": "Não"
+            },
+            "score": 0
+          }
+        ]
+      },
+      {
+        "id": "gds_5",
+        "text": {
+          "ru": "У вас хорошее настроение большую часть времени?",
+          "en": "Are you in good spirits most of the time?",
+          "fr": "Êtes-vous de bonne humeur la plupart du temps ?",
+          "de": "Sind Sie die meiste Zeit guter Stimmung?",
+          "pt": "Você está de bom humor na maior parte do tempo?"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Да",
+              "en": "Yes",
+              "fr": "Oui",
+              "de": "Ja",
+              "pt": "Sim"
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Нет",
+              "en": "No",
+              "fr": "Non",
+              "de": "Nein",
+              "pt": "Não"
+            },
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "gds_6",
+        "text": {
+          "ru": "Вы опасаетесь, что с Вами случится что-то плохое?",
+          "en": "Are you afraid that something bad is going to happen to you?",
+          "fr": "Avez-vous peur qu’il vous arrive quelque chose de mauvais ?",
+          "de": "Haben Sie Angst, dass Ihnen etwas Schlimmes passieren wird?",
+          "pt": "Você tem medo de que algo ruim aconteça com você?"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Да",
+              "en": "Yes",
+              "fr": "Oui",
+              "de": "Ja",
+              "pt": "Sim"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Нет",
+              "en": "No",
+              "fr": "Non",
+              "de": "Nein",
+              "pt": "Não"
+            },
+            "score": 0
+          }
+        ]
+      },
+      {
+        "id": "gds_7",
+        "text": {
+          "ru": "Вы чувствуете себя счастливым большую часть времени?",
+          "en": "Do you feel happy most of the time?",
+          "fr": "Vous sentez-vous heureux/heureuse la plupart du temps ?",
+          "de": "Fühlen Sie sich die meiste Zeit glücklich?",
+          "pt": "Você se sente feliz na maior parte do tempo?"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Да",
+              "en": "Yes",
+              "fr": "Oui",
+              "de": "Ja",
+              "pt": "Sim"
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Нет",
+              "en": "No",
+              "fr": "Non",
+              "de": "Nein",
+              "pt": "Não"
+            },
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "gds_8",
+        "text": {
+          "ru": "Вы чувствуете себя беспомощным?",
+          "en": "Do you often feel helpless?",
+          "fr": "Vous sentez-vous souvent impuissant(e) ?",
+          "de": "Fühlen Sie sich oft hilflos?",
+          "pt": "Você frequentemente se sente desamparado(a)?"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Да",
+              "en": "Yes",
+              "fr": "Oui",
+              "de": "Ja",
+              "pt": "Sim"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Нет",
+              "en": "No",
+              "fr": "Non",
+              "de": "Nein",
+              "pt": "Não"
+            },
+            "score": 0
+          }
+        ]
+      },
+      {
+        "id": "gds_9",
+        "text": {
+          "ru": "Вы предпочитаете остаться дома, нежели выйти на улицу и заняться чем-нибудь новым?",
+          "en": "Do you prefer to stay at home, rather than going out and doing new things?",
+          "fr": "Préférez-vous rester à la maison plutôt que de sortir et faire de nouvelles choses ?",
+          "de": "Bleiben Sie lieber zu Hause, anstatt hinauszugehen und Neues zu tun?",
+          "pt": "Você prefere ficar em casa em vez de sair e fazer coisas novas?"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Да",
+              "en": "Yes",
+              "fr": "Oui",
+              "de": "Ja",
+              "pt": "Sim"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Нет",
+              "en": "No",
+              "fr": "Non",
+              "de": "Nein",
+              "pt": "Não"
+            },
+            "score": 0
+          }
+        ]
+      },
+      {
+        "id": "gds_10",
+        "text": {
+          "ru": "Считаете ли Вы, что Ваша память хуже, чем у других?",
+          "en": "Do you feel you have more problems with memory than most?",
+          "fr": "Pensez-vous avoir plus de problèmes de mémoire que la plupart des gens ?",
+          "de": "Haben Sie das Gefühl, mehr Gedächtnisprobleme zu haben als die meisten?",
+          "pt": "Você acha que tem mais problemas de memória do que a maioria das pessoas?"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Да",
+              "en": "Yes",
+              "fr": "Oui",
+              "de": "Ja",
+              "pt": "Sim"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Нет",
+              "en": "No",
+              "fr": "Non",
+              "de": "Nein",
+              "pt": "Não"
+            },
+            "score": 0
+          }
+        ]
+      },
+      {
+        "id": "gds_11",
+        "text": {
+          "ru": "Считаете ли Вы, что жить — это прекрасно?",
+          "en": "Do you think it is wonderful to be alive now?",
+          "fr": "Pensez-vous qu’il est merveilleux d’être en vie ?",
+          "de": "Finden Sie, dass es wunderbar ist, am Leben zu sein?",
+          "pt": "Você acha maravilhoso estar vivo(a)?"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Да",
+              "en": "Yes",
+              "fr": "Oui",
+              "de": "Ja",
+              "pt": "Sim"
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Нет",
+              "en": "No",
+              "fr": "Non",
+              "de": "Nein",
+              "pt": "Não"
+            },
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "gds_12",
+        "text": {
+          "ru": "Чувствуете ли Вы себя сейчас бесполезным?",
+          "en": "Do you feel pretty worthless the way you are now?",
+          "fr": "Vous sentez-vous assez inutile tel(le) que vous êtes maintenant ?",
+          "de": "Fühlen Sie sich in Ihrer jetzigen Situation ziemlich wertlos?",
+          "pt": "Você se sente bastante inútil do jeito que está agora?"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Да",
+              "en": "Yes",
+              "fr": "Oui",
+              "de": "Ja",
+              "pt": "Sim"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Нет",
+              "en": "No",
+              "fr": "Non",
+              "de": "Nein",
+              "pt": "Não"
+            },
+            "score": 0
+          }
+        ]
+      },
+      {
+        "id": "gds_13",
+        "text": {
+          "ru": "Чувствуете ли Вы себя полным энергией и жизненной силой?",
+          "en": "Do you feel full of energy?",
+          "fr": "Vous sentez-vous plein(e) d’énergie ?",
+          "de": "Fühlen Sie sich voller Energie?",
+          "pt": "Você se sente cheio(a) de energia?"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Да",
+              "en": "Yes",
+              "fr": "Oui",
+              "de": "Ja",
+              "pt": "Sim"
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Нет",
+              "en": "No",
+              "fr": "Non",
+              "de": "Nein",
+              "pt": "Não"
+            },
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "gds_14",
+        "text": {
+          "ru": "Ощущаете ли вы безнадежность той ситуации, в которой находитесь в настоящее время?",
+          "en": "Do you feel that your situation is hopeless?",
+          "fr": "Avez-vous le sentiment que votre situation est sans espoir ?",
+          "de": "Haben Sie das Gefühl, dass Ihre Situation hoffnungslos ist?",
+          "pt": "Você sente que sua situação é sem esperança?"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Да",
+              "en": "Yes",
+              "fr": "Oui",
+              "de": "Ja",
+              "pt": "Sim"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Нет",
+              "en": "No",
+              "fr": "Non",
+              "de": "Nein",
+              "pt": "Não"
+            },
+            "score": 0
+          }
+        ]
+      },
+      {
+        "id": "gds_15",
+        "text": {
+          "ru": "Считаете ли Вы, что окружающие Вас люди живут более полноценной жизнью в сравнении с Вами?",
+          "en": "Do you feel that most people are better off than you are?",
+          "fr": "Pensez-vous que la plupart des gens ont une vie plus satisfaisante que la vôtre ?",
+          "de": "Haben Sie das Gefühl, dass die meisten Menschen ein erfüllteres Leben haben als Sie?",
+          "pt": "Você sente que a maioria das pessoas tem uma vida mais plena do que a sua?"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Да",
+              "en": "Yes",
+              "fr": "Oui",
+              "de": "Ja",
+              "pt": "Sim"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Нет",
+              "en": "No",
+              "fr": "Non",
+              "de": "Nein",
+              "pt": "Não"
+            },
+            "score": 0
+          }
+        ]
+      }
+    ],
+    "bands": [
+      {
+        "minInclusive": 0,
+        "maxInclusive": 4,
+        "title": {
+          "ru": "Отсутствие депрессии",
+          "en": "No depression",
+          "fr": "Absence de dépression",
+          "de": "Keine Depression",
+          "pt": "Sem depressão"
+        },
+        "description": {
+          "ru": "Результат в пределах типичного диапазона для этого скрининга.",
+          "en": "Result within the usual range for this screening tool.",
+          "fr": "Résultat dans la plage habituelle pour cet outil de dépistage.",
+          "de": "Ergebnis im üblichen Bereich für dieses Screening.",
+          "pt": "Resultado dentro da faixa usual para esta triagem."
+        }
+      },
+      {
+        "minInclusive": 5,
+        "maxInclusive": 15,
+        "title": {
+          "ru": "Вероятная депрессия",
+          "en": "Probable depression",
+          "fr": "Dépression probable",
+          "de": "Wahrscheinliche Depression",
+          "pt": "Depressão provável"
+        },
+        "description": {
+          "ru": "Результат указывает на необходимость обсуждения с врачом или специалистом по психическому здоровью.",
+          "en": "This pattern suggests discussing your mood with a physician or mental health professional.",
+          "fr": "Ce profil suggère d’en parler à un médecin ou un professionnel de santé mentale.",
+          "de": "Dieses Ergebnis spricht dafür, Stimmung mit Ärztin/Arzt oder Psychotherapie zu besprechen.",
+          "pt": "Esse perfil sugere conversar com médico ou profissional de saúde mental."
+        }
+      }
+    ],
+    "subscales": [
+      {
+        "id": "negative_items",
+        "label": {
+          "ru": "Жалобы и симптомы",
+          "en": "Symptoms and complaints",
+          "fr": "Symptômes et plaintes",
+          "de": "Beschwerden und Symptome",
+          "pt": "Sintomas e queixas"
+        },
+        "itemIndices": [
+          1,
+          2,
+          3,
+          5,
+          7,
+          8,
+          9,
+          11,
+          13,
+          14
+        ]
+      },
+      {
+        "id": "positive_items",
+        "label": {
+          "ru": "Признаки благополучия",
+          "en": "Signs of wellbeing",
+          "fr": "Signes de bien-être",
+          "de": "Anzeichen von Wohlbefinden",
+          "pt": "Sinais de bem-estar"
+        },
+        "itemIndices": [
+          0,
+          4,
+          6,
+          10,
+          12
+        ]
+      }
+    ]
+  }
+]

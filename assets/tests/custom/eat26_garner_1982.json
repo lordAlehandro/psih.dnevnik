@@ -1,0 +1,2038 @@
+{
+  "id": "eat26",
+  "category": "addictions",
+  "title": {
+    "ru": "EAT-26 — опросник отношения к еде",
+    "en": "EAT-26 — Eating Attitudes Test",
+    "fr": "EAT-26 — Test des attitudes alimentaires",
+    "de": "EAT-26 — Eating Attitudes Test",
+    "pt": "EAT-26 — Teste de atitudes alimentares"
+  },
+  "subtitle": {
+    "ru": "Пищевое поведение, отношение к весу и форме тела.",
+    "en": "Eating attitudes, weight concerns, and body shape preoccupation.",
+    "fr": "Comportements alimentaires, poids et préoccupations corporelles.",
+    "de": "Essverhalten, Gewicht und Körperform als Themen.",
+    "pt": "Atitudes alimentares, peso e preocupação com a forma corporal."
+  },
+  "description": {
+    "ru": "Скрининг установок и переживаний, связанных с едой, весом и телом (Garner et al., 1982). Не диагноз. Полная процедура EAT-26 в клинике может включать дополнительные вопросы о поведении и ИМТ. Опросник охраняется авторским правом; для распространения может требоваться разрешение (eat-26.com).",
+    "en": "Screens attitudes and concerns about eating, weight, and shape (Garner et al., 1982). Not a diagnosis. Full clinical EAT-26 protocols may add behavioral questions and BMI. Copyrighted; permission may be required (eat-26.com).",
+    "fr": "Dépistage des attitudes liées à l’alimentation, au poids et au corps (Garner et al., 1982). Pas un diagnostic. Protocoles cliniques complets possibles. Droits d’auteur.",
+    "de": "Screening von Einstellungen zu Essen, Gewicht und Körper (Garner et al., 1982). Keine Diagnose. Klinische Vollprotokolle können mehr enthalten. Urheberrecht.",
+    "pt": "Triagem de atitudes sobre comer, peso e corpo (Garner et al., 1982). Não é diagnóstico. Protocolos clínicos podem incluir mais itens. Direitos autorais."
+  },
+  "instructions": {
+    "ru": "Ответьте, как часто каждое утверждение относится к вам в целом.",
+    "en": "Please answer how often each statement applies to you in general.",
+    "fr": "Indiquez à quelle fréquence chaque phrase vous correspond en général.",
+    "de": "Bitte geben Sie an, wie oft jede Aussage im Allgemeinen auf Sie zutrifft.",
+    "pt": "Indique com que frequência cada frase se aplica a você em geral."
+  },
+  "maxScore": 78,
+  "bandsBasis": "raw",
+  "bands": [
+    {
+      "minInclusive": 0,
+      "maxInclusive": 19,
+      "title": {
+        "ru": "Относительно ниже по шкале",
+        "en": "Relatively lower on this scale",
+        "fr": "Relativement plus bas sur l’échelle",
+        "de": "Relativ niedriger auf der Skala",
+        "pt": "Relativamente mais baixo na escala"
+      },
+      "description": {
+        "ru": "Менее выраженные ответы в зоне, которую часто считают менее тревожной по этому скринингу; интерпретация индивидуальна.",
+        "en": "Responses in a band often seen as less concerning on this screen; interpretation is individual.",
+        "fr": "Réponses dans une zone souvent moins préoccupante ; interprétation individuelle.",
+        "de": "Bereich, oft als weniger belastend beschrieben; individuell einordnen.",
+        "pt": "Faixa frequentemente vista como menos preocupante; interpretação individual."
+      }
+    },
+    {
+      "minInclusive": 20,
+      "maxInclusive": 39,
+      "title": {
+        "ru": "Повышенная выраженность ответов",
+        "en": "More pronounced responses",
+        "fr": "Réponses plus marquées",
+        "de": "Ausgeprägtere Antworten",
+        "pt": "Respostas mais marcadas"
+      },
+      "description": {
+        "ru": "Ответы в зоне, где часто рекомендуют обсудить пищевое поведение с врачом или специалистом по РПП.",
+        "en": "A band where clinicians often suggest follow-up about eating with a qualified professional.",
+        "fr": "Zone où un suivi auprès d’un professionnel est souvent recommandé.",
+        "de": "Bereich, in dem oft fachliche Rücksprache zu Essstörungen sinnvoll ist.",
+        "pt": "Faixa em que costuma-se recomendar avaliação com profissional."
+      }
+    },
+    {
+      "minInclusive": 40,
+      "maxInclusive": 78,
+      "title": {
+        "ru": "Сильная выраженность ответов",
+        "en": "Strong responses",
+        "fr": "Réponses très marquées",
+        "de": "Sehr ausgeprägte Antworten",
+        "pt": "Respostas muito marcadas"
+      },
+      "description": {
+        "ru": "Сильно выраженные ответы; рекомендуется профессиональная оценка.",
+        "en": "Strong endorsement of concern items; professional assessment is recommended.",
+        "fr": "Réponses très marquées ; évaluation professionnelle recommandée.",
+        "de": "Sehr starke Zustimmung zu Belastungsaussagen; Abklärung empfohlen.",
+        "pt": "Respostas muito fortes; avaliação profissional recomendada."
+      }
+    }
+  ],
+  "subscales": [
+    {
+      "id": "dieting",
+      "label": {
+        "ru": "Диетичность и ограничения",
+        "en": "Dieting and restraint",
+        "fr": "Régime et restriction",
+        "de": "Diät und Restriktion",
+        "pt": "Dieta e restrição"
+      },
+      "itemIndices": [
+        0,
+        5,
+        6,
+        9,
+        10,
+        11,
+        13,
+        15,
+        16,
+        21,
+        22,
+        23,
+        25
+      ],
+      "maxScore": 39
+    },
+    {
+      "id": "bulimia",
+      "label": {
+        "ru": "Срывы, рвота и навязчивые мысли о еде",
+        "en": "Bingeing, vomiting, and food preoccupation",
+        "fr": "Crises, vomissements et préoccupation alimentaire",
+        "de": "Essanfälle, Erbrechen und Essgedanken",
+        "pt": "Compulsão, vômito e foco na comida"
+      },
+      "itemIndices": [
+        2,
+        3,
+        8,
+        17,
+        20,
+        24
+      ],
+      "maxScore": 18
+    },
+    {
+      "id": "oral_control",
+      "label": {
+        "ru": "Контроль за приёмом пищи",
+        "en": "Control over eating",
+        "fr": "Contrôle de l’alimentation",
+        "de": "Kontrolle beim Essen",
+        "pt": "Controle alimentar"
+      },
+      "itemIndices": [
+        1,
+        4,
+        7,
+        12,
+        14,
+        18,
+        19
+      ],
+      "maxScore": 21
+    }
+  ],
+  "resultNote": {
+    "ru": "В клинической практике к этому блоку иногда добавляют вопросы о поведении и ИМТ — в приложении учтены только утверждения опросника. Один из вопросов про интерес к жирной еде учтён в ответах так, чтобы согласованно отражать тревогу вокруг еды.",
+    "en": "Clinical EAT-26 protocols sometimes add behavioral questions and BMI—this app uses the attitude items only. One question about rich foods is keyed so answers line up with the rest of the scale.",
+    "fr": "En clinique, on peut ajouter comportement et IMC ; ici seulement le questionnaire. Une question sur les plats riches est harmonisée avec le reste.",
+    "de": "Klinisch kommen oft Verhaltensfragen und BMI dazu; hier nur der Fragebogen. Eine Frage zu reichhaltigem Essen ist mit dem Rest abgestimmt.",
+    "pt": "Na clínica podem somar perguntas comportamentais e IMC; aqui só o questionário. Uma pergunta sobre comidas gordurosas está alinhada ao restante."
+  },
+  "questions": [
+    {
+      "id": "eat26_1",
+      "text": {
+        "ru": "Мне страшно стать с лишним весом.",
+        "en": "I am terrified about being overweight.",
+        "fr": "J’ai une peur panique de prendre du poids.",
+        "de": "Ich habe panische Angst davor, übergewichtig zu werden.",
+        "pt": "Tenho pavor de ficar acima do peso."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_2",
+      "text": {
+        "ru": "Я избегаю есть, когда голоден(на).",
+        "en": "I avoid eating when I am hungry.",
+        "fr": "J’évite de manger lorsque j’ai faim.",
+        "de": "Ich vermeide es zu essen, wenn ich hungrig bin.",
+        "pt": "Evito comer quando estou com fome."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_3",
+      "text": {
+        "ru": "Я замечаю, что постоянно думаю о еде.",
+        "en": "I find myself preoccupied with food.",
+        "fr": "Je me surprends à être préoccupé(e) par la nourriture.",
+        "de": "Ich merke, dass ich ständig an Essen denke.",
+        "pt": "Percebo que fico obcecado(a) por comida."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_4",
+      "text": {
+        "ru": "У меня бывали срывы, когда я ем и боюсь, что не смогу остановиться.",
+        "en": "I have gone on eating binges where I feel that I may not be able to stop.",
+        "fr": "J’ai eu des crises d’alimentation où je craignais de ne pas pouvoir m’arrêter.",
+        "de": "Ich hatte Essattacken, bei denen ich befürchtete, nicht aufhören zu können.",
+        "pt": "Tive episódios em que comi e temi não conseguir parar."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_5",
+      "text": {
+        "ru": "Я режу еду на мелкие куски.",
+        "en": "I cut my food into small pieces.",
+        "fr": "Je coupe ma nourriture en petits morceaux.",
+        "de": "Ich schneide mein Essen in kleine Stücke.",
+        "pt": "Corto a comida em pedaços pequenos."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_6",
+      "text": {
+        "ru": "Я знаю калорийность того, что ем.",
+        "en": "I am aware of the calorie content of foods that I eat.",
+        "fr": "Je connais la teneur en calories des aliments que je mange.",
+        "de": "Ich kenne den Kaloriengehalt dessen, was ich esse.",
+        "pt": "Sei quantas calorias têm os alimentos que como."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_7",
+      "text": {
+        "ru": "Я особенно избегаю продуктов с большим содержанием углеводов (хлеб, крупы, картофель и т.д.).",
+        "en": "I particularly avoid food with a high carbohydrate content (i.e. bread, rice, potatoes, etc.).",
+        "fr": "J’évite particulièrement les aliments riches en glucides (pain, riz, pommes de terre, etc.).",
+        "de": "Ich meide besonders kohlenhydratreiche Lebensmittel (Brot, Reis, Kartoffeln usw.).",
+        "pt": "Evito especialmente carboidratos (pão, arroz, batata, etc.)."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_8",
+      "text": {
+        "ru": "Мне кажется, что окружающим было бы лучше, если бы я ел(а) больше.",
+        "en": "I feel that others would prefer if I ate more.",
+        "fr": "J’ai l’impression que les autres aimeraient que je mange plus.",
+        "de": "Ich habe das Gefühl, andere würden sich wünschen, dass ich mehr esse.",
+        "pt": "Sinto que os outros prefeririam que eu comesse mais."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_9",
+      "text": {
+        "ru": "Я вызываю рвоту после еды.",
+        "en": "I vomit after I have eaten.",
+        "fr": "Je vomis après avoir mangé.",
+        "de": "Ich erbreche mich nach dem Essen.",
+        "pt": "Vomito depois de comer."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_10",
+      "text": {
+        "ru": "После еды я чувствую сильную вину.",
+        "en": "I feel extremely guilty after eating.",
+        "fr": "Je me sens extrêmement coupable après avoir mangé.",
+        "de": "Ich fühle mich nach dem Essen extrem schuldig.",
+        "pt": "Sinto culpa extrema depois de comer."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_11",
+      "text": {
+        "ru": "Меня одолевает желание быть стройнее.",
+        "en": "I am preoccupied with a desire to be thinner.",
+        "fr": "Je suis préoccupé(e) par le désir d’être plus mince.",
+        "de": "Ich bin vom Wunsch besessen, dünner zu sein.",
+        "pt": "Fico obcecado(a) em querer ficar mais magro(a)."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_12",
+      "text": {
+        "ru": "Во время упражнений я думаю о том, как сжигаю калории.",
+        "en": "I think about burning up calories when I exercise.",
+        "fr": "Je pense à brûler des calories quand je fais de l’exercice.",
+        "de": "Beim Sport denke ich daran, Kalorien zu verbrennen.",
+        "pt": "Penso em queimar calorias quando me exercito."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_13",
+      "text": {
+        "ru": "Другие считают, что я слишком худой(ая).",
+        "en": "Other people think that I am too thin.",
+        "fr": "Les autres pensent que je suis trop maigre.",
+        "de": "Andere finden mich zu dünn.",
+        "pt": "As outras pessoas acham que estou magro(a) demais."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_14",
+      "text": {
+        "ru": "Меня одолевают мысли о жире на теле.",
+        "en": "I am preoccupied with the thought of having fat on my body.",
+        "fr": "Je suis préoccupé(e) par l’idée d’avoir de la graisse sur le corps.",
+        "de": "Ich bin besessen vom Gedanken, Fett am Körper zu haben.",
+        "pt": "Fico obcecado(a) com a ideia de ter gordura no corpo."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_15",
+      "text": {
+        "ru": "Я ем дольше, чем другие.",
+        "en": "I take longer than others to eat my meals.",
+        "fr": "Je mets plus de temps que les autres à manger.",
+        "de": "Ich brauche länger als andere zum Essen.",
+        "pt": "Demoro mais que os outros para comer."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_16",
+      "text": {
+        "ru": "Я избегаю сладкого.",
+        "en": "I avoid foods with sugar in them.",
+        "fr": "J’évite les aliments avec du sucre.",
+        "de": "Ich meide süße Lebensmittel.",
+        "pt": "Evito alimentos com açúcar."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_17",
+      "text": {
+        "ru": "Я ем «диетические» продукты.",
+        "en": "I eat diet foods.",
+        "fr": "Je mange des aliments « régime ».",
+        "de": "Ich esse Diätprodukte.",
+        "pt": "Como alimentos « diet »."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_18",
+      "text": {
+        "ru": "Мне кажется, что еда управляет моей жизнью.",
+        "en": "I feel that food controls my life.",
+        "fr": "J’ai l’impression que la nourriture contrôle ma vie.",
+        "de": "Ich habe das Gefühl, dass Essen mein Leben beherrscht.",
+        "pt": "Sinto que a comida controla minha vida."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_19",
+      "text": {
+        "ru": "Я демонстрирую самоконтроль в еде.",
+        "en": "I display self-control around food.",
+        "fr": "Je fais preuve de maîtrise de soi face à la nourriture.",
+        "de": "Ich zeige Selbstbeherrschung beim Essen.",
+        "pt": "Mostro autocontrole em relação à comida."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_20",
+      "text": {
+        "ru": "Мне кажется, что другие давят, чтобы я ел(а) больше.",
+        "en": "I feel that others pressure me to eat.",
+        "fr": "J’ai l’impression que les autres me poussent à manger.",
+        "de": "Ich habe das Gefühl, andere drängen mich zu essen.",
+        "pt": "Sinto que os outros me pressionam a comer."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_21",
+      "text": {
+        "ru": "Я трачу слишком много времени и мыслей на еду.",
+        "en": "I give too much time and thought to food.",
+        "fr": "Je consacre trop de temps et de pensées à la nourriture.",
+        "de": "Ich gebe Essen zu viel Zeit und Gedanken.",
+        "pt": "Dou tempo e pensamentos demais à comida."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_22",
+      "text": {
+        "ru": "После сладкого мне некомфортно.",
+        "en": "I feel uncomfortable after eating sweets.",
+        "fr": "Je me sens mal à l’aise après avoir mangé des sucreries.",
+        "de": "Mir ist nach Süßem unwohl.",
+        "pt": "Fico desconfortável depois de doces."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_23",
+      "text": {
+        "ru": "Я веду себя как на диете.",
+        "en": "I engage in dieting behavior.",
+        "fr": "Je me comporte comme si je faisais un régime.",
+        "de": "Ich zeige Verhaltensweisen wie bei einer Diät.",
+        "pt": "Tenho comportamentos de dieta."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_24",
+      "text": {
+        "ru": "Мне нравится чувствовать пустой желудок.",
+        "en": "I like my stomach to be empty.",
+        "fr": "J’aime sentir mon estomac vide.",
+        "de": "Ich mag das Gefühl eines leeren Magens.",
+        "pt": "Gosto de sentir o estômago vazio."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_25",
+      "text": {
+        "ru": "У меня возникает импульс вызвать рвоту после еды.",
+        "en": "I have the impulse to vomit after meals.",
+        "fr": "J’ai l’impulsion de vomir après les repas.",
+        "de": "Ich habe den Impuls, nach Mahlzeiten zu erbrechen.",
+        "pt": "Tenho impulso de vomitar depois das refeições."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "eat26_26",
+      "text": {
+        "ru": "Мне нравится пробовать новые жирные/калорийные блюда.",
+        "en": "I enjoy trying new rich foods.",
+        "fr": "J’aime goûter de nouveaux aliments riches.",
+        "de": "Ich probiere gern neue reichhaltige Speisen.",
+        "pt": "Gosto de experimentar novos alimentos ricos."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Обычно",
+            "en": "Usually",
+            "fr": "Habituellement",
+            "de": "Gewöhnlich",
+            "pt": "Geralmente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 3
+        }
+      ]
+    }
+  ]
+}

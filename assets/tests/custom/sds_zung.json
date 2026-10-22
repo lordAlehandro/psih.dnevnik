@@ -1,0 +1,1196 @@
+[
+  {
+    "id": "sds_zung_depression",
+    "category": "depression",
+    "title": {
+      "ru": "Шкала самооценки депрессии Цунга (SDS)",
+      "en": "Zung Self-Rating Depression Scale (SDS)",
+      "fr": "Échelle d’auto-évaluation de la dépression de Zung",
+      "de": "Zung-Selbstbeurteilungs-Depressionsskala",
+      "pt": "Escala de Autoavaliação de Depressão de Zung"
+    },
+    "subtitle": {
+      "ru": "Самооценка депрессивных симптомов и связанных переживаний.",
+      "en": "Self-rated depressive symptoms and related experiences.",
+      "fr": "Auto-évaluation des symptômes dépressifs et vécu associé.",
+      "de": "Selbst eingeschätzte depressive Symptome und zugehöriges Erleben.",
+      "pt": "Autorrelato de sintomas depressivos e experiências relacionadas."
+    },
+    "description": {
+      "ru": "Методика для дифференциальной диагностики депрессивных состояний и состояний, близких к депрессии.",
+      "en": "A tool for the differential diagnosis of depressive states and states close to depression.",
+      "fr": "Un outil pour le diagnostic différentiel des états dépressifs et des états proches de la dépression.",
+      "de": "Ein Instrument zur Differentialdiagnose depressiver Zustände und depressionsnaher Zustände.",
+      "pt": "Uma ferramenta para o diagnóstico diferencial de estados depressivos e estados próximos à depressão."
+    },
+    "instructions": {
+      "ru": "Прочитайте внимательно каждое предложение и выберите вариант, который лучше всего описывает ваше состояние в последнее время. Не задумывайтесь долго, правильных или неправильных ответов нет.",
+      "en": "Read each statement carefully and choose the option that best describes how you have been feeling recently. Do not spend too much time on any statement.",
+      "fr": "Lisez attentivement chaque phrase et choisissez l'option qui décrit le mieux comment vous vous êtes senti récemment. Ne passez pas trop de temps sur une question.",
+      "de": "Lesen Sie jeden Satz sorgfältig durch und wählen Sie die Option, die am besten beschreibt, wie Sie sich in letzter Zeit gefühlt haben. Überlegen Sie nicht zu lange.",
+      "pt": "Leia cada frase com atenção e escolha a opção que melhor descreve como você tem se sentido recentemente. Não gaste muito tempo em nenhuma afirmação."
+    },
+    "questions": [
+      {
+        "id": "sds_1",
+        "text": {
+          "ru": "Я чувствую подавленность, тоску",
+          "en": "I feel downhearted and blue",
+          "fr": "Je me sens abattu et triste",
+          "de": "Ich fühle mich niedergeschlagen und traurig",
+          "pt": "Sinto-me abatido e triste"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Никогда или изредка",
+              "en": "Rarely or never",
+              "fr": "Rarement ou jamais",
+              "de": "Selten oder nie",
+              "pt": "Raramente ou nunca"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Иногда",
+              "en": "Sometimes",
+              "fr": "Parfois",
+              "de": "Manchmal",
+              "pt": "Às vezes"
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Часто",
+              "en": "Often",
+              "fr": "Souvent",
+              "de": "Häufig",
+              "pt": "Frequentemente"
+            },
+            "score": 3
+          },
+          {
+            "label": {
+              "ru": "Почти всегда",
+              "en": "Most of the time",
+              "fr": "Presque toujours",
+              "de": "Fast immer",
+              "pt": "Quase sempre"
+            },
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "sds_2",
+        "text": {
+          "ru": "Утром я чувствую себя лучше всего",
+          "en": "Morning is when I feel the best",
+          "fr": "Le matin est le moment où je me sens le mieux",
+          "de": "Morgens fühle ich mich am besten",
+          "pt": "De manhã é quando me sinto melhor"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Никогда или изредка",
+              "en": "Rarely or never",
+              "fr": "Rarement ou jamais",
+              "de": "Selten oder nie",
+              "pt": "Raramente ou nunca"
+            },
+            "score": 4
+          },
+          {
+            "label": {
+              "ru": "Иногда",
+              "en": "Sometimes",
+              "fr": "Parfois",
+              "de": "Manchmal",
+              "pt": "Às vezes"
+            },
+            "score": 3
+          },
+          {
+            "label": {
+              "ru": "Часто",
+              "en": "Often",
+              "fr": "Souvent",
+              "de": "Häufig",
+              "pt": "Frequentemente"
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Почти всегда",
+              "en": "Most of the time",
+              "fr": "Presque toujours",
+              "de": "Fast immer",
+              "pt": "Quase sempre"
+            },
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sds_3",
+        "text": {
+          "ru": "У меня бывают периоды плача или близости к слезам",
+          "en": "I have crying spells or feel like crying",
+          "fr": "J'ai des crises de larmes ou l'envie de pleurer",
+          "de": "Ich habe Weinanfälle oder bin den Tränen nahe",
+          "pt": "Tenho crises de choro ou vontade de chorar"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Никогда или изредка",
+              "en": "Rarely or never",
+              "fr": "Rarement ou jamais",
+              "de": "Selten oder nie",
+              "pt": "Raramente ou nunca"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Иногда",
+              "en": "Sometimes",
+              "fr": "Parfois",
+              "de": "Manchmal",
+              "pt": "Às vezes"
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Часто",
+              "en": "Often",
+              "fr": "Souvent",
+              "de": "Häufig",
+              "pt": "Frequentemente"
+            },
+            "score": 3
+          },
+          {
+            "label": {
+              "ru": "Почти всегда",
+              "en": "Most of the time",
+              "fr": "Presque toujours",
+              "de": "Fast immer",
+              "pt": "Quase sempre"
+            },
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "sds_4",
+        "text": {
+          "ru": "У меня плохой ночной сон",
+          "en": "I have trouble sleeping at night",
+          "fr": "J'ai du mal à dormir la nuit",
+          "de": "Ich schlafe nachts schlecht",
+          "pt": "Tenho problemas para dormir à noite"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Никогда или изредка",
+              "en": "Rarely or never",
+              "fr": "Rarement ou jamais",
+              "de": "Selten oder nie",
+              "pt": "Raramente ou nunca"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Иногда",
+              "en": "Sometimes",
+              "fr": "Parfois",
+              "de": "Manchmal",
+              "pt": "Às vezes"
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Часто",
+              "en": "Often",
+              "fr": "Souvent",
+              "de": "Häufig",
+              "pt": "Frequentemente"
+            },
+            "score": 3
+          },
+          {
+            "label": {
+              "ru": "Почти всегда",
+              "en": "Most of the time",
+              "fr": "Presque toujours",
+              "de": "Fast immer",
+              "pt": "Quase sempre"
+            },
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "sds_5",
+        "text": {
+          "ru": "Аппетит у меня не хуже обычного",
+          "en": "I eat as much as I used to",
+          "fr": "J'ai autant d'appétit que d'habitude",
+          "de": "Ich esse so viel wie früher",
+          "pt": "Como tanto quanto antes"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Никогда или изредка",
+              "en": "Rarely or never",
+              "fr": "Rarement ou jamais",
+              "de": "Selten oder nie",
+              "pt": "Raramente ou nunca"
+            },
+            "score": 4
+          },
+          {
+            "label": {
+              "ru": "Иногда",
+              "en": "Sometimes",
+              "fr": "Parfois",
+              "de": "Manchmal",
+              "pt": "Às vezes"
+            },
+            "score": 3
+          },
+          {
+            "label": {
+              "ru": "Часто",
+              "en": "Often",
+              "fr": "Souvent",
+              "de": "Häufig",
+              "pt": "Frequentemente"
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Почти всегда",
+              "en": "Most of the time",
+              "fr": "Presque toujours",
+              "de": "Fast immer",
+              "pt": "Quase sempre"
+            },
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sds_6",
+        "text": {
+          "ru": "Мне приятно общаться с привлекательными людьми",
+          "en": "I still enjoy being with attractive people",
+          "fr": "J'apprécie toujours d'être avec des personnes attirantes",
+          "de": "Ich bin immer noch gerne mit attraktiven Menschen zusammen",
+          "pt": "Ainda gosto de estar com pessoas atraentes"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Никогда или изредка",
+              "en": "Rarely or never",
+              "fr": "Rarement ou jamais",
+              "de": "Selten oder nie",
+              "pt": "Raramente ou nunca"
+            },
+            "score": 4
+          },
+          {
+            "label": {
+              "ru": "Иногда",
+              "en": "Sometimes",
+              "fr": "Parfois",
+              "de": "Manchmal",
+              "pt": "Às vezes"
+            },
+            "score": 3
+          },
+          {
+            "label": {
+              "ru": "Часто",
+              "en": "Often",
+              "fr": "Souvent",
+              "de": "Häufig",
+              "pt": "Frequentemente"
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Почти всегда",
+              "en": "Most of the time",
+              "fr": "Presque toujours",
+              "de": "Fast immer",
+              "pt": "Quase sempre"
+            },
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sds_7",
+        "text": {
+          "ru": "Я замечаю, что теряю вес",
+          "en": "I notice that I am losing weight",
+          "fr": "Je remarque que je perds du poids",
+          "de": "Ich bemerke, dass ich an Gewicht verliere",
+          "pt": "Percebo que estou perdendo peso"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Никогда или изредка",
+              "en": "Rarely or never",
+              "fr": "Rarement ou jamais",
+              "de": "Selten oder nie",
+              "pt": "Raramente ou nunca"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Иногда",
+              "en": "Sometimes",
+              "fr": "Parfois",
+              "de": "Manchmal",
+              "pt": "Às vezes"
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Часто",
+              "en": "Often",
+              "fr": "Souvent",
+              "de": "Häufig",
+              "pt": "Frequentemente"
+            },
+            "score": 3
+          },
+          {
+            "label": {
+              "ru": "Почти всегда",
+              "en": "Most of the time",
+              "fr": "Presque toujours",
+              "de": "Fast immer",
+              "pt": "Quase sempre"
+            },
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "sds_8",
+        "text": {
+          "ru": "Меня беспокоят запоры",
+          "en": "I have trouble with constipation",
+          "fr": "Je suis gêné par la constipation",
+          "de": "Ich habe Probleme mit Verstopfung",
+          "pt": "Tenho problemas com prisão de ventre"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Никогда или изредка",
+              "en": "Rarely or never",
+              "fr": "Rarement ou jamais",
+              "de": "Selten oder nie",
+              "pt": "Raramente ou nunca"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Иногда",
+              "en": "Sometimes",
+              "fr": "Parfois",
+              "de": "Manchmal",
+              "pt": "Às vezes"
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Часто",
+              "en": "Often",
+              "fr": "Souvent",
+              "de": "Häufig",
+              "pt": "Frequentemente"
+            },
+            "score": 3
+          },
+          {
+            "label": {
+              "ru": "Почти всегда",
+              "en": "Most of the time",
+              "fr": "Presque toujours",
+              "de": "Fast immer",
+              "pt": "Quase sempre"
+            },
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "sds_9",
+        "text": {
+          "ru": "Сердце бьется быстрее, чем обычно",
+          "en": "My heart beats faster than usual",
+          "fr": "Mon cœur bat plus vite que d'habitude",
+          "de": "Mein Herz schlägt schneller als gewöhnlich",
+          "pt": "Meu coração bate mais rápido do que o habitual"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Никогда или изредка",
+              "en": "Rarely or never",
+              "fr": "Rarement ou jamais",
+              "de": "Selten oder nie",
+              "pt": "Raramente ou nunca"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Иногда",
+              "en": "Sometimes",
+              "fr": "Parfois",
+              "de": "Manchmal",
+              "pt": "Às vezes"
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Часто",
+              "en": "Often",
+              "fr": "Souvent",
+              "de": "Häufig",
+              "pt": "Frequentemente"
+            },
+            "score": 3
+          },
+          {
+            "label": {
+              "ru": "Почти всегда",
+              "en": "Most of the time",
+              "fr": "Presque toujours",
+              "de": "Fast immer",
+              "pt": "Quase sempre"
+            },
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "sds_10",
+        "text": {
+          "ru": "Я устаю без всяких причин",
+          "en": "I get tired for no reason",
+          "fr": "Je me fatigue sans raison",
+          "de": "Ich werde ohne Grund müde",
+          "pt": "Fico cansado sem motivo algum"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Никогда или изредка",
+              "en": "Rarely or never",
+              "fr": "Rarement ou jamais",
+              "de": "Selten oder nie",
+              "pt": "Raramente ou nunca"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Иногда",
+              "en": "Sometimes",
+              "fr": "Parfois",
+              "de": "Manchmal",
+              "pt": "Às vezes"
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Часто",
+              "en": "Often",
+              "fr": "Souvent",
+              "de": "Häufig",
+              "pt": "Frequentemente"
+            },
+            "score": 3
+          },
+          {
+            "label": {
+              "ru": "Почти всегда",
+              "en": "Most of the time",
+              "fr": "Presque toujours",
+              "de": "Fast immer",
+              "pt": "Quase sempre"
+            },
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "sds_11",
+        "text": {
+          "ru": "Я мыслю так же ясно, как всегда",
+          "en": "My mind is as clear as it used to be",
+          "fr": "Mon esprit est aussi clair qu'avant",
+          "de": "Mein Verstand ist so klar wie früher",
+          "pt": "Minha mente está tão clara quanto antes"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Никогда или изредка",
+              "en": "Rarely or never",
+              "fr": "Rarement ou jamais",
+              "de": "Selten oder nie",
+              "pt": "Raramente ou nunca"
+            },
+            "score": 4
+          },
+          {
+            "label": {
+              "ru": "Иногда",
+              "en": "Sometimes",
+              "fr": "Parfois",
+              "de": "Manchmal",
+              "pt": "Às vezes"
+            },
+            "score": 3
+          },
+          {
+            "label": {
+              "ru": "Часто",
+              "en": "Often",
+              "fr": "Souvent",
+              "de": "Häufig",
+              "pt": "Frequentemente"
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Почти всегда",
+              "en": "Most of the time",
+              "fr": "Presque toujours",
+              "de": "Fast immer",
+              "pt": "Quase sempre"
+            },
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sds_12",
+        "text": {
+          "ru": "Мне легко делать то, что я умею",
+          "en": "I find it easy to do the things I used to do",
+          "fr": "Il m'est facile de faire ce que j'ai l'habitude de faire",
+          "de": "Es fällt mir leicht, Dinge zu tun, die ich gewohnt bin",
+          "pt": "Acho fácil fazer as coisas que costumava fazer"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Никогда или изредка",
+              "en": "Rarely or never",
+              "fr": "Rarement ou jamais",
+              "de": "Selten oder nie",
+              "pt": "Raramente ou nunca"
+            },
+            "score": 4
+          },
+          {
+            "label": {
+              "ru": "Иногда",
+              "en": "Sometimes",
+              "fr": "Parfois",
+              "de": "Manchmal",
+              "pt": "Às vezes"
+            },
+            "score": 3
+          },
+          {
+            "label": {
+              "ru": "Часто",
+              "en": "Often",
+              "fr": "Souvent",
+              "de": "Häufig",
+              "pt": "Frequentemente"
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Почти всегда",
+              "en": "Most of the time",
+              "fr": "Presque toujours",
+              "de": "Fast immer",
+              "pt": "Quase sempre"
+            },
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sds_13",
+        "text": {
+          "ru": "Чувствую беспокойство и не могу усидеть на месте",
+          "en": "I feel restless and can't keep still",
+          "fr": "Je me sens agité et je ne peux pas tenir en place",
+          "de": "Ich bin unruhig und kann nicht stillsitzen",
+          "pt": "Sinto-me inquieto e não consigo parar quieto"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Никогда или изредка",
+              "en": "Rarely or never",
+              "fr": "Rarement ou jamais",
+              "de": "Selten oder nie",
+              "pt": "Raramente ou nunca"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Иногда",
+              "en": "Sometimes",
+              "fr": "Parfois",
+              "de": "Manchmal",
+              "pt": "Às vezes"
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Часто",
+              "en": "Often",
+              "fr": "Souvent",
+              "de": "Häufig",
+              "pt": "Frequentemente"
+            },
+            "score": 3
+          },
+          {
+            "label": {
+              "ru": "Почти всегда",
+              "en": "Most of the time",
+              "fr": "Presque toujours",
+              "de": "Fast immer",
+              "pt": "Quase sempre"
+            },
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "sds_14",
+        "text": {
+          "ru": "У меня есть надежды на будущее",
+          "en": "I feel hopeful about the future",
+          "fr": "J'ai de l'espoir pour l'avenir",
+          "de": "Ich bin hoffnungsvoll, was die Zukunft betrifft",
+          "pt": "Sinto esperança em relação ao futuro"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Никогда или изредка",
+              "en": "Rarely or never",
+              "fr": "Rarement ou jamais",
+              "de": "Selten oder nie",
+              "pt": "Raramente ou nunca"
+            },
+            "score": 4
+          },
+          {
+            "label": {
+              "ru": "Иногда",
+              "en": "Sometimes",
+              "fr": "Parfois",
+              "de": "Manchmal",
+              "pt": "Às vezes"
+            },
+            "score": 3
+          },
+          {
+            "label": {
+              "ru": "Часто",
+              "en": "Often",
+              "fr": "Souvent",
+              "de": "Häufig",
+              "pt": "Frequentemente"
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Почти всегда",
+              "en": "Most of the time",
+              "fr": "Presque toujours",
+              "de": "Fast immer",
+              "pt": "Quase sempre"
+            },
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sds_15",
+        "text": {
+          "ru": "Я более раздражителен, чем обычно",
+          "en": "I am more irritable than usual",
+          "fr": "Je suis plus irritable que d'habitude",
+          "de": "Ich bin reizbarer als sonst",
+          "pt": "Estou mais irritável do que o habitual"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Никогда или изредка",
+              "en": "Rarely or never",
+              "fr": "Rarement ou jamais",
+              "de": "Selten oder nie",
+              "pt": "Raramente ou nunca"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Иногда",
+              "en": "Sometimes",
+              "fr": "Parfois",
+              "de": "Manchmal",
+              "pt": "Às vezes"
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Часто",
+              "en": "Often",
+              "fr": "Souvent",
+              "de": "Häufig",
+              "pt": "Frequentemente"
+            },
+            "score": 3
+          },
+          {
+            "label": {
+              "ru": "Почти всегда",
+              "en": "Most of the time",
+              "fr": "Presque toujours",
+              "de": "Fast immer",
+              "pt": "Quase sempre"
+            },
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "sds_16",
+        "text": {
+          "ru": "Мне легко принимать решения",
+          "en": "I find it easy to make decisions",
+          "fr": "Il m'est facile de prendre des décisions",
+          "de": "Es fällt mir leicht, Entscheidungen zu treffen",
+          "pt": "Acho fácil tomar decisões"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Никогда или изредка",
+              "en": "Rarely or never",
+              "fr": "Rarement ou jamais",
+              "de": "Selten oder nie",
+              "pt": "Raramente ou nunca"
+            },
+            "score": 4
+          },
+          {
+            "label": {
+              "ru": "Иногда",
+              "en": "Sometimes",
+              "fr": "Parfois",
+              "de": "Manchmal",
+              "pt": "Às vezes"
+            },
+            "score": 3
+          },
+          {
+            "label": {
+              "ru": "Часто",
+              "en": "Often",
+              "fr": "Souvent",
+              "de": "Häufig",
+              "pt": "Frequentemente"
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Почти всегда",
+              "en": "Most of the time",
+              "fr": "Presque toujours",
+              "de": "Fast immer",
+              "pt": "Quase sempre"
+            },
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sds_17",
+        "text": {
+          "ru": "Я чувствую, что полезен и необходим",
+          "en": "I feel that I am useful and needed",
+          "fr": "Je me sens utile et nécessaire",
+          "de": "Ich fühle mich nützlich und gebraucht",
+          "pt": "Sinto que sou útil e necessário"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Никогда или изредка",
+              "en": "Rarely or never",
+              "fr": "Rarement ou jamais",
+              "de": "Selten oder nie",
+              "pt": "Raramente ou nunca"
+            },
+            "score": 4
+          },
+          {
+            "label": {
+              "ru": "Иногда",
+              "en": "Sometimes",
+              "fr": "Parfois",
+              "de": "Manchmal",
+              "pt": "Às vezes"
+            },
+            "score": 3
+          },
+          {
+            "label": {
+              "ru": "Часто",
+              "en": "Often",
+              "fr": "Souvent",
+              "de": "Häufig",
+              "pt": "Frequentemente"
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Почти всегда",
+              "en": "Most of the time",
+              "fr": "Presque toujours",
+              "de": "Fast immer",
+              "pt": "Quase sempre"
+            },
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sds_18",
+        "text": {
+          "ru": "Я живу достаточно полной жизнью",
+          "en": "My life is pretty full",
+          "fr": "Ma vie est bien remplie",
+          "de": "Mein Leben ist ziemlich ausgefüllt",
+          "pt": "Minha vida é bastante plena"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Никогда или изредка",
+              "en": "Rarely or never",
+              "fr": "Rarement ou jamais",
+              "de": "Selten oder nie",
+              "pt": "Raramente ou nunca"
+            },
+            "score": 4
+          },
+          {
+            "label": {
+              "ru": "Иногда",
+              "en": "Sometimes",
+              "fr": "Parfois",
+              "de": "Manchmal",
+              "pt": "Às vezes"
+            },
+            "score": 3
+          },
+          {
+            "label": {
+              "ru": "Часто",
+              "en": "Often",
+              "fr": "Souvent",
+              "de": "Häufig",
+              "pt": "Frequentemente"
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Почти всегда",
+              "en": "Most of the time",
+              "fr": "Presque toujours",
+              "de": "Fast immer",
+              "pt": "Quase sempre"
+            },
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sds_19",
+        "text": {
+          "ru": "Я чувствую, что другим людям станет лучше, если я умру",
+          "en": "I feel that others would be better off if I were dead",
+          "fr": "Je sens que les autres se porteraient mieux si j'étais mort",
+          "de": "Ich habe das Gefühl, dass es anderen besser ginge, wenn ich tot wäre",
+          "pt": "Sinto que os outros estariam melhor se eu morresse"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Никогда или изредка",
+              "en": "Rarely or never",
+              "fr": "Rarement ou jamais",
+              "de": "Selten oder nie",
+              "pt": "Raramente ou nunca"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Иногда",
+              "en": "Sometimes",
+              "fr": "Parfois",
+              "de": "Manchmal",
+              "pt": "Às vezes"
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Часто",
+              "en": "Often",
+              "fr": "Souvent",
+              "de": "Häufig",
+              "pt": "Frequentemente"
+            },
+            "score": 3
+          },
+          {
+            "label": {
+              "ru": "Почти всегда",
+              "en": "Most of the time",
+              "fr": "Presque toujours",
+              "de": "Fast immer",
+              "pt": "Quase sempre"
+            },
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "sds_20",
+        "text": {
+          "ru": "Меня до сих пор радует то, что радовало всегда",
+          "en": "I still enjoy the things I used to enjoy",
+          "fr": "J'apprécie toujours les choses que j'aimais faire",
+          "de": "Ich habe immer noch Freude an Dingen, die ich früher gerne getan habe",
+          "pt": "Ainda gosto das coisas que costumava gostar"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Никогда или изредка",
+              "en": "Rarely or never",
+              "fr": "Rarement ou jamais",
+              "de": "Selten oder nie",
+              "pt": "Raramente ou nunca"
+            },
+            "score": 4
+          },
+          {
+            "label": {
+              "ru": "Иногда",
+              "en": "Sometimes",
+              "fr": "Parfois",
+              "de": "Manchmal",
+              "pt": "Às vezes"
+            },
+            "score": 3
+          },
+          {
+            "label": {
+              "ru": "Часто",
+              "en": "Often",
+              "fr": "Souvent",
+              "de": "Häufig",
+              "pt": "Frequentemente"
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Почти всегда",
+              "en": "Most of the time",
+              "fr": "Presque toujours",
+              "de": "Fast immer",
+              "pt": "Quase sempre"
+            },
+            "score": 1
+          }
+        ]
+      }
+    ],
+    "bands": [
+      {
+        "minInclusive": 0,
+        "maxInclusive": 50,
+        "title": {
+          "ru": "Без депрессии",
+          "en": "Normal range",
+          "fr": "Normal",
+          "de": "Normalbereich",
+          "pt": "Normal"
+        },
+        "description": {
+          "ru": "Состояние без значимых признаков депрессии[cite: 25].",
+          "en": "No significant depressive symptoms[cite: 25].",
+          "fr": "Pas de dépression significative[cite: 25].",
+          "de": "Keine bedeutsamen depressiven Symptome[cite: 25].",
+          "pt": "Sem depressão significativa[cite: 25]."
+        }
+      },
+      {
+        "minInclusive": 51,
+        "maxInclusive": 59,
+        "title": {
+          "ru": "Легкая депрессия",
+          "en": "Mild depression",
+          "fr": "Dépression légère",
+          "de": "Leichte Depression",
+          "pt": "Depressão leve"
+        },
+        "description": {
+          "ru": "Лёгкая депрессия ситуативного или невротического генеза[cite: 26].",
+          "en": "Mild to moderate depressive symptoms[cite: 26].",
+          "fr": "Symptômes dépressifs légers à modérés[cite: 26].",
+          "de": "Leichte bis mäßige depressive Symptome[cite: 26].",
+          "pt": "Sintomas depressivos leves a moderados[cite: 26]."
+        }
+      },
+      {
+        "minInclusive": 60,
+        "maxInclusive": 69,
+        "title": {
+          "ru": "Субдепрессивное состояние",
+          "en": "Moderate depression",
+          "fr": "Dépression modérée",
+          "de": "Mittelschwere Depression",
+          "pt": "Depressão moderada"
+        },
+        "description": {
+          "ru": "Субдепрессивное состояние или маскированная депрессия[cite: 27].",
+          "en": "Moderate to marked depressive symptoms[cite: 27].",
+          "fr": "Symptômes dépressifs modérés à marqués[cite: 27].",
+          "de": "Mäßige bis ausgeprägte depressive Symptome[cite: 27].",
+          "pt": "Sintomas depressivos moderados a acentuados[cite: 27]."
+        }
+      },
+      {
+        "minInclusive": 70,
+        "maxInclusive": 100,
+        "title": {
+          "ru": "Истинное депрессивное состояние",
+          "en": "Severe depression",
+          "fr": "Dépression sévère",
+          "de": "Schwere Depression",
+          "pt": "Depressão grave"
+        },
+        "description": {
+          "ru": "Глубокое снижение настроения, тяжёлая депрессия[cite: 28].",
+          "en": "Severe to extreme depressive symptoms[cite: 28].",
+          "fr": "Symptômes dépressifs sévères à extrêmes[cite: 28].",
+          "de": "Schwere bis extrem schwere depressive Symptome[cite: 28].",
+          "pt": "Sintomas depressivos graves a extremos[cite: 28]."
+        }
+      }
+    ],
+    "subscales": [
+      {
+        "id": "direct",
+        "label": {
+          "ru": "Прямые высказывания",
+          "en": "Direct items",
+          "fr": "Items directs",
+          "de": "Direkte Items",
+          "pt": "Itens diretos"
+        },
+        "itemIndices": [
+          0,
+          2,
+          3,
+          6,
+          7,
+          8,
+          9,
+          12,
+          14,
+          18
+        ]
+      },
+      {
+        "id": "reverse",
+        "label": {
+          "ru": "Обратные высказывания",
+          "en": "Reverse items",
+          "fr": "Items inversés",
+          "de": "Invertierte Items",
+          "pt": "Itens invertidos"
+        },
+        "itemIndices": [
+          1,
+          4,
+          5,
+          10,
+          11,
+          13,
+          15,
+          16,
+          17,
+          19
+        ]
+      }
+    ]
+  }
+]

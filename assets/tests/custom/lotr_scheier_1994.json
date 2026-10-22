@@ -1,0 +1,737 @@
+{
+  "id": "lotr",
+  "category": "personality",
+  "title": {
+    "ru": "LOT-R — пересмотренный тест жизненной ориентации",
+    "en": "LOT-R — Life Orientation Test–Revised",
+    "fr": "LOT-R — Life Orientation Test–Revised",
+    "de": "LOT-R — Life Orientation Test–Revised",
+    "pt": "LOT-R — Life Orientation Test–Revised"
+  },
+  "subtitle": {
+    "ru": "Оптимизм и ожидания относительно будущего.",
+    "en": "Dispositional optimism and expectations about the future.",
+    "fr": "Optimisme de trait et attentes face à l’avenir.",
+    "de": "Dispositioneller Optimismus und Erwartungen an die Zukunft.",
+    "pt": "Otimismo disposicional e expectativas sobre o futuro."
+  },
+  "description": {
+    "ru": "Самооценка жизненного оптимизма — ожиданий относительно будущего (Scheier, Carver & Bridges, 1994). Часть строк не влияет на итог; часть сформулирована в «пессимистичном» ключе — в приложении ответы согласованы так, чтобы результат отражал именно оптимизм. Не замена профессиональной оценки. Материалы могут охраняться авторским правом.",
+    "en": "Self-report optimism about the future (Scheier, Carver & Bridges, 1994). Some lines are fillers; some are pessimism-keyed—the app keys answers so the result reflects optimism overall. Not a substitute for professional assessment. May be copyrighted.",
+    "fr": "Optimisme dispositionnel (Scheier et al., 1994). Certaines phrases sont neutres ; d’autres sont inversées pour mesurer l’optimisme. Pas un substitut d’évaluation pro.",
+    "de": "Dispositioneller Optimismus (Scheier et al., 1994). Füller und umgekehrt formulierte Items sind in der Auswertung berücksichtigt. Kein Ersatz für Fachdiagnostik.",
+    "pt": "Otimismo disposicional (Scheier et al., 1994). Há itens de preenchimento e frases invertidas para medir otimismo. Não substitui avaliação profissional."
+  },
+  "instructions": {
+    "ru": "Отвечайте как можно честнее. Нет правильных или неправильных ответов. Ориентируйтесь на собственные чувства, а не на то, как, по-вашему, ответили бы другие.",
+    "en": "Please answer as honestly as you can. There are no right or wrong answers. Answer from your own feelings, not how you think “most people” would respond.",
+    "fr": "Répondez le plus honnêtement possible. Pas de bonnes ou mauvaises réponses. Répondez selon vos propres sentiments.",
+    "de": "Bitte antworten Sie so ehrlich wie möglich. Es gibt keine richtigen oder falschen Antworten. Antworten Sie nach Ihrem Empfinden.",
+    "pt": "Responda o mais honestamente possível. Não há respostas certas ou erradas. Use seus próprios sentimentos."
+  },
+  "maxScore": 24,
+  "bandsBasis": "raw",
+  "bands": [
+    {
+      "minInclusive": 0,
+      "maxInclusive": 8,
+      "title": {
+        "ru": "Более низкий оптимизм",
+        "en": "Lower optimism",
+        "fr": "Optimisme plus faible",
+        "de": "Geringerer Optimismus",
+        "pt": "Otimismo mais baixo"
+      },
+      "description": {
+        "ru": "Нижняя треть шкалы по сравнению с верхом; описательно, без «нормы».",
+        "en": "Lower third of this scale relative to the top; descriptive, not a clinical threshold.",
+        "fr": "Tiers inférieur de l’échelle ; indicatif seulement.",
+        "de": "Unteres Drittel der Skala; nur beschreibend.",
+        "pt": "Terceiro inferior da escala; só descritivo."
+      }
+    },
+    {
+      "minInclusive": 9,
+      "maxInclusive": 15,
+      "title": {
+        "ru": "Умеренный уровень",
+        "en": "Moderate range",
+        "fr": "Niveau modéré",
+        "de": "Mittlerer Bereich",
+        "pt": "Nível moderado"
+      },
+      "description": {
+        "ru": "Средняя зона между низом и верхом; сравнивайте с вашими прошлыми прохождениями.",
+        "en": "A middle band between lower and higher optimism; compare with your own past results.",
+        "fr": "Zone intermédiaire ; comparer avec vos propres passations.",
+        "de": "Mittlerer Bereich; mit früheren Ergebnissen vergleichen.",
+        "pt": "Faixa intermediária; compare com resultados anteriores."
+      }
+    },
+    {
+      "minInclusive": 16,
+      "maxInclusive": 24,
+      "title": {
+        "ru": "Более высокий оптимизм",
+        "en": "Higher optimism",
+        "fr": "Optimisme plus élevé",
+        "de": "Höherer Optimismus",
+        "pt": "Otimismo mais alto"
+      },
+      "description": {
+        "ru": "Верхняя треть шкалы; у авторов нет единой «нормы» — опирайтесь на свои прошлые прохождения и контекст.",
+        "en": "Upper third of the scale; authors give no single norm—rely on your baseline and context.",
+        "fr": "Tiers supérieur ; pas de norme unique — comparez avec votre référence personnelle.",
+        "de": "Oberes Drittel; keine feste Norm—eigene Referenz nutzen.",
+        "pt": "Terceiro superior; sem norma única — use sua referência pessoal."
+      }
+    }
+  ],
+  "subscales": [
+    {
+      "id": "optimism",
+      "label": {
+        "ru": "Оптимистические утверждения",
+        "en": "Optimism-oriented statements",
+        "fr": "Formulations optimistes",
+        "de": "Optimistisch formulierte Aussagen",
+        "pt": "Afirmações ligadas ao otimismo"
+      },
+      "itemIndices": [
+        0,
+        3,
+        9
+      ],
+      "maxScore": 12
+    }
+  ],
+  "resultNote": {
+    "ru": "Нейтральные строки не меняют итог; «пессимистичные» формулировки учтены в вариантах ответа так, что более высокий итог соответствует большему оптимизму.",
+    "en": "Neutral filler lines do not change your score; pessimism-keyed items are keyed in the answers so a higher result means more optimism overall.",
+    "fr": "Les phrases neutres ne comptent pas ; les items pessimistes sont inversés pour mesurer l’optimisme.",
+    "de": "Neutrale Füller zählen nicht; pessimistische Aussagen sind in den Antworten umgekehrt, damit höhere Werte mehr Optimismus bedeuten.",
+    "pt": "Frases neutras não entram; itens pessimistas estão invertidos para que resultado maior signifique mais otimismo."
+  },
+  "questions": [
+    {
+      "id": "lotr_1",
+      "text": {
+        "ru": "В неопределённые времена я обычно ожидаю лучшего.",
+        "en": "In uncertain times, I usually expect the best.",
+        "fr": "Dans l’incertitude, je m’attends en général au meilleur.",
+        "de": "In unsicheren Zeiten erwarte ich meist das Beste.",
+        "pt": "Em tempos incertos, costumo esperar o melhor."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не согласен(на)",
+            "en": "I disagree a lot",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "I disagree a little",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Ни то ни другое",
+            "en": "I neither agree nor disagree",
+            "fr": "Ni d’accord ni pas d’accord",
+            "de": "Weder noch",
+            "pt": "Nem concordo nem discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "I agree a little",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "I agree a lot",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lotr_2",
+      "text": {
+        "ru": "Мне легко расслабиться.",
+        "en": "It's easy for me to relax.",
+        "fr": "Il m’est facile de me détendre.",
+        "de": "Ich kann mich leicht entspannen.",
+        "pt": "É fácil para mim relaxar."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не согласен(на)",
+            "en": "I disagree a lot",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "I disagree a little",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Ни то ни другое",
+            "en": "I neither agree nor disagree",
+            "fr": "Ni d’accord ni pas d’accord",
+            "de": "Weder noch",
+            "pt": "Nem concordo nem discordo"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "I agree a little",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "I agree a lot",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "lotr_3",
+      "text": {
+        "ru": "Если со мной что-то может пойти не так, так оно и будет.",
+        "en": "If something can go wrong for me, it will.",
+        "fr": "Si quelque chose peut mal tourner pour moi, cela arrivera.",
+        "de": "Wenn bei mir etwas schiefgehen kann, wird es das auch.",
+        "pt": "Se algo pode dar errado para mim, vai dar."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не согласен(на)",
+            "en": "I disagree a lot",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "I disagree a little",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Ни то ни другое",
+            "en": "I neither agree nor disagree",
+            "fr": "Ni d’accord ni pas d’accord",
+            "de": "Weder noch",
+            "pt": "Nem concordo nem discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "I agree a little",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "I agree a lot",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "lotr_4",
+      "text": {
+        "ru": "Я всегда оптимистичен(на) насчёт своего будущего.",
+        "en": "I'm always optimistic about my future.",
+        "fr": "Je suis toujours optimiste quant à mon avenir.",
+        "de": "Ich bin immer optimistisch in Bezug auf meine Zukunft.",
+        "pt": "Sou sempre otimista quanto ao meu futuro."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не согласен(на)",
+            "en": "I disagree a lot",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "I disagree a little",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Ни то ни другое",
+            "en": "I neither agree nor disagree",
+            "fr": "Ni d’accord ni pas d’accord",
+            "de": "Weder noch",
+            "pt": "Nem concordo nem discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "I agree a little",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "I agree a lot",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lotr_5",
+      "text": {
+        "ru": "Мне очень нравится общаться с друзьями.",
+        "en": "I enjoy my friends a lot.",
+        "fr": "J’aime beaucoup mes amis.",
+        "de": "Ich genieße die Zeit mit meinen Freunden.",
+        "pt": "Gosto muito dos meus amigos."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не согласен(на)",
+            "en": "I disagree a lot",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "I disagree a little",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Ни то ни другое",
+            "en": "I neither agree nor disagree",
+            "fr": "Ni d’accord ni pas d’accord",
+            "de": "Weder noch",
+            "pt": "Nem concordo nem discordo"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "I agree a little",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "I agree a lot",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "lotr_6",
+      "text": {
+        "ru": "Для меня важно всё время чем-то заниматься.",
+        "en": "It's important for me to keep busy.",
+        "fr": "Il est important pour moi de rester occupé(e).",
+        "de": "Es ist mir wichtig, beschäftigt zu sein.",
+        "pt": "Para mim é importante estar sempre ocupado(a)."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не согласен(на)",
+            "en": "I disagree a lot",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "I disagree a little",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Ни то ни другое",
+            "en": "I neither agree nor disagree",
+            "fr": "Ni d’accord ni pas d’accord",
+            "de": "Weder noch",
+            "pt": "Nem concordo nem discordo"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "I agree a little",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "I agree a lot",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "lotr_7",
+      "text": {
+        "ru": "Я почти никогда не жду, что всё сложится по-моему.",
+        "en": "I hardly ever expect things to go my way.",
+        "fr": "Je n’attends presque jamais que les choses se passent comme je veux.",
+        "de": "Ich erwarte kaum, dass die Dinge so laufen, wie ich möchte.",
+        "pt": "Quase nunca espero que as coisas corram a meu favor."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не согласен(на)",
+            "en": "I disagree a lot",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "I disagree a little",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Ни то ни другое",
+            "en": "I neither agree nor disagree",
+            "fr": "Ni d’accord ni pas d’accord",
+            "de": "Weder noch",
+            "pt": "Nem concordo nem discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "I agree a little",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "I agree a lot",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "lotr_8",
+      "text": {
+        "ru": "Меня не так уж легко вывести из себя.",
+        "en": "I don't get upset too easily.",
+        "fr": "Je ne me mets pas facilement en colère.",
+        "de": "Ich lasse mich nicht leicht aus der Ruhe bringen.",
+        "pt": "Não fico aborrecido(a) com facilidade."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не согласен(на)",
+            "en": "I disagree a lot",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "I disagree a little",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Ни то ни другое",
+            "en": "I neither agree nor disagree",
+            "fr": "Ni d’accord ni pas d’accord",
+            "de": "Weder noch",
+            "pt": "Nem concordo nem discordo"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "I agree a little",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "I agree a lot",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "lotr_9",
+      "text": {
+        "ru": "Я редко рассчитываю, что со мной произойдёт что-то хорошее.",
+        "en": "I rarely count on good things happening to me.",
+        "fr": "Je compte rarement sur de bonnes choses qui m’arrivent.",
+        "de": "Ich rechne selten damit, dass mir Gutes widerfährt.",
+        "pt": "Raramente conto que coisas boas aconteçam comigo."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не согласен(на)",
+            "en": "I disagree a lot",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "I disagree a little",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Ни то ни другое",
+            "en": "I neither agree nor disagree",
+            "fr": "Ni d’accord ni pas d’accord",
+            "de": "Weder noch",
+            "pt": "Nem concordo nem discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "I agree a little",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "I agree a lot",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "lotr_10",
+      "text": {
+        "ru": "В целом я ожидаю, что со мной случится больше хорошего, чем плохого.",
+        "en": "Overall, I expect more good things to happen to me than bad.",
+        "fr": "Dans l’ensemble, je m’attends à ce qu’il m’arrive plus de bien que de mal.",
+        "de": "Insgesamt erwarte ich, dass mir mehr Gutes als Schlechtes passiert.",
+        "pt": "No geral, espero que me aconteçam mais coisas boas do que ruins."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не согласен(на)",
+            "en": "I disagree a lot",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "I disagree a little",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Ни то ни другое",
+            "en": "I neither agree nor disagree",
+            "fr": "Ni d’accord ni pas d’accord",
+            "de": "Weder noch",
+            "pt": "Nem concordo nem discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "I agree a little",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "I agree a lot",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 4
+        }
+      ]
+    }
+  ]
+}

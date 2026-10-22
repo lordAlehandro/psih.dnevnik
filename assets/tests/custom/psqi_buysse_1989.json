@@ -1,0 +1,1237 @@
+{
+  "id": "psqi",
+  "category": "sleep",
+  "scoring": "psqi",
+  "title": {
+    "ru": "PSQI — индекс качества сна Питтсбурга",
+    "en": "PSQI — Pittsburgh Sleep Quality Index",
+    "fr": "PSQI — Pittsburgh Sleep Quality Index",
+    "de": "PSQI — Pittsburgh Sleep Quality Index",
+    "pt": "PSQI — Pittsburgh Sleep Quality Index"
+  },
+  "subtitle": {
+    "ru": "Качество и паттерны сна за последний месяц.",
+    "en": "Sleep quality and patterns over the past month.",
+    "fr": "Qualité et habitudes de sommeil sur le dernier mois.",
+    "de": "Schlafqualität und -gewohnheiten im letzten Monat.",
+    "pt": "Qualidade e padrões de sono no último mês."
+  },
+  "description": {
+    "ru": "Оценивает качество сна за последний месяц (Buysse et al., 1989). Не является диагнозом. Права на опросник могут принадлежать авторам / Университету Питтсбурга; коммерческое использование может требовать разрешения.",
+    "en": "Assesses sleep quality over the last month (Buysse et al., 1989). Not a diagnosis. The PSQI may be copyrighted; permission may be required for some uses (University of Pittsburgh).",
+    "fr": "Évalue le sommeil sur le dernier mois (Buysse et al., 1989). Pas un diagnostic. Droits d’auteur possibles ; permissions selon les usages.",
+    "de": "Erfasst die Schlafqualität im letzten Monat (Buysse et al., 1989). Keine Diagnose. Urheberrechte möglich; ggf. Genehmigung nötig.",
+    "pt": "Avalia o sono no último mês (Buysse et al., 1989). Não é diagnóstico. Pode haver direitos autorais; alguns usos exigem permissão."
+  },
+  "instructions": {
+    "ru": "Ответьте по своему обычному режиму за последний месяц. Для вопросов о времени сна и подъёма выберите ближайшие к вашему опыту варианты.",
+    "en": "Answer for your usual pattern over the past month. Pick the closest times for bed and wake; sleep efficiency uses those times together with your reported hours of sleep.",
+    "fr": "Répondez selon vos habitudes du dernier mois. Choisissez les heures les plus proches ; l’efficacité du sommeil utilise ces heures et vos heures de sommeil déclarées.",
+    "de": "Antworten Sie für Ihre üblichen Gewohnheiten im letzten Monat. Wählen Sie die nächstliegenden Zeiten; die Schlafeffizienz nutzt Bett- und Aufstehzeit sowie die angegebene Schlafdauer.",
+    "pt": "Responda conforme seu padrão usual no último mês. Escolha os horários mais próximos; a eficiência do sono usa hora de deitar, levantar e horas de sono informadas."
+  },
+  "maxScore": 21,
+  "bandsBasis": "raw",
+  "bands": [
+    {
+      "minInclusive": 0,
+      "maxInclusive": 5,
+      "title": {
+        "ru": "Лучшее качество сна",
+        "en": "Better sleep quality",
+        "fr": "Meilleure qualité de sommeil",
+        "de": "Bessere Schlafqualität",
+        "pt": "Melhor qualidade de sono"
+      },
+      "description": {
+        "ru": "Обычно соответствует более благоприятному качеству сна; это ориентир, а не заключение врача.",
+        "en": "Often reflects relatively better sleep quality; a guide only—not a medical verdict.",
+        "fr": "Souvent associé à une meilleure qualité de sommeil ; indicatif seulement.",
+        "de": "Entspricht oft einer günstigeren Schlafqualität; nur Orientierung.",
+        "pt": "Costuma indicar sono relativamente melhor; apenas orientação."
+      }
+    },
+    {
+      "minInclusive": 6,
+      "maxInclusive": 10,
+      "title": {
+        "ru": "Умеренные нарушения сна",
+        "en": "Moderate sleep difficulties",
+        "fr": "Difficultés de sommeil modérées",
+        "de": "Mäßige Schlafbeeinträchtigung",
+        "pt": "Dificuldades moderadas de sono"
+      },
+      "description": {
+        "ru": "Имеет смысл обратить внимание на гигиену сна и при жалобах обсудить сон со специалистом.",
+        "en": "Worth paying attention to sleep habits; consider discussing sleep with a clinician if you have concerns.",
+        "fr": "Intéressez-vous à l’hygiène du sommeil ; consultez si vous avez des inquiétudes.",
+        "de": "Schlafhygiene beachten; bei Beschwerden ärztlich besprechen.",
+        "pt": "Vale cuidar da higiene do sono; busque orientação médica se tiver queixas."
+      }
+    },
+    {
+      "minInclusive": 11,
+      "maxInclusive": 21,
+      "title": {
+        "ru": "Выраженные нарушения сна",
+        "en": "Marked sleep difficulties",
+        "fr": "Difficultés de sommeil marquées",
+        "de": "Ausgeprägte Schlafbeeinträchtigung",
+        "pt": "Dificuldades acentuadas de sono"
+      },
+      "description": {
+        "ru": "Стоит серьёзнее отнестись к режиму сна и при сохранении проблем обратиться к врачу или сомнологу.",
+        "en": "Prioritize sleep habits and seek medical or sleep evaluation if problems persist.",
+        "fr": "Priorisez l’hygiène du sommeil et consultez si les difficultés persistent.",
+        "de": "Schlafgewohnheiten verbessern und bei anhaltenden Problemen ärztlich/schlafmedizinisch klären.",
+        "pt": "Priorize hábitos de sono e busque avaliação médica se os problemas persistirem."
+      }
+    }
+  ],
+  "subscales": [],
+  "resultNote": {
+    "ru": "Итоговая оценка качества сна учитывает несколько аспектов ваших ответов. При стойких жалобах обратитесь к специалисту.",
+    "en": "Your overall sleep-quality summary combines several aspects of your answers. Seek professional advice if sleep problems persist.",
+    "fr": "Le résumé combine plusieurs aspects de vos réponses. Consultez un professionnel si les troubles persistent.",
+    "de": "Die Gesamteinschätzung vereint mehrere Aspekte Ihrer Antworten. Bei anhaltenden Beschwerden ärztlich klären.",
+    "pt": "O resumo combina vários aspectos das suas respostas. Busque ajuda profissional se os problemas persistirem."
+  },
+  "questions": [
+    {
+      "id": "psqi_bed",
+      "text": {
+        "ru": "За последний месяц во сколько вы обычно ложились спать?",
+        "en": "During the past month, when have you usually gone to bed?",
+        "fr": "Au cours du dernier mois, à quelle heure vous êtes-vous généralement couché(e) ?",
+        "de": "Im letzten Monat, wann sind Sie normalerweise ins Bett gegangen?",
+        "pt": "No último mês, a que horas você costumava deitar para dormir?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "20:00",
+            "en": "20:00",
+            "fr": "20:00",
+            "de": "20:00",
+            "pt": "20:00"
+          },
+          "score": 1200
+        },
+        {
+          "label": {
+            "ru": "20:30",
+            "en": "20:30",
+            "fr": "20:30",
+            "de": "20:30",
+            "pt": "20:30"
+          },
+          "score": 1230
+        },
+        {
+          "label": {
+            "ru": "21:00",
+            "en": "21:00",
+            "fr": "21:00",
+            "de": "21:00",
+            "pt": "21:00"
+          },
+          "score": 1260
+        },
+        {
+          "label": {
+            "ru": "21:30",
+            "en": "21:30",
+            "fr": "21:30",
+            "de": "21:30",
+            "pt": "21:30"
+          },
+          "score": 1290
+        },
+        {
+          "label": {
+            "ru": "22:00",
+            "en": "22:00",
+            "fr": "22:00",
+            "de": "22:00",
+            "pt": "22:00"
+          },
+          "score": 1320
+        },
+        {
+          "label": {
+            "ru": "22:30",
+            "en": "22:30",
+            "fr": "22:30",
+            "de": "22:30",
+            "pt": "22:30"
+          },
+          "score": 1350
+        },
+        {
+          "label": {
+            "ru": "23:00",
+            "en": "23:00",
+            "fr": "23:00",
+            "de": "23:00",
+            "pt": "23:00"
+          },
+          "score": 1380
+        },
+        {
+          "label": {
+            "ru": "23:30",
+            "en": "23:30",
+            "fr": "23:30",
+            "de": "23:30",
+            "pt": "23:30"
+          },
+          "score": 1410
+        },
+        {
+          "label": {
+            "ru": "00:00",
+            "en": "00:00",
+            "fr": "00:00",
+            "de": "00:00",
+            "pt": "00:00"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "00:30",
+            "en": "00:30",
+            "fr": "00:30",
+            "de": "00:30",
+            "pt": "00:30"
+          },
+          "score": 30
+        },
+        {
+          "label": {
+            "ru": "01:00",
+            "en": "01:00",
+            "fr": "01:00",
+            "de": "01:00",
+            "pt": "01:00"
+          },
+          "score": 60
+        },
+        {
+          "label": {
+            "ru": "01:30",
+            "en": "01:30",
+            "fr": "01:30",
+            "de": "01:30",
+            "pt": "01:30"
+          },
+          "score": 90
+        },
+        {
+          "label": {
+            "ru": "02:00",
+            "en": "02:00",
+            "fr": "02:00",
+            "de": "02:00",
+            "pt": "02:00"
+          },
+          "score": 120
+        },
+        {
+          "label": {
+            "ru": "02:30",
+            "en": "02:30",
+            "fr": "02:30",
+            "de": "02:30",
+            "pt": "02:30"
+          },
+          "score": 150
+        }
+      ]
+    },
+    {
+      "id": "psqi_latency",
+      "text": {
+        "ru": "Сколько минут вам обычно требовалось, чтобы заснуть ночью?",
+        "en": "How long (in minutes) has it usually taken you to fall asleep each night?",
+        "fr": "Combien de minutes vous a-t-il généralement fallu pour vous endormir chaque nuit ?",
+        "de": "Wie viele Minuten hat es in der Regel gedauert, bis Sie nachts eingeschlafen sind?",
+        "pt": "Quantos minutos costumava levar para adormecer cada noite?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "≤ 15 минут",
+            "en": "≤ 15 minutes",
+            "fr": "≤ 15 minutes",
+            "de": "≤ 15 Minuten",
+            "pt": "≤ 15 minutos"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "30 минут",
+            "en": "30 minutes",
+            "fr": "30 minutes",
+            "de": "30 Minuten",
+            "pt": "30 minutos"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "60 минут",
+            "en": "60 minutes",
+            "fr": "60 minutes",
+            "de": "60 Minuten",
+            "pt": "60 minutos"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "> 60 минут",
+            "en": "> 60 minutes",
+            "fr": "> 60 minutes",
+            "de": "> 60 Minuten",
+            "pt": "> 60 minutos"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "psqi_wake",
+      "text": {
+        "ru": "За последний месяц во сколько вы обычно вставали?",
+        "en": "During the past month, when have you usually gotten up in the morning?",
+        "fr": "Au cours du dernier mois, à quelle heure vous êtes-vous généralement levé(e) le matin ?",
+        "de": "Im letzten Monat, wann sind Sie morgens normalerweise aufgestanden?",
+        "pt": "No último mês, a que horas você costumava levantar pela manhã?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "05:00",
+            "en": "05:00",
+            "fr": "05:00",
+            "de": "05:00",
+            "pt": "05:00"
+          },
+          "score": 300
+        },
+        {
+          "label": {
+            "ru": "05:30",
+            "en": "05:30",
+            "fr": "05:30",
+            "de": "05:30",
+            "pt": "05:30"
+          },
+          "score": 330
+        },
+        {
+          "label": {
+            "ru": "06:00",
+            "en": "06:00",
+            "fr": "06:00",
+            "de": "06:00",
+            "pt": "06:00"
+          },
+          "score": 360
+        },
+        {
+          "label": {
+            "ru": "06:30",
+            "en": "06:30",
+            "fr": "06:30",
+            "de": "06:30",
+            "pt": "06:30"
+          },
+          "score": 390
+        },
+        {
+          "label": {
+            "ru": "07:00",
+            "en": "07:00",
+            "fr": "07:00",
+            "de": "07:00",
+            "pt": "07:00"
+          },
+          "score": 420
+        },
+        {
+          "label": {
+            "ru": "07:30",
+            "en": "07:30",
+            "fr": "07:30",
+            "de": "07:30",
+            "pt": "07:30"
+          },
+          "score": 450
+        },
+        {
+          "label": {
+            "ru": "08:00",
+            "en": "08:00",
+            "fr": "08:00",
+            "de": "08:00",
+            "pt": "08:00"
+          },
+          "score": 480
+        },
+        {
+          "label": {
+            "ru": "08:30",
+            "en": "08:30",
+            "fr": "08:30",
+            "de": "08:30",
+            "pt": "08:30"
+          },
+          "score": 510
+        },
+        {
+          "label": {
+            "ru": "09:00",
+            "en": "09:00",
+            "fr": "09:00",
+            "de": "09:00",
+            "pt": "09:00"
+          },
+          "score": 540
+        },
+        {
+          "label": {
+            "ru": "09:30",
+            "en": "09:30",
+            "fr": "09:30",
+            "de": "09:30",
+            "pt": "09:30"
+          },
+          "score": 570
+        },
+        {
+          "label": {
+            "ru": "10:00",
+            "en": "10:00",
+            "fr": "10:00",
+            "de": "10:00",
+            "pt": "10:00"
+          },
+          "score": 600
+        },
+        {
+          "label": {
+            "ru": "10:30",
+            "en": "10:30",
+            "fr": "10:30",
+            "de": "10:30",
+            "pt": "10:30"
+          },
+          "score": 630
+        },
+        {
+          "label": {
+            "ru": "11:00",
+            "en": "11:00",
+            "fr": "11:00",
+            "de": "11:00",
+            "pt": "11:00"
+          },
+          "score": 660
+        },
+        {
+          "label": {
+            "ru": "11:30",
+            "en": "11:30",
+            "fr": "11:30",
+            "de": "11:30",
+            "pt": "11:30"
+          },
+          "score": 690
+        }
+      ]
+    },
+    {
+      "id": "psqi_sleep_h",
+      "text": {
+        "ru": "Сколько часов вы фактически спали ночью (не считая минут бодрствования)?",
+        "en": "How many hours of actual sleep did you get at night? (This may be different from the number of hours you spent in bed.)",
+        "fr": "Combien d’heures de sommeil effectif avez-vous eues la nuit ? (Peut différer du temps passé au lit.)",
+        "de": "Wie viele Stunden haben Sie nachts tatsächlich geschlafen? (Kann von der Zeit im Bett abweichen.)",
+        "pt": "Quantas horas de sono real você teve à noite? (Pode ser diferente do tempo na cama.)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "> 7 ч сна (в среднем за ночь)",
+            "en": "> 7 hours sleep (per night on average)",
+            "fr": "> 7 h de sommeil (en moyenne par nuit)",
+            "de": "> 7 Stunden Schlaf (durchschnittlich pro Nacht)",
+            "pt": "> 7 h de sono (em média por noite)"
+          },
+          "score": 450
+        },
+        {
+          "label": {
+            "ru": "7 ч",
+            "en": "7 hours",
+            "fr": "7 h",
+            "de": "7 Stunden",
+            "pt": "7 h"
+          },
+          "score": 390
+        },
+        {
+          "label": {
+            "ru": "6 ч",
+            "en": "6 hours",
+            "fr": "6 h",
+            "de": "6 Stunden",
+            "pt": "6 h"
+          },
+          "score": 330
+        },
+        {
+          "label": {
+            "ru": "< 5 ч",
+            "en": "< 5 hours",
+            "fr": "< 5 h",
+            "de": "< 5 Stunden",
+            "pt": "< 5 h"
+          },
+          "score": 240
+        }
+      ]
+    },
+    {
+      "id": "psqi_5a",
+      "text": {
+        "ru": "За последний месяц, как часто у вас были проблемы со сном из‑за того, что …не могли уснуть в течение 30 минут",
+        "en": "During the past month, how often have you had trouble sleeping because you …you cannot get to sleep within 30 minutes",
+        "fr": "Au cours du dernier mois, à quelle fréquence avez-vous eu des troubles du sommeil parce que …vous n’arrivez pas à vous endormir en 30 minutes",
+        "de": "Wie oft hatten Sie im letzten Monat Schlafprobleme, weil …Sie nicht innerhalb von 30 Minuten einschlafen können",
+        "pt": "No último mês, com que frequência teve problemas para dormir porque …você não consegue adormecer em 30 minutos"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "За последний месяц такого не было",
+            "en": "Not during the past month",
+            "fr": "Pas au cours du dernier mois",
+            "de": "Nicht im letzten Monat",
+            "pt": "Não no último mês"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Реже одного раза в неделю",
+            "en": "Less than once a week",
+            "fr": "Moins d’une fois par semaine",
+            "de": "Seltener als einmal pro Woche",
+            "pt": "Menos de uma vez por semana"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Один–два раза в неделю",
+            "en": "Once or twice a week",
+            "fr": "Une ou deux fois par semaine",
+            "de": "Ein- bis zweimal pro Woche",
+            "pt": "Uma ou duas vezes por semana"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Три раза и чаще в неделю",
+            "en": "Three or more times a week",
+            "fr": "Trois fois ou plus par semaine",
+            "de": "Dreimal oder öfter pro Woche",
+            "pt": "Três vezes ou mais por semana"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "psqi_5b",
+      "text": {
+        "ru": "За последний месяц, как часто у вас были проблемы со сном из‑за того, что …просыпались среди ночи или рано утром",
+        "en": "During the past month, how often have you had trouble sleeping because you …you wake up in the middle of the night or early morning",
+        "fr": "Au cours du dernier mois, à quelle fréquence avez-vous eu des troubles du sommeil parce que …vous vous réveillez au milieu de la nuit ou tôt le matin",
+        "de": "Wie oft hatten Sie im letzten Monat Schlafprobleme, weil …Sie mitten in der Nacht oder früh am Morgen aufwachen",
+        "pt": "No último mês, com que frequência teve problemas para dormir porque …você acorda no meio da noite ou de manhã cedo"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "За последний месяц такого не было",
+            "en": "Not during the past month",
+            "fr": "Pas au cours du dernier mois",
+            "de": "Nicht im letzten Monat",
+            "pt": "Não no último mês"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Реже одного раза в неделю",
+            "en": "Less than once a week",
+            "fr": "Moins d’une fois par semaine",
+            "de": "Seltener als einmal pro Woche",
+            "pt": "Menos de uma vez por semana"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Один–два раза в неделю",
+            "en": "Once or twice a week",
+            "fr": "Une ou deux fois par semaine",
+            "de": "Ein- bis zweimal pro Woche",
+            "pt": "Uma ou duas vezes por semana"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Три раза и чаще в неделю",
+            "en": "Three or more times a week",
+            "fr": "Trois fois ou plus par semaine",
+            "de": "Dreimal oder öfter pro Woche",
+            "pt": "Três vezes ou mais por semana"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "psqi_5c",
+      "text": {
+        "ru": "За последний месяц, как часто у вас были проблемы со сном из‑за того, что …приходилось вставать в туалет",
+        "en": "During the past month, how often have you had trouble sleeping because you …you have to get up to use the bathroom",
+        "fr": "Au cours du dernier mois, à quelle fréquence avez-vous eu des troubles du sommeil parce que …vous devez vous lever pour aller aux toilettes",
+        "de": "Wie oft hatten Sie im letzten Monat Schlafprobleme, weil …Sie aufstehen müssen, um zur Toilette zu gehen",
+        "pt": "No último mês, com que frequência teve problemas para dormir porque …você precisa levantar para ir ao banheiro"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "За последний месяц такого не было",
+            "en": "Not during the past month",
+            "fr": "Pas au cours du dernier mois",
+            "de": "Nicht im letzten Monat",
+            "pt": "Não no último mês"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Реже одного раза в неделю",
+            "en": "Less than once a week",
+            "fr": "Moins d’une fois par semaine",
+            "de": "Seltener als einmal pro Woche",
+            "pt": "Menos de uma vez por semana"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Один–два раза в неделю",
+            "en": "Once or twice a week",
+            "fr": "Une ou deux fois par semaine",
+            "de": "Ein- bis zweimal pro Woche",
+            "pt": "Uma ou duas vezes por semana"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Три раза и чаще в неделю",
+            "en": "Three or more times a week",
+            "fr": "Trois fois ou plus par semaine",
+            "de": "Dreimal oder öfter pro Woche",
+            "pt": "Três vezes ou mais por semana"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "psqi_5d",
+      "text": {
+        "ru": "За последний месяц, как часто у вас были проблемы со сном из‑за того, что …нельзя было нормально дышать",
+        "en": "During the past month, how often have you had trouble sleeping because you …you cannot breathe comfortably",
+        "fr": "Au cours du dernier mois, à quelle fréquence avez-vous eu des troubles du sommeil parce que …vous ne pouvez pas respirer confortablement",
+        "de": "Wie oft hatten Sie im letzten Monat Schlafprobleme, weil …Sie nicht bequem atmen können",
+        "pt": "No último mês, com que frequência teve problemas para dormir porque …você não consegue respirar confortavelmente"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "За последний месяц такого не было",
+            "en": "Not during the past month",
+            "fr": "Pas au cours du dernier mois",
+            "de": "Nicht im letzten Monat",
+            "pt": "Não no último mês"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Реже одного раза в неделю",
+            "en": "Less than once a week",
+            "fr": "Moins d’une fois par semaine",
+            "de": "Seltener als einmal pro Woche",
+            "pt": "Menos de uma vez por semana"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Один–два раза в неделю",
+            "en": "Once or twice a week",
+            "fr": "Une ou deux fois par semaine",
+            "de": "Ein- bis zweimal pro Woche",
+            "pt": "Uma ou duas vezes por semana"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Три раза и чаще в неделю",
+            "en": "Three or more times a week",
+            "fr": "Trois fois ou plus par semaine",
+            "de": "Dreimal oder öfter pro Woche",
+            "pt": "Três vezes ou mais por semana"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "psqi_5e",
+      "text": {
+        "ru": "За последний месяц, как часто у вас были проблемы со сном из‑за того, что …кашель или громкое храпение",
+        "en": "During the past month, how often have you had trouble sleeping because you …you cough or snore loudly",
+        "fr": "Au cours du dernier mois, à quelle fréquence avez-vous eu des troubles du sommeil parce que …vous toussez ou ronflez fort",
+        "de": "Wie oft hatten Sie im letzten Monat Schlafprobleme, weil …Sie husten oder laut schnarchen",
+        "pt": "No último mês, com que frequência teve problemas para dormir porque …você tosse ou ronca alto"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "За последний месяц такого не было",
+            "en": "Not during the past month",
+            "fr": "Pas au cours du dernier mois",
+            "de": "Nicht im letzten Monat",
+            "pt": "Não no último mês"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Реже одного раза в неделю",
+            "en": "Less than once a week",
+            "fr": "Moins d’une fois par semaine",
+            "de": "Seltener als einmal pro Woche",
+            "pt": "Menos de uma vez por semana"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Один–два раза в неделю",
+            "en": "Once or twice a week",
+            "fr": "Une ou deux fois par semaine",
+            "de": "Ein- bis zweimal pro Woche",
+            "pt": "Uma ou duas vezes por semana"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Три раза и чаще в неделю",
+            "en": "Three or more times a week",
+            "fr": "Trois fois ou plus par semaine",
+            "de": "Dreimal oder öfter pro Woche",
+            "pt": "Três vezes ou mais por semana"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "psqi_5f",
+      "text": {
+        "ru": "За последний месяц, как часто у вас были проблемы со сном из‑за того, что …было слишком холодно",
+        "en": "During the past month, how often have you had trouble sleeping because you …you feel too cold",
+        "fr": "Au cours du dernier mois, à quelle fréquence avez-vous eu des troubles du sommeil parce que …vous avez trop froid",
+        "de": "Wie oft hatten Sie im letzten Monat Schlafprobleme, weil …Ihnen zu kalt ist",
+        "pt": "No último mês, com que frequência teve problemas para dormir porque …você sente muito frio"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "За последний месяц такого не было",
+            "en": "Not during the past month",
+            "fr": "Pas au cours du dernier mois",
+            "de": "Nicht im letzten Monat",
+            "pt": "Não no último mês"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Реже одного раза в неделю",
+            "en": "Less than once a week",
+            "fr": "Moins d’une fois par semaine",
+            "de": "Seltener als einmal pro Woche",
+            "pt": "Menos de uma vez por semana"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Один–два раза в неделю",
+            "en": "Once or twice a week",
+            "fr": "Une ou deux fois par semaine",
+            "de": "Ein- bis zweimal pro Woche",
+            "pt": "Uma ou duas vezes por semana"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Три раза и чаще в неделю",
+            "en": "Three or more times a week",
+            "fr": "Trois fois ou plus par semaine",
+            "de": "Dreimal oder öfter pro Woche",
+            "pt": "Três vezes ou mais por semana"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "psqi_5g",
+      "text": {
+        "ru": "За последний месяц, как часто у вас были проблемы со сном из‑за того, что …было слишком жарко",
+        "en": "During the past month, how often have you had trouble sleeping because you …you feel too hot",
+        "fr": "Au cours du dernier mois, à quelle fréquence avez-vous eu des troubles du sommeil parce que …vous avez trop chaud",
+        "de": "Wie oft hatten Sie im letzten Monat Schlafprobleme, weil …Ihnen zu warm ist",
+        "pt": "No último mês, com que frequência teve problemas para dormir porque …você sente muito calor"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "За последний месяц такого не было",
+            "en": "Not during the past month",
+            "fr": "Pas au cours du dernier mois",
+            "de": "Nicht im letzten Monat",
+            "pt": "Não no último mês"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Реже одного раза в неделю",
+            "en": "Less than once a week",
+            "fr": "Moins d’une fois par semaine",
+            "de": "Seltener als einmal pro Woche",
+            "pt": "Menos de uma vez por semana"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Один–два раза в неделю",
+            "en": "Once or twice a week",
+            "fr": "Une ou deux fois par semaine",
+            "de": "Ein- bis zweimal pro Woche",
+            "pt": "Uma ou duas vezes por semana"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Три раза и чаще в неделю",
+            "en": "Three or more times a week",
+            "fr": "Trois fois ou plus par semaine",
+            "de": "Dreimal oder öfter pro Woche",
+            "pt": "Três vezes ou mais por semana"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "psqi_5h",
+      "text": {
+        "ru": "За последний месяц, как часто у вас были проблемы со сном из‑за того, что …были тревожные сны",
+        "en": "During the past month, how often have you had trouble sleeping because you …you have bad dreams",
+        "fr": "Au cours du dernier mois, à quelle fréquence avez-vous eu des troubles du sommeil parce que …vous faites des cauchemars",
+        "de": "Wie oft hatten Sie im letzten Monat Schlafprobleme, weil …Sie Alpträume haben",
+        "pt": "No último mês, com que frequência teve problemas para dormir porque …você tem pesadelos"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "За последний месяц такого не было",
+            "en": "Not during the past month",
+            "fr": "Pas au cours du dernier mois",
+            "de": "Nicht im letzten Monat",
+            "pt": "Não no último mês"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Реже одного раза в неделю",
+            "en": "Less than once a week",
+            "fr": "Moins d’une fois par semaine",
+            "de": "Seltener als einmal pro Woche",
+            "pt": "Menos de uma vez por semana"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Один–два раза в неделю",
+            "en": "Once or twice a week",
+            "fr": "Une ou deux fois par semaine",
+            "de": "Ein- bis zweimal pro Woche",
+            "pt": "Uma ou duas vezes por semana"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Три раза и чаще в неделю",
+            "en": "Three or more times a week",
+            "fr": "Trois fois ou plus par semaine",
+            "de": "Dreimal oder öfter pro Woche",
+            "pt": "Três vezes ou mais por semana"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "psqi_5i",
+      "text": {
+        "ru": "За последний месяц, как часто у вас были проблемы со сном из‑за того, что …была боль",
+        "en": "During the past month, how often have you had trouble sleeping because you …you have pain",
+        "fr": "Au cours du dernier mois, à quelle fréquence avez-vous eu des troubles du sommeil parce que …vous avez mal",
+        "de": "Wie oft hatten Sie im letzten Monat Schlafprobleme, weil …Sie Schmerzen haben",
+        "pt": "No último mês, com que frequência teve problemas para dormir porque …você sente dor"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "За последний месяц такого не было",
+            "en": "Not during the past month",
+            "fr": "Pas au cours du dernier mois",
+            "de": "Nicht im letzten Monat",
+            "pt": "Não no último mês"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Реже одного раза в неделю",
+            "en": "Less than once a week",
+            "fr": "Moins d’une fois par semaine",
+            "de": "Seltener als einmal pro Woche",
+            "pt": "Menos de uma vez por semana"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Один–два раза в неделю",
+            "en": "Once or twice a week",
+            "fr": "Une ou deux fois par semaine",
+            "de": "Ein- bis zweimal pro Woche",
+            "pt": "Uma ou duas vezes por semana"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Три раза и чаще в неделю",
+            "en": "Three or more times a week",
+            "fr": "Trois fois ou plus par semaine",
+            "de": "Dreimal oder öfter pro Woche",
+            "pt": "Três vezes ou mais por semana"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "psqi_5j",
+      "text": {
+        "ru": "За последний месяц, как часто у вас были проблемы со сном из‑за того, что …другая причина — опишите сами, как часто это мешало сну",
+        "en": "During the past month, how often have you had trouble sleeping because you …other reason(s)—describe and rate how often it disturbed your sleep",
+        "fr": "Au cours du dernier mois, à quelle fréquence avez-vous eu des troubles du sommeil parce que …autre(s) raison(s)—décrivez et indiquez la fréquence",
+        "de": "Wie oft hatten Sie im letzten Monat Schlafprobleme, weil …andere Gründe—beschreiben Sie und geben Sie die Häufigkeit an",
+        "pt": "No último mês, com que frequência teve problemas para dormir porque …outro(s) motivo(s)—descreva e indique a frequência"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "За последний месяц такого не было",
+            "en": "Not during the past month",
+            "fr": "Pas au cours du dernier mois",
+            "de": "Nicht im letzten Monat",
+            "pt": "Não no último mês"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Реже одного раза в неделю",
+            "en": "Less than once a week",
+            "fr": "Moins d’une fois par semaine",
+            "de": "Seltener als einmal pro Woche",
+            "pt": "Menos de uma vez por semana"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Один–два раза в неделю",
+            "en": "Once or twice a week",
+            "fr": "Une ou deux fois par semaine",
+            "de": "Ein- bis zweimal pro Woche",
+            "pt": "Uma ou duas vezes por semana"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Три раза и чаще в неделю",
+            "en": "Three or more times a week",
+            "fr": "Trois fois ou plus par semaine",
+            "de": "Dreimal oder öfter pro Woche",
+            "pt": "Três vezes ou mais por semana"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "psqi_6",
+      "text": {
+        "ru": "Как бы вы оценили качество своего сна в целом?",
+        "en": "How would you rate your sleep quality overall?",
+        "fr": "Comment évalueriez-vous la qualité globale de votre sommeil ?",
+        "de": "Wie würden Sie Ihre Schlafqualität insgesamt bewerten?",
+        "pt": "Como avaliaria a qualidade geral do seu sono?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Очень хорошее",
+            "en": "Very good",
+            "fr": "Très bon",
+            "de": "Sehr gut",
+            "pt": "Muito boa"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Довольно хорошее",
+            "en": "Fairly good",
+            "fr": "Assez bon",
+            "de": "Ziemlich gut",
+            "pt": "Razoavelmente boa"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Довольно плохое",
+            "en": "Fairly bad",
+            "fr": "Assez mauvais",
+            "de": "Ziemlich schlecht",
+            "pt": "Razoavelmente ruim"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень плохое",
+            "en": "Very bad",
+            "fr": "Très mauvais",
+            "de": "Sehr schlecht",
+            "pt": "Muito ruim"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "psqi_7",
+      "text": {
+        "ru": "Как часто вы принимали снотворное или успокоительное, отпускаемое по рецепту или без?",
+        "en": "How often have you taken medicine (prescribed or over the counter) to help you sleep?",
+        "fr": "À quelle fréquence avez-vous pris des médicaments (sur ordonnance ou en vente libre) pour dormir ?",
+        "de": "Wie oft haben Sie Medikamente (verschreibungspflichtig oder rezeptfrei) zum Schlafen eingenommen?",
+        "pt": "Com que frequência tomou medicamentos (com ou sem receita) para ajudar a dormir?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "За последний месяц такого не было",
+            "en": "Not during the past month",
+            "fr": "Pas au cours du dernier mois",
+            "de": "Nicht im letzten Monat",
+            "pt": "Não no último mês"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Реже одного раза в неделю",
+            "en": "Less than once a week",
+            "fr": "Moins d’une fois par semaine",
+            "de": "Seltener als einmal pro Woche",
+            "pt": "Menos de uma vez por semana"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Один–два раза в неделю",
+            "en": "Once or twice a week",
+            "fr": "Une ou deux fois par semaine",
+            "de": "Ein- bis zweimal pro Woche",
+            "pt": "Uma ou duas vezes por semana"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Три раза и чаще в неделю",
+            "en": "Three or more times a week",
+            "fr": "Trois fois ou plus par semaine",
+            "de": "Dreimal oder öfter pro Woche",
+            "pt": "Três vezes ou mais por semana"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "psqi_8",
+      "text": {
+        "ru": "Как часто во время еды, вождения или в других ситуациях вам было трудно бодрствовать?",
+        "en": "How often have you had trouble staying awake during eating, driving, social situations, etc.?",
+        "fr": "À quelle fréquence avez-vous eu du mal à rester éveillé(e) en mangeant, en conduisant, etc. ?",
+        "de": "Wie oft hatten Sie Mühe, beim Essen, Autofahren usw. wach zu bleiben?",
+        "pt": "Com que frequência teve dificuldade para permanecer acordado(a) ao comer, dirigir, etc.?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "За последний месяц такого не было",
+            "en": "Not during the past month",
+            "fr": "Pas au cours du dernier mois",
+            "de": "Nicht im letzten Monat",
+            "pt": "Não no último mês"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Реже одного раза в неделю",
+            "en": "Less than once a week",
+            "fr": "Moins d’une fois par semaine",
+            "de": "Seltener als einmal pro Woche",
+            "pt": "Menos de uma vez por semana"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Один–два раза в неделю",
+            "en": "Once or twice a week",
+            "fr": "Une ou deux fois par semaine",
+            "de": "Ein- bis zweimal pro Woche",
+            "pt": "Uma ou duas vezes por semana"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Три раза и чаще в неделю",
+            "en": "Three or more times a week",
+            "fr": "Trois fois ou plus par semaine",
+            "de": "Dreimal oder öfter pro Woche",
+            "pt": "Três vezes ou mais por semana"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "psqi_9",
+      "text": {
+        "ru": "Насколько большой проблемой для вас было сохранять достаточный энтузиазм, чтобы делать дела?",
+        "en": "How much of a problem has it been for you to keep up enough enthusiasm to get things done?",
+        "fr": "Dans quelle mesure avez-vous eu du mal à garder assez d’enthousiasme pour faire les choses ?",
+        "de": "Wie sehr war es für Sie ein Problem, genug Enthusiasmus für Ihre Aufgaben aufzubringen?",
+        "pt": "Quanto foi um problema manter entusiasmo suficiente para fazer as coisas?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет проблемы",
+            "en": "No problem",
+            "fr": "Aucun problème",
+            "de": "Kein Problem",
+            "pt": "Nenhum problema"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Лишь очень лёгкая",
+            "en": "Only a very slight problem",
+            "fr": "Un problème très léger",
+            "de": "Nur ein sehr leichtes Problem",
+            "pt": "Só um problema muito leve"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "В некоторой степени",
+            "en": "Somewhat of a problem",
+            "fr": "Quelque peu un problème",
+            "de": "Etwas ein Problem",
+            "pt": "Em certa medida um problema"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень большая проблема",
+            "en": "A very big problem",
+            "fr": "Un très gros problème",
+            "de": "Ein sehr großes Problem",
+            "pt": "Um problema muito grande"
+          },
+          "score": 3
+        }
+      ]
+    }
+  ]
+}

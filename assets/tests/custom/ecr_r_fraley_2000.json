@@ -1,0 +1,3061 @@
+{
+  "id": "ecr_r",
+  "category": "personality",
+  "title": {
+    "ru": "ECR-R — пересмотренная шкала переживаний в близких отношениях",
+    "en": "ECR-R — Experiences in Close Relationships–Revised",
+    "fr": "ECR-R — Experiences in Close Relationships–Revised",
+    "de": "ECR-R — Experiences in Close Relationships–Revised",
+    "pt": "ECR-R — Experiences in Close Relationships–Revised"
+  },
+  "subtitle": {
+    "ru": "Привязанность во взрослых романтических отношениях: тревога и избегание.",
+    "en": "Adult romantic attachment: anxiety and avoidance dimensions.",
+    "fr": "Attachement amoureux adulte : dimensions anxiété et évitement.",
+    "de": "Romantische Bindung im Erwachsenenalter: Angst- und Vermeidungsdimensionen.",
+    "pt": "Apego romântico adulto: dimensões de ansiedade e evitação."
+  },
+  "description": {
+    "ru": "Самооценка привязанности во взрослых романтических отношениях: тревога (страх отвержения, покинутости) и избегание (дискомфорт от близости и зависимости). Fraley, Waller & Brennan (2000). Не диагноз; привязанность удобнее представлять как континуум, а не только «типы».",
+    "en": "Self-report measure of adult romantic attachment: anxiety (fear of rejection/abandonment) and avoidance (discomfort with closeness and dependency). Fraley, Waller, & Brennan (2000). Not a diagnosis; attachment is best viewed as continuous dimensions.",
+    "fr": "Mesure auto-rapportée de l’attachement amoureux adulte : anxiété et évitement (Fraley et al., 2000). Pas un diagnostic ; l’attachement est mieux pensé comme un continuum.",
+    "de": "Selbstbeschreibung romantischer Bindung: Angst und Vermeidung (Fraley et al., 2000). Keine Diagnose; Bindung ist eher ein Kontinuum.",
+    "pt": "Autorrelato de apego romântico adulto: ansiedade e evitação (Fraley et al., 2000). Não é diagnóstico; o apego é melhor visto como dimensões contínuas."
+  },
+  "instructions": {
+    "ru": "Ниже утверждения о том, как вы обычно переживаете эмоционально близкие отношения. Нас интересует ваш типичный опыт, а не только текущая пара. Выберите для каждого пункта вариант, который лучше всего вам подходит.",
+    "en": "The following statements concern how you generally feel in emotionally intimate relationships. We are interested in how you usually experience relationships, not only in a current relationship. For each statement, pick the answer that fits you best.",
+    "fr": "Ces phrases portent sur la façon dont vous vivez en général les relations intimes émotionnellement. Pour chaque phrase, choisissez la réponse qui vous correspond le mieux.",
+    "de": "Die folgenden Aussagen betreffen, wie Sie emotionale Nähe in Beziehungen im Allgemeinen erleben. Wählen Sie bei jeder Aussage die Antwort, die am besten zu Ihnen passt.",
+    "pt": "As frases abaixo dizem respeito a como você costuma vivenciar relações emocionalmente íntimas. Em cada uma, escolha a opção que melhor descreve você."
+  },
+  "maxScore": 252,
+  "resultSubscalesOnly": true,
+  "bandsBasis": "raw",
+  "bands": [],
+  "subscales": [
+    {
+      "id": "anxiety",
+      "label": {
+        "ru": "Тревога привязанности",
+        "en": "Attachment anxiety",
+        "fr": "Anxiété d’attachement",
+        "de": "Bindungsangst",
+        "pt": "Ansiedade de apego"
+      },
+      "itemIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "maxScore": 126
+    },
+    {
+      "id": "avoidance",
+      "label": {
+        "ru": "Избегание привязанности",
+        "en": "Attachment avoidance",
+        "fr": "Évitement de l’attachement",
+        "de": "Bindungsvermeidung",
+        "pt": "Evitação de apego"
+      },
+      "itemIndices": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "maxScore": 126
+    }
+  ],
+  "resultNote": {
+    "ru": "Ниже показаны две линии: тревога в отношениях и избегание близости. Их удобно думать как континуум: когда обе ниже, переживание близости часто ближе к «безопасной» области в двумерной модели; точная интерпретация зависит от вашей истории.",
+    "en": "Two dimensions are shown: relationship anxiety and avoidance of closeness. Both are continua—lower levels on both often sit closer to a secure pattern in the two-dimensional model; your personal context still matters most.",
+    "fr": "Deux dimensions : anxiété et évitement. Ce sont des continus ; des niveaux plus bas sur les deux se rapprochent souvent d’un profil plus « sécurisant ».",
+    "de": "Zwei Dimensionen: Bindungsangst und Vermeidung. Beides sind Kontinua; niedrigere Werte auf beiden liegen oft näher an einem eher sicheren Muster.",
+    "pt": "Duas dimensões: ansiedade e evitação. São contínuos; níveis mais baixos nos dois costumam aproximar de um padrão mais seguro."
+  },
+  "questions": [
+    {
+      "id": "ecrr_1",
+      "text": {
+        "ru": "Я боюсь потерять любовь партнёра.",
+        "en": "I'm afraid that I will lose my partner's love.",
+        "fr": "I'm afraid that I will lose my partner's love.",
+        "de": "I'm afraid that I will lose my partner's love.",
+        "pt": "I'm afraid that I will lose my partner's love."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "ecrr_2",
+      "text": {
+        "ru": "Я часто переживаю, что партнёр не захочет остаться со мной.",
+        "en": "I often worry that my partner will not want to stay with me.",
+        "fr": "I often worry that my partner will not want to stay with me.",
+        "de": "I often worry that my partner will not want to stay with me.",
+        "pt": "I often worry that my partner will not want to stay with me."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "ecrr_3",
+      "text": {
+        "ru": "Я часто переживаю, что партнёр на самом деле не любит меня.",
+        "en": "I often worry that my partner doesn't really love me.",
+        "fr": "I often worry that my partner doesn't really love me.",
+        "de": "I often worry that my partner doesn't really love me.",
+        "pt": "I often worry that my partner doesn't really love me."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "ecrr_4",
+      "text": {
+        "ru": "Я боюсь, что романтические партнёры будут относиться ко мне менее серьёзно, чем я к ним.",
+        "en": "I worry that romantic partners won’t care about me as much as I care about them.",
+        "fr": "I worry that romantic partners won’t care about me as much as I care about them.",
+        "de": "I worry that romantic partners won’t care about me as much as I care about them.",
+        "pt": "I worry that romantic partners won’t care about me as much as I care about them."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "ecrr_5",
+      "text": {
+        "ru": "Я часто хочу, чтобы чувства партнёра ко мне были такими же сильными, как мои к нему или к ней.",
+        "en": "I often wish that my partner's feelings for me were as strong as my feelings for him or her.",
+        "fr": "I often wish that my partner's feelings for me were as strong as my feelings for him or her.",
+        "de": "I often wish that my partner's feelings for me were as strong as my feelings for him or her.",
+        "pt": "I often wish that my partner's feelings for me were as strong as my feelings for him or her."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "ecrr_6",
+      "text": {
+        "ru": "Я сильно переживаю из‑за своих отношений.",
+        "en": "I worry a lot about my relationships.",
+        "fr": "I worry a lot about my relationships.",
+        "de": "I worry a lot about my relationships.",
+        "pt": "I worry a lot about my relationships."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "ecrr_7",
+      "text": {
+        "ru": "Когда партнёра нет рядом, я боюсь, что он или она может увлечься кем‑то другим.",
+        "en": "When my partner is out of sight, I worry that he or she might become interested in someone else.",
+        "fr": "When my partner is out of sight, I worry that he or she might become interested in someone else.",
+        "de": "When my partner is out of sight, I worry that he or she might become interested in someone else.",
+        "pt": "When my partner is out of sight, I worry that he or she might become interested in someone else."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "ecrr_8",
+      "text": {
+        "ru": "Когда я показываю чувства романтическим партнёрам, мне страшно, что у них будет не то же самое ко мне.",
+        "en": "When I show my feelings for romantic partners, I'm afraid they will not feel the same about me.",
+        "fr": "When I show my feelings for romantic partners, I'm afraid they will not feel the same about me.",
+        "de": "When I show my feelings for romantic partners, I'm afraid they will not feel the same about me.",
+        "pt": "When I show my feelings for romantic partners, I'm afraid they will not feel the same about me."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "ecrr_9",
+      "text": {
+        "ru": "Я редко переживаю, что партнёр меня бросит.",
+        "en": "I rarely worry about my partner leaving me.",
+        "fr": "I rarely worry about my partner leaving me.",
+        "de": "I rarely worry about my partner leaving me.",
+        "pt": "I rarely worry about my partner leaving me."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ecrr_10",
+      "text": {
+        "ru": "Романтический партнёр заставляет меня сомневаться в себе.",
+        "en": "My romantic partner makes me doubt myself.",
+        "fr": "My romantic partner makes me doubt myself.",
+        "de": "My romantic partner makes me doubt myself.",
+        "pt": "My romantic partner makes me doubt myself."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "ecrr_11",
+      "text": {
+        "ru": "Я не часто переживаю из‑за возможного «брошенности».",
+        "en": "I do not often worry about being abandoned.",
+        "fr": "I do not often worry about being abandoned.",
+        "de": "I do not often worry about being abandoned.",
+        "pt": "I do not often worry about being abandoned."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ecrr_12",
+      "text": {
+        "ru": "Мне кажется, что партнёр(ы) не хотят такой близости, какую хочу я.",
+        "en": "I find that my partner(s) don't want to get as close as I would like.",
+        "fr": "I find that my partner(s) don't want to get as close as I would like.",
+        "de": "I find that my partner(s) don't want to get as close as I would like.",
+        "pt": "I find that my partner(s) don't want to get as close as I would like."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "ecrr_13",
+      "text": {
+        "ru": "Иногда романтические партнёры без видимой причины меняются в чувствах ко мне.",
+        "en": "Sometimes romantic partners change their feelings about me for no apparent reason.",
+        "fr": "Sometimes romantic partners change their feelings about me for no apparent reason.",
+        "de": "Sometimes romantic partners change their feelings about me for no apparent reason.",
+        "pt": "Sometimes romantic partners change their feelings about me for no apparent reason."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "ecrr_14",
+      "text": {
+        "ru": "Моё желание очень сильной близости иногда пугает людей.",
+        "en": "My desire to be very close sometimes scares people away.",
+        "fr": "My desire to be very close sometimes scares people away.",
+        "de": "My desire to be very close sometimes scares people away.",
+        "pt": "My desire to be very close sometimes scares people away."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "ecrr_15",
+      "text": {
+        "ru": "Я боюсь, что когда романтический партнёр узнает меня по‑настоящему, ему или ей не понравится, кто я есть.",
+        "en": "I'm afraid that once a romantic partner gets to know me, he or she won't like who I really am.",
+        "fr": "I'm afraid that once a romantic partner gets to know me, he or she won't like who I really am.",
+        "de": "I'm afraid that once a romantic partner gets to know me, he or she won't like who I really am.",
+        "pt": "I'm afraid that once a romantic partner gets to know me, he or she won't like who I really am."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "ecrr_16",
+      "text": {
+        "ru": "Меня злит, что я не получаю от партнёра той ласки и поддержки, в которых нуждаюсь.",
+        "en": "It makes me mad that I don't get the affection and support I need from my partner.",
+        "fr": "It makes me mad that I don't get the affection and support I need from my partner.",
+        "de": "It makes me mad that I don't get the affection and support I need from my partner.",
+        "pt": "It makes me mad that I don't get the affection and support I need from my partner."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "ecrr_17",
+      "text": {
+        "ru": "Я переживаю, что не дотяну до других людей.",
+        "en": "I worry that I won't measure up to other people.",
+        "fr": "I worry that I won't measure up to other people.",
+        "de": "I worry that I won't measure up to other people.",
+        "pt": "I worry that I won't measure up to other people."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "ecrr_18",
+      "text": {
+        "ru": "Партнёр, кажется, замечает меня только когда я злюсь.",
+        "en": "My partner only seems to notice me when I’m angry.",
+        "fr": "My partner only seems to notice me when I’m angry.",
+        "de": "My partner only seems to notice me when I’m angry.",
+        "pt": "My partner only seems to notice me when I’m angry."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "ecrr_19",
+      "text": {
+        "ru": "Я предпочитаю не показывать партнёру, что чувствую в глубине души.",
+        "en": "I prefer not to show a partner how I feel deep down.",
+        "fr": "I prefer not to show a partner how I feel deep down.",
+        "de": "I prefer not to show a partner how I feel deep down.",
+        "pt": "I prefer not to show a partner how I feel deep down."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "ecrr_20",
+      "text": {
+        "ru": "Мне комфортно делиться с партнёром личными мыслями и чувствами.",
+        "en": "I feel comfortable sharing my private thoughts and feelings with my partner.",
+        "fr": "I feel comfortable sharing my private thoughts and feelings with my partner.",
+        "de": "I feel comfortable sharing my private thoughts and feelings with my partner.",
+        "pt": "I feel comfortable sharing my private thoughts and feelings with my partner."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ecrr_21",
+      "text": {
+        "ru": "Мне трудно позволить себе зависеть от романтических партнёров.",
+        "en": "I find it difficult to allow myself to depend on romantic partners.",
+        "fr": "I find it difficult to allow myself to depend on romantic partners.",
+        "de": "I find it difficult to allow myself to depend on romantic partners.",
+        "pt": "I find it difficult to allow myself to depend on romantic partners."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "ecrr_22",
+      "text": {
+        "ru": "Мне очень комфортно быть близко с романтическими партнёрами.",
+        "en": "I am very comfortable being close to romantic partners.",
+        "fr": "I am very comfortable being close to romantic partners.",
+        "de": "I am very comfortable being close to romantic partners.",
+        "pt": "I am very comfortable being close to romantic partners."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ecrr_23",
+      "text": {
+        "ru": "Мне некомфортно открываться романтическим партнёрам.",
+        "en": "I don't feel comfortable opening up to romantic partners.",
+        "fr": "I don't feel comfortable opening up to romantic partners.",
+        "de": "I don't feel comfortable opening up to romantic partners.",
+        "pt": "I don't feel comfortable opening up to romantic partners."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "ecrr_24",
+      "text": {
+        "ru": "Я предпочитаю не быть слишком близко с романтическими партнёрами.",
+        "en": "I prefer not to be too close to romantic partners.",
+        "fr": "I prefer not to be too close to romantic partners.",
+        "de": "I prefer not to be too close to romantic partners.",
+        "pt": "I prefer not to be too close to romantic partners."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "ecrr_25",
+      "text": {
+        "ru": "Мне некомфортно, когда романтический партнёр хочет очень сильной близости.",
+        "en": "I get uncomfortable when a romantic partner wants to be very close.",
+        "fr": "I get uncomfortable when a romantic partner wants to be very close.",
+        "de": "I get uncomfortable when a romantic partner wants to be very close.",
+        "pt": "I get uncomfortable when a romantic partner wants to be very close."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "ecrr_26",
+      "text": {
+        "ru": "Мне относительно легко сблизиться с партнёром.",
+        "en": "I find it relatively easy to get close to my partner.",
+        "fr": "I find it relatively easy to get close to my partner.",
+        "de": "I find it relatively easy to get close to my partner.",
+        "pt": "I find it relatively easy to get close to my partner."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ecrr_27",
+      "text": {
+        "ru": "Мне нетрудно сблизиться с партнёром.",
+        "en": "It's not difficult for me to get close to my partner.",
+        "fr": "It's not difficult for me to get close to my partner.",
+        "de": "It's not difficult for me to get close to my partner.",
+        "pt": "It's not difficult for me to get close to my partner."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ecrr_28",
+      "text": {
+        "ru": "Обычно я обсуждаю с партнёром свои проблемы и переживания.",
+        "en": "I usually discuss my problems and concerns with my partner.",
+        "fr": "I usually discuss my problems and concerns with my partner.",
+        "de": "I usually discuss my problems and concerns with my partner.",
+        "pt": "I usually discuss my problems and concerns with my partner."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ecrr_29",
+      "text": {
+        "ru": "В трудные моменты мне помогает обратиться к романтическому партнёру.",
+        "en": "It helps to turn to my romantic partner in times of need.",
+        "fr": "It helps to turn to my romantic partner in times of need.",
+        "de": "It helps to turn to my romantic partner in times of need.",
+        "pt": "It helps to turn to my romantic partner in times of need."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ecrr_30",
+      "text": {
+        "ru": "Я рассказываю партнёру почти обо всём.",
+        "en": "I tell my partner just about everything.",
+        "fr": "I tell my partner just about everything.",
+        "de": "I tell my partner just about everything.",
+        "pt": "I tell my partner just about everything."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ecrr_31",
+      "text": {
+        "ru": "Я обсуждаю с партнёром разные вещи.",
+        "en": "I talk things over with my partner.",
+        "fr": "I talk things over with my partner.",
+        "de": "I talk things over with my partner.",
+        "pt": "I talk things over with my partner."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ecrr_32",
+      "text": {
+        "ru": "Мне нервно, когда партнёры слишком сближаются со мной.",
+        "en": "I am nervous when partners get too close to me.",
+        "fr": "I am nervous when partners get too close to me.",
+        "de": "I am nervous when partners get too close to me.",
+        "pt": "I am nervous when partners get too close to me."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "ecrr_33",
+      "text": {
+        "ru": "Мне комфортно полагаться на романтических партнёров.",
+        "en": "I feel comfortable depending on romantic partners.",
+        "fr": "I feel comfortable depending on romantic partners.",
+        "de": "I feel comfortable depending on romantic partners.",
+        "pt": "I feel comfortable depending on romantic partners."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ecrr_34",
+      "text": {
+        "ru": "Мне легко полагаться на романтических партнёров.",
+        "en": "I find it easy to depend on romantic partners.",
+        "fr": "I find it easy to depend on romantic partners.",
+        "de": "I find it easy to depend on romantic partners.",
+        "pt": "I find it easy to depend on romantic partners."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ecrr_35",
+      "text": {
+        "ru": "Мне легко проявлять нежность к партнёру.",
+        "en": "It's easy for me to be affectionate with my partner.",
+        "fr": "It's easy for me to be affectionate with my partner.",
+        "de": "It's easy for me to be affectionate with my partner.",
+        "pt": "It's easy for me to be affectionate with my partner."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ecrr_36",
+      "text": {
+        "ru": "Мой партнёр по‑настоящему понимает меня и мои потребности.",
+        "en": "My partner really understands me and my needs.",
+        "fr": "My partner really understands me and my needs.",
+        "de": "My partner really understands me and my needs.",
+        "pt": "My partner really understands me and my needs."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Не согласен(на)",
+            "en": "Disagree",
+            "fr": "Pas d’accord",
+            "de": "Stimme nicht zu",
+            "pt": "Discordo"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Somewhat disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral / mixed",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Somewhat agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Согласен(на)",
+            "en": "Agree",
+            "fr": "D’accord",
+            "de": "Stimme zu",
+            "pt": "Concordo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

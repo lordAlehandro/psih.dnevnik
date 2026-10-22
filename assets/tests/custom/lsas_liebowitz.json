@@ -1,0 +1,2563 @@
+{
+  "id": "lsas",
+  "category": "anxiety",
+  "title": {
+    "ru": "LSAS — шкала социальной тревожности Либовица",
+    "en": "LSAS — Liebowitz Social Anxiety Scale",
+    "fr": "LSAS — Échelle d’anxiété sociale de Liebowitz",
+    "de": "LSAS — Liebowitz-Soziale-Angstskala",
+    "pt": "LSAS — Escala de ansiedade social de Liebowitz"
+  },
+  "subtitle": {
+    "ru": "Страх и избегание в социальных и «публичных» ситуациях.",
+    "en": "Fear and avoidance across social and performance situations.",
+    "fr": "Peur et évitement en situations sociales et de performance.",
+    "de": "Angst und Vermeidung in sozialen und Leistungssituationen.",
+    "pt": "Medo e evitação em situações sociais e de desempenho."
+  },
+  "description": {
+    "ru": "Оценивает социальную тревожность через страх и избегание в типичных ситуациях. Не заменяет клиническую диагностику.",
+    "en": "Assesses social anxiety through fear and avoidance in everyday situations. Not a clinical diagnosis.",
+    "fr": "Évalue l’anxiété sociale par la peur et l’évitement dans des situations courantes. Pas un diagnostic clinique.",
+    "de": "Erfasst soziale Angst durch Angst und Vermeidung in Alltagssituationen. Keine klinische Diagnose.",
+    "pt": "Avalia ansiedade social por medo e evitação em situações cotidianas. Não é diagnóstico clínico."
+  },
+  "instructions": {
+    "ru": "Ниже описаны ситуации. Отвечайте, опираясь на прошедшую неделю по сегодняшний день. Сначала отметьте, насколько вы тревожились бы или тревожитесь в каждой ситуации; затем — насколько вы избегаете или избегали бы её.",
+    "en": "Situations are listed below. Answer for the past week through today. For each row, first rate how anxious you would feel there, then how much you would avoid it.",
+    "fr": "Situations ci-dessous. Répondez pour la semaine jusqu’à aujourd’hui : d’abord l’anxiété face à la situation, puis l’évitement.",
+    "de": "Situationen unten. Antworten Sie für die Woche bis heute: zuerst Angst in der Situation, dann Vermeidung.",
+    "pt": "Situações abaixo. Responda pela última semana até hoje: primeiro a ansiedade na situação, depois a evitação."
+  },
+  "resultNote": {
+    "ru": "Ниже показаны отдельно страх и избегание, затем общая картина. Это ориентир, а не диагноз.",
+    "en": "Fear and avoidance are shown separately, then an overall picture. A guide—not a diagnosis.",
+    "fr": "La peur et l’évitement sont séparés, puis une vue d’ensemble. Indicatif, pas un diagnostic.",
+    "de": "Angst und Vermeidung getrennt, dann ein Gesamtbild. Nur Orientierung, keine Diagnose.",
+    "pt": "Medo e evitação aparecem separados, depois o panorama geral. Orientação, não diagnóstico."
+  },
+  "maxScore": 192,
+  "bandsBasis": "raw",
+  "bands": [
+    {
+      "minInclusive": 48,
+      "maxInclusive": 54,
+      "title": {
+        "ru": "Минимальная выраженность",
+        "en": "Minimal level",
+        "fr": "Niveau minimal",
+        "de": "Minimales Niveau",
+        "pt": "Nível mínimo"
+      },
+      "description": {
+        "ru": "Минимальная выраженность социальной тревоги в рамках этой методики.",
+        "en": "Minimal social anxiety features on this measure.",
+        "fr": "Symptômes sociaux minimes sur cette échelle.",
+        "de": "Minimale soziale Ängstlichkeit auf dieser Skala.",
+        "pt": "Sintomas sociais mínimos nesta medida."
+      }
+    },
+    {
+      "minInclusive": 55,
+      "maxInclusive": 64,
+      "title": {
+        "ru": "Слабовыраженная социофобия",
+        "en": "Mild social anxiety features",
+        "fr": "Symptômes sociaux légers",
+        "de": "Leichte soziale Ängstlichkeit",
+        "pt": "Sintomas sociais leves"
+      },
+      "description": {
+        "ru": "Лёгкие признаки социальной тревоги.",
+        "en": "Mild social anxiety features.",
+        "fr": "Symptômes sociaux légers.",
+        "de": "Leichte soziale Ängstlichkeit.",
+        "pt": "Sintomas sociais leves."
+      }
+    },
+    {
+      "minInclusive": 65,
+      "maxInclusive": 80,
+      "title": {
+        "ru": "Достаточно выраженная социофобия",
+        "en": "Moderate social anxiety",
+        "fr": "Anxiété sociale modérée",
+        "de": "Mäßige soziale Ängstlichkeit",
+        "pt": "Ansiedade social moderada"
+      },
+      "description": {
+        "ru": "Умеренно выраженная социальная тревога.",
+        "en": "Moderate social anxiety.",
+        "fr": "Anxiété sociale modérée.",
+        "de": "Mäßige soziale Ängstlichkeit.",
+        "pt": "Ansiedade social moderada."
+      }
+    },
+    {
+      "minInclusive": 81,
+      "maxInclusive": 95,
+      "title": {
+        "ru": "Сильная социофобия",
+        "en": "Severe social anxiety",
+        "fr": "Anxiété sociale sévère",
+        "de": "Starke soziale Ängstlichkeit",
+        "pt": "Ansiedade social severa"
+      },
+      "description": {
+        "ru": "Сильная социальная тревога.",
+        "en": "Severe social anxiety.",
+        "fr": "Anxiété sociale sévère.",
+        "de": "Starke soziale Ängstlichkeit.",
+        "pt": "Ansiedade social severa."
+      }
+    },
+    {
+      "minInclusive": 96,
+      "maxInclusive": 192,
+      "title": {
+        "ru": "Очень сильная социофобия",
+        "en": "Very severe social anxiety",
+        "fr": "Anxiété sociale très sévère",
+        "de": "Sehr starke soziale Ängstlichkeit",
+        "pt": "Ansiedade social muito severa"
+      },
+      "description": {
+        "ru": "Очень сильная социальная тревога; рекомендуется профессиональная оценка.",
+        "en": "Very severe social anxiety; consider professional evaluation.",
+        "fr": "Anxiété sociale très sévère ; envisagez une évaluation professionnelle.",
+        "de": "Sehr starke soziale Ängstlichkeit; professionelle Abklärung sinnvoll.",
+        "pt": "Ansiedade social muito severa; considere avaliação profissional."
+      }
+    }
+  ],
+  "subscales": [
+    {
+      "id": "lsas_fear",
+      "maxScore": 96,
+      "label": {
+        "ru": "Страх / тревога",
+        "en": "Fear / anxiety",
+        "fr": "Peur / anxiété",
+        "de": "Angst / Furcht",
+        "pt": "Medo / ansiedade"
+      },
+      "itemIndices": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46
+      ]
+    },
+    {
+      "id": "lsas_avoidance",
+      "maxScore": 96,
+      "label": {
+        "ru": "Избегание",
+        "en": "Avoidance",
+        "fr": "Évitement",
+        "de": "Vermeidung",
+        "pt": "Evitação"
+      },
+      "itemIndices": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "lsas_1_fear",
+      "text": {
+        "ru": "1. Говорить по телефону в общественных местах — страх или тревога",
+        "en": "1. Using a telephone in public — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_1_avoid",
+      "text": {
+        "ru": "1. Говорить по телефону в общественных местах — избегание ситуации",
+        "en": "1. Using a telephone in public — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_2_fear",
+      "text": {
+        "ru": "2. Участвовать в деятельности небольшой группы — страх или тревога",
+        "en": "2. Participating in a small group activity — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_2_avoid",
+      "text": {
+        "ru": "2. Участвовать в деятельности небольшой группы — избегание ситуации",
+        "en": "2. Participating in a small group activity — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_3_fear",
+      "text": {
+        "ru": "3. Есть в общественных местах — страх или тревога",
+        "en": "3. Eating in public places — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_3_avoid",
+      "text": {
+        "ru": "3. Есть в общественных местах — избегание ситуации",
+        "en": "3. Eating in public places — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_4_fear",
+      "text": {
+        "ru": "4. Пить в общественных местах — страх или тревога",
+        "en": "4. Drinking in public places — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_4_avoid",
+      "text": {
+        "ru": "4. Пить в общественных местах — избегание ситуации",
+        "en": "4. Drinking in public places — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_5_fear",
+      "text": {
+        "ru": "5. Говорить с начальством (вышестоящим лицом) — страх или тревога",
+        "en": "5. Talking to someone in authority — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_5_avoid",
+      "text": {
+        "ru": "5. Говорить с начальством (вышестоящим лицом) — избегание ситуации",
+        "en": "5. Talking to someone in authority — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_6_fear",
+      "text": {
+        "ru": "6. Выполнять какие-либо действия или говорить перед аудиторией — страх или тревога",
+        "en": "6. Performing or speaking in front of an audience — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_6_avoid",
+      "text": {
+        "ru": "6. Выполнять какие-либо действия или говорить перед аудиторией — избегание ситуации",
+        "en": "6. Performing or speaking in front of an audience — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_7_fear",
+      "text": {
+        "ru": "7. Участвовать в вечеринке, идти в гости — страх или тревога",
+        "en": "7. Going to a party or visiting others — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_7_avoid",
+      "text": {
+        "ru": "7. Участвовать в вечеринке, идти в гости — избегание ситуации",
+        "en": "7. Going to a party or visiting others — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_8_fear",
+      "text": {
+        "ru": "8. Работать под наблюдением (в присутствии) кого-либо — страх или тревога",
+        "en": "8. Working while someone is watching — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_8_avoid",
+      "text": {
+        "ru": "8. Работать под наблюдением (в присутствии) кого-либо — избегание ситуации",
+        "en": "8. Working while someone is watching — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_9_fear",
+      "text": {
+        "ru": "9. Писать под наблюдением (в присутствии) кого-либо — страх или тревога",
+        "en": "9. Writing while someone is watching — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_9_avoid",
+      "text": {
+        "ru": "9. Писать под наблюдением (в присутствии) кого-либо — избегание ситуации",
+        "en": "9. Writing while someone is watching — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_10_fear",
+      "text": {
+        "ru": "10. Говорить по телефону с малознакомым человеком — страх или тревога",
+        "en": "10. Talking on the phone with someone you do not know well — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_10_avoid",
+      "text": {
+        "ru": "10. Говорить по телефону с малознакомым человеком — избегание ситуации",
+        "en": "10. Talking on the phone with someone you do not know well — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_11_fear",
+      "text": {
+        "ru": "11. Говорить с глазу на глаз с малознакомым человеком — страх или тревога",
+        "en": "11. Talking face to face with someone you do not know well — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_11_avoid",
+      "text": {
+        "ru": "11. Говорить с глазу на глаз с малознакомым человеком — избегание ситуации",
+        "en": "11. Talking face to face with someone you do not know well — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_12_fear",
+      "text": {
+        "ru": "12. Встречаться с незнакомыми людьми — страх или тревога",
+        "en": "12. Meeting strangers — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_12_avoid",
+      "text": {
+        "ru": "12. Встречаться с незнакомыми людьми — избегание ситуации",
+        "en": "12. Meeting strangers — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_13_fear",
+      "text": {
+        "ru": "13. Мочиться в общественном туалете — страх или тревога",
+        "en": "13. Using a public restroom — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_13_avoid",
+      "text": {
+        "ru": "13. Мочиться в общественном туалете — избегание ситуации",
+        "en": "13. Using a public restroom — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_14_fear",
+      "text": {
+        "ru": "14. Входить в комнату, где уже сидят другие люди — страх или тревога",
+        "en": "14. Entering a room when others are already seated — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_14_avoid",
+      "text": {
+        "ru": "14. Входить в комнату, где уже сидят другие люди — избегание ситуации",
+        "en": "14. Entering a room when others are already seated — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_15_fear",
+      "text": {
+        "ru": "15. Быть в центре внимания — страх или тревога",
+        "en": "15. Being the center of attention — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_15_avoid",
+      "text": {
+        "ru": "15. Быть в центре внимания — избегание ситуации",
+        "en": "15. Being the center of attention — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_16_fear",
+      "text": {
+        "ru": "16. Выступать на собрании без подготовки — страх или тревога",
+        "en": "16. Speaking up at a meeting without preparation — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_16_avoid",
+      "text": {
+        "ru": "16. Выступать на собрании без подготовки — избегание ситуации",
+        "en": "16. Speaking up at a meeting without preparation — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_17_fear",
+      "text": {
+        "ru": "17. Тестироваться на умения, способности, знания — страх или тревога",
+        "en": "17. Being tested on your skills, abilities, or knowledge — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_17_avoid",
+      "text": {
+        "ru": "17. Тестироваться на умения, способности, знания — избегание ситуации",
+        "en": "17. Being tested on your skills, abilities, or knowledge — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_18_fear",
+      "text": {
+        "ru": "18. Выражать неодобрение или несогласие с малознакомым человеком — страх или тревога",
+        "en": "18. Expressing disagreement to someone you do not know well — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_18_avoid",
+      "text": {
+        "ru": "18. Выражать неодобрение или несогласие с малознакомым человеком — избегание ситуации",
+        "en": "18. Expressing disagreement to someone you do not know well — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_19_fear",
+      "text": {
+        "ru": "19. Смотреть прямо в глаза малознакомому человеку — страх или тревога",
+        "en": "19. Looking a stranger in the eyes — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_19_avoid",
+      "text": {
+        "ru": "19. Смотреть прямо в глаза малознакомому человеку — избегание ситуации",
+        "en": "19. Looking a stranger in the eyes — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_20_fear",
+      "text": {
+        "ru": "20. Выступать с подготовленной речью перед группой людей — страх или тревога",
+        "en": "20. Giving a prepared talk in front of a group — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_20_avoid",
+      "text": {
+        "ru": "20. Выступать с подготовленной речью перед группой людей — избегание ситуации",
+        "en": "20. Giving a prepared talk in front of a group — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_21_fear",
+      "text": {
+        "ru": "21. Пытаться познакомиться с кем-то с целью сексуальных или романтических отношений — страх или тревога",
+        "en": "21. Trying to start a romantic or sexual relationship — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_21_avoid",
+      "text": {
+        "ru": "21. Пытаться познакомиться с кем-то с целью сексуальных или романтических отношений — избегание ситуации",
+        "en": "21. Trying to start a romantic or sexual relationship — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_22_fear",
+      "text": {
+        "ru": "22. Возвратить товар в магазин или договориться о выплате компенсации — страх или тревога",
+        "en": "22. Returning goods to a store or asking for a refund — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_22_avoid",
+      "text": {
+        "ru": "22. Возвратить товар в магазин или договориться о выплате компенсации — избегание ситуации",
+        "en": "22. Returning goods to a store or asking for a refund — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_23_fear",
+      "text": {
+        "ru": "23. Организовать вечеринку / пригласить гостей — страх или тревога",
+        "en": "23. Hosting a party or inviting guests — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_23_avoid",
+      "text": {
+        "ru": "23. Организовать вечеринку / пригласить гостей — избегание ситуации",
+        "en": "23. Hosting a party or inviting guests — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_24_fear",
+      "text": {
+        "ru": "24. Устоять перед настойчивыми предложениями продавца — страх или тревога",
+        "en": "24. Resisting a salesperson’s persistent offers — fear or anxiety"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Отсутствует",
+            "en": "None",
+            "fr": "Absent",
+            "de": "Nicht vorhanden",
+            "pt": "Ausente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Выражены слабо",
+            "en": "Mild",
+            "fr": "Léger",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Выражены умеренно",
+            "en": "Moderate",
+            "fr": "Modéré",
+            "de": "Mäßig",
+            "pt": "Moderado"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Выражены сильно",
+            "en": "Severe",
+            "fr": "Sévère",
+            "de": "Stark",
+            "pt": "Severo"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "lsas_24_avoid",
+      "text": {
+        "ru": "24. Устоять перед настойчивыми предложениями продавца — избегание ситуации",
+        "en": "24. Resisting a salesperson’s persistent offers — avoidance"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Occasionally",
+            "fr": "Parfois",
+            "de": "Gelegentlich",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Как правило",
+            "en": "Usually",
+            "fr": "En général",
+            "de": "In der Regel",
+            "pt": "Em geral"
+          },
+          "score": 4
+        }
+      ]
+    }
+  ]
+}

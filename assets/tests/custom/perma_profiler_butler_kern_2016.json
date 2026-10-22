@@ -1,0 +1,2993 @@
+{
+  "id": "perma_profiler",
+  "category": "wellbeing",
+  "title": {
+    "ru": "PERMA-Profiler",
+    "en": "PERMA-Profiler",
+    "fr": "PERMA-Profiler",
+    "de": "PERMA-Profiler",
+    "pt": "PERMA-Profiler"
+  },
+  "subtitle": {
+    "ru": "Благополучие по модели PERMA, здоровье, настроение и одиночество.",
+    "en": "Well-being across PERMA pillars plus health, mood, and loneliness.",
+    "fr": "Bien-être selon le modèle PERMA, santé, affects et solitude.",
+    "de": "Wohlbefinden nach PERMA plus Gesundheit, Affekte und Einsamkeit.",
+    "pt": "Bem-estar nos pilares PERMA, saúde, afetos e solidão."
+  },
+  "description": {
+    "ru": "Многомерная самооценка благополучия по модели PERMA (позитивные эмоции, вовлечённость, отношения, смысл, достижения) и смежным темам: здоровье, переживание тревоги, гнева и грусти, одиночество, общее чувство счастья. Не диагноз.",
+    "en": "A multidimensional look at flourishing across PERMA—positive emotion, engagement, relationships, meaning, accomplishment—plus health, anxiety/anger/sadness, loneliness, and overall happiness. Not a diagnosis.",
+    "fr": "Vue multidimensionnelle du bien-être selon PERMA et domaines proches (santé, affects difficiles, solitude, bonheur). Pas un diagnostic.",
+    "de": "Mehrdimensionale Selbstbeschreibung zu PERMA und verwandten Bereichen (Gesundheit, schwierige Gefühle, Einsamkeit, Glück). Keine Diagnose.",
+    "pt": "Visão multidimensional de florescimento com PERMA e temas relacionados (saúde, afetos difíceis, solidão, felicidade). Não é diagnóstico."
+  },
+  "instructions": {
+    "ru": "Отвечайте по тому, как вы себя чувствуете в целом в последнее время. Для каждого утверждения выберите вариант на шкале — от крайнего слева до крайнего справа, в зависимости от того, насколько это о вас.",
+    "en": "Answer based on how you have been feeling in general lately. For each statement, pick the point on the scale—from one end to the other—that best fits you.",
+    "fr": "Répondez selon ce que vous ressentez en général récemment. Pour chaque phrase, choisissez sur l’échelle la position qui vous correspond le mieux.",
+    "de": "Antworten Sie nach dem, was Sie in letzter Zeit im Allgemeinen fühlen. Wählen Sie pro Aussage die Stelle auf der Skala, die am besten passt.",
+    "pt": "Responda com base em como você tem se sentido em geral. Para cada frase, escolha na escala o ponto que melhor combina com você."
+  },
+  "maxScore": 230,
+  "resultSubscalesOnly": true,
+  "bandsBasis": "raw",
+  "bands": [],
+  "subscales": [
+    {
+      "id": "p",
+      "label": {
+        "ru": "P — позитивные эмоции",
+        "en": "P — Positive emotion",
+        "fr": "P — Émotion positive",
+        "de": "P — Positive Emotionen",
+        "pt": "P — Emoção positiva"
+      },
+      "itemIndices": [
+        0,
+        1,
+        2
+      ],
+      "maxScore": 30
+    },
+    {
+      "id": "e",
+      "label": {
+        "ru": "E — вовлечённость",
+        "en": "E — Engagement",
+        "fr": "E — Engagement",
+        "de": "E — Engagement",
+        "pt": "E — Envolvimento"
+      },
+      "itemIndices": [
+        3,
+        4,
+        5
+      ],
+      "maxScore": 30
+    },
+    {
+      "id": "r",
+      "label": {
+        "ru": "R — отношения",
+        "en": "R — Relationships",
+        "fr": "R — Relations",
+        "de": "R — Beziehungen",
+        "pt": "R — Relações"
+      },
+      "itemIndices": [
+        6,
+        7,
+        8
+      ],
+      "maxScore": 30
+    },
+    {
+      "id": "m",
+      "label": {
+        "ru": "M — смысл",
+        "en": "M — Meaning",
+        "fr": "M — Sens",
+        "de": "M — Sinn",
+        "pt": "M — Sentido"
+      },
+      "itemIndices": [
+        9,
+        10,
+        11
+      ],
+      "maxScore": 30
+    },
+    {
+      "id": "a",
+      "label": {
+        "ru": "A — достижения",
+        "en": "A — Accomplishment",
+        "fr": "A — Accomplissement",
+        "de": "A — Errungenschaft",
+        "pt": "A — Realização"
+      },
+      "itemIndices": [
+        12,
+        13,
+        14
+      ],
+      "maxScore": 30
+    },
+    {
+      "id": "health",
+      "label": {
+        "ru": "Физическое здоровье",
+        "en": "Physical health",
+        "fr": "Santé physique",
+        "de": "Körperliche Gesundheit",
+        "pt": "Saúde física"
+      },
+      "itemIndices": [
+        15,
+        16,
+        17
+      ],
+      "maxScore": 30
+    },
+    {
+      "id": "neg",
+      "label": {
+        "ru": "Негативные эмоции (тревога, гнев, грусть)",
+        "en": "Negative emotion (anxiety, anger, sadness)",
+        "fr": "Émotion négative (anxiété, colère, tristesse)",
+        "de": "Negative Emotionen (Angst, Wut, Traurigkeit)",
+        "pt": "Emoção negativa (ansiedade, raiva, tristeza)"
+      },
+      "itemIndices": [
+        18,
+        19,
+        20
+      ],
+      "maxScore": 30
+    },
+    {
+      "id": "lonely",
+      "label": {
+        "ru": "Одиночество",
+        "en": "Loneliness",
+        "fr": "Solitude",
+        "de": "Einsamkeit",
+        "pt": "Solidão"
+      },
+      "itemIndices": [
+        21
+      ],
+      "maxScore": 10
+    },
+    {
+      "id": "happy",
+      "label": {
+        "ru": "Общее чувство счастья",
+        "en": "Overall happiness",
+        "fr": "Bonheur global",
+        "de": "Allgemeines Glücksempfinden",
+        "pt": "Felicidade geral"
+      },
+      "itemIndices": [
+        22
+      ],
+      "maxScore": 10
+    }
+  ],
+  "resultNote": {
+    "ru": "Результат разбит по областям: пять столпов PERMA, здоровье, негативные эмоции, одиночество и общее счастье. Блок негативных эмоций показывает, как часто вы замечали у себя тревогу, гнев и грусть — это отдельная тема, а не «обратный» PERMA.",
+    "en": "Your result is organized by area: the five PERMA pillars, health, negative feelings, loneliness, and overall happiness. The negative-emotion section reflects how often you noticed anxiety, anger, and sadness—it is separate from the PERMA pillars.",
+    "fr": "Le résultat est découpé par domaines : cinq piliers PERMA, santé, affects difficiles, solitude et bonheur. La partie émotions négatives reflète la fréquence de l’anxiété, de la colère et de la tristesse.",
+    "de": "Das Ergebnis ist nach Bereichen gegliedert: fünf PERMA-Säulen, Gesundheit, schwierige Gefühle, Einsamkeit und Glück. Der Block negative Emotionen betrifft Häufigkeit von Angst, Wut und Traurigkeit.",
+    "pt": "O resultado vem por áreas: cinco pilares PERMA, saúde, emoções difíceis, solidão e felicidade. A parte de emoções negativas reflete com que frequência você notou ansiedade, raiva e tristeza."
+  },
+  "questions": [
+    {
+      "id": "perma_1",
+      "text": {
+        "ru": "В целом, как часто вы чувствуете радость?",
+        "en": "In general, how often do you feel joyful?",
+        "fr": "En général, à quelle fréquence vous sentez-vous joyeux/joyeuse ?",
+        "de": "Wie oft fühlen Sie sich im Allgemeinen freudig?",
+        "pt": "No geral, com que frequência você se sente alegre?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "1",
+            "en": "1",
+            "fr": "1",
+            "de": "1",
+            "pt": "1"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "2",
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "pt": "2"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "3",
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "pt": "3"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "4",
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "pt": "4"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "5",
+            "en": "5",
+            "fr": "5",
+            "de": "5",
+            "pt": "5"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "6",
+            "en": "6",
+            "fr": "6",
+            "de": "6",
+            "pt": "6"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "7",
+            "en": "7",
+            "fr": "7",
+            "de": "7",
+            "pt": "7"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "8",
+            "en": "8",
+            "fr": "8",
+            "de": "8",
+            "pt": "8"
+          },
+          "score": 8
+        },
+        {
+          "label": {
+            "ru": "9",
+            "en": "9",
+            "fr": "9",
+            "de": "9",
+            "pt": "9"
+          },
+          "score": 9
+        },
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "perma_2",
+      "text": {
+        "ru": "В целом, как часто вы чувствуете себя на позитиве?",
+        "en": "In general, how often do you feel positive?",
+        "fr": "En général, à quelle fréquence vous sentez-vous positif/positive ?",
+        "de": "Wie oft fühlen Sie sich im Allgemeinen positiv?",
+        "pt": "No geral, com que frequência você se sente positivo(a)?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "1",
+            "en": "1",
+            "fr": "1",
+            "de": "1",
+            "pt": "1"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "2",
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "pt": "2"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "3",
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "pt": "3"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "4",
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "pt": "4"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "5",
+            "en": "5",
+            "fr": "5",
+            "de": "5",
+            "pt": "5"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "6",
+            "en": "6",
+            "fr": "6",
+            "de": "6",
+            "pt": "6"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "7",
+            "en": "7",
+            "fr": "7",
+            "de": "7",
+            "pt": "7"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "8",
+            "en": "8",
+            "fr": "8",
+            "de": "8",
+            "pt": "8"
+          },
+          "score": 8
+        },
+        {
+          "label": {
+            "ru": "9",
+            "en": "9",
+            "fr": "9",
+            "de": "9",
+            "pt": "9"
+          },
+          "score": 9
+        },
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "perma_3",
+      "text": {
+        "ru": "В целом, насколько вы чувствуете удовлетворённость?",
+        "en": "In general, to what extent do you feel contented?",
+        "fr": "Dans l’ensemble, dans quelle mesure vous sentez-vous satisfait(e) / en paix ?",
+        "de": "Inwiefern fühlen Sie sich im Allgemeinen zufrieden?",
+        "pt": "No geral, em que medida você se sente satisfeito(a) / em paz?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "1",
+            "en": "1",
+            "fr": "1",
+            "de": "1",
+            "pt": "1"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "2",
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "pt": "2"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "3",
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "pt": "3"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "4",
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "pt": "4"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "5",
+            "en": "5",
+            "fr": "5",
+            "de": "5",
+            "pt": "5"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "6",
+            "en": "6",
+            "fr": "6",
+            "de": "6",
+            "pt": "6"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "7",
+            "en": "7",
+            "fr": "7",
+            "de": "7",
+            "pt": "7"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "8",
+            "en": "8",
+            "fr": "8",
+            "de": "8",
+            "pt": "8"
+          },
+          "score": 8
+        },
+        {
+          "label": {
+            "ru": "9",
+            "en": "9",
+            "fr": "9",
+            "de": "9",
+            "pt": "9"
+          },
+          "score": 9
+        },
+        {
+          "label": {
+            "ru": "Полностью",
+            "en": "Completely",
+            "fr": "Tout à fait",
+            "de": "Voll und ganz",
+            "pt": "Completamente"
+          },
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "perma_4",
+      "text": {
+        "ru": "Как часто вы увлекаетесь тем, чем занимаетесь?",
+        "en": "How often do you become absorbed in what you are doing?",
+        "fr": "À quelle fréquence vous absorbez-vous dans ce que vous faites ?",
+        "de": "Wie oft gehen Sie in dem, was Sie tun, voll auf?",
+        "pt": "Com que frequência você se absorve no que está fazendo?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "1",
+            "en": "1",
+            "fr": "1",
+            "de": "1",
+            "pt": "1"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "2",
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "pt": "2"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "3",
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "pt": "3"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "4",
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "pt": "4"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "5",
+            "en": "5",
+            "fr": "5",
+            "de": "5",
+            "pt": "5"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "6",
+            "en": "6",
+            "fr": "6",
+            "de": "6",
+            "pt": "6"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "7",
+            "en": "7",
+            "fr": "7",
+            "de": "7",
+            "pt": "7"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "8",
+            "en": "8",
+            "fr": "8",
+            "de": "8",
+            "pt": "8"
+          },
+          "score": 8
+        },
+        {
+          "label": {
+            "ru": "9",
+            "en": "9",
+            "fr": "9",
+            "de": "9",
+            "pt": "9"
+          },
+          "score": 9
+        },
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "perma_5",
+      "text": {
+        "ru": "В целом, насколько вы чувствуете интерес и вовлечённость к делам?",
+        "en": "In general, to what extent do you feel excited and interested in things?",
+        "fr": "En général, dans quelle mesure vous sentez-vous enthousiaste et intéressé(e) par les choses ?",
+        "de": "Inwiefern fühlen Sie sich im Allgemeinen aufgeregt und an Dingen interessiert?",
+        "pt": "No geral, em que medida você se sente animado(a) e interessado(a) pelas coisas?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "1",
+            "en": "1",
+            "fr": "1",
+            "de": "1",
+            "pt": "1"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "2",
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "pt": "2"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "3",
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "pt": "3"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "4",
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "pt": "4"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "5",
+            "en": "5",
+            "fr": "5",
+            "de": "5",
+            "pt": "5"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "6",
+            "en": "6",
+            "fr": "6",
+            "de": "6",
+            "pt": "6"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "7",
+            "en": "7",
+            "fr": "7",
+            "de": "7",
+            "pt": "7"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "8",
+            "en": "8",
+            "fr": "8",
+            "de": "8",
+            "pt": "8"
+          },
+          "score": 8
+        },
+        {
+          "label": {
+            "ru": "9",
+            "en": "9",
+            "fr": "9",
+            "de": "9",
+            "pt": "9"
+          },
+          "score": 9
+        },
+        {
+          "label": {
+            "ru": "Полностью",
+            "en": "Completely",
+            "fr": "Tout à fait",
+            "de": "Voll und ganz",
+            "pt": "Completamente"
+          },
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "perma_6",
+      "text": {
+        "ru": "Как часто вы теряете счёт времени, занимаясь чем-то приятным?",
+        "en": "How often do you lose track of time while doing something you enjoy?",
+        "fr": "À quelle fréquence perdez-vous la notion du temps en faisant quelque chose que vous aimez ?",
+        "de": "Wie oft verlieren Sie die Zeit aus den Augen, während Sie etwas tun, das Ihnen Freude macht?",
+        "pt": "Com que frequência você perde a noção do tempo fazendo algo que gosta?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "1",
+            "en": "1",
+            "fr": "1",
+            "de": "1",
+            "pt": "1"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "2",
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "pt": "2"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "3",
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "pt": "3"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "4",
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "pt": "4"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "5",
+            "en": "5",
+            "fr": "5",
+            "de": "5",
+            "pt": "5"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "6",
+            "en": "6",
+            "fr": "6",
+            "de": "6",
+            "pt": "6"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "7",
+            "en": "7",
+            "fr": "7",
+            "de": "7",
+            "pt": "7"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "8",
+            "en": "8",
+            "fr": "8",
+            "de": "8",
+            "pt": "8"
+          },
+          "score": 8
+        },
+        {
+          "label": {
+            "ru": "9",
+            "en": "9",
+            "fr": "9",
+            "de": "9",
+            "pt": "9"
+          },
+          "score": 9
+        },
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "perma_7",
+      "text": {
+        "ru": "В какой мере вы получаете помощь и поддержку от других, когда она вам нужна?",
+        "en": "To what extent do you receive help and support from others when you need it?",
+        "fr": "Dans quelle mesure recevez-vous de l’aide et du soutien des autres quand vous en avez besoin ?",
+        "de": "Inwiefern erhalten Sie Hilfe und Unterstützung von anderen, wenn Sie sie brauchen?",
+        "pt": "Em que medida você recebe ajuda e apoio dos outros quando precisa?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "1",
+            "en": "1",
+            "fr": "1",
+            "de": "1",
+            "pt": "1"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "2",
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "pt": "2"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "3",
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "pt": "3"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "4",
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "pt": "4"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "5",
+            "en": "5",
+            "fr": "5",
+            "de": "5",
+            "pt": "5"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "6",
+            "en": "6",
+            "fr": "6",
+            "de": "6",
+            "pt": "6"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "7",
+            "en": "7",
+            "fr": "7",
+            "de": "7",
+            "pt": "7"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "8",
+            "en": "8",
+            "fr": "8",
+            "de": "8",
+            "pt": "8"
+          },
+          "score": 8
+        },
+        {
+          "label": {
+            "ru": "9",
+            "en": "9",
+            "fr": "9",
+            "de": "9",
+            "pt": "9"
+          },
+          "score": 9
+        },
+        {
+          "label": {
+            "ru": "Полностью",
+            "en": "Completely",
+            "fr": "Tout à fait",
+            "de": "Voll und ganz",
+            "pt": "Completamente"
+          },
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "perma_8",
+      "text": {
+        "ru": "В какой мере вы чувствуете, что вас любят?",
+        "en": "To what extent do you feel loved?",
+        "fr": "Dans quelle mesure vous sentez-vous aimé(e) ?",
+        "de": "Inwiefern fühlen Sie sich geliebt?",
+        "pt": "Em que medida você se sente amado(a)?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "1",
+            "en": "1",
+            "fr": "1",
+            "de": "1",
+            "pt": "1"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "2",
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "pt": "2"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "3",
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "pt": "3"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "4",
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "pt": "4"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "5",
+            "en": "5",
+            "fr": "5",
+            "de": "5",
+            "pt": "5"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "6",
+            "en": "6",
+            "fr": "6",
+            "de": "6",
+            "pt": "6"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "7",
+            "en": "7",
+            "fr": "7",
+            "de": "7",
+            "pt": "7"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "8",
+            "en": "8",
+            "fr": "8",
+            "de": "8",
+            "pt": "8"
+          },
+          "score": 8
+        },
+        {
+          "label": {
+            "ru": "9",
+            "en": "9",
+            "fr": "9",
+            "de": "9",
+            "pt": "9"
+          },
+          "score": 9
+        },
+        {
+          "label": {
+            "ru": "Полностью",
+            "en": "Completely",
+            "fr": "Tout à fait",
+            "de": "Voll und ganz",
+            "pt": "Completamente"
+          },
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "perma_9",
+      "text": {
+        "ru": "Насколько вы удовлетворены личными отношениями?",
+        "en": "How satisfied are you with your personal relationships?",
+        "fr": "Êtes-vous satisfait(e) de vos relations personnelles ?",
+        "de": "Wie zufrieden sind Sie mit Ihren persönlichen Beziehungen?",
+        "pt": "Quão satisfeito(a) você está com seus relacionamentos pessoais?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не удовлетворён(а)",
+            "en": "Not at all satisfied",
+            "fr": "Pas du tout satisfait(e)",
+            "de": "Überhaupt nicht zufrieden",
+            "pt": "Nada satisfeito(a)"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "1",
+            "en": "1",
+            "fr": "1",
+            "de": "1",
+            "pt": "1"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "2",
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "pt": "2"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "3",
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "pt": "3"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "4",
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "pt": "4"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "5",
+            "en": "5",
+            "fr": "5",
+            "de": "5",
+            "pt": "5"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "6",
+            "en": "6",
+            "fr": "6",
+            "de": "6",
+            "pt": "6"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "7",
+            "en": "7",
+            "fr": "7",
+            "de": "7",
+            "pt": "7"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "8",
+            "en": "8",
+            "fr": "8",
+            "de": "8",
+            "pt": "8"
+          },
+          "score": 8
+        },
+        {
+          "label": {
+            "ru": "9",
+            "en": "9",
+            "fr": "9",
+            "de": "9",
+            "pt": "9"
+          },
+          "score": 9
+        },
+        {
+          "label": {
+            "ru": "Полностью удовлетворён(а)",
+            "en": "Completely satisfied",
+            "fr": "Entièrement satisfait(e)",
+            "de": "Vollkommen zufrieden",
+            "pt": "Completamente satisfeito(a)"
+          },
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "perma_10",
+      "text": {
+        "ru": "В целом, насколько ваша жизнь кажется вам осмысленной и целенаправленной?",
+        "en": "In general, to what extent do you lead a purposeful and meaningful life?",
+        "fr": "En général, dans quelle mesure menez-vous une vie qui vous semble pleine de sens et de but ?",
+        "de": "Inwiefern führen Sie im Allgemeinen ein sinnvolles und zielgerichtetes Leben?",
+        "pt": "No geral, em que medida você leva uma vida com propósito e sentido?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "1",
+            "en": "1",
+            "fr": "1",
+            "de": "1",
+            "pt": "1"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "2",
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "pt": "2"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "3",
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "pt": "3"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "4",
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "pt": "4"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "5",
+            "en": "5",
+            "fr": "5",
+            "de": "5",
+            "pt": "5"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "6",
+            "en": "6",
+            "fr": "6",
+            "de": "6",
+            "pt": "6"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "7",
+            "en": "7",
+            "fr": "7",
+            "de": "7",
+            "pt": "7"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "8",
+            "en": "8",
+            "fr": "8",
+            "de": "8",
+            "pt": "8"
+          },
+          "score": 8
+        },
+        {
+          "label": {
+            "ru": "9",
+            "en": "9",
+            "fr": "9",
+            "de": "9",
+            "pt": "9"
+          },
+          "score": 9
+        },
+        {
+          "label": {
+            "ru": "Полностью",
+            "en": "Completely",
+            "fr": "Tout à fait",
+            "de": "Voll und ganz",
+            "pt": "Completamente"
+          },
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "perma_11",
+      "text": {
+        "ru": "В целом, насколько то, что вы делаете в жизни, кажется вам ценным и стоящим?",
+        "en": "In general, to what extent do you feel that what you do in your life is valuable and worthwhile?",
+        "fr": "En général, dans quelle mesure ce que vous faites dans la vie vous semble-t-il précieux et utile ?",
+        "de": "Inwiefern empfinden Sie im Allgemeinen das, was Sie im Leben tun, als wertvoll und sinnvoll?",
+        "pt": "No geral, em que medida o que você faz na vida parece valioso e que vale a pena?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "1",
+            "en": "1",
+            "fr": "1",
+            "de": "1",
+            "pt": "1"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "2",
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "pt": "2"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "3",
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "pt": "3"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "4",
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "pt": "4"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "5",
+            "en": "5",
+            "fr": "5",
+            "de": "5",
+            "pt": "5"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "6",
+            "en": "6",
+            "fr": "6",
+            "de": "6",
+            "pt": "6"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "7",
+            "en": "7",
+            "fr": "7",
+            "de": "7",
+            "pt": "7"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "8",
+            "en": "8",
+            "fr": "8",
+            "de": "8",
+            "pt": "8"
+          },
+          "score": 8
+        },
+        {
+          "label": {
+            "ru": "9",
+            "en": "9",
+            "fr": "9",
+            "de": "9",
+            "pt": "9"
+          },
+          "score": 9
+        },
+        {
+          "label": {
+            "ru": "Полностью",
+            "en": "Completely",
+            "fr": "Tout à fait",
+            "de": "Voll und ganz",
+            "pt": "Completamente"
+          },
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "perma_12",
+      "text": {
+        "ru": "В какой мере вы в целом чувствуете направление / вектор в своей жизни?",
+        "en": "To what extent do you generally feel you have a sense of direction in your life?",
+        "fr": "Dans quelle mesure avez-vous en général le sentiment d’avoir une direction dans votre vie ?",
+        "de": "Inwiefern haben Sie im Allgemeinen das Gefühl, eine Richtung in Ihrem Leben zu haben?",
+        "pt": "Em que medida você sente, em geral, que tem uma direção na vida?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "1",
+            "en": "1",
+            "fr": "1",
+            "de": "1",
+            "pt": "1"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "2",
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "pt": "2"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "3",
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "pt": "3"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "4",
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "pt": "4"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "5",
+            "en": "5",
+            "fr": "5",
+            "de": "5",
+            "pt": "5"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "6",
+            "en": "6",
+            "fr": "6",
+            "de": "6",
+            "pt": "6"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "7",
+            "en": "7",
+            "fr": "7",
+            "de": "7",
+            "pt": "7"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "8",
+            "en": "8",
+            "fr": "8",
+            "de": "8",
+            "pt": "8"
+          },
+          "score": 8
+        },
+        {
+          "label": {
+            "ru": "9",
+            "en": "9",
+            "fr": "9",
+            "de": "9",
+            "pt": "9"
+          },
+          "score": 9
+        },
+        {
+          "label": {
+            "ru": "Полностью",
+            "en": "Completely",
+            "fr": "Tout à fait",
+            "de": "Voll und ganz",
+            "pt": "Completamente"
+          },
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "perma_13",
+      "text": {
+        "ru": "Какую долю времени вы чувствуете, что движетесь к своим целям?",
+        "en": "How much of the time do you feel you are making progress towards accomplishing your goals?",
+        "fr": "Combien de temps avez-vous l’impression de progresser vers vos objectifs ?",
+        "de": "Wie oft haben Sie das Gefühl, Ihren Zielen näherzukommen?",
+        "pt": "Quanto do tempo você sente que está progredindo rumo às suas metas?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Ни разу",
+            "en": "None of the time",
+            "fr": "Jamais",
+            "de": "Zu keiner Zeit",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "1",
+            "en": "1",
+            "fr": "1",
+            "de": "1",
+            "pt": "1"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "2",
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "pt": "2"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "3",
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "pt": "3"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "4",
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "pt": "4"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "5",
+            "en": "5",
+            "fr": "5",
+            "de": "5",
+            "pt": "5"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "6",
+            "en": "6",
+            "fr": "6",
+            "de": "6",
+            "pt": "6"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "7",
+            "en": "7",
+            "fr": "7",
+            "de": "7",
+            "pt": "7"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "8",
+            "en": "8",
+            "fr": "8",
+            "de": "8",
+            "pt": "8"
+          },
+          "score": 8
+        },
+        {
+          "label": {
+            "ru": "9",
+            "en": "9",
+            "fr": "9",
+            "de": "9",
+            "pt": "9"
+          },
+          "score": 9
+        },
+        {
+          "label": {
+            "ru": "Всё время",
+            "en": "All of the time",
+            "fr": "Tout le temps",
+            "de": "Die ganze Zeit",
+            "pt": "O tempo todo"
+          },
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "perma_14",
+      "text": {
+        "ru": "Как часто вам удаётся достигать важных целей, которые вы себе ставите?",
+        "en": "How often do you achieve the important goals you have set for yourself?",
+        "fr": "À quelle fréquence atteignez-vous les objectifs importants que vous vous fixez ?",
+        "de": "Wie oft erreichen Sie die wichtigen Ziele, die Sie sich setzen?",
+        "pt": "Com que frequência você alcança as metas importantes que define para si?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "1",
+            "en": "1",
+            "fr": "1",
+            "de": "1",
+            "pt": "1"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "2",
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "pt": "2"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "3",
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "pt": "3"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "4",
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "pt": "4"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "5",
+            "en": "5",
+            "fr": "5",
+            "de": "5",
+            "pt": "5"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "6",
+            "en": "6",
+            "fr": "6",
+            "de": "6",
+            "pt": "6"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "7",
+            "en": "7",
+            "fr": "7",
+            "de": "7",
+            "pt": "7"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "8",
+            "en": "8",
+            "fr": "8",
+            "de": "8",
+            "pt": "8"
+          },
+          "score": 8
+        },
+        {
+          "label": {
+            "ru": "9",
+            "en": "9",
+            "fr": "9",
+            "de": "9",
+            "pt": "9"
+          },
+          "score": 9
+        },
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "perma_15",
+      "text": {
+        "ru": "Как часто вам удаётся справляться с вашими обязанностями?",
+        "en": "How often are you able to handle your responsibilities?",
+        "fr": "À quelle fréquence arrivez-vous à assumer vos responsabilités ?",
+        "de": "Wie oft können Sie Ihren Verpflichtungen gerecht werden?",
+        "pt": "Com que frequência você consegue lidar com suas responsabilidades?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "1",
+            "en": "1",
+            "fr": "1",
+            "de": "1",
+            "pt": "1"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "2",
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "pt": "2"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "3",
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "pt": "3"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "4",
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "pt": "4"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "5",
+            "en": "5",
+            "fr": "5",
+            "de": "5",
+            "pt": "5"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "6",
+            "en": "6",
+            "fr": "6",
+            "de": "6",
+            "pt": "6"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "7",
+            "en": "7",
+            "fr": "7",
+            "de": "7",
+            "pt": "7"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "8",
+            "en": "8",
+            "fr": "8",
+            "de": "8",
+            "pt": "8"
+          },
+          "score": 8
+        },
+        {
+          "label": {
+            "ru": "9",
+            "en": "9",
+            "fr": "9",
+            "de": "9",
+            "pt": "9"
+          },
+          "score": 9
+        },
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "perma_16",
+      "text": {
+        "ru": "Как бы вы в целом оценили своё физическое здоровье?",
+        "en": "In general, how would you say your physical health is?",
+        "fr": "En général, comment décririez-vous votre santé physique ?",
+        "de": "Wie würden Sie im Allgemeinen Ihre körperliche Gesundheit beschreiben?",
+        "pt": "No geral, como você descreveria sua saúde física?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Очень плохо",
+            "en": "Very poor",
+            "fr": "Très mauvaise",
+            "de": "Sehr schlecht",
+            "pt": "Muito ruim"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "1",
+            "en": "1",
+            "fr": "1",
+            "de": "1",
+            "pt": "1"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "2",
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "pt": "2"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "3",
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "pt": "3"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "4",
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "pt": "4"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "5",
+            "en": "5",
+            "fr": "5",
+            "de": "5",
+            "pt": "5"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "6",
+            "en": "6",
+            "fr": "6",
+            "de": "6",
+            "pt": "6"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "7",
+            "en": "7",
+            "fr": "7",
+            "de": "7",
+            "pt": "7"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "8",
+            "en": "8",
+            "fr": "8",
+            "de": "8",
+            "pt": "8"
+          },
+          "score": 8
+        },
+        {
+          "label": {
+            "ru": "9",
+            "en": "9",
+            "fr": "9",
+            "de": "9",
+            "pt": "9"
+          },
+          "score": 9
+        },
+        {
+          "label": {
+            "ru": "Отлично",
+            "en": "Excellent",
+            "fr": "Excellente",
+            "de": "Ausgezeichnet",
+            "pt": "Excelente"
+          },
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "perma_17",
+      "text": {
+        "ru": "Насколько вы удовлетворены своим текущим физическим здоровьем?",
+        "en": "How satisfied are you with your current physical health?",
+        "fr": "Êtes-vous satisfait(e) de votre santé physique actuelle ?",
+        "de": "Wie zufrieden sind Sie mit Ihrer aktuellen körperlichen Gesundheit?",
+        "pt": "Quão satisfeito(a) você está com sua saúde física atual?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не удовлетворён(а)",
+            "en": "Not at all satisfied",
+            "fr": "Pas du tout satisfait(e)",
+            "de": "Überhaupt nicht zufrieden",
+            "pt": "Nada satisfeito(a)"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "1",
+            "en": "1",
+            "fr": "1",
+            "de": "1",
+            "pt": "1"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "2",
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "pt": "2"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "3",
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "pt": "3"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "4",
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "pt": "4"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "5",
+            "en": "5",
+            "fr": "5",
+            "de": "5",
+            "pt": "5"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "6",
+            "en": "6",
+            "fr": "6",
+            "de": "6",
+            "pt": "6"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "7",
+            "en": "7",
+            "fr": "7",
+            "de": "7",
+            "pt": "7"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "8",
+            "en": "8",
+            "fr": "8",
+            "de": "8",
+            "pt": "8"
+          },
+          "score": 8
+        },
+        {
+          "label": {
+            "ru": "9",
+            "en": "9",
+            "fr": "9",
+            "de": "9",
+            "pt": "9"
+          },
+          "score": 9
+        },
+        {
+          "label": {
+            "ru": "Полностью удовлетворён(а)",
+            "en": "Completely satisfied",
+            "fr": "Entièrement satisfait(e)",
+            "de": "Vollkommen zufrieden",
+            "pt": "Completamente satisfeito(a)"
+          },
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "perma_18",
+      "text": {
+        "ru": "По сравнению с другими вашего возраста и пола, как вы оцениваете своё физическое здоровье?",
+        "en": "Compared with others of your age and sex, how do you rate your physical health?",
+        "fr": "Par rapport à d’autres personnes de votre âge et de votre sexe, comment jugez-vous votre santé physique ?",
+        "de": "Im Vergleich zu anderen Ihres Alters und Geschlechts—wie bewerten Sie Ihre körperliche Gesundheit?",
+        "pt": "Em comparação com outras pessoas da sua idade e sexo, como você avalia sua saúde física?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Намного хуже других",
+            "en": "Much worse than others",
+            "fr": "Bien pire que les autres",
+            "de": "Viel schlechter als andere",
+            "pt": "Muito pior que os outros"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "1",
+            "en": "1",
+            "fr": "1",
+            "de": "1",
+            "pt": "1"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "2",
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "pt": "2"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "3",
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "pt": "3"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "4",
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "pt": "4"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "5",
+            "en": "5",
+            "fr": "5",
+            "de": "5",
+            "pt": "5"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "6",
+            "en": "6",
+            "fr": "6",
+            "de": "6",
+            "pt": "6"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "7",
+            "en": "7",
+            "fr": "7",
+            "de": "7",
+            "pt": "7"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "8",
+            "en": "8",
+            "fr": "8",
+            "de": "8",
+            "pt": "8"
+          },
+          "score": 8
+        },
+        {
+          "label": {
+            "ru": "9",
+            "en": "9",
+            "fr": "9",
+            "de": "9",
+            "pt": "9"
+          },
+          "score": 9
+        },
+        {
+          "label": {
+            "ru": "Намного лучше других",
+            "en": "Much better than others",
+            "fr": "Bien mieux que les autres",
+            "de": "Viel besser als andere",
+            "pt": "Muito melhor que os outros"
+          },
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "perma_19",
+      "text": {
+        "ru": "В целом, как часто вы чувствуете тревогу?",
+        "en": "In general, how often do you feel anxious?",
+        "fr": "En général, à quelle fréquence vous sentez-vous anxieux/anxieuse ?",
+        "de": "Wie oft fühlen Sie sich im Allgemeinen ängstlich?",
+        "pt": "No geral, com que frequência você se sente ansioso(a)?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "1",
+            "en": "1",
+            "fr": "1",
+            "de": "1",
+            "pt": "1"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "2",
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "pt": "2"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "3",
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "pt": "3"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "4",
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "pt": "4"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "5",
+            "en": "5",
+            "fr": "5",
+            "de": "5",
+            "pt": "5"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "6",
+            "en": "6",
+            "fr": "6",
+            "de": "6",
+            "pt": "6"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "7",
+            "en": "7",
+            "fr": "7",
+            "de": "7",
+            "pt": "7"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "8",
+            "en": "8",
+            "fr": "8",
+            "de": "8",
+            "pt": "8"
+          },
+          "score": 8
+        },
+        {
+          "label": {
+            "ru": "9",
+            "en": "9",
+            "fr": "9",
+            "de": "9",
+            "pt": "9"
+          },
+          "score": 9
+        },
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "perma_20",
+      "text": {
+        "ru": "В целом, как часто вы чувствуете гнев?",
+        "en": "In general, how often do you feel angry?",
+        "fr": "En général, à quelle fréquence vous sentez-vous en colère ?",
+        "de": "Wie oft fühlen Sie sich im Allgemeinen wütend?",
+        "pt": "No geral, com que frequência você se sente com raiva?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "1",
+            "en": "1",
+            "fr": "1",
+            "de": "1",
+            "pt": "1"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "2",
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "pt": "2"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "3",
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "pt": "3"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "4",
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "pt": "4"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "5",
+            "en": "5",
+            "fr": "5",
+            "de": "5",
+            "pt": "5"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "6",
+            "en": "6",
+            "fr": "6",
+            "de": "6",
+            "pt": "6"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "7",
+            "en": "7",
+            "fr": "7",
+            "de": "7",
+            "pt": "7"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "8",
+            "en": "8",
+            "fr": "8",
+            "de": "8",
+            "pt": "8"
+          },
+          "score": 8
+        },
+        {
+          "label": {
+            "ru": "9",
+            "en": "9",
+            "fr": "9",
+            "de": "9",
+            "pt": "9"
+          },
+          "score": 9
+        },
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "perma_21",
+      "text": {
+        "ru": "В целом, как часто вы чувствуете грусть?",
+        "en": "In general, how often do you feel sad?",
+        "fr": "En général, à quelle fréquence vous sentez-vous triste ?",
+        "de": "Wie oft fühlen Sie sich im Allgemeinen traurig?",
+        "pt": "No geral, com que frequência você se sente triste?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "1",
+            "en": "1",
+            "fr": "1",
+            "de": "1",
+            "pt": "1"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "2",
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "pt": "2"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "3",
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "pt": "3"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "4",
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "pt": "4"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "5",
+            "en": "5",
+            "fr": "5",
+            "de": "5",
+            "pt": "5"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "6",
+            "en": "6",
+            "fr": "6",
+            "de": "6",
+            "pt": "6"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "7",
+            "en": "7",
+            "fr": "7",
+            "de": "7",
+            "pt": "7"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "8",
+            "en": "8",
+            "fr": "8",
+            "de": "8",
+            "pt": "8"
+          },
+          "score": 8
+        },
+        {
+          "label": {
+            "ru": "9",
+            "en": "9",
+            "fr": "9",
+            "de": "9",
+            "pt": "9"
+          },
+          "score": 9
+        },
+        {
+          "label": {
+            "ru": "Всегда",
+            "en": "Always",
+            "fr": "Toujours",
+            "de": "Immer",
+            "pt": "Sempre"
+          },
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "perma_22",
+      "text": {
+        "ru": "Насколько вы чувствуете себя одиноким(ой) в повседневной жизни?",
+        "en": "How lonely do you feel in your daily life?",
+        "fr": "Dans quelle mesure vous sentez-vous seul/seule dans la vie quotidienne ?",
+        "de": "Wie einsam fühlen Sie sich im Alltag?",
+        "pt": "Em que medida você se sente sozinho(a) na vida cotidiana?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "1",
+            "en": "1",
+            "fr": "1",
+            "de": "1",
+            "pt": "1"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "2",
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "pt": "2"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "3",
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "pt": "3"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "4",
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "pt": "4"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "5",
+            "en": "5",
+            "fr": "5",
+            "de": "5",
+            "pt": "5"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "6",
+            "en": "6",
+            "fr": "6",
+            "de": "6",
+            "pt": "6"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "7",
+            "en": "7",
+            "fr": "7",
+            "de": "7",
+            "pt": "7"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "8",
+            "en": "8",
+            "fr": "8",
+            "de": "8",
+            "pt": "8"
+          },
+          "score": 8
+        },
+        {
+          "label": {
+            "ru": "9",
+            "en": "9",
+            "fr": "9",
+            "de": "9",
+            "pt": "9"
+          },
+          "score": 9
+        },
+        {
+          "label": {
+            "ru": "Полностью",
+            "en": "Completely",
+            "fr": "Tout à fait",
+            "de": "Voll und ganz",
+            "pt": "Completamente"
+          },
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "perma_23",
+      "text": {
+        "ru": "Если учесть всё вместе, насколько вы счастливы?",
+        "en": "Taking all things together, how happy would you say you are?",
+        "fr": "Tout bien considéré, dans quelle mesure diriez-vous être heureux/heureuse ?",
+        "de": "Alles in allem—wie glücklich würden Sie sagen, dass Sie sind?",
+        "pt": "Considerando tudo, quão feliz você diria que é?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не счастлив(а)",
+            "en": "Not at all happy",
+            "fr": "Pas du tout heureux/heureuse",
+            "de": "Überhaupt nicht glücklich",
+            "pt": "Nada feliz"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "1",
+            "en": "1",
+            "fr": "1",
+            "de": "1",
+            "pt": "1"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "2",
+            "en": "2",
+            "fr": "2",
+            "de": "2",
+            "pt": "2"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "3",
+            "en": "3",
+            "fr": "3",
+            "de": "3",
+            "pt": "3"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "4",
+            "en": "4",
+            "fr": "4",
+            "de": "4",
+            "pt": "4"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "5",
+            "en": "5",
+            "fr": "5",
+            "de": "5",
+            "pt": "5"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "6",
+            "en": "6",
+            "fr": "6",
+            "de": "6",
+            "pt": "6"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "7",
+            "en": "7",
+            "fr": "7",
+            "de": "7",
+            "pt": "7"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "8",
+            "en": "8",
+            "fr": "8",
+            "de": "8",
+            "pt": "8"
+          },
+          "score": 8
+        },
+        {
+          "label": {
+            "ru": "9",
+            "en": "9",
+            "fr": "9",
+            "de": "9",
+            "pt": "9"
+          },
+          "score": 9
+        },
+        {
+          "label": {
+            "ru": "Полностью счастлив(а)",
+            "en": "Completely happy",
+            "fr": "Tout à fait heureux/heureuse",
+            "de": "Völlig glücklich",
+            "pt": "Completamente feliz"
+          },
+          "score": 10
+        }
+      ]
+    }
+  ]
+}

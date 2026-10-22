@@ -1,0 +1,1183 @@
+{
+  "id": "spin",
+  "category": "anxiety",
+  "title": {
+    "ru": "SPIN — инвентарь социальной фобии",
+    "en": "SPIN — Social Phobia Inventory",
+    "fr": "SPIN — Inventaire de phobie sociale",
+    "de": "SPIN — Soziale-Phobie-Inventar",
+    "pt": "SPIN — Inventário de fobia social"
+  },
+  "subtitle": {
+    "ru": "Страх и избегание социальных ситуаций за последнюю неделю.",
+    "en": "Fear and avoidance in social situations over the past week.",
+    "fr": "Peur et évitement en situation sociale sur la semaine passée.",
+    "de": "Angst und Vermeidung in sozialen Situationen in der letzten Woche.",
+    "pt": "Medo e evitação em situações sociais na última semana."
+  },
+  "description": {
+    "ru": "Самооценка симптомов социальной тревоги (страх, избегание, телесные проявления). Не заменяет клиническую диагностику. Права на оригинальную методику принадлежат авторам; при использовании в работе указывайте первоисточник.",
+    "en": "Self-rated social anxiety (fear, avoidance, somatic symptoms). Not a diagnosis. The original instrument is copyrighted; cite the primary publication for academic use.",
+    "fr": "Auto-évaluation de l’anxiété sociale. Pas un diagnostic. Instrument protégé ; citez la publication.",
+    "de": "Selbstbeurteilung sozialer Ängste. Keine Diagnose. Urheberrechtlich geschützt; Originalpublikation zitieren.",
+    "pt": "Autoavaliação de ansiedade social. Não é diagnóstico. Instrumento com direitos autorais; cite a publicação."
+  },
+  "instructions": {
+    "ru": "Укажите, насколько каждая проблема беспокоила вас на прошедшей неделе.",
+    "en": "Indicate how much each problem has bothered you during the past week.",
+    "fr": "Indiquez à quel point chaque problème vous a gêné(e) au cours de la dernière semaine.",
+    "de": "Geben Sie an, wie sehr Sie in der letzten Woche unter jedem Problem gelitten haben.",
+    "pt": "Indique o quanto cada problema o incomodou na última semana."
+  },
+  "maxScore": 68,
+  "bandsBasis": "raw",
+  "bands": [
+    {
+      "minInclusive": 0,
+      "maxInclusive": 19,
+      "title": {
+        "ru": "Минимальные симптомы",
+        "en": "Minimal symptoms",
+        "fr": "Symptômes minimes",
+        "de": "Minimale Symptome",
+        "pt": "Sintomas mínimos"
+      },
+      "description": {
+        "ru": "Минимальная выраженность социальной тревоги.",
+        "en": "Minimal social anxiety features.",
+        "fr": "Symptômes sociaux minimes.",
+        "de": "Minimale soziale Ängstlichkeit.",
+        "pt": "Sintomas sociais mínimos."
+      }
+    },
+    {
+      "minInclusive": 20,
+      "maxInclusive": 30,
+      "title": {
+        "ru": "Лёгкая выраженность",
+        "en": "Mild",
+        "fr": "Léger",
+        "de": "Leicht",
+        "pt": "Leve"
+      },
+      "description": {
+        "ru": "Повышенный уровень социальной тревожности (условная градация).",
+        "en": "Elevated social anxiety (approximate band).",
+        "fr": "Anxiété sociale élevée (bande indicative).",
+        "de": "Erhöhte soziale Angst (Orientierungsband).",
+        "pt": "Ansiedade social elevada (faixa orientativa)."
+      }
+    },
+    {
+      "minInclusive": 31,
+      "maxInclusive": 40,
+      "title": {
+        "ru": "Умеренная выраженность",
+        "en": "Moderate",
+        "fr": "Modéré",
+        "de": "Mäßig",
+        "pt": "Moderada"
+      },
+      "description": {
+        "ru": "Умеренный уровень симптомов по шкале.",
+        "en": "Moderate symptom level on the scale.",
+        "fr": "Niveau modéré de symptômes.",
+        "de": "Mäßiges Symptomniveau.",
+        "pt": "Nível moderado de sintomas."
+      }
+    },
+    {
+      "minInclusive": 41,
+      "maxInclusive": 50,
+      "title": {
+        "ru": "Выраженная степень",
+        "en": "Severe",
+        "fr": "Sévère",
+        "de": "Schwer",
+        "pt": "Severa"
+      },
+      "description": {
+        "ru": "Высокий уровень симптомов; имеет смысл обсудить с специалистом.",
+        "en": "High symptom level; consider discussing with a clinician.",
+        "fr": "Niveau élevé ; envisagez un avis clinique.",
+        "de": "Hohes Niveau; klinische Abklärung sinnvoll.",
+        "pt": "Nível alto; considere avaliação clínica."
+      }
+    },
+    {
+      "minInclusive": 51,
+      "maxInclusive": 68,
+      "title": {
+        "ru": "Очень высокий уровень",
+        "en": "Very severe",
+        "fr": "Très sévère",
+        "de": "Sehr schwer",
+        "pt": "Muito severo"
+      },
+      "description": {
+        "ru": "Очень выраженная социальная тревога; рекомендуется профессиональная оценка.",
+        "en": "Very severe social anxiety; professional assessment is advisable.",
+        "fr": "Anxiété sociale très sévère ; avis professionnel recommandé.",
+        "de": "Sehr starke soziale Angst; professionelle Abklärung ratsam.",
+        "pt": "Ansiedade social muito severa; avaliação profissional recomendada."
+      }
+    }
+  ],
+  "subscales": [],
+  "questions": [
+    {
+      "id": "spin_1",
+      "text": {
+        "ru": "Мне страшно перед людьми, занимающими должность (начальством)",
+        "en": "I am afraid of people in authority",
+        "fr": "I am afraid of people in authority",
+        "de": "I am afraid of people in authority",
+        "pt": "I am afraid of people in authority"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Leicht",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Severely",
+            "fr": "Fortement",
+            "de": "Stark",
+            "pt": "Severamente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "spin_2",
+      "text": {
+        "ru": "Меня беспокоит покраснение на людях",
+        "en": "I am bothered by blushing in front of people",
+        "fr": "I am bothered by blushing in front of people",
+        "de": "I am bothered by blushing in front of people",
+        "pt": "I am bothered by blushing in front of people"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Leicht",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Severely",
+            "fr": "Fortement",
+            "de": "Stark",
+            "pt": "Severamente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "spin_3",
+      "text": {
+        "ru": "Вечеринки и светские мероприятия пугают меня",
+        "en": "Parties and social events scare me",
+        "fr": "Parties and social events scare me",
+        "de": "Parties and social events scare me",
+        "pt": "Parties and social events scare me"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Leicht",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Severely",
+            "fr": "Fortement",
+            "de": "Stark",
+            "pt": "Severamente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "spin_4",
+      "text": {
+        "ru": "Я избегаю разговаривать с людьми, которых не знаю",
+        "en": "I avoid talking to people I don't know",
+        "fr": "I avoid talking to people I don't know",
+        "de": "I avoid talking to people I don't know",
+        "pt": "I avoid talking to people I don't know"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Leicht",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Severely",
+            "fr": "Fortement",
+            "de": "Stark",
+            "pt": "Severamente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "spin_5",
+      "text": {
+        "ru": "Меня очень пугает критика в мой адрес",
+        "en": "Being criticized scares me a lot",
+        "fr": "Being criticized scares me a lot",
+        "de": "Being criticized scares me a lot",
+        "pt": "Being criticized scares me a lot"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Leicht",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Severely",
+            "fr": "Fortement",
+            "de": "Stark",
+            "pt": "Severamente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "spin_6",
+      "text": {
+        "ru": "Страх опозориться заставляет меня избегать дел или разговоров с людьми",
+        "en": "Fear of embarrassment causes me to avoid doing things or speaking to people",
+        "fr": "Fear of embarrassment causes me to avoid doing things or speaking to people",
+        "de": "Fear of embarrassment causes me to avoid doing things or speaking to people",
+        "pt": "Fear of embarrassment causes me to avoid doing things or speaking to people"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Leicht",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Severely",
+            "fr": "Fortement",
+            "de": "Stark",
+            "pt": "Severamente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "spin_7",
+      "text": {
+        "ru": "Потливость на людях причиняет мне страдания",
+        "en": "Sweating in front of people causes me distress",
+        "fr": "Sweating in front of people causes me distress",
+        "de": "Sweating in front of people causes me distress",
+        "pt": "Sweating in front of people causes me distress"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Leicht",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Severely",
+            "fr": "Fortement",
+            "de": "Stark",
+            "pt": "Severamente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "spin_8",
+      "text": {
+        "ru": "Я избегаю ходить на вечеринки",
+        "en": "I avoid going to parties",
+        "fr": "I avoid going to parties",
+        "de": "I avoid going to parties",
+        "pt": "I avoid going to parties"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Leicht",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Severely",
+            "fr": "Fortement",
+            "de": "Stark",
+            "pt": "Severamente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "spin_9",
+      "text": {
+        "ru": "Я избегаю занятий, где я в центре внимания",
+        "en": "I avoid activities in which I am the centre of attention",
+        "fr": "I avoid activities in which I am the centre of attention",
+        "de": "I avoid activities in which I am the centre of attention",
+        "pt": "I avoid activities in which I am the centre of attention"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Leicht",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Severely",
+            "fr": "Fortement",
+            "de": "Stark",
+            "pt": "Severamente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "spin_10",
+      "text": {
+        "ru": "Разговор с незнакомцами пугает меня",
+        "en": "Talking to strangers scares me",
+        "fr": "Talking to strangers scares me",
+        "de": "Talking to strangers scares me",
+        "pt": "Talking to strangers scares me"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Leicht",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Severely",
+            "fr": "Fortement",
+            "de": "Stark",
+            "pt": "Severamente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "spin_11",
+      "text": {
+        "ru": "Я избегаю необходимости выступать с речью",
+        "en": "I avoid having to give speeches",
+        "fr": "I avoid having to give speeches",
+        "de": "I avoid having to give speeches",
+        "pt": "I avoid having to give speeches"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Leicht",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Severely",
+            "fr": "Fortement",
+            "de": "Stark",
+            "pt": "Severamente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "spin_12",
+      "text": {
+        "ru": "Я сделаю всё, лишь бы избежать критики",
+        "en": "I would do anything to avoid being criticized",
+        "fr": "I would do anything to avoid being criticized",
+        "de": "I would do anything to avoid being criticized",
+        "pt": "I would do anything to avoid being criticized"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Leicht",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Severely",
+            "fr": "Fortement",
+            "de": "Stark",
+            "pt": "Severamente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "spin_13",
+      "text": {
+        "ru": "Учащённое сердцебиение беспокоит меня, когда я среди людей",
+        "en": "Heart palpitations bother me when I am around people",
+        "fr": "Heart palpitations bother me when I am around people",
+        "de": "Heart palpitations bother me when I am around people",
+        "pt": "Heart palpitations bother me when I am around people"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Leicht",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Severely",
+            "fr": "Fortement",
+            "de": "Stark",
+            "pt": "Severamente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "spin_14",
+      "text": {
+        "ru": "Мне страшно что-либо делать, когда люди могут наблюдать",
+        "en": "I am afraid of doing things when people might be watching",
+        "fr": "I am afraid of doing things when people might be watching",
+        "de": "I am afraid of doing things when people might be watching",
+        "pt": "I am afraid of doing things when people might be watching"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Leicht",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Severely",
+            "fr": "Fortement",
+            "de": "Stark",
+            "pt": "Severamente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "spin_15",
+      "text": {
+        "ru": "Опозориться или выглядеть глупо — среди моих сильнейших страхов",
+        "en": "Being embarrassed or looking stupid is among my worst fears",
+        "fr": "Being embarrassed or looking stupid is among my worst fears",
+        "de": "Being embarrassed or looking stupid is among my worst fears",
+        "pt": "Being embarrassed or looking stupid is among my worst fears"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Leicht",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Severely",
+            "fr": "Fortement",
+            "de": "Stark",
+            "pt": "Severamente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "spin_16",
+      "text": {
+        "ru": "Я избегаю разговаривать с кем-либо из начальства",
+        "en": "I avoid speaking to anyone in authority",
+        "fr": "I avoid speaking to anyone in authority",
+        "de": "I avoid speaking to anyone in authority",
+        "pt": "I avoid speaking to anyone in authority"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Leicht",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Severely",
+            "fr": "Fortement",
+            "de": "Stark",
+            "pt": "Severamente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "spin_17",
+      "text": {
+        "ru": "Дрожь или тряска на людях причиняют мне страдания",
+        "en": "Trembling or shaking in front of others is distressing to me",
+        "fr": "Trembling or shaking in front of others is distressing to me",
+        "de": "Trembling or shaking in front of others is distressing to me",
+        "pt": "Trembling or shaking in front of others is distressing to me"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Leicht",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Severely",
+            "fr": "Fortement",
+            "de": "Stark",
+            "pt": "Severamente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    }
+  ]
+}

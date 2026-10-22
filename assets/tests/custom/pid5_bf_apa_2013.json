@@ -1,0 +1,1509 @@
+{
+  "id": "pid5",
+  "category": "personality",
+  "title": {
+    "ru": "PID-5 (краткая форма, PID-5-BF)",
+    "en": "PID-5 — Brief Form (PID-5-BF)",
+    "fr": "PID-5 — Forme brève (PID-5-BF)",
+    "de": "PID-5 — Brief Form (PID-5-BF)",
+    "pt": "PID-5 — Forma breve (PID-5-BF)"
+  },
+  "subtitle": {
+    "ru": "Черты личности по пяти доменам модели DSM-5.",
+    "en": "Personality traits across five DSM-5 model domains.",
+    "fr": "Traits de personnalité sur cinq domaines du modèle DSM-5.",
+    "de": "Persönlichkeitsmerkmale in fünf DSM-5-Modell-Domänen.",
+    "pt": "Traços de personalidade em cinco domínios do modelo DSM-5."
+  },
+  "description": {
+    "ru": "Оценка выраженности маладаптивных черт личности по пяти доменам: негативный аффект, отчуждение, антагонизм, дезингибиция, психотизм. Не для самодиагностики расстройств личности.",
+    "en": "Explores maladaptive personality trait domains: negative affect, detachment, antagonism, disinhibition, psychoticism. Not for self-diagnosis of personality disorders.",
+    "fr": "Explore les domaines de traits : affect négatif, détachement, antagonisme, désinhibition, psychoticisme. Pas d'autodiagnostic.",
+    "de": "Erfasst fünf Persönlichkeitsbereiche. Keine Selbstdiagnose von Persönlichkeitsstörungen.",
+    "pt": "Explora domínios de traços maladaptativos. Não substitui avaliação clínica."
+  },
+  "instructions": {
+    "ru": "Ниже — утверждения, которые люди по-разному относят к себе. Выберите вариант, который лучше всего описывает вас в целом.",
+    "en": "Below are statements people might use to describe themselves. Select the response that best describes you in general.",
+    "fr": "Voici des phrases que les gens peuvent utiliser pour se décrire. Choisissez ce qui vous correspond le mieux en général.",
+    "de": "Nachfolgend Aussagen zur Selbstbeschreibung. Wählen Sie, was Sie im Allgemeinen am besten beschreibt.",
+    "pt": "Abaixo há frases que as pessoas usam para se descrever. Escolha o que melhor descreve você em geral."
+  },
+  "maxScore": 75,
+  "bandsBasis": "raw",
+  "bands": [
+    {
+      "minInclusive": 0,
+      "maxInclusive": 30,
+      "title": {
+        "ru": "Нижняя зона выраженности черт",
+        "en": "Lower trait elevation",
+        "fr": "Élévation des traits plus faible",
+        "de": "Geringere Ausprägung der Merkmale",
+        "pt": "Menor elevação dos traços"
+      },
+      "description": {
+        "ru": "Менее выраженные маладаптивные черты по сравнению с верхними зонами; оценка индивидуальна.",
+        "en": "Less elevated maladaptive traits relative to higher bands; individual context matters.",
+        "fr": "Traits moins élevés qu’aux bandes supérieures ; contexte individuel.",
+        "de": "Weniger erhöhte Merkmale als in höheren Bereichen; Kontext zählt.",
+        "pt": "Traços menos elevados que nas faixas altas; contexto individual."
+      }
+    },
+    {
+      "minInclusive": 31,
+      "maxInclusive": 37,
+      "title": {
+        "ru": "Умеренная выраженность",
+        "en": "Moderate elevation",
+        "fr": "Élévation modérée",
+        "de": "Mäßige Ausprägung",
+        "pt": "Elevação moderada"
+      },
+      "description": {
+        "ru": "Умеренная выраженность черт; при стойких трудностях в отношениях или настроении обсудите с психотерапевтом или психиатром.",
+        "en": "Moderate trait elevation; if problems in relationships or mood persist, discuss with a mental health professional.",
+        "fr": "Élévation modérée ; consultez si les difficultés persistent.",
+        "de": "Mäßige Ausprägung; bei anhaltenden Problemen professionell besprechen.",
+        "pt": "Elevação moderada; converse com profissional se os problemas persistirem."
+      }
+    },
+    {
+      "minInclusive": 38,
+      "maxInclusive": 47,
+      "title": {
+        "ru": "Повышенная выраженность",
+        "en": "Elevated level",
+        "fr": "Niveau élevé",
+        "de": "Erhöhtes Niveau",
+        "pt": "Nível elevado"
+      },
+      "description": {
+        "ru": "Более выраженные черты; это не диагноз расстройства личности — ориентир для беседы со специалистом.",
+        "en": "More pronounced traits; not a personality disorder diagnosis—a prompt to discuss with a professional.",
+        "fr": "Traits plus marqués ; pas un diagnostic de trouble de la personnalité.",
+        "de": "Ausgeprägtere Merkmale; keine Persönlichkeitsstörungs-Diagnose.",
+        "pt": "Traços mais marcados; não é diagnóstico de transtorno de personalidade."
+      }
+    },
+    {
+      "minInclusive": 48,
+      "maxInclusive": 75,
+      "title": {
+        "ru": "Очень высокая выраженность",
+        "en": "Very high elevation",
+        "fr": "Élévation très élevée",
+        "de": "Sehr hohe Ausprägung",
+        "pt": "Elevação muito alta"
+      },
+      "description": {
+        "ru": "Сильная выраженность черт на этой шкале; при беспокойстве рекомендуется углублённая клиническая оценка.",
+        "en": "Very strong elevation on this screen; seek in-depth assessment if you are concerned about relationships, behavior, or distress.",
+        "fr": "Très forte élévation ; évaluation approfondie si inquiétude.",
+        "de": "Sehr starke Ausprägung; bei Sorgen tiefergehende Abklärung.",
+        "pt": "Elevação muito forte; avaliação aprofundada se houver preocupação."
+      }
+    }
+  ],
+  "subscales": [
+    {
+      "id": "disinhibition",
+      "label": {
+        "ru": "Дезингибиция (п. 1–3, 5–6)",
+        "en": "Disinhibition (items 1–3, 5–6)",
+        "fr": "Désinhibition",
+        "de": "Desinhibition",
+        "pt": "Desinibição"
+      },
+      "itemIndices": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "maxScore": 15
+    },
+    {
+      "id": "negative_affect",
+      "label": {
+        "ru": "Негативный аффект (п. 8–11, 15)",
+        "en": "Negative affect (items 8–11, 15)",
+        "fr": "Affect négatif",
+        "de": "Negativer Affekt",
+        "pt": "Afeto negativo"
+      },
+      "itemIndices": [
+        7,
+        8,
+        9,
+        10,
+        14
+      ],
+      "maxScore": 15
+    },
+    {
+      "id": "detachment",
+      "label": {
+        "ru": "Отчуждение (п. 4, 13–14, 16, 18)",
+        "en": "Detachment (items 4, 13–14, 16, 18)",
+        "fr": "Détachement",
+        "de": "Loslösung",
+        "pt": "Desapego"
+      },
+      "itemIndices": [
+        3,
+        12,
+        13,
+        15,
+        17
+      ],
+      "maxScore": 15
+    },
+    {
+      "id": "antagonism",
+      "label": {
+        "ru": "Антагонизм (п. 17, 19–20, 22, 25)",
+        "en": "Antagonism (items 17, 19–20, 22, 25)",
+        "fr": "Antagonisme",
+        "de": "Antagonismus",
+        "pt": "Antagonismo"
+      },
+      "itemIndices": [
+        16,
+        18,
+        19,
+        21,
+        24
+      ],
+      "maxScore": 15
+    },
+    {
+      "id": "psychoticism",
+      "label": {
+        "ru": "Психотизм (п. 7, 12, 21, 23–24)",
+        "en": "Psychoticism (items 7, 12, 21, 23–24)",
+        "fr": "Psychoticisme",
+        "de": "Psychotizismus",
+        "pt": "Psicoticismo"
+      },
+      "itemIndices": [
+        6,
+        11,
+        20,
+        22,
+        23
+      ],
+      "maxScore": 15
+    }
+  ],
+  "resultNote": {
+    "ru": "Ниже приведены пять областей черт. Это скрининг, а не заключение о расстройстве личности; интерпретация — с клиническим специалистом.",
+    "en": "Five trait domains are listed below. This screens trait patterns, not a personality disorder diagnosis—interpret with a clinician.",
+    "fr": "Cinq domaines de traits ci-dessous. Dépistage seulement, pas diagnostic de trouble de la personnalité.",
+    "de": "Fünf Merkmalsbereiche unten. Nur Screening, keine Persönlichkeitsstörungs-Diagnose.",
+    "pt": "Cinco domínios de traços abaixo. Só triagem, não diagnóstico de transtorno de personalidade."
+  },
+  "questions": [
+    {
+      "id": "pid5bf_1",
+      "text": {
+        "ru": "Другие сказали бы, что я безрассуден(на).",
+        "en": "People would describe me as reckless.",
+        "fr": "Les gens me décriraient comme imprudent(e).",
+        "de": "Andere würden mich als rücksichtslos beschreiben.",
+        "pt": "As pessoas me descreveriam como imprudente."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_2",
+      "text": {
+        "ru": "Мне кажется, я действую полностью импульсивно.",
+        "en": "I feel like I act totally on impulse.",
+        "fr": "J'ai l'impression d'agir totalement sur l'impulsion.",
+        "de": "Ich habe das Gefühl, völlig impulsiv zu handeln.",
+        "pt": "Sinto que ajo totalmente por impulso."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_3",
+      "text": {
+        "ru": "Хотя я понимаю, что так нельзя, не могу перестать принимать опрометчивые решения.",
+        "en": "Even though I know better, I can't stop making rash decisions.",
+        "fr": "Même en sachant que ce n'est pas bien, je n'arrive pas à arrêter de prendre des décisions irréfléchies.",
+        "de": "Obwohl ich es besser weiß, kann ich nicht aufhören, voreilige Entscheidungen zu treffen.",
+        "pt": "Mesmo sabendo que não devo, não consigo parar de tomar decisões precipitadas."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_4",
+      "text": {
+        "ru": "Мне часто кажется, что ничто из того, что я делаю, по-настоящему не важно.",
+        "en": "I often feel like nothing I do really matters.",
+        "fr": "J'ai souvent l'impression que rien de ce que je fais n'a vraiment d'importance.",
+        "de": "Oft habe ich das Gefühl, dass nichts von dem, was ich tue, wirklich zählt.",
+        "pt": "Muitas vezes sinto que nada do que faço realmente importa."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_5",
+      "text": {
+        "ru": "Окружающие считают меня безответственным(ой).",
+        "en": "Others see me as irresponsible.",
+        "fr": "Les autres me voient comme irresponsable.",
+        "de": "Andere sehen mich als verantwortungslos.",
+        "pt": "Os outros me veem como irresponsável."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_6",
+      "text": {
+        "ru": "У меня плохо получается планировать заранее.",
+        "en": "I'm not good at planning ahead.",
+        "fr": "Je ne suis pas bon(ne) pour anticiper.",
+        "de": "Ich kann nicht gut vorausplanen.",
+        "pt": "Não sou bom em planejar com antecedência."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_7",
+      "text": {
+        "ru": "Мои мысли часто кажутся окружающим непонятными.",
+        "en": "My thoughts often don't make sense to others.",
+        "fr": "Mes pensées n'ont souvent pas de sens pour les autres.",
+        "de": "Meine Gedanken sind anderen oft nicht nachvollziehbar.",
+        "pt": "Meus pensamentos muitas vezes não fazem sentido para os outros."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_8",
+      "text": {
+        "ru": "Я переживаю почти по любому поводу.",
+        "en": "I worry about almost everything.",
+        "fr": "Je m'inquiète de presque tout.",
+        "de": "Ich mache mir fast über alles Sorgen.",
+        "pt": "Me preocupo com quase tudo."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_9",
+      "text": {
+        "ru": "Я легко срываюсь эмоционально, часто из-за пустяков.",
+        "en": "I get emotional easily, often for very little reason.",
+        "fr": "Je deviens émotif/ve facilement, souvent pour peu de raison.",
+        "de": "Ich werde leicht emotional, oft aus kleinen Gründen.",
+        "pt": "Fico emocional com facilidade, muitas vezes por pouco motivo."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_10",
+      "text": {
+        "ru": "Больше всего на свете я боюсь остаться одному(одной) в жизни.",
+        "en": "I fear being alone in life more than anything else.",
+        "fr": "Ce qui me fait le plus peur, c'est de finir seul(e) dans la vie.",
+        "de": "Am meisten fürchte ich, im Leben allein zu sein.",
+        "pt": "Tenho mais medo do que qualquer outra coisa de ficar sozinho na vida."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_11",
+      "text": {
+        "ru": "Я застреваю на одном способе действий, даже когда уже ясно, что он не сработает.",
+        "en": "I get stuck on one way of doing things, even when it's clear it won't work.",
+        "fr": "Je reste bloqué(e) sur une façon de faire, même quand il est clair que ça ne marchera pas.",
+        "de": "Ich bleibe bei einer Vorgehensweise hängen, auch wenn klar ist, dass sie nicht funktioniert.",
+        "pt": "Fico preso a uma forma de agir mesmo quando já está claro que não funciona."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_12",
+      "text": {
+        "ru": "Мне казалось, что я вижу то, чего на самом деле не было.",
+        "en": "I have seen things that weren't really there.",
+        "fr": "J'ai vu des choses qui n'étaient pas vraiment là.",
+        "de": "Ich habe Dinge gesehen, die gar nicht da waren.",
+        "pt": "Vi coisas que não estavam realmente lá."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_13",
+      "text": {
+        "ru": "Я избегаю романтических отношений.",
+        "en": "I steer clear of romantic relationships.",
+        "fr": "J'évite les relations amoureuses.",
+        "de": "Ich meide romantische Beziehungen.",
+        "pt": "Evito relacionamentos românticos."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_14",
+      "text": {
+        "ru": "Мне неинтересно заводить друзей.",
+        "en": "I'm not interested in making friends.",
+        "fr": "Je ne suis pas intéressé(e) à me faire des amis.",
+        "de": "Ich habe kein Interesse daran, Freundschaften zu schließen.",
+        "pt": "Não tenho interesse em fazer amigos."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_15",
+      "text": {
+        "ru": "Я легко раздражаюсь из-за всего подряд.",
+        "en": "I get irritated easily by all sorts of things.",
+        "fr": "Je m'irrite facilement pour toutes sortes de choses.",
+        "de": "Ich rege mich leicht über allerlei auf.",
+        "pt": "Irrito-me facilmente com todo tipo de coisas."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_16",
+      "text": {
+        "ru": "Мне не нравится сближаться с людьми.",
+        "en": "I don't like to get too close to people.",
+        "fr": "Je n'aime pas trop me rapprocher des gens.",
+        "de": "Ich mag es nicht, Menschen zu nahe zu kommen.",
+        "pt": "Não gosto de me aproximar demais das pessoas."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_17",
+      "text": {
+        "ru": "Мне не важно, если я задену чьи-то чувства.",
+        "en": "It's no big deal if I hurt other peoples' feelings.",
+        "fr": "Ce n'est pas grave si je blesse les sentiments des autres.",
+        "de": "Es ist mir egal, wenn ich andere verletze.",
+        "pt": "Não é grande coisa se eu magoar os sentimentos dos outros."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_18",
+      "text": {
+        "ru": "Редко чему-то радуюсь по-настоящему.",
+        "en": "I rarely get enthusiastic about anything.",
+        "fr": "Je suis rarement enthousiaste pour quoi que ce soit.",
+        "de": "Ich bin selten für etwas begeistert.",
+        "pt": "Raramente fico entusiasmado com qualquer coisa."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_19",
+      "text": {
+        "ru": "Мне очень нужно внимание.",
+        "en": "I crave attention.",
+        "fr": "J'ai un fort besoin d'attention.",
+        "de": "Ich sehne mich nach Aufmerksamkeit.",
+        "pt": "Ansio por atenção."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_20",
+      "text": {
+        "ru": "Мне часто приходится иметь дело с людьми, которые менее важны, чем я.",
+        "en": "I often have to deal with people who are less important than me.",
+        "fr": "Je dois souvent traiter avec des gens moins importants que moi.",
+        "de": "Ich muss oft mit Menschen zu tun haben, die weniger wichtig sind als ich.",
+        "pt": "Muitas vezes tenho de lidar com pessoas menos importantes do que eu."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_21",
+      "text": {
+        "ru": "У меня часто бывают мысли, которые мне кажутся логичными, а другие называют странными.",
+        "en": "I often have thoughts that make sense to me but that other people say are strange.",
+        "fr": "J'ai souvent des pensées qui me semblent logiques mais que les autres trouvent étranges.",
+        "de": "Ich habe oft Gedanken, die mir einleuchtend sind, die andere aber seltsam finden.",
+        "pt": "Muitas vezes tenho pensamentos que fazem sentido para mim mas que os outros acham estranhos."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_22",
+      "text": {
+        "ru": "Я использую людей, чтобы получить желаемое.",
+        "en": "I use people to get what I want.",
+        "fr": "J'utilise les gens pour obtenir ce que je veux.",
+        "de": "Ich nutze Menschen, um zu bekommen, was ich will.",
+        "pt": "Uso as pessoas para conseguir o que quero."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_23",
+      "text": {
+        "ru": "Я часто «выпадаю» из реальности, а потом внезапно прихожу в себя и понимаю, что прошло много времени.",
+        "en": "I often \"zone out\" and then suddenly come to and realize that a lot of time has passed.",
+        "fr": "Je « décroche » souvent puis je reviens et je réalise qu'il s'est passé beaucoup de temps.",
+        "de": "Ich „schalte ab\" und merke plötzlich, dass viel Zeit vergangen ist.",
+        "pt": "Muitas vezes \"apago\" e de repente volto e percebo que passou muito tempo."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_24",
+      "text": {
+        "ru": "Окружающее часто кажется ненастоящим или, наоборот, необычайно реальным.",
+        "en": "Things around me often feel unreal, or more real than usual.",
+        "fr": "Les choses autour de moi semblent souvent irréelles, ou plus réelles que d'habitude.",
+        "de": "Die Umgebung wirkt oft unwirklich oder ungewöhnlich real.",
+        "pt": "As coisas ao redor muitas vezes parecem irreais, ou mais reais que o normal."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "pid5bf_25",
+      "text": {
+        "ru": "Мне легко пользоваться другими в свою пользу.",
+        "en": "It is easy for me to take advantage of others.",
+        "fr": "Il m'est facile de profiter des autres.",
+        "de": "Es fällt mir leicht, andere auszunutzen.",
+        "pt": "É fácil para mim tirar vantagem dos outros."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня / чаще неверно",
+            "en": "Very false or often false",
+            "fr": "Très faux ou souvent faux",
+            "de": "Sehr falsch oder oft falsch",
+            "pt": "Muito falso ou frequentemente falso"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее неверно",
+            "en": "Sometimes or somewhat false",
+            "fr": "Parfois ou plutôt faux",
+            "de": "Manchmal oder eher falsch",
+            "pt": "Às vezes ou um tanto falso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда или скорее верно",
+            "en": "Sometimes or somewhat true",
+            "fr": "Parfois ou plutôt vrai",
+            "de": "Manchmal oder eher wahr",
+            "pt": "Às vezes ou um tanto verdadeiro"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень про меня / чаще верно",
+            "en": "Very true or often true",
+            "fr": "Très vrai ou souvent vrai",
+            "de": "Sehr wahr oder oft wahr",
+            "pt": "Muito verdadeiro ou frequentemente verdadeiro"
+          },
+          "score": 3
+        }
+      ]
+    }
+  ]
+}

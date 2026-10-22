@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108">
+  <rect width="108" height="108" fill="#FFFFFF"/>
+  <!-- Matches android adaptive icon foreground in ic_launcher_diary.xml -->
+  <path fill="#5E35B1" d="M24,20L84,20A4,4 0,0 1,88 24L88,84A4,4 0,0 1,84 88L24,88A4,4 0,0 1,20 84L20,24A4,4 0,0 1,24 20z"/>
+  <path fill="#E1BEE7" d="M30,35L78,35L78,37L30,37z"/>
+  <path fill="#E1BEE7" d="M30,45L78,45L78,47L30,47z"/>
+  <path fill="#E1BEE7" d="M30,55L78,55L78,57L30,57z"/>
+  <path fill="#E1BEE7" d="M30,65L78,65L78,67L30,67z"/>
+  <path fill="#FFD700" d="M50,30A4,4 0,0 1,54 34L54,38A4,4 0,0 1,50 42L50,30z"/>
+</svg>

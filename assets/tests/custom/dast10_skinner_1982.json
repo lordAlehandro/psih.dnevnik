@@ -1,0 +1,456 @@
+{
+  "id": "dast10",
+  "category": "addictions",
+  "title": {
+    "ru": "DAST-10 — скрининг злоупотребления психоактивными веществами",
+    "en": "DAST-10 — Drug Abuse Screening Test",
+    "fr": "DAST-10 — Test de dépistage de l’abus de drogues",
+    "de": "DAST-10 — Drug Abuse Screening Test",
+    "pt": "DAST-10 — Teste de triagem de abuso de drogas"
+  },
+  "subtitle": {
+    "ru": "Самооценка проблемного употребления психоактивных веществ (кроме алкоголя и табака).",
+    "en": "Self-check for problematic psychoactive substance use (excluding alcohol and tobacco).",
+    "fr": "Auto-évaluation de l’usage problématique de substances psychoactives (hors alcool et tabac).",
+    "de": "Selbstcheck problematischer psychoaktiver Substanznutzung (ohne Alkohol und Tabak).",
+    "pt": "Autochecagem de uso problemático de substâncias psicoativas (exceto álcool e tabaco)."
+  },
+  "description": {
+    "ru": "Краткий самоотчёт о проблемах, связанных с употреблением наркотических и других психоактивных веществ (не алкоголь и не табак), обычно за последние 12 месяцев. Не диагноз и не замена оценки специалиста. Skinner (1982). Материалы могут охраняться авторским правом; для распространения может требоваться разрешение.",
+    "en": "Brief self-report on problems related to use of psychoactive drugs other than alcohol and tobacco, typically over the past 12 months. Not a diagnosis or substitute for professional assessment. Skinner (1982). May be copyrighted; permission may be required for some uses.",
+    "fr": "Auto-évaluation brève sur l’usage de substances (hors alcool/tabac), souvent sur 12 mois. Pas un diagnostic. Skinner (1982). Droits possibles.",
+    "de": "Kurzfragebogen zum Drogenkonsum (ohne Alkohol/Tabak), meist 12 Monate. Keine Diagnose. Skinner (1982). Urheberrecht beachten.",
+    "pt": "Autorrelato breve sobre uso de substâncias (exceto álcool/tabaco), em geral 12 meses. Não é diagnóstico. Skinner (1982). Direitos autorais."
+  },
+  "instructions": {
+    "ru": "Отвечайте «да» или «нет» по каждому пункту. Имеется в виду употребление веществ не по назначению врача и не в лечебных целях (включая каннабис и «уличные» наркотики). Алкоголь и табак сюда не входят.",
+    "en": "Answer yes or no to each item. “Drugs” means substances used other than as prescribed or for medical reasons (including cannabis and street drugs). Do not count alcohol or tobacco.",
+    "fr": "Répondez oui ou non. « Drogues » = hors prescription médicale (dont cannabis). Pas d’alcool ni tabac.",
+    "de": "Beantworten Sie mit Ja oder Nein. „Drogen“ = außerhalb ärztlicher Verordnung (inkl. Cannabis). Kein Alkohol/Tabak.",
+    "pt": "Responda sim ou não. «Drogas» = fora de prescrição médica (incl. cannabis). Sem álcool nem tabaco."
+  },
+  "maxScore": 10,
+  "bandsBasis": "raw",
+  "bands": [
+    {
+      "minInclusive": 0,
+      "maxInclusive": 0,
+      "title": {
+        "ru": "Проблем по ответам не отмечено",
+        "en": "No problems indicated",
+        "fr": "Aucun problème signalé",
+        "de": "Keine angegebenen Probleme",
+        "pt": "Nenhum problema indicado"
+      },
+      "description": {
+        "ru": "По вашим ответам не выделяется зона повышенного риска; при личной тревоге всё равно можно обсудить с врачом.",
+        "en": "Your answers do not point to an elevated risk band; talk with a clinician anyway if you feel worried.",
+        "fr": "Vos réponses ne suggèrent pas un risque élevé ; consultez si vous restez inquiet(e).",
+        "de": "Ihre Antworten deuten nicht auf erhöhtes Risiko; bei Sorgen trotzdem Rücksprache.",
+        "pt": "Suas respostas não indicam faixa de risco elevado; converse com profissional se ainda houver preocupação."
+      }
+    },
+    {
+      "minInclusive": 1,
+      "maxInclusive": 2,
+      "title": {
+        "ru": "Низкий уровень",
+        "en": "Low level",
+        "fr": "Niveau faible",
+        "de": "Geringes Niveau",
+        "pt": "Nível baixo"
+      },
+      "description": {
+        "ru": "Небольшое число ответов указывает на риск; при сомнениях обсудите с врачом.",
+        "en": "A few endorsed items suggest some risk; discuss with a clinician if unsure.",
+        "fr": "Quelques réponses positives ; consultez si doute.",
+        "de": "Wenige Treffer; bei Unsicherheit ärztlich besprechen.",
+        "pt": "Algumas respostas de risco; converse com profissional se tiver dúvidas."
+      }
+    },
+    {
+      "minInclusive": 3,
+      "maxInclusive": 5,
+      "title": {
+        "ru": "Умеренный уровень",
+        "en": "Moderate level",
+        "fr": "Niveau modéré",
+        "de": "Mäßiges Niveau",
+        "pt": "Nível moderado"
+      },
+      "description": {
+        "ru": "Умеренный уровень признаков проблемного употребления; имеет смысл оценка и консультирование.",
+        "en": "Moderate signs of problematic use; assessment and counseling are often helpful.",
+        "fr": "Signes modérés ; évaluation et soutien souvent utiles.",
+        "de": "Mäßige Hinweise; Abklärung und Beratung oft sinnvoll.",
+        "pt": "Sinais moderados; avaliação e apoio costumam ajudar."
+      }
+    },
+    {
+      "minInclusive": 6,
+      "maxInclusive": 8,
+      "title": {
+        "ru": "Значительный уровень",
+        "en": "Substantial level",
+        "fr": "Niveau substantiel",
+        "de": "Erhebliches Niveau",
+        "pt": "Nível substancial"
+      },
+      "description": {
+        "ru": "Значительный уровень признаков; рекомендуется углублённая оценка специалистом.",
+        "en": "Substantial concern on this screen; in-depth clinical assessment is typically advised.",
+        "fr": "Préoccupation marquée ; évaluation approfondie conseillée.",
+        "de": "Erhebliche Hinweise; gründliche fachliche Abklärung empfohlen.",
+        "pt": "Preocupação substancial; avaliação clínica aprofundada aconselhada."
+      }
+    },
+    {
+      "minInclusive": 9,
+      "maxInclusive": 10,
+      "title": {
+        "ru": "Тяжёлый уровень",
+        "en": "Severe level",
+        "fr": "Niveau sévère",
+        "de": "Schweres Niveau",
+        "pt": "Nível grave"
+      },
+      "description": {
+        "ru": "Очень высокий уровень признаков; обратитесь за срочной профессиональной помощью.",
+        "en": "Very high concern on this screen; seek prompt professional help.",
+        "fr": "Niveau très élevé ; aide professionnelle urgente.",
+        "de": "Sehr hohe Belastung; zeitnahe professionelle Hilfe.",
+        "pt": "Nível muito alto; busque ajuda profissional com urgência."
+      }
+    }
+  ],
+  "subscales": [],
+  "resultNote": {
+    "ru": "Один из вопросов учитывается в обратном ключе: ответ «нет» на тему способности прекратить употребление отражается как больший риск — это уже заложено в варианты ответа. При тревоге или риске обратитесь к врачу.",
+    "en": "One question is reverse-keyed so that “No” to stopping use when you want counts as higher risk—that is already built into the answers. Seek medical care whenever you are worried or unsafe.",
+    "fr": "Une question est inversée : « non » à l’arrêt voulu compte davantage — c’est déjà dans les réponses. Consultez si inquiétude ou risque.",
+    "de": "Eine Frage ist umgekehrt: „Nein“ zum freiwilligen Absetzen zählt stärker — steckt in den Antworten. Bei Sorgen ärztlich melden.",
+    "pt": "Uma pergunta é invertida: «não» sobre parar quando quer conta mais — já está nas opções. Busque ajuda se houver risco."
+  },
+  "questions": [
+    {
+      "id": "dast_1",
+      "text": {
+        "ru": "Вы употребляли вещества не по назначению врача (для развлечения, «на улице» и т.п.)?",
+        "en": "Have you used drugs other than those required for medical reasons?",
+        "fr": "Avez-vous consommé des drogues en dehors d’une nécessité médicale ?",
+        "de": "Haben Sie Drogen genommen, die nicht aus medizinischen Gründen verordnet waren?",
+        "pt": "Você usou drogas além das necessárias por motivos médicos?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "dast_2",
+      "text": {
+        "ru": "Вы злоупотребляете более чем одним веществом одновременно?",
+        "en": "Do you abuse more than one drug at a time?",
+        "fr": "Abusez-vous de plus d’une drogue à la fois ?",
+        "de": "Missbrauchen Sie mehr als eine Droge gleichzeitig?",
+        "pt": "Você abusa de mais de uma droga ao mesmo tempo?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "dast_3",
+      "text": {
+        "ru": "Вы всегда можете прекратить употребление, когда захотите?",
+        "en": "Are you always able to stop using drugs when you want to?",
+        "fr": "Êtes-vous toujours capable d’arrêter quand vous le souhaitez ?",
+        "de": "Können Sie den Drogenkonsum immer beenden, wenn Sie es wollen?",
+        "pt": "Você sempre consegue parar de usar drogas quando quer?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "dast_4",
+      "text": {
+        "ru": "Бывали ли у вас провалы в памяти или «флэшбэки» из‑за употребления?",
+        "en": "Have you had blackouts or flashbacks as a result of drug use?",
+        "fr": "Avez-vous eu des trous de mémoire ou des flash-backs liés à la consommation ?",
+        "de": "Hatten Sie Blackouts oder Flashbacks durch Drogenkonsum?",
+        "pt": "Você teve apagões ou flashbacks por uso de drogas?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "dast_5",
+      "text": {
+        "ru": "Вам бывает плохо или виновато из‑за употребления?",
+        "en": "Do you ever feel bad or guilty about your drug use?",
+        "fr": "Vous sentez-vous mal ou coupable à propos de votre consommation ?",
+        "de": "Fühlen Sie sich wegen Ihres Drogenkonsums schlecht oder schuldig?",
+        "pt": "Você se sente mal ou culpado pelo uso de drogas?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "dast_6",
+      "text": {
+        "ru": "Ваш партнёр или родители жалуются на ваше употребление?",
+        "en": "Does your spouse (or parents) complain about your involvement with drugs?",
+        "fr": "Votre conjoint(e) (ou vos parents) se plaint-il de votre consommation ?",
+        "de": "Beschwert sich Ihr Partner/Ihre Partnerin (oder Ihre Eltern) über Ihren Drogenkonsum?",
+        "pt": "Seu cônjuge (ou pais) reclama do seu envolvimento com drogas?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "dast_7",
+      "text": {
+        "ru": "Вы пренебрегали семьёй из‑за употребления?",
+        "en": "Have you neglected your family because of your use of drugs?",
+        "fr": "Avez-vous négligé votre famille à cause de la consommation ?",
+        "de": "Haben Sie Ihre Familie wegen Drogenkonsum vernachlässigt?",
+        "pt": "Você negligenciou a família por causa do uso de drogas?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "dast_8",
+      "text": {
+        "ru": "Вы совершали противоправные действия, чтобы достать вещества?",
+        "en": "Have you engaged in illegal activities in order to obtain drugs?",
+        "fr": "Avez-vous eu des comportements illégaux pour obtenir des drogues ?",
+        "de": "Haben Sie sich illegal betätigt, um an Drogen zu kommen?",
+        "pt": "Você se envolveu em atividades ilegais para obter drogas?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "dast_9",
+      "text": {
+        "ru": "Бывали абстинентные симптомы (недомогание), когда вы прекращали употребление?",
+        "en": "Have you ever experienced withdrawal symptoms (felt sick) when you stopped taking drugs?",
+        "fr": "Avez-vous eu des symptômes de sevrage (mal être) en arrêtant ?",
+        "de": "Hatten Sie Entzugserscheinungen (Unwohlsein), wenn Sie aufhörten?",
+        "pt": "Você teve sintomas de abstinência (mal-estar) ao parar?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "dast_10",
+      "text": {
+        "ru": "Были ли медицинские проблемы из‑за употребления (потеря памяти, гепатит, судороги, кровотечения и т.д.)?",
+        "en": "Have you had medical problems as a result of your drug use (e.g., memory loss, hepatitis, convulsions, bleeding)?",
+        "fr": "Avez-vous eu des problèmes de santé liés à la consommation (perte de mémoire, hépatite, convulsions, saignements, etc.) ?",
+        "de": "Hatten Sie gesundheitliche Probleme durch Drogenkonsum (z. B. Gedächtnisverlust, Hepatitis, Krampfanfälle, Blutungen)?",
+        "pt": "Você teve problemas de saúde pelo uso (p.ex. perda de memória, hepatite, convulsões, sangramento)?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,619 @@
+{
+  "id": "mdq",
+  "category": "bipolar",
+  "title": {
+    "ru": "MDQ — опросник на расстройства настроения",
+    "en": "MDQ — Mood Disorder Questionnaire",
+    "fr": "MDQ — Questionnaire sur les troubles de l’humeur",
+    "de": "MDQ — Fragebogen zu Stimmungsstörungen",
+    "pt": "MDQ — Questionário de transtornos de humor"
+  },
+  "subtitle": {
+    "ru": "Краткий опросник для первичного скрининга биполярного спектра.",
+    "en": "Brief questionnaire for initial bipolar spectrum screening.",
+    "fr": "Questionnaire bref de dépistage initial du spectre bipolaire.",
+    "de": "Kurzfragebogen zum ersten Screening des bipolaren Spektrums.",
+    "pt": "Questionário breve para triagem inicial do espectro bipolar."
+  },
+  "description": {
+    "ru": "Краткий скрининг на эпизоды повышенного настроения/гипомании в анамнезе. Положительный результат по методике — не диагноз биполярного расстройства. Разработан R.M.A. Hirschfeld и соавт. (2000); при использовании в публикациях укажите оригинальную работу.",
+    "en": "Brief screen for lifetime hypomanic/manic symptoms. A positive screen is not a diagnosis of bipolar disorder. Hirschfeld et al. (2000); cite the original publication.",
+    "fr": "Dépistage des symptômes (hypo)maniques passés. Un résultat positif n’est pas un diagnostic. Hirschfeld et al. (2000).",
+    "de": "Screening auf (hypo)manische Episoden. Positives Ergebnis ≠ Diagnose. Hirschfeld et al. (2000).",
+    "pt": "Triagem de sintomas (hipo)maníacos. Positivo não é diagnóstico. Hirschfeld et al. (2000)."
+  },
+  "instructions": {
+    "ru": "Отвечайте по всей жизни: бывало ли когда-нибудь такое состояние. На вопросы о симптомах отвечайте «Да» или «Нет».",
+    "en": "Answer based on your whole life: whether there has ever been such a period. For the symptom questions, answer Yes or No.",
+    "fr": "Répondez sur l’ensemble de votre vie. Aux questions sur les symptômes : oui ou non.",
+    "de": "Antworten Sie lebensgeschichtlich. Bei den Symptomfragen: Ja oder Nein.",
+    "pt": "Responda ao longo da vida. Nas perguntas sobre sintomas: sim ou não."
+  },
+  "maxScore": 17,
+  "bandsBasis": "raw",
+  "bands": [
+    {
+      "minInclusive": 0,
+      "maxInclusive": 17,
+      "title": {
+        "ru": "Интерпретация MDQ",
+        "en": "How to interpret the MDQ",
+        "fr": "Interprétation du MDQ",
+        "de": "Auswertung des MDQ",
+        "pt": "Como interpretar o MDQ"
+      },
+      "description": {
+        "ru": "Смотрите три блока ниже и пояснение после опросника: положительный скрининг определяется по всем трём частям вместе, а не по одной общей цифре.",
+        "en": "Use the three sections below plus the note after the questionnaire: a positive screen depends on all three parts together, not one headline number.",
+        "fr": "Regardez les trois blocs et la note : un dépistage positif repose sur les trois parties ensemble.",
+        "de": "Achten Sie auf die drei Bereiche und den Hinweis danach: positives Screening erfordert alle drei Teile.",
+        "pt": "Veja as três partes e a nota ao final: triagem positiva depende das três juntas."
+      }
+    }
+  ],
+  "subscales": [
+    {
+      "id": "symptoms",
+      "label": {
+        "ru": "Ответы «Да» на вопросы о симптомах",
+        "en": "Yes answers on symptom questions",
+        "fr": "Nombre de « oui » sur les symptômes",
+        "de": "Ja-Antworten bei Symptomfragen",
+        "pt": "Respostas «sim» às perguntas sobre sintomas"
+      },
+      "itemIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "maxScore": 13
+    },
+    {
+      "id": "same_period",
+      "label": {
+        "ru": "Симптомы в одном и том же периоде",
+        "en": "Symptoms in the same period",
+        "fr": "Plusieurs symptômes à la même période",
+        "de": "Symptome in derselben Phase",
+        "pt": "Sintomas no mesmo período"
+      },
+      "itemIndices": [
+        13
+      ],
+      "maxScore": 1
+    },
+    {
+      "id": "impairment",
+      "label": {
+        "ru": "Насколько это мешало жизни",
+        "en": "How much it caused problems",
+        "fr": "Impact sur votre vie",
+        "de": "Beeinträchtigung im Alltag",
+        "pt": "Quanto isso atrapalhou sua vida"
+      },
+      "itemIndices": [
+        14
+      ],
+      "maxScore": 3
+    }
+  ],
+  "resultNote": {
+    "ru": "Скрининг считается положительным только если одновременно: не меньше семи ответов «Да» на вопросы о симптомах; «Да» на вопрос о том, что несколько симптомов были в один и тот же период; и в последнем вопросе выбраны варианты «Умеренная» или «Серьёзная» проблема. Это не диагноз — при таком сочетании обратитесь к психиатру или другому квалифицированному специалисту.",
+    "en": "The screen is positive only if all apply: seven or more Yes on the symptom questions; Yes to several symptoms occurring in the same period; and Moderate or Serious problem on the final question. This is not a diagnosis—if that pattern fits, follow up with a psychiatrist or qualified clinician.",
+    "fr": "Dépistage positif seulement si tout est réuni : au moins sept « oui » aux symptômes ; « oui » pour la même période ; problème modéré ou grave à la fin. Pas un diagnostic — consultez un clinicien.",
+    "de": "Positives Screening nur wenn alles zutrifft: mindestens sieben Ja bei Symptomen; Ja zu gleichzeitiger Phase; am Ende mäßig oder ernst. Keine Diagnose — dann Fachperson aufsuchen.",
+    "pt": "Triagem positiva só se tudo coincidir: sete ou mais «sim» nos sintomas; «sim» no mesmo período; problema moderado ou grave no fim. Não é diagnóstico — procure avaliação."
+  },
+  "questions": [
+    {
+      "id": "mdq_1",
+      "text": {
+        "ru": "Бывало ли когда-нибудь, что вы были «не в себе» — не как обычно — и при этом вам было так хорошо или вы были настолько «подняты», что окружающие думали, что вы не в норме, или вы были настолько возбуждены, что из-за этого попадали в неприятности?",
+        "en": "Has there ever been a period of time when you were not your usual self and you felt so good or so hyper that other people thought you were not your normal self or you were so hyper that you got into trouble?",
+        "fr": "Y a-t-il déjà eu une période où vous n'étiez pas comme d'habitude et vous vous sentiez si bien ou si surexcité(e) que les autres pensaient que vous n'étiez pas normal(e), ou vous étiez si surexcité(e) que vous aviez des ennuis ?",
+        "de": "Gab es schon einmal eine Zeit, in der Sie nicht wie sonst waren und sich so gut oder so „hyper“ fühlten, dass andere dachten, Sie seien nicht normal, oder Sie so „hyper“ waren, dass Sie in Schwierigkeiten gerieten?",
+        "pt": "Já houve algum período em que você não era o seu eu habitual e se sentiu tão bem ou tão “para cima” que as outras pessoas acharam que você não estava normal, ou ficou tão agitado(a) que se meteu em problemas?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "mdq_2",
+      "text": {
+        "ru": "Бывало ли когда-нибудь, что вы были «не в себе» — не как обычно — и при этом вы были настолько раздражительны, что кричали на людей или начинали ссоры и конфликты?",
+        "en": "Has there ever been a period of time when you were not your usual self and you were so irritable that you shouted at people or started fights or arguments?",
+        "fr": "Y a-t-il déjà eu une période où vous n'étiez pas comme d'habitude et vous étiez si irritable que vous criiez sur les gens ou commenciez des disputes ou des bagarres ?",
+        "de": "Gab es schon einmal eine Zeit, in der Sie nicht wie sonst waren und so reizbar waren, dass Sie Leute anschrien oder Streit oder Auseinandersetzungen begannen?",
+        "pt": "Já houve algum período em que você não era o seu eu habitual e ficou tão irritável que gritou com as pessoas ou começou brigas ou discussões?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "mdq_3",
+      "text": {
+        "ru": "Бывало ли когда-нибудь, что вы были «не в себе» — не как обычно — и при этом вы чувствовали себя гораздо увереннее в себе, чем обычно?",
+        "en": "Has there ever been a period of time when you were not your usual self and you felt much more self-confident than usual?",
+        "fr": "Y a-t-il déjà eu une période où vous n'étiez pas comme d'habitude et vous vous sentiez beaucoup plus sûr(e) de vous que d'habitude ?",
+        "de": "Gab es schon einmal eine Zeit, in der Sie nicht wie sonst waren und sich viel selbstsicherer fühlten als üblich?",
+        "pt": "Já houve algum período em que você não era o seu eu habitual e se sentiu muito mais confiante do que o normal?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "mdq_4",
+      "text": {
+        "ru": "Бывало ли когда-нибудь, что вы были «не в себе» — не как обычно — и при этом вы спали гораздо меньше обычного и при этом не чувствовали, что вам этого мало?",
+        "en": "Has there ever been a period of time when you were not your usual self and you got much less sleep than usual and found you didn't really miss it?",
+        "fr": "Y a-t-il déjà eu une période où vous n'étiez pas comme d'habitude et vous dormiez beaucoup moins que d'habitude sans vraiment le ressentir ?",
+        "de": "Gab es schon einmal eine Zeit, in der Sie nicht wie sonst waren und viel weniger schliefen als üblich und es kaum vermissten?",
+        "pt": "Já houve algum período em que você não era o seu eu habitual e dormiu muito menos que o normal sem sentir falta disso de verdade?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "mdq_5",
+      "text": {
+        "ru": "Бывало ли когда-нибудь, что вы были «не в себе» — не как обычно — и при этом вы гораздо больше говорили или говорили быстрее, чем обычно?",
+        "en": "Has there ever been a period of time when you were not your usual self and you were much more talkative or spoke faster than usual?",
+        "fr": "Y a-t-il déjà eu une période où vous n'étiez pas comme d'habitude et vous parliez beaucoup plus ou plus vite que d'habitude ?",
+        "de": "Gab es schon einmal eine Zeit, in der Sie nicht wie sonst waren und viel gesprächiger waren oder schneller sprachen als üblich?",
+        "pt": "Já houve algum período em que você não era o seu eu habitual e falou muito mais ou mais rápido que o normal?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "mdq_6",
+      "text": {
+        "ru": "Бывало ли когда-нибудь, что вы были «не в себе» — не как обычно — и при этом мысли так и сыпались, что вы не могли их остановить или «замедлить» голову?",
+        "en": "Has there ever been a period of time when you were not your usual self and thoughts raced through your head or you couldn't slow your mind down?",
+        "fr": "Y a-t-il déjà eu une période où vous n'étiez pas comme d'habitude et les pensées défilaient dans votre tête ou vous ne pouviez pas ralentir votre esprit ?",
+        "de": "Gab es schon einmal eine Zeit, in der Sie nicht wie sonst waren und Gedanken rasend durch den Kopf gingen oder Sie Ihren Geist nicht verlangsamen konnten?",
+        "pt": "Já houve algum período em que você não era o seu eu habitual e os pensamentos corriam na sua cabeça ou você não conseguia “frear” a mente?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "mdq_7",
+      "text": {
+        "ru": "Бывало ли когда-нибудь, что вы были «не в себе» — не как обычно — и при этом вас так легко отвлекало всё вокруг, что трудно было сосредоточиться или довести дело до конца?",
+        "en": "Has there ever been a period of time when you were not your usual self and you were so easily distracted by things around you that you had trouble concentrating or staying on track?",
+        "fr": "Y a-t-il déjà eu une période où vous n'étiez pas comme d'habitude et vous étiez si facilement distrait(e) par ce qui vous entourait que vous aviez du mal à vous concentrer ou à rester sur une tâche ?",
+        "de": "Gab es schon einmal eine Zeit, in der Sie nicht wie sonst waren und sich so leicht von der Umgebung ablenken ließen, dass Sie Schwierigkeiten hatten, sich zu konzentrieren oder bei der Sache zu bleiben?",
+        "pt": "Já houve algum período em que você não era o seu eu habitual e se distraía tão facilmente com o que estava à volta que tinha dificuldade para se concentrar ou seguir o que fazia?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "mdq_8",
+      "text": {
+        "ru": "Бывало ли когда-нибудь, что вы были «не в себе» — не как обычно — и при этом у вас было гораздо больше энергии, чем обычно?",
+        "en": "Has there ever been a period of time when you were not your usual self and you had much more energy than usual?",
+        "fr": "Y a-t-il déjà eu une période où vous n'étiez pas comme d'habitude et vous aviez beaucoup plus d'énergie que d'habitude ?",
+        "de": "Gab es schon einmal eine Zeit, in der Sie nicht wie sonst waren und viel mehr Energie hatten als üblich?",
+        "pt": "Já houve algum período em que você não era o seu eu habitual e teve muito mais energia que o normal?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "mdq_9",
+      "text": {
+        "ru": "Бывало ли когда-нибудь, что вы были «не в себе» — не как обычно — и при этом вы были гораздо активнее или делали гораздо больше дел, чем обычно?",
+        "en": "Has there ever been a period of time when you were not your usual self and you were much more active or did many more things than usual?",
+        "fr": "Y a-t-il déjà eu une période où vous n'étiez pas comme d'habitude et vous étiez beaucoup plus actif(ve) ou faisiez beaucoup plus de choses que d'habitude ?",
+        "de": "Gab es schon einmal eine Zeit, in der Sie nicht wie sonst waren und viel aktiver waren oder viel mehr taten als üblich?",
+        "pt": "Já houve algum período em que você não era o seu eu habitual e ficou muito mais ativo(a) ou fez muito mais coisas que o normal?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "mdq_10",
+      "text": {
+        "ru": "Бывало ли когда-нибудь, что вы были «не в себе» — не как обычно — и при этом вы были гораздо более общительны или «открыты», чем обычно (например, звонили друзьям глубокой ночью)?",
+        "en": "Has there ever been a period of time when you were not your usual self and you were much more social or outgoing than usual—for example, you telephoned friends in the middle of the night?",
+        "fr": "Y a-t-il déjà eu une période où vous n'étiez pas comme d'habitude et vous étiez beaucoup plus sociable ou extraverti(e) que d'habitude — par exemple, vous téléphoniez à des ami(e)s au milieu de la nuit ?",
+        "de": "Gab es schon einmal eine Zeit, in der Sie nicht wie sonst waren und viel geselliger oder extrovertierter waren als üblich — zum Beispiel riefen Sie Freundinnen und Freunden mitten in der Nacht an?",
+        "pt": "Já houve algum período em que você não era o seu eu habitual e ficou muito mais sociável ou extrovertido(a) que o normal — por exemplo, telefonou para amigos no meio da noite?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "mdq_11",
+      "text": {
+        "ru": "Бывало ли когда-нибудь, что вы были «не в себе» — не как обычно — и при этом вас тянуло к сексу гораздо сильнее, чем обычно?",
+        "en": "Has there ever been a period of time when you were not your usual self and you were much more interested in sex than usual?",
+        "fr": "Y a-t-il déjà eu une période où vous n'étiez pas comme d'habitude et vous vous intéressiez beaucoup plus au sexe que d'habitude ?",
+        "de": "Gab es schon einmal eine Zeit, in der Sie nicht wie sonst waren und viel stärkeres sexuelles Interesse hatten als üblich?",
+        "pt": "Já houve algum período em que você não era o seu eu habitual e teve muito mais interesse em sexo que o normal?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "mdq_12",
+      "text": {
+        "ru": "Бывало ли когда-нибудь, что вы были «не в себе» — не как обычно — и при этом вы делали то, что для вас нехарактерно, или что другие могли счесть чрезмерным, неразумным или рискованным?",
+        "en": "Has there ever been a period of time when you were not your usual self and you did things that were unusual for you or that other people might have thought were excessive, foolish, or risky?",
+        "fr": "Y a-t-il déjà eu une période où vous n'étiez pas comme d'habitude et vous faisiez des choses inhabituelles pour vous ou que d'autres auraient pu juger excessives, imprudentes ou risquées ?",
+        "de": "Gab es schon einmal eine Zeit, in der Sie nicht wie sonst waren und Dinge taten, die für Sie ungewöhnlich waren oder die andere für übertrieben, töricht oder riskant gehalten hätten?",
+        "pt": "Já houve algum período em que você não era o seu eu habitual e fez coisas incomuns para você ou que outras pessoas poderiam achar excessivas, imprudentes ou arriscadas?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "mdq_13",
+      "text": {
+        "ru": "Бывало ли когда-нибудь, что вы были «не в себе» — не как обычно — и при этом траты денег создали вам или семье проблемы?",
+        "en": "Has there ever been a period of time when you were not your usual self and spending money got you or your family into trouble?",
+        "fr": "Y a-t-il déjà eu une période où vous n'étiez pas comme d'habitude et vos dépenses vous ont mis, vous ou votre famille, dans l'embarras ?",
+        "de": "Gab es schon einmal eine Zeit, in der Sie nicht wie sonst waren und Ausgaben Sie oder Ihre Familie in Schwierigkeiten brachten?",
+        "pt": "Já houve algum período em que você não era o seu eu habitual e gastar dinheiro causou problemas para você ou para a família?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "mdq_14",
+      "text": {
+        "ru": "Если вы ответили «Да» больше чем на один из пунктов выше, бывало ли так, что несколько из этих вещей происходили в один и тот же период времени?",
+        "en": "If you checked YES to more than one of the above, have several of these ever happened during the same period of time?",
+        "fr": "Si vous avez répondu OUI à plus d'une question ci-dessus, plusieurs de ces choses se sont-elles produites pendant la même période ?",
+        "de": "Wenn Sie bei mehr als einer der obigen Fragen mit JA geantwortet haben: Sind mehrere dieser Dinge zur gleichen Zeit passiert?",
+        "pt": "Se você marcou SIM em mais de uma questão acima, várias dessas coisas já aconteceram no mesmo período?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "mdq_15",
+      "text": {
+        "ru": "Насколько серьёзной для вас была проблема из-за любого из перечисленного — например, невозможность работать, семейные, денежные или юридические трудности, ссоры или драки?",
+        "en": "How much of a problem did any of these cause you—like being unable to work; having family, money, or legal troubles; getting into arguments or fights?",
+        "fr": "Dans quelle mesure l'un ou l'autre de ces éléments vous a posé problème — par exemple incapacité de travailler ; problèmes familiaux, financiers ou juridiques ; disputes ou bagarres ?",
+        "de": "Wie sehr haben Ihnen diese Dinge Probleme bereitet — z. B. unfähig zu arbeiten; familiäre, finanzielle oder rechtliche Schwierigkeiten; Streit oder Schlägereien?",
+        "pt": "O quanto qualquer um desses pontos lhe causou problema — como não conseguir trabalhar; problemas familiares, financeiros ou legais; brigas ou discussões?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет проблемы",
+            "en": "No problem",
+            "fr": "Pas de problème",
+            "de": "Kein Problem",
+            "pt": "Sem problema"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Незначительная проблема",
+            "en": "Minor problem",
+            "fr": "Problème mineur",
+            "de": "Geringes Problem",
+            "pt": "Problema leve"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренная проблема",
+            "en": "Moderate problem",
+            "fr": "Problème modéré",
+            "de": "Mäßiges Problem",
+            "pt": "Problema moderado"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Серьёзная проблема",
+            "en": "Serious problem",
+            "fr": "Problème grave",
+            "de": "Ernstes Problem",
+            "pt": "Problema grave"
+          },
+          "score": 3
+        }
+      ]
+    }
+  ]
+}

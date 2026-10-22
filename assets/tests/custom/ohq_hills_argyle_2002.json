@@ -1,0 +1,2188 @@
+{
+  "id": "ohq",
+  "category": "wellbeing",
+  "title": {
+    "ru": "OHQ — опросник счастья Оксфорда",
+    "en": "OHQ — Oxford Happiness Questionnaire",
+    "fr": "OHQ — Oxford Happiness Questionnaire",
+    "de": "OHQ — Oxford Happiness Questionnaire",
+    "pt": "OHQ — Oxford Happiness Questionnaire"
+  },
+  "subtitle": {
+    "ru": "Субъективное счастье и психологическое благополучие.",
+    "en": "Subjective happiness and psychological well-being.",
+    "fr": "Bonheur subjectif et bien-être psychologique.",
+    "de": "Subjektives Glück und psychisches Wohlbefinden.",
+    "pt": "Felicidade subjetiva e bem-estar psicológico."
+  },
+  "description": {
+    "ru": "Самооценка субъективного счастья и благополучия (Hills & Argyle, 2002). Часть утверждений сформулирована в «негативном» ключе — в приложении ответы уже согласованы так, чтобы итог отражал, насколько вы себя счастливым чувствуете. Не диагноз. При публикации указывайте авторов и статью; возможны ограничения прав.",
+    "en": "Self-report of subjective happiness and well-being (Hills & Argyle, 2002). Some items are negatively worded; the app keys answers so the result reflects how happy you feel overall. Not a diagnosis. Cite the authors; materials may have use restrictions.",
+    "fr": "Auto-évaluation du bonheur (Hills & Argyle, 2002). Items parfois négatifs ; l’application harmonise les réponses pour refléter votre ressenti. Pas un diagnostic.",
+    "de": "Selbstbeschreibung von Glück (Hills & Argyle, 2002). Teilweise negativ formuliert; die App gewichtet Antworten so, dass das Ergebnis Ihr Glücksempfinden widerspiegelt.",
+    "pt": "Autorrelato de felicidade (Hills & Argyle, 2002). Frases às vezes negativas; o app ajusta respostas para refletir como você se sente."
+  },
+  "instructions": {
+    "ru": "Ниже приведены утверждения о счастье. Отметьте степень вашего согласия или несогласия с каждым.",
+    "en": "Below are a number of statements about happiness. Please indicate how much you agree or disagree with each.",
+    "fr": "Voici des phrases sur le bonheur. Indiquez dans quelle mesure vous êtes d’accord ou pas d’accord.",
+    "de": "Nachfolgend Aussagen zum Thema Glück. Geben Sie an, inwieweit Sie jeder Aussage zustimmen oder nicht.",
+    "pt": "Abaixo há afirmações sobre felicidade. Indique o quanto concorda ou discorda de cada uma."
+  },
+  "maxScore": 174,
+  "bandsBasis": "raw",
+  "bands": [
+    {
+      "minInclusive": 29,
+      "maxInclusive": 99,
+      "title": {
+        "ru": "Нижняя часть диапазона",
+        "en": "Lower part of the range",
+        "fr": "Partie basse de l’échelle",
+        "de": "Unterer Bereich",
+        "pt": "Parte baixa da escala"
+      },
+      "description": {
+        "ru": "Нижняя часть шкалы по сравнению с верхом; сравнивайте с вашими прошлыми прохождениями, а не с «нормой».",
+        "en": "Lower part of this scale relative to the top; compare with your own past results, not a single “norm.”",
+        "fr": "Partie basse de l’échelle ; comparez surtout avec vos propres passations.",
+        "de": "Unterer Bereich relativ zum oberen; mit eigenen früheren Ergebnissen vergleichen.",
+        "pt": "Parte baixa da escala; compare com seus próprios resultados anteriores."
+      }
+    },
+    {
+      "minInclusive": 100,
+      "maxInclusive": 129,
+      "title": {
+        "ru": "Средняя зона",
+        "en": "Middle range",
+        "fr": "Zone moyenne",
+        "de": "Mittlerer Bereich",
+        "pt": "Faixa média"
+      },
+      "description": {
+        "ru": "Средняя зона между низом и верхом шкалы; сравнивайте с прошлыми прохождениями и контекстом жизни.",
+        "en": "A middle band between lower and upper areas; compare with your past results and life context.",
+        "fr": "Zone intermédiaire ; comparer avec vos références personnelles.",
+        "de": "Mittlerer Bereich zwischen unten und oben; mit eigener Basis vergleichen.",
+        "pt": "Faixa intermediária; compare com seu contexto e resultados anteriores."
+      }
+    },
+    {
+      "minInclusive": 130,
+      "maxInclusive": 174,
+      "title": {
+        "ru": "Верхняя часть диапазона",
+        "en": "Upper part of the range",
+        "fr": "Partie haute de l’échelle",
+        "de": "Oberer Bereich",
+        "pt": "Parte alta da escala"
+      },
+      "description": {
+        "ru": "Верхняя часть шкалы по сравнению с низом; сильное счастье по опроснику не исключает страдания — при необходимости обратитесь за поддержкой.",
+        "en": "Upper part of this scale relative to lower bands; feeling “high” on the questionnaire does not rule out distress—seek support if you need it.",
+        "fr": "Haut de l’échelle ; un ressenti élevé ici n’exclut pas la détresse.",
+        "de": "Oberer Bereich; hohes Glück auf dem Fragebogen schließt Belastung nicht aus.",
+        "pt": "Parte alta da escala; resultado elevado não exclui sofrimento."
+      }
+    }
+  ],
+  "subscales": [],
+  "resultNote": {
+    "ru": "Ответы на формулировки в негативном ключе уже учтены в вариантах ответа — итог показывает общий профиль счастья, а не «сырые» ответы по строкам.",
+    "en": "Negatively worded items are already keyed in the answer options—the result reflects your overall happiness pattern.",
+    "fr": "Les items négatifs sont déjà pris en compte dans les réponses ; le résultat reflète votre profil global.",
+    "de": "Negativ formulierte Aussagen sind in den Antworten bereits berücksichtigt; das Ergebnis zeigt Ihr Gesamtbild.",
+    "pt": "Itens negativos já estão nos escores das opções; o resultado reflete seu perfil geral."
+  },
+  "questions": [
+    {
+      "id": "ohq_1",
+      "text": {
+        "ru": "Мне не особенно нравится то, какой я есть.",
+        "en": "I don't feel particularly pleased with the way I am.",
+        "fr": "Je ne me sens pas particulièrement satisfait(e) de ce que je suis.",
+        "de": "Ich bin mit mir selbst nicht besonders zufrieden.",
+        "pt": "Não me sinto particularmente satisfeito(a) com o jeito que sou."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ohq_2",
+      "text": {
+        "ru": "Мне очень интересны другие люди.",
+        "en": "I am intensely interested in other people.",
+        "fr": "Les autres m’intéressent énormément.",
+        "de": "Ich interessiere mich sehr für andere Menschen.",
+        "pt": "Tenho um interesse intenso por outras pessoas."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": "ohq_3",
+      "text": {
+        "ru": "Мне кажется, что жизнь очень наполнена смыслом и приносит удовлетворение.",
+        "en": "I feel that life is very rewarding.",
+        "fr": "J’ai l’impression que la vie est très gratifiante.",
+        "de": "Ich empfinde das Leben als sehr lohnend.",
+        "pt": "Sinto que a vida é muito gratificante."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": "ohq_4",
+      "text": {
+        "ru": "Я испытываю очень тёплые чувства почти ко всем людям.",
+        "en": "I have very warm feelings towards almost everyone.",
+        "fr": "J’éprouve des sentiments très chaleureux envers presque tout le monde.",
+        "de": "Ich hege sehr warme Gefühle fast allen Menschen gegenüber.",
+        "pt": "Sinto muito carinho por quase todas as pessoas."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": "ohq_5",
+      "text": {
+        "ru": "Редко просыпаюсь отдохнувшим(ей).",
+        "en": "I rarely wake up feeling rested.",
+        "fr": "Je me réveille rarement reposé(e).",
+        "de": "Ich wache selten ausgeruht auf.",
+        "pt": "Raramente acordo me sentindo descansado(a)."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ohq_6",
+      "text": {
+        "ru": "Я не особенно оптимистичен(на) насчёт будущего.",
+        "en": "I am not particularly optimistic about the future.",
+        "fr": "Je ne suis pas particulièrement optimiste quant à l’avenir.",
+        "de": "Ich bin gegenüber der Zukunft nicht besonders optimistisch.",
+        "pt": "Não sou particularmente otimista quanto ao futuro."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ohq_7",
+      "text": {
+        "ru": "Большинство вещей кажутся мне забавными.",
+        "en": "I find most things amusing.",
+        "fr": "Je trouve la plupart des choses amusantes.",
+        "de": "Ich finde die meisten Dinge amüsant.",
+        "pt": "Acho a maioria das coisas divertidas."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": "ohq_8",
+      "text": {
+        "ru": "Я всегда вовлечён(на) и предан(а) делу.",
+        "en": "I am always committed and involved.",
+        "fr": "Je suis toujours engagé(e) et impliqué(e).",
+        "de": "Ich bin immer engagiert und involviert.",
+        "pt": "Estou sempre comprometido(a) e envolvido(a)."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": "ohq_9",
+      "text": {
+        "ru": "Жизнь хороша.",
+        "en": "Life is good.",
+        "fr": "La vie est belle.",
+        "de": "Das Leben ist gut.",
+        "pt": "A vida é boa."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": "ohq_10",
+      "text": {
+        "ru": "Мне не кажется, что мир — хорошее место.",
+        "en": "I do not think that the world is a good place.",
+        "fr": "Je ne pense pas que le monde soit un bon endroit.",
+        "de": "Ich finde nicht, dass die Welt ein guter Ort ist.",
+        "pt": "Não acho que o mundo seja um bom lugar."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ohq_11",
+      "text": {
+        "ru": "Я много смеюсь.",
+        "en": "I laugh a lot.",
+        "fr": "Je ris beaucoup.",
+        "de": "Ich lache viel.",
+        "pt": "Rio muito."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": "ohq_12",
+      "text": {
+        "ru": "Я в целом доволен(на) всем в своей жизни.",
+        "en": "I am well satisfied about everything in my life.",
+        "fr": "Je suis satisfait(e) de tout dans ma vie.",
+        "de": "Ich bin mit allem in meinem Leben zufrieden.",
+        "pt": "Estou bem satisfeito(a) com tudo na minha vida."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": "ohq_13",
+      "text": {
+        "ru": "Мне не кажется, что я выгляжу привлекательно.",
+        "en": "I don't think I look attractive.",
+        "fr": "Je ne me trouve pas attirant(e).",
+        "de": "Ich finde, ich sehe nicht attraktiv aus.",
+        "pt": "Não acho que pareça atraente."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ohq_14",
+      "text": {
+        "ru": "Есть разрыв между тем, что я хотел(а) бы делать, и тем, что я сделал(а).",
+        "en": "There is a gap between what I would like to do and what I have done.",
+        "fr": "Il y a un écart entre ce que j’aimerais faire et ce que j’ai fait.",
+        "de": "Es gibt eine Lücke zwischen dem, was ich tun möchte, und dem, was ich getan habe.",
+        "pt": "Há um hiato entre o que gostaria de fazer e o que fiz."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ohq_15",
+      "text": {
+        "ru": "Я очень счастлив(а).",
+        "en": "I am very happy.",
+        "fr": "Je suis très heureux/heureuse.",
+        "de": "Ich bin sehr glücklich.",
+        "pt": "Sou muito feliz."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": "ohq_16",
+      "text": {
+        "ru": "Я нахожу красоту в некоторых вещах.",
+        "en": "I find beauty in some things.",
+        "fr": "Je trouve de la beauté en certaines choses.",
+        "de": "Ich finde in manchen Dingen Schönheit.",
+        "pt": "Encontro beleza em algumas coisas."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": "ohq_17",
+      "text": {
+        "ru": "Я почти всегда поднимаю настроение другим.",
+        "en": "I always have a cheerful effect on others.",
+        "fr": "J’ai toujours un effet joyeux sur les autres.",
+        "de": "Ich wirke auf andere fast immer fröhlich.",
+        "pt": "Quase sempre transmito alegria aos outros."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": "ohq_18",
+      "text": {
+        "ru": "Я успеваю всё, что хочу.",
+        "en": "I can fit in everything I want to.",
+        "fr": "J’arrive à tout caser de ce que je veux.",
+        "de": "Ich kann alles unterbringen, was ich möchte.",
+        "pt": "Consigo encaixar tudo o que quero."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": "ohq_19",
+      "text": {
+        "ru": "Мне кажется, что я не особенно контролирую свою жизнь.",
+        "en": "I feel that I am not especially in control of my life.",
+        "fr": "J’ai l’impression de ne pas vraiment contrôler ma vie.",
+        "de": "Ich habe das Gefühl, mein Leben nicht wirklich unter Kontrolle zu haben.",
+        "pt": "Sinto que não controlo especialmente a minha vida."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ohq_20",
+      "text": {
+        "ru": "Я чувствую, что справлюсь с чем угодно.",
+        "en": "I feel able to take anything on.",
+        "fr": "J’ai le sentiment de pouvoir tout affronter.",
+        "de": "Ich fühle mich fähig, alles anzugehen.",
+        "pt": "Sinto-me capaz de encarar qualquer coisa."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": "ohq_21",
+      "text": {
+        "ru": "Я чувствую себя полностью ясным(ой) в голове.",
+        "en": "I feel fully mentally alert.",
+        "fr": "Je me sens pleinement alerte mentalement.",
+        "de": "Ich fühle mich geistig voll wach.",
+        "pt": "Sinto-me mentalmente totalmente alerta."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": "ohq_22",
+      "text": {
+        "ru": "Я часто испытываю радость и приподнятость.",
+        "en": "I often experience joy and elation.",
+        "fr": "Je ressens souvent de la joie et de l’exaltation.",
+        "de": "Ich erlebe oft Freude und Hochgefühl.",
+        "pt": "Frequentemente sinto alegria e euforia."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": "ohq_23",
+      "text": {
+        "ru": "Мне нелегко принимать решения.",
+        "en": "I do not find it easy to make decisions.",
+        "fr": "Je n’arrive pas facilement à prendre des décisions.",
+        "de": "Es fällt mir nicht leicht, Entscheidungen zu treffen.",
+        "pt": "Não me é fácil tomar decisões."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ohq_24",
+      "text": {
+        "ru": "У меня нет особого чувства смысла и цели в жизни.",
+        "en": "I do not have a particular sense of meaning and purpose in my life.",
+        "fr": "Je n’ai pas vraiment le sentiment d’un sens et d’un but dans ma vie.",
+        "de": "Mir fehlt ein besonderes Gefühl von Sinn und Ziel in meinem Leben.",
+        "pt": "Não tenho um sentido ou propósito particular na vida."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ohq_25",
+      "text": {
+        "ru": "Я чувствую большой запас энергии.",
+        "en": "I feel I have a great deal of energy.",
+        "fr": "J’ai l’impression d’avoir beaucoup d’énergie.",
+        "de": "Ich habe viel Energie.",
+        "pt": "Sinto que tenho muita energia."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": "ohq_26",
+      "text": {
+        "ru": "Обычно я хорошо влияю на ход событий.",
+        "en": "I usually have a good influence on events.",
+        "fr": "J’ai en général une bonne influence sur les événements.",
+        "de": "Ich habe meist einen guten Einfluss auf das Geschehen.",
+        "pt": "Normalmente influencio bem os acontecimentos."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": "ohq_27",
+      "text": {
+        "ru": "Мне не весело с другими людьми.",
+        "en": "I do not have fun with other people.",
+        "fr": "Je ne m’amuse pas avec les autres.",
+        "de": "Ich habe keinen Spaß mit anderen Menschen.",
+        "pt": "Não me divirto com outras pessoas."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ohq_28",
+      "text": {
+        "ru": "Я не чувствую себя особенно здоровым(ой).",
+        "en": "I don't feel particularly healthy.",
+        "fr": "Je ne me sens pas particulièrement en bonne santé.",
+        "de": "Ich fühle mich nicht besonders gesund.",
+        "pt": "Não me sinto particularmente saudável."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ohq_29",
+      "text": {
+        "ru": "У меня нет особенно счастливых воспоминаний о прошлом.",
+        "en": "I do not have particularly happy memories of the past.",
+        "fr": "Je n’ai pas de souvenirs particulièrement heureux du passé.",
+        "de": "Ich habe keine besonders glücklichen Erinnerungen an die Vergangenheit.",
+        "pt": "Não tenho memórias particularmente felizes do passado."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Strongly disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Moderately disagree",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme eher nicht zu",
+            "pt": "Discordo moderadamente"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Slightly disagree",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo levemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Slightly agree",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo levemente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Moderately agree",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme eher zu",
+            "pt": "Concordo moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Strongly agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll und ganz zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

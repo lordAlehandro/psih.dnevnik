@@ -1,0 +1,1929 @@
+{
+  "id": "scared",
+  "category": "anxiety",
+  "title": {
+    "ru": "SCARED — скрининг детской тревоги",
+    "en": "SCARED — Screen for Child Anxiety Related Disorders",
+    "fr": "SCARED — dépistage des troubles anxieux chez l’enfant",
+    "de": "SCARED — Screening kindlicher Angststörungen",
+    "pt": "SCARED — triagem de transtornos de ansiedade infantil"
+  },
+  "subtitle": {
+    "ru": "Тревожные симптомы у детей и подростков за последние месяцы.",
+    "en": "Anxiety symptoms in children and adolescents over recent months.",
+    "fr": "Symptômes d’anxiété chez l’enfant et l’adolescent, derniers mois.",
+    "de": "Angstsymptome bei Kindern und Jugendlichen in den letzten Monaten.",
+    "pt": "Sintomas de ansiedade em crianças e adolescentes nos últimos meses."
+  },
+  "description": {
+    "ru": "Скрининг тревожных симптомов у детей и подростков 8–18 лет (Birmaher et al., 1997, 1999). Не заменяет клиническую оценку. Методика: University of Pittsburgh / WPIC.",
+    "en": "Screens anxiety-related symptoms in youth ages 8–18 (Birmaher et al., 1997, 1999). Not a substitute for clinical assessment. From University of Pittsburgh / WPIC.",
+    "fr": "Dépistage des symptômes anxieux chez les 8–18 ans (Birmaher et al.). Pas un diagnostic clinique.",
+    "de": "Screening von Angstsymptomen bei 8–18-Jährigen (Birmaher et al.). Ersetzt keine klinische Beurteilung.",
+    "pt": "Triagem de sintomas de ansiedade em 8–18 anos (Birmaher et al.). Não substitui avaliação clínica."
+  },
+  "instructions": {
+    "ru": "Ниже перечислены фразы о том, как люди себя чувствуют. Прочитайте каждую и отметьте, насколько она про вас за последние три месяца.",
+    "en": "Below is a list of phrases about how people feel. Read each one and mark how true it has been for you over the last 3 months.",
+    "fr": "Ci-dessous des phrases sur les sentiments. Lisez chacune et indiquez à quel point cela vous correspond sur les 3 derniers mois.",
+    "de": "Unten stehen Sätze zu Gefühlen. Lesen Sie jeden und markieren Sie, wie sehr das in den letzten 3 Monaten auf Sie zutraf.",
+    "pt": "Abaixo há frases sobre como as pessoas se sentem. Leia cada uma e marque o quanto isso foi verdade para você nos últimos 3 meses."
+  },
+  "maxScore": 82,
+  "bandsBasis": "raw",
+  "bands": [
+    {
+      "minInclusive": 0,
+      "maxInclusive": 24,
+      "title": {
+        "ru": "Низкая выраженность на скрининге",
+        "en": "Low screening level",
+        "fr": "Niveau de dépistage bas",
+        "de": "Niedriges Screening-Niveau",
+        "pt": "Nível baixo na triagem"
+      },
+      "description": {
+        "ru": "По этому скринингу тревожное расстройство маловероятно; это не диагноз и не исключает консультации специалиста при жалобах.",
+        "en": "On this screen, clinically significant anxiety is less likely—screening only, not a diagnosis. Seek help if symptoms still worry you.",
+        "fr": "Sur cet outil, un trouble anxieux significatif est moins probable ; dépistage seulement. Consultez si inquiétude.",
+        "de": "Auf diesem Screen ist eine klinisch bedeutsame Angststörung weniger wahrscheinlich — nur Screening. Bei Sorgen trotzdem Hilfe holen.",
+        "pt": "Nesta triagem, transtorno de ansiedade clínico é menos provável — só triagem. Busque ajuda se ainda houver preocupação."
+      }
+    },
+    {
+      "minInclusive": 25,
+      "maxInclusive": 29,
+      "title": {
+        "ru": "Повышенная выраженность",
+        "en": "Elevated level",
+        "fr": "Niveau élevé",
+        "de": "Erhöhtes Niveau",
+        "pt": "Nível elevado"
+      },
+      "description": {
+        "ru": "Имеет смысл обсудить результат с детским психологом, педиатром или психиатром.",
+        "en": "Worth discussing with a pediatrician, child psychologist, or psychiatrist.",
+        "fr": "Utile d’en parler à un pédiatre ou un spécialiste de l’enfant.",
+        "de": "Sinnvoll mit Kinderarzt/Kinderpsychologie zu besprechen.",
+        "pt": "Vale conversar com pediatra ou especialista em saúde mental infantil."
+      }
+    },
+    {
+      "minInclusive": 30,
+      "maxInclusive": 82,
+      "title": {
+        "ru": "Высокая выраженность",
+        "en": "High level",
+        "fr": "Niveau élevé",
+        "de": "Hohes Niveau",
+        "pt": "Nível alto"
+      },
+      "description": {
+        "ru": "Сильные тревожные симптомы на скрининге; рекомендуется очная оценка специалиста.",
+        "en": "Strong anxiety signals on this screen; in-person evaluation is recommended.",
+        "fr": "Signaux d’anxiété marqués ; évaluation en personne recommandée.",
+        "de": "Deutliche Angstsignale; persönliche Abklärung empfohlen.",
+        "pt": "Sinais fortes de ansiedade; avaliação presencial recomendada."
+      }
+    }
+  ],
+  "subscales": [
+    {
+      "id": "panic_somatic",
+      "label": {
+        "ru": "Паника / соматика",
+        "en": "Panic / somatic",
+        "fr": "Panique / somatique",
+        "de": "Panik / somatisch",
+        "pt": "Pânico / somático"
+      },
+      "itemIndices": [
+        0,
+        5,
+        8,
+        11,
+        14,
+        17,
+        18,
+        21,
+        23,
+        26,
+        29,
+        33,
+        37
+      ],
+      "maxScore": 26
+    },
+    {
+      "id": "gad",
+      "label": {
+        "ru": "Генерализованная тревога",
+        "en": "Generalized anxiety",
+        "fr": "Anxiété généralisée",
+        "de": "Generalisierte Angst",
+        "pt": "Ansiedade generalizada"
+      },
+      "itemIndices": [
+        4,
+        6,
+        13,
+        20,
+        22,
+        27,
+        32,
+        34,
+        36
+      ],
+      "maxScore": 18
+    },
+    {
+      "id": "separation",
+      "label": {
+        "ru": "Разлучение",
+        "en": "Separation anxiety",
+        "fr": "Anxiété de séparation",
+        "de": "Trennungsangst",
+        "pt": "Ansiedade de separação"
+      },
+      "itemIndices": [
+        3,
+        7,
+        12,
+        15,
+        19,
+        24,
+        28,
+        30
+      ],
+      "maxScore": 16
+    },
+    {
+      "id": "social",
+      "label": {
+        "ru": "Социальная тревога",
+        "en": "Social anxiety",
+        "fr": "Anxiété sociale",
+        "de": "Soziale Angst",
+        "pt": "Ansiedade social"
+      },
+      "itemIndices": [
+        2,
+        9,
+        25,
+        31,
+        38,
+        39,
+        40
+      ],
+      "maxScore": 14
+    },
+    {
+      "id": "school",
+      "label": {
+        "ru": "Школьное избегание",
+        "en": "School avoidance",
+        "fr": "Évitement scolaire",
+        "de": "Schulvermeidung",
+        "pt": "Evitação escolar"
+      },
+      "itemIndices": [
+        1,
+        10,
+        16,
+        35
+      ],
+      "maxScore": 8
+    }
+  ],
+  "resultNote": {
+    "ru": "Ниже — разные области тревоги (паника, школа, социальные ситуации и т.д.). Для детей 8–11 лет взрослому лучше помогать с формулировками вопросов. Это скрининг, не диагноз.",
+    "en": "Below are different anxiety areas (panic, school, social situations, etc.). For ages 8–11, an adult may help read the items. Screening only—not a diagnosis.",
+    "fr": "Ci-dessous : domaines d’anxiété (panique, école, social…). Pour 8–11 ans, un adulte peut aider à lire. Dépistage seulement.",
+    "de": "Unten: verschiedene Angstbereiche (Panik, Schule, sozial …). Bei 8–11 Jahren kann ein Erwachsener beim Lesen helfen. Nur Screening.",
+    "pt": "Abaixo: áreas de ansiedade (pânico, escola, social etc.). Para 8–11 anos, um adulto pode ajudar a ler. Só triagem."
+  },
+  "questions": [
+    {
+      "id": "scared_1",
+      "text": {
+        "ru": "Когда мне страшно, мне трудно дышать.",
+        "en": "When I feel frightened, it is hard to breathe.",
+        "fr": "Quand j'ai peur, il m'est difficile de respirer.",
+        "de": "Wenn ich Angst habe, fällt mir das Atmen schwer.",
+        "pt": "Quando fico com medo, é difícil respirar."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_2",
+      "text": {
+        "ru": "У меня болит голова, когда я в школе.",
+        "en": "I get headaches when I am at school.",
+        "fr": "J'ai mal à la tête quand je suis à l'école.",
+        "de": "Ich habe Kopfschmerzen, wenn ich in der Schule bin.",
+        "pt": "Eu tenho dor de cabeça quando estou na escola."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_3",
+      "text": {
+        "ru": "Мне не нравится быть с людьми, которых я плохо знаю.",
+        "en": "I don't like to be with people I don't know well.",
+        "fr": "Je n'aime pas être avec des gens que je connais peu.",
+        "de": "Ich bin nicht gern bei Leuten, die ich kaum kenne.",
+        "pt": "Não gosto de ficar com pessoas que não conheço bem."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_4",
+      "text": {
+        "ru": "Мне страшно спать не дома.",
+        "en": "I get scared if I sleep away from home.",
+        "fr": "J'ai peur de dormir ailleurs que chez moi.",
+        "de": "Mir ist angst, wenn ich nicht zu Hause schlafe.",
+        "pt": "Fico com medo de dormir fora de casa."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_5",
+      "text": {
+        "ru": "Я переживаю, нравлюсь ли я другим.",
+        "en": "I worry about other people liking me.",
+        "fr": "Je m'inquiète que les autres m'aiment.",
+        "de": "Ich mache mir Sorgen, ob andere mich mögen.",
+        "pt": "Me preocupo se as outras pessoas gostam de mim."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_6",
+      "text": {
+        "ru": "Когда мне страшно, мне кажется, что я сейчас упаду в обморок.",
+        "en": "When I get frightened, I feel like passing out.",
+        "fr": "Quand j'ai peur, j'ai l'impression de m'évanouir.",
+        "de": "Wenn ich Angst habe, habe ich das Gefühl, ohnmächtig zu werden.",
+        "pt": "Quando fico com medo, sinto que vou desmaiar."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_7",
+      "text": {
+        "ru": "Я нервничаю.",
+        "en": "I am nervous.",
+        "fr": "Je suis nerveux.",
+        "de": "Ich bin nervös.",
+        "pt": "Fico nervoso."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_8",
+      "text": {
+        "ru": "Я хожу за мамой или папой, куда бы они ни шли.",
+        "en": "I follow my mother or father wherever they go.",
+        "fr": "Je suis tout le temps derrière ma mère ou mon père.",
+        "de": "Ich folge meiner Mutter oder meinem Vater überall hin.",
+        "pt": "Vou atrás da minha mãe ou do meu pai para onde quer que eles vão."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_9",
+      "text": {
+        "ru": "Люди говорят мне, что я выгляжу нервным(ой).",
+        "en": "People tell me that I look nervous.",
+        "fr": "Les gens me disent que j'ai l'air nerveux.",
+        "de": "Leute sagen mir, dass ich nervös aussehe.",
+        "pt": "As pessoas dizem que eu pareço nervoso."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_10",
+      "text": {
+        "ru": "Мне нервно с людьми, которых я плохо знаю.",
+        "en": "I feel nervous with people I don't know well.",
+        "fr": "Je me sens nerveux avec des gens que je connais peu.",
+        "de": "Ich fühle mich nervös bei Leuten, die ich kaum kenne.",
+        "pt": "Fico nervoso com pessoas que não conheço bem."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_11",
+      "text": {
+        "ru": "У меня болит живот в школе.",
+        "en": "I get stomachaches at school.",
+        "fr": "J'ai mal au ventre à l'école.",
+        "de": "Ich habe Bauchschmerzen in der Schule.",
+        "pt": "Tenho dor de barriga na escola."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_12",
+      "text": {
+        "ru": "Когда мне страшно, мне кажется, что я схожу с ума.",
+        "en": "When I get frightened, I feel like I am going crazy.",
+        "fr": "Quand j'ai peur, j'ai l'impression de devenir fou.",
+        "de": "Wenn ich Angst habe, habe ich das Gefühl, verrückt zu werden.",
+        "pt": "Quando fico com medo, sinto que estou ficando louco."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_13",
+      "text": {
+        "ru": "Я переживаю из‑за того, что сплю один(одна).",
+        "en": "I worry about sleeping alone.",
+        "fr": "Je m'inquiète de dormir seul.",
+        "de": "Ich mache mir Sorgen, allein zu schlafen.",
+        "pt": "Me preocupo em dormir sozinho."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_14",
+      "text": {
+        "ru": "Я переживаю, насколько я хорош(а), как другие дети.",
+        "en": "I worry about being as good as other kids.",
+        "fr": "Je m'inquiète d'être aussi bon que les autres enfants.",
+        "de": "Ich mache mir Sorgen, ob ich so gut bin wie andere Kinder.",
+        "pt": "Me preocupo em ser tão bom quanto as outras crianças."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_15",
+      "text": {
+        "ru": "Когда мне страшно, мне кажется, что всё вокруг ненастоящее.",
+        "en": "When I get frightened, I feel like things are not real.",
+        "fr": "Quand j'ai peur, j'ai l'impression que les choses ne sont pas réelles.",
+        "de": "Wenn ich Angst habe, kommt mir alles unwirklich vor.",
+        "pt": "Quando fico com medo, sinto que as coisas não são reais."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_16",
+      "text": {
+        "ru": "Мне снятся кошмары о том, что с родителями может случиться что‑то плохое.",
+        "en": "I have nightmares about something bad happening to my parents.",
+        "fr": "Je fais des cauchemars où il arrive quelque chose de grave à mes parents.",
+        "de": "Ich habe Alpträume, in denen meinen Eltern etwas Schlimmes passiert.",
+        "pt": "Tenho pesadelos de que algo ruim aconteça aos meus pais."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_17",
+      "text": {
+        "ru": "Я переживаю из‑за школы.",
+        "en": "I worry about going to school.",
+        "fr": "Je m'inquiète à propos de l'école.",
+        "de": "Ich mache mir Sorgen wegen der Schule.",
+        "pt": "Me preocupo com a escola."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_18",
+      "text": {
+        "ru": "Когда мне страшно, у меня сильно бьётся сердце.",
+        "en": "When I get frightened, my heart beats fast.",
+        "fr": "Quand j'ai peur, mon cœur bat très vite.",
+        "de": "Wenn ich Angst habe, schlägt mein Herz schnell.",
+        "pt": "Quando fico com medo, meu coração bate forte."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_19",
+      "text": {
+        "ru": "Я дрожу.",
+        "en": "I get shaky.",
+        "fr": "Je tremble.",
+        "de": "Ich zittere.",
+        "pt": "Eu tremeo."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_20",
+      "text": {
+        "ru": "Мне снятся кошмары о том, что со мной может случиться что‑то плохое.",
+        "en": "I have nightmares about something bad happening to me.",
+        "fr": "Je fais des cauchemars où il m'arrive quelque chose de grave.",
+        "de": "Ich habe Alpträume, in denen mir etwas Schlimmes passiert.",
+        "pt": "Tenho pesadelos de que algo ruim aconteça comigo."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_21",
+      "text": {
+        "ru": "Я переживаю, получится ли у меня.",
+        "en": "I worry about things working out for me.",
+        "fr": "Je m'inquiète que les choses se passent bien pour moi.",
+        "de": "Ich mache mir Sorgen, ob bei mir alles gut läuft.",
+        "pt": "Me preocupo se as coisas vão dar certo para mim."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_22",
+      "text": {
+        "ru": "Когда мне страшно, я сильно потею.",
+        "en": "When I get frightened, I sweat a lot.",
+        "fr": "Quand j'ai peur, je transpire beaucoup.",
+        "de": "Wenn ich Angst habe, schwitze ich stark.",
+        "pt": "Quando fico com medo, sudo muito."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_23",
+      "text": {
+        "ru": "Я человек тревожный.",
+        "en": "I am a worrier.",
+        "fr": "Je suis une personne inquiète.",
+        "de": "Ich bin ein Mensch, der sich viele Sorgen macht.",
+        "pt": "Sou uma pessoa muito preocupada."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_24",
+      "text": {
+        "ru": "Иногда мне очень страшно без всякой причины.",
+        "en": "I get really frightened for no reason at all.",
+        "fr": "J'ai vraiment peur sans aucune raison.",
+        "de": "Manchmal habe ich richtig Angst, ohne jeden Grund.",
+        "pt": "Às vezes fico com muito medo sem nenhum motivo."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_25",
+      "text": {
+        "ru": "Мне страшно оставаться одному(одной) дома.",
+        "en": "I am afraid to be alone in the house.",
+        "fr": "J'ai peur de rester seul à la maison.",
+        "de": "Ich habe Angst, allein zu Hause zu sein.",
+        "pt": "Tenho medo de ficar sozinho em casa."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_26",
+      "text": {
+        "ru": "Мне трудно разговаривать с людьми, которых я плохо знаю.",
+        "en": "It is hard for me to talk with people I don't know well.",
+        "fr": "Il m'est difficile de parler avec des gens que je connais peu.",
+        "de": "Es fällt mir schwer, mit Leuten zu sprechen, die ich kaum kenne.",
+        "pt": "É difícil para mim falar com pessoas que não conheço bem."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_27",
+      "text": {
+        "ru": "Когда мне страшно, мне кажется, что меня душат.",
+        "en": "When I get frightened, I feel like I am choking.",
+        "fr": "Quand j'ai peur, j'ai l'impression d'étouffer.",
+        "de": "Wenn ich Angst habe, habe ich das Gefühl zu ersticken.",
+        "pt": "Quando fico com medo, sinto que estou me engasgando."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_28",
+      "text": {
+        "ru": "Люди говорят мне, что я слишком много переживаю.",
+        "en": "People tell me that I worry too much.",
+        "fr": "Les gens me disent que je m'inquiète trop.",
+        "de": "Leute sagen mir, dass ich mir zu viele Sorgen mache.",
+        "pt": "As pessoas dizem que me preocupo demais."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_29",
+      "text": {
+        "ru": "Мне не нравится быть далеко от семьи.",
+        "en": "I don't like to be away from my family.",
+        "fr": "Je n'aime pas être loin de ma famille.",
+        "de": "Ich bin nicht gern von meiner Familie getrennt.",
+        "pt": "Não gosto de ficar longe da minha família."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_30",
+      "text": {
+        "ru": "Я боюсь приступов тревоги (или паники).",
+        "en": "I am afraid of having anxiety (or panic) attacks.",
+        "fr": "J'ai peur d'avoir des crises d'angoisse ou de panique.",
+        "de": "Ich habe Angst vor Angst- oder Panikattacken.",
+        "pt": "Tenho medo de ter ataques de ansiedade ou de pânico."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_31",
+      "text": {
+        "ru": "Я переживаю, что с родителями может случиться что‑то плохое.",
+        "en": "I worry that something bad might happen to my parents.",
+        "fr": "Je m'inquiète qu'il arrive quelque chose de grave à mes parents.",
+        "de": "Ich mache mir Sorgen, dass meinen Eltern etwas Schlimmes passieren könnte.",
+        "pt": "Me preocupo de que algo ruim possa acontecer aos meus pais."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_32",
+      "text": {
+        "ru": "Я стесняюсь с людьми, которых плохо знаю.",
+        "en": "I feel shy with people I don't know well.",
+        "fr": "Je me sens timide avec des gens que je connais peu.",
+        "de": "Ich fühle mich schüchtern bei Leuten, die ich kaum kenne.",
+        "pt": "Fico tímido com pessoas que não conheço bem."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_33",
+      "text": {
+        "ru": "Я переживаю о том, что будет в будущем.",
+        "en": "I worry about what is going to happen in the future.",
+        "fr": "Je m'inquiète de ce qui va se passer dans le futur.",
+        "de": "Ich mache mir Sorgen darüber, was in der Zukunft passieren wird.",
+        "pt": "Me preocupo com o que vai acontecer no futuro."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_34",
+      "text": {
+        "ru": "Когда мне страшно, меня тошнит.",
+        "en": "When I get frightened, I feel like throwing up.",
+        "fr": "Quand j'ai peur, j'ai envie de vomir.",
+        "de": "Wenn ich Angst habe, muss ich mich übergeben.",
+        "pt": "Quando fico com medo, sinto vontade de vomitar."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_35",
+      "text": {
+        "ru": "Я переживаю, насколько хорошо у меня получаются дела.",
+        "en": "I worry about how well I do things.",
+        "fr": "Je m'inquiète de bien réussir ce que je fais.",
+        "de": "Ich mache mir Sorgen, ob ich Dinge gut genug mache.",
+        "pt": "Me preocupo em fazer as coisas bem."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_36",
+      "text": {
+        "ru": "Мне страшно ходить в школу.",
+        "en": "I am scared to go to school.",
+        "fr": "J'ai peur d'aller à l'école.",
+        "de": "Ich habe Angst, zur Schule zu gehen.",
+        "pt": "Tenho medo de ir à escola."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_37",
+      "text": {
+        "ru": "Я переживаю о том, что уже произошло.",
+        "en": "I worry about things that have already happened.",
+        "fr": "Je m'inquiète pour ce qui s'est déjà passé.",
+        "de": "Ich mache mir Sorgen über Dinge, die schon passiert sind.",
+        "pt": "Me preocupo com coisas que já aconteceram."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_38",
+      "text": {
+        "ru": "Когда мне страшно, у меня кружится голова.",
+        "en": "When I get frightened, I feel dizzy.",
+        "fr": "Quand j'ai peur, j'ai des vertiges.",
+        "de": "Wenn ich Angst habe, wird mir schwindelig.",
+        "pt": "Quando fico com medo, fico tonto."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_39",
+      "text": {
+        "ru": "Мне нервно, когда я с другими детьми или взрослыми и мне нужно что‑то делать, пока они смотрят (например: читать вслух, говорить, играть, заниматься спортом).",
+        "en": "I feel nervous when I am with other children or adults and I have to do something while they watch me (for example: read aloud, speak, play a game, play a sport).",
+        "fr": "Je me sens nerveux quand je suis avec d'autres enfants ou adultes et que je dois faire quelque chose pendant qu'ils me regardent (par exemple : lire à voix haute, parler, jouer, faire du sport).",
+        "de": "Ich bin nervös, wenn ich bei anderen Kindern oder Erwachsenen etwas tun soll, während sie zusehen (z. B. laut vorlesen, sprechen, spielen, Sport).",
+        "pt": "Fico nervoso quando estou com outras crianças ou adultos e preciso fazer algo enquanto eles olham (por exemplo: ler em voz alta, falar, jogar, praticar esporte)."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_40",
+      "text": {
+        "ru": "Мне нервно, когда я иду на вечеринки, танцы или куда‑то, где будут люди, которых я плохо знаю.",
+        "en": "I feel nervous when I am going to parties, dances, or any place where there will be people that I don't know well.",
+        "fr": "Je me sens nerveux quand je vais à des fêtes, des danses ou des endroits où il y aura des gens que je connais peu.",
+        "de": "Ich bin nervös, wenn ich zu Partys, zum Tanzen oder an Orte gehe, an denen Leute sein werden, die ich kaum kenne.",
+        "pt": "Fico nervoso quando vou a festas, bailes ou lugares onde haverá pessoas que não conheço bem."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "scared_41",
+      "text": {
+        "ru": "Я застенчив(а).",
+        "en": "I am shy.",
+        "fr": "Je suis timide.",
+        "de": "Ich bin schüchtern.",
+        "pt": "Sou tímido."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не про меня или почти никогда",
+            "en": "Not True or Hardly Ever True",
+            "fr": "Pas vrai ou presque jamais",
+            "de": "Trifft nicht zu oder fast nie",
+            "pt": "Não é verdade ou quase nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Отчасти про меня или иногда",
+            "en": "Somewhat True or Sometimes True",
+            "fr": "Plutôt vrai ou parfois",
+            "de": "Eher zutreffend oder manchmal",
+            "pt": "Um tanto verdade ou às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень про меня или часто",
+            "en": "Very True or Often True",
+            "fr": "Très vrai ou souvent",
+            "de": "Sehr zutreffend oder oft",
+            "pt": "Muito verdade ou frequentemente"
+          },
+          "score": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,986 @@
+{
+  "id": "wemwbs",
+  "category": "wellbeing",
+  "title": {
+    "ru": "WEMWBS — шкала психического благополучия Уорик — Эдинбург",
+    "en": "WEMWBS — Warwick–Edinburgh Mental Wellbeing Scale",
+    "fr": "WEMWBS — Échelle de bien-être mental Warwick–Édimbourg",
+    "de": "WEMWBS — Warwick–Edinburgh Mental Wellbeing Scale",
+    "pt": "WEMWBS — Escala de bem-estar mental Warwick–Edimburgo"
+  },
+  "subtitle": {
+    "ru": "Ментальное благополучие за последние две недели.",
+    "en": "Mental well-being over the past two weeks.",
+    "fr": "Bien-être mental sur les deux dernières semaines.",
+    "de": "Psychisches Wohlbefinden in den letzten zwei Wochen.",
+    "pt": "Bem-estar mental nas últimas duas semanas."
+  },
+  "description": {
+    "ru": "Оценивает психическое благополучие за последние две недели (Tennant et al., 2007). Не диагноз. Права: University of Warwick; условия использования — warwick.ac.uk/wemwbs.",
+    "en": "Measures mental wellbeing over the past two weeks (Tennant et al., 2007). Not a diagnosis. Owned by the University of Warwick; see warwick.ac.uk/wemwbs for terms.",
+    "fr": "Évalue le bien-être sur 2 semaines (Tennant et al., 2007). Pas un diagnostic. Droits : University of Warwick.",
+    "de": "Erfasst psychisches Wohlbefinden über 2 Wochen (Tennant et al., 2007). Keine Diagnose. Rechte: University of Warwick.",
+    "pt": "Avalia bem-estar mental nas últimas 2 semanas (Tennant et al., 2007). Não é diagnóstico. Direitos: University of Warwick."
+  },
+  "instructions": {
+    "ru": "Ниже перечислены мысли и чувства, которые могли у вас быть. Отметьте, как часто вы так себя чувствовали за последние две недели.",
+    "en": "Below are some statements about feelings and thoughts. Please tick the box that best describes your experience of each over the last 2 weeks.",
+    "fr": "Voici des phrases sur des sentiments et des pensées. Cochez la case qui décrit le mieux votre expérience au cours des 2 dernières semaines.",
+    "de": "Nachfolgend Aussagen zu Gefühlen und Gedanken. Wählen Sie für die letzten 2 Wochen die passendste Antwort.",
+    "pt": "Abaixo há frases sobre sentimentos e pensamentos. Marque a opção que melhor descreve sua experiência nas últimas 2 semanas."
+  },
+  "maxScore": 70,
+  "bandsBasis": "raw",
+  "bands": [
+    {
+      "minInclusive": 14,
+      "maxInclusive": 41,
+      "title": {
+        "ru": "Нижний диапазон",
+        "en": "Lower range",
+        "fr": "Plage basse",
+        "de": "Unterer Bereich",
+        "pt": "Faixa mais baixa"
+      },
+      "description": {
+        "ru": "Более низкое самоощущение благополучия относительно других зон этой шкалы; ориентир, не диагноз.",
+        "en": "Lower wellbeing relative to other bands on this scale; a guide, not a diagnosis.",
+        "fr": "Bien-être plus bas que d’autres zones de l’échelle ; indicatif seulement.",
+        "de": "Geringeres Wohlbefinden relativ zu anderen Bereichen; nur Orientierung.",
+        "pt": "Bem-estar mais baixo que outras faixas; só orientação."
+      }
+    },
+    {
+      "minInclusive": 42,
+      "maxInclusive": 48,
+      "title": {
+        "ru": "Ниже обычного для многих людей уровня",
+        "en": "Somewhat below a typical level",
+        "fr": "Un peu sous un niveau souvent typique",
+        "de": "Etwas unter einem oft typischen Niveau",
+        "pt": "Um pouco abaixo de um nível frequentemente típico"
+      },
+      "description": {
+        "ru": "Самоощущение благополучия немного ниже, чем у многих взрослых в типичных описаниях этой шкалы.",
+        "en": "Wellbeing feels a bit lower than levels often described as typical for many adults on this scale.",
+        "fr": "Bien-être un peu plus bas que ce qui est souvent décrit comme typique chez de nombreux adultes.",
+        "de": "Wohlbefinden etwas niedriger als häufig als typisch beschrieben.",
+        "pt": "Bem-estar um pouco abaixo do que costuma ser descrito como típico para muitos adultos."
+      }
+    },
+    {
+      "minInclusive": 49,
+      "maxInclusive": 59,
+      "title": {
+        "ru": "Средний диапазон",
+        "en": "Middle range",
+        "fr": "Plage moyenne",
+        "de": "Mittlerer Bereich",
+        "pt": "Faixa média"
+      },
+      "description": {
+        "ru": "Умеренное, часто встречающееся самоощущение благополучия на этой шкале.",
+        "en": "A moderate, commonly reported sense of wellbeing on this scale.",
+        "fr": "Bien-être modéré, souvent observé sur cette échelle.",
+        "de": "Mäßiges, häufig berichtetes Wohlbefinden auf dieser Skala.",
+        "pt": "Bem-estar moderado, frequentemente descrito nesta escala."
+      }
+    },
+    {
+      "minInclusive": 60,
+      "maxInclusive": 70,
+      "title": {
+        "ru": "Высокое благополучие",
+        "en": "Higher wellbeing",
+        "fr": "Bien-être élevé",
+        "de": "Höheres Wohlbefinden",
+        "pt": "Bem-estar mais alto"
+      },
+      "description": {
+        "ru": "Более высокое самоощущение благополучия. При стойком дистрессе или болезни всё равно обратитесь за поддержкой.",
+        "en": "Higher reported wellbeing. Still seek support if you feel distressed or unwell.",
+        "fr": "Bien-être perçu plus élevé. Cherchez de l’aide si la détresse persiste.",
+        "de": "Höheres wahrgenommenes Wohlbefinden. Bei anhaltender Belastung trotzdem Hilfe suchen.",
+        "pt": "Bem-estar percebido mais alto. Busque apoio se ainda houver sofrimento."
+      }
+    }
+  ],
+  "subscales": [],
+  "resultNote": {
+    "ru": "Интерпретация зависит от вашей ситуации; при сомнениях обсудите результат со специалистом.",
+    "en": "How you interpret this depends on your situation; talk with a professional if unsure.",
+    "fr": "L’interprétation dépend de votre situation ; parlez-en à un professionnel si besoin.",
+    "de": "Die Einordnung hängt von Ihrer Situation ab; bei Unsicherheit Fachpersonen fragen.",
+    "pt": "A interpretação depende da sua situação; converse com um profissional se tiver dúvidas."
+  },
+  "questions": [
+    {
+      "id": "wemwbs_1",
+      "text": {
+        "ru": "Я чувствовал(а) оптимизм насчёт будущего",
+        "en": "I've been feeling optimistic about the future",
+        "fr": "Je me suis senti(e) optimiste quant à l’avenir",
+        "de": "Ich war optimistisch in Bezug auf die Zukunft",
+        "pt": "Senti-me otimista quanto ao futuro"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Ни разу",
+            "en": "None of the time",
+            "fr": "Jamais",
+            "de": "Zu keiner Zeit",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Some of the time",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Всё время",
+            "en": "All of the time",
+            "fr": "Tout le temps",
+            "de": "Die ganze Zeit",
+            "pt": "O tempo todo"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "wemwbs_2",
+      "text": {
+        "ru": "Я чувствовал(а), что я кому-то нужен(на)",
+        "en": "I've been feeling useful",
+        "fr": "Je me suis senti(e) utile",
+        "de": "Ich fühlte mich nützlich",
+        "pt": "Senti-me útil"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Ни разу",
+            "en": "None of the time",
+            "fr": "Jamais",
+            "de": "Zu keiner Zeit",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Some of the time",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Всё время",
+            "en": "All of the time",
+            "fr": "Tout le temps",
+            "de": "Die ganze Zeit",
+            "pt": "O tempo todo"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "wemwbs_3",
+      "text": {
+        "ru": "Я чувствовал(а) себя расслабленно",
+        "en": "I've been feeling relaxed",
+        "fr": "Je me suis senti(e) détendu(e)",
+        "de": "Ich fühlte mich entspannt",
+        "pt": "Senti-me relaxado(a)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Ни разу",
+            "en": "None of the time",
+            "fr": "Jamais",
+            "de": "Zu keiner Zeit",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Some of the time",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Всё время",
+            "en": "All of the time",
+            "fr": "Tout le temps",
+            "de": "Die ganze Zeit",
+            "pt": "O tempo todo"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "wemwbs_4",
+      "text": {
+        "ru": "Мне было интересно на других людей смотреть / общаться",
+        "en": "I've been feeling interested in other people",
+        "fr": "Je me suis senti(e) intéressé(e) par les autres",
+        "de": "Ich war an anderen Menschen interessiert",
+        "pt": "Interessei-me por outras pessoas"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Ни разу",
+            "en": "None of the time",
+            "fr": "Jamais",
+            "de": "Zu keiner Zeit",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Some of the time",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Всё время",
+            "en": "All of the time",
+            "fr": "Tout le temps",
+            "de": "Die ganze Zeit",
+            "pt": "O tempo todo"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "wemwbs_5",
+      "text": {
+        "ru": "У меня был запас сил",
+        "en": "I've had energy to spare",
+        "fr": "J’ai eu de l’énergie en réserve",
+        "de": "Ich hatte Energie im Überfluss",
+        "pt": "Tive energia de sobra"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Ни разу",
+            "en": "None of the time",
+            "fr": "Jamais",
+            "de": "Zu keiner Zeit",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Some of the time",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Всё время",
+            "en": "All of the time",
+            "fr": "Tout le temps",
+            "de": "Die ganze Zeit",
+            "pt": "O tempo todo"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "wemwbs_6",
+      "text": {
+        "ru": "Я неплохо справлялся(лась) с проблемами",
+        "en": "I've been dealing with problems well",
+        "fr": "J’ai bien géré les problèmes",
+        "de": "Ich kam mit Problemen gut zurecht",
+        "pt": "Lidei bem com os problemas"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Ни разу",
+            "en": "None of the time",
+            "fr": "Jamais",
+            "de": "Zu keiner Zeit",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Some of the time",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Всё время",
+            "en": "All of the time",
+            "fr": "Tout le temps",
+            "de": "Die ganze Zeit",
+            "pt": "O tempo todo"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "wemwbs_7",
+      "text": {
+        "ru": "Я мог(ла) ясно мыслить",
+        "en": "I've been thinking clearly",
+        "fr": "J’ai pu penser clairement",
+        "de": "Ich konnte klar denken",
+        "pt": "Consegui pensar com clareza"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Ни разу",
+            "en": "None of the time",
+            "fr": "Jamais",
+            "de": "Zu keiner Zeit",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Some of the time",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Всё время",
+            "en": "All of the time",
+            "fr": "Tout le temps",
+            "de": "Die ganze Zeit",
+            "pt": "O tempo todo"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "wemwbs_8",
+      "text": {
+        "ru": "Я чувствовал(а) себя хорошо",
+        "en": "I've been feeling good about myself",
+        "fr": "J’ai eu bonne image de moi-même",
+        "de": "Ich fühlte mich mit mir selbst wohl",
+        "pt": "Senti-me bem comigo mesmo(a)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Ни разу",
+            "en": "None of the time",
+            "fr": "Jamais",
+            "de": "Zu keiner Zeit",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Some of the time",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Всё время",
+            "en": "All of the time",
+            "fr": "Tout le temps",
+            "de": "Die ganze Zeit",
+            "pt": "O tempo todo"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "wemwbs_9",
+      "text": {
+        "ru": "Я чувствовал(а) близость к другим людям",
+        "en": "I've been feeling close to other people",
+        "fr": "Je me suis senti(e) proche des autres",
+        "de": "Ich fühlte mich anderen nahe",
+        "pt": "Senti-me próximo(a) das outras pessoas"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Ни разу",
+            "en": "None of the time",
+            "fr": "Jamais",
+            "de": "Zu keiner Zeit",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Some of the time",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Всё время",
+            "en": "All of the time",
+            "fr": "Tout le temps",
+            "de": "Die ganze Zeit",
+            "pt": "O tempo todo"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "wemwbs_10",
+      "text": {
+        "ru": "Я чувствовал(а) уверенность в себе",
+        "en": "I've been feeling confident",
+        "fr": "Je me suis senti(e) confiant(e)",
+        "de": "Ich fühlte mich selbstbewusst",
+        "pt": "Senti-me confiante"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Ни разу",
+            "en": "None of the time",
+            "fr": "Jamais",
+            "de": "Zu keiner Zeit",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Some of the time",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Всё время",
+            "en": "All of the time",
+            "fr": "Tout le temps",
+            "de": "Die ganze Zeit",
+            "pt": "O tempo todo"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "wemwbs_11",
+      "text": {
+        "ru": "Я мог(ла) самостоятельно принимать решения",
+        "en": "I've been able to make up my own mind about things",
+        "fr": "J’ai pu me faire mon propre avis sur les choses",
+        "de": "Ich konnte mir selbst eine Meinung bilden",
+        "pt": "Consegui decidir por mim mesmo(a)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Ни разу",
+            "en": "None of the time",
+            "fr": "Jamais",
+            "de": "Zu keiner Zeit",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Some of the time",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Всё время",
+            "en": "All of the time",
+            "fr": "Tout le temps",
+            "de": "Die ganze Zeit",
+            "pt": "O tempo todo"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "wemwbs_12",
+      "text": {
+        "ru": "Я чувствовал(а), что меня любят",
+        "en": "I've been feeling loved",
+        "fr": "Je me suis senti(e) aimé(e)",
+        "de": "Ich fühlte mich geliebt",
+        "pt": "Senti-me amado(a)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Ни разу",
+            "en": "None of the time",
+            "fr": "Jamais",
+            "de": "Zu keiner Zeit",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Some of the time",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Всё время",
+            "en": "All of the time",
+            "fr": "Tout le temps",
+            "de": "Die ganze Zeit",
+            "pt": "O tempo todo"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "wemwbs_13",
+      "text": {
+        "ru": "Мне было интересно что-то новое",
+        "en": "I've been interested in new things",
+        "fr": "Les nouveautés m’ont intéressé(e)",
+        "de": "Ich war an neuen Dingen interessiert",
+        "pt": "Interessei-me por coisas novas"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Ни разу",
+            "en": "None of the time",
+            "fr": "Jamais",
+            "de": "Zu keiner Zeit",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Some of the time",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Всё время",
+            "en": "All of the time",
+            "fr": "Tout le temps",
+            "de": "Die ganze Zeit",
+            "pt": "O tempo todo"
+          },
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "wemwbs_14",
+      "text": {
+        "ru": "Я чувствовал(а) себя бодро / в хорошем настроении",
+        "en": "I've been feeling cheerful",
+        "fr": "Je me suis senti(e) de bonne humeur",
+        "de": "Ich fühlte mich heiter",
+        "pt": "Senti-me alegre"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Ни разу",
+            "en": "None of the time",
+            "fr": "Jamais",
+            "de": "Zu keiner Zeit",
+            "pt": "Nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Some of the time",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Всё время",
+            "en": "All of the time",
+            "fr": "Tout le temps",
+            "de": "Die ganze Zeit",
+            "pt": "O tempo todo"
+          },
+          "score": 5
+        }
+      ]
+    }
+  ]
+}

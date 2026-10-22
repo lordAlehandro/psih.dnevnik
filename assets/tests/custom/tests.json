@@ -1,0 +1,1267 @@
+[
+  {
+    "id": "bdi_21_standard",
+    "category": "depression",
+    "title": {
+      "ru": "Шкала депрессии Бека (BDI)",
+      "en": "Beck Depression Inventory (BDI)",
+      "fr": "Inventaire de dépression de Beck (BDI)",
+      "de": "Beck-Depressions-Inventar (BDI)",
+      "pt": "Inventário de Depressão de Beck (BDI)"
+    },
+    "subtitle": {
+      "ru": "Классическая самооценка тяжести депрессии за текущую неделю.",
+      "en": "Classic self-report of depression severity this week.",
+      "fr": "Auto-évaluation classique de la sévérité dépressive cette semaine.",
+      "de": "Klassische Selbsterfassung der Depressionsschwere in dieser Woche.",
+      "pt": "Autorrelato clássico da gravidade da depressão nesta semana."
+    },
+    "description": {
+      "ru": "Классический опросник для оценки выраженности депрессивных состояний.",
+      "en": "A classic questionnaire for assessing the severity of depressive states.",
+      "fr": "Un questionnaire classique pour évaluer la sévérité des états dépressifs.",
+      "de": "Ein klassischer Fragebogen zur Beurteilung des Schweregrads depressiver Zustände.",
+      "pt": "Um questionário clássico para avaliar a gravidade dos estados depressivos."
+    },
+    "instructions": {
+      "ru": "Внимательно прочитайте каждую группу утверждений. Выберите одно утверждение, которое лучше всего соответствует тому, как Вы себя чувствовали НА ЭТОЙ НЕДЕЛЕ, включая СЕГОДНЯ.",
+      "en": "Read each group of statements carefully. Choose the one statement that best describes how you have been feeling THIS WEEK, including TODAY.",
+      "fr": "Lisez attentivement chaque groupe d'affirmations. Choisissez l'affirmation qui décrit le mieux comment vous vous êtes senti CETTE SEMAINE, y compris AUJOURD'HUI.",
+      "de": "Lesen Sie jede Gruppe von Aussagen sorgfältig durch. Wählen Sie die eine Aussage aus, die am besten beschreibt, wie Sie sich DIESE WOCHE, einschließlich HEUTE, gefühlt haben.",
+      "pt": "Leia cada grupo de afirmações com atenção. Escolha a afirmação que melhor descreve como você tem se sentido ESTA SEMANA, incluindo HOJE."
+    },
+    "questions": [
+      {
+        "id": "bdi_1",
+        "text": {
+          "ru": "Настроение",
+          "en": "Mood",
+          "fr": "Humeur",
+          "de": "Stimmung",
+          "pt": "Humor"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Я не чувствую себя расстроенным, печальным.",
+              "en": "I do not feel sad.",
+              "fr": "Je ne me sens pas triste.",
+              "de": "Ich bin nicht traurig.",
+              "pt": "Eu não me sinto triste."
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Я расстроен.",
+              "en": "I feel sad.",
+              "fr": "Je me sens triste.",
+              "de": "Ich bin traurig.",
+              "pt": "Eu me sinto triste."
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Я все время расстроен и не могу от этого отключиться.",
+              "en": "I am sad all the time and I can't snap out of it.",
+              "fr": "Je suis triste tout le temps et je n'arrive pas à m'en sortir.",
+              "de": "Ich bin die ganze Zeit traurig und komme nicht davon los.",
+              "pt": "Estou sempre triste e não consigo sair disso."
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Я настолько расстроен и несчастлив, что не могу это выдержать.",
+              "en": "I am so sad or unhappy that I can't stand it.",
+              "fr": "Je suis si triste ou si malheureux que je ne peux pas le supporter.",
+              "de": "Ich bin so traurig oder unglücklich, dass ich es nicht aushalte.",
+              "pt": "Estou tão triste ou infeliz que não aguento mais."
+            },
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "bdi_2",
+        "text": {
+          "ru": "Пессимизм",
+          "en": "Pessimism",
+          "fr": "Pessimisme",
+          "de": "Pessimismus",
+          "pt": "Pessimismo"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Я не тревожусь о своем будущем.",
+              "en": "I am not particularly discouraged about the future.",
+              "fr": "Je ne suis pas particulièrement découragé par l'avenir.",
+              "de": "Ich sehe nicht besonders entmutigt in die Zukunft.",
+              "pt": "Não estou particularmente desanimado com o futuro."
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Я чувствую, что озадачен будущим.",
+              "en": "I feel discouraged about the future.",
+              "fr": "Je me sens découragé par l'avenir.",
+              "de": "Ich sehe entmutigt in die Zukunft.",
+              "pt": "Eu me sinto desanimado com o futuro."
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Я чувствую, что меня ничего не ждет в будущем.",
+              "en": "I feel I have nothing to look forward to.",
+              "fr": "J'ai l'impression que je n'ai rien à attendre de l'avenir.",
+              "de": "Ich habe das Gefühl, dass ich auf nichts mehr hoffen kann.",
+              "pt": "Sinto que não tenho nada pelo que esperar."
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Мое будущее безнадежно, и ничто не может измениться к лучшему.",
+              "en": "I feel that the future is hopeless and that things cannot improve.",
+              "fr": "J'ai l'impression que l'avenir est sans espoir et que les choses ne peuvent pas s'améliorer.",
+              "de": "Ich habe das Gefühl, dass die Zukunft hoffnungslos ist und sich die Dinge nicht bessern werden.",
+              "pt": "Sinto que o futuro é sem esperança e que as coisas não podem melhorar."
+            },
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "bdi_3",
+        "text": {
+          "ru": "Чувство неудачи",
+          "en": "Sense of Failure",
+          "fr": "Sentiment d'échec",
+          "de": "Versagensgefühl",
+          "pt": "Sentimento de Fracasso"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Я не чувствую себя неудачником.",
+              "en": "I do not feel like a failure.",
+              "fr": "Je ne me sens pas un raté.",
+              "de": "Ich fühle mich nicht als Versager.",
+              "pt": "Não me sinto um fracassado."
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Я чувствую, что терпел больше неудач, чем другие люди.",
+              "en": "I feel I have failed more than the average person.",
+              "fr": "J'ai l'impression d'avoir échoué plus que la moyenne des gens.",
+              "de": "Ich habe das Gefühl, öfter versagt zu haben als der Durchschnitt.",
+              "pt": "Sinto que falhei mais do que a maioria das pessoas."
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Когда я оглядываюсь на свою жизнь, я вижу в ней много неудач.",
+              "en": "As I look back on my life, all I can see is a lot of failures.",
+              "fr": "Quand je regarde ma vie passée, tout ce que j'y vois, c'est une quantité d'échecs.",
+              "de": "Wenn ich auf mein Leben zurückblicke, sehe ich nur eine Menge Fehlschläge.",
+              "pt": "Quando olho para trás, para a minha vida, tudo o que vejo é uma porção de fracassos."
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Я чувствую, что как личность я – полный неудачник.",
+              "en": "I feel I am a complete failure as a person.",
+              "fr": "J'ai l'impression d'être un raté total en tant que personne.",
+              "de": "Ich fühle mich als Mensch als völliger Versager.",
+              "pt": "Sinto que sou um fracasso completo como pessoa."
+            },
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "bdi_4",
+        "text": {
+          "ru": "Удовлетворенность",
+          "en": "Lack of Satisfaction",
+          "fr": "Manque de satisfaction",
+          "de": "Unzufriedenheit",
+          "pt": "Falta de Satisfação"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Я получаю столько же удовлетворения от жизни, как раньше.",
+              "en": "I get as much satisfaction out of things as I used to.",
+              "fr": "Je retire autant de plaisir qu'avant des choses que j'aime.",
+              "de": "Ich bin mit allem so zufrieden wie früher.",
+              "pt": "Sinto tanto prazer nas coisas como antes."
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Я не получаю столько же удовлетворения от жизни, как раньше.",
+              "en": "I don't enjoy things the way I used to.",
+              "fr": "Je n'ai plus autant de plaisir qu'avant aux choses que j'aime.",
+              "de": "Ich kann die Dinge nicht mehr so genießen wie früher.",
+              "pt": "Não sinto prazer nas coisas como costumava sentir."
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Я больше не получаю удовлетворения ни от чего.",
+              "en": "I don't get real satisfaction out of anything anymore.",
+              "fr": "Je ne retire plus de satisfaction réelle de quoi que ce soit.",
+              "de": "Ich bin mit nichts mehr so richtig zufrieden.",
+              "pt": "Não sinto mais satisfação real em nada."
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Я полностью не удовлетворен жизнью и мне все надоело.",
+              "en": "I am dissatisfied or bored with everything.",
+              "fr": "Je suis mécontent ou ennuyé de tout.",
+              "de": "Ich bin mit allem unzufrieden oder gelangweilt.",
+              "pt": "Estou insatisfeito ou entediado com tudo."
+            },
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "bdi_5",
+        "text": {
+          "ru": "Чувство вины",
+          "en": "Guilty Feelings",
+          "fr": "Sentiment de culpabilité",
+          "de": "Schuldgefühle",
+          "pt": "Sentimentos de Culpa"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Я не чувствую себя в чем-нибудь виноватым.",
+              "en": "I don't feel particularly guilty.",
+              "fr": "Je ne me sens pas particulièrement coupable.",
+              "de": "Ich fühle mich nicht besonders schuldig.",
+              "pt": "Não me sinto particularmente culpado."
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Достаточно часто я чувствую себя виноватым.",
+              "en": "I feel guilty a good part of the time.",
+              "fr": "Je me sens coupable une bonne partie du temps.",
+              "de": "Ich fühle mich oft schuldig.",
+              "pt": "Eu me sinto culpado boa parte do tempo."
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Большую часть времени я чувствую себя виноватым.",
+              "en": "I feel quite guilty most of the time.",
+              "fr": "Je me sens tout à fait coupable la plupart du temps.",
+              "de": "Ich fühle mich meistens sehr schuldig.",
+              "pt": "Eu me sinto muito culpado na maior parte do tempo."
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Я постоянно испытываю чувство вины.",
+              "en": "I feel guilty all of the time.",
+              "fr": "Je me sens coupable tout le temps.",
+              "de": "Ich fühle mich die ganze Zeit schuldig.",
+              "pt": "Eu me sinto culpado o tempo todo."
+            },
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "bdi_6",
+        "text": {
+          "ru": "Ожидание наказания",
+          "en": "Sense of Punishment",
+          "fr": "Sentiment de punition",
+          "de": "Strafbedürfnis",
+          "pt": "Sentimento de Punição"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Я не чувствую, что могу быть наказанным за что-либо.",
+              "en": "I don't feel I am being punished.",
+              "fr": "Je ne me sens pas puni.",
+              "de": "Ich habe nicht das Gefühl, bestraft zu werden.",
+              "pt": "Não sinto que esteja sendo punido."
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Я чувствую, что могу быть наказан.",
+              "en": "I feel I may be punished.",
+              "fr": "Je sens que je pourrais être puni.",
+              "de": "Ich habe das Gefühl, dass ich bestraft werden könnte.",
+              "pt": "Sinto que posso ser punido."
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Я ожидаю, что могу быть наказан.",
+              "en": "I expect to be punished.",
+              "fr": "Je m'attends à être puni.",
+              "de": "Ich erwarte, bestraft zu werden.",
+              "pt": "Espero ser punido."
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Я чувствую себя уже наказанным.",
+              "en": "I feel I am being punished.",
+              "fr": "Je me sens déjà puni.",
+              "de": "Ich fühle mich bereits bestraft.",
+              "pt": "Sinto-me castigado."
+            },
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "bdi_7",
+        "text": {
+          "ru": "Самоненависть",
+          "en": "Self-Dislike",
+          "fr": "Déception envers soi-même",
+          "de": "Selbstenttäuschung",
+          "pt": "Auto-repulsa"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Я не разочаровался в себе.",
+              "en": "I don't feel disappointed in myself.",
+              "fr": "Je ne suis pas déçu par moi-même.",
+              "de": "Ich bin von mir selbst nicht enttäuscht.",
+              "pt": "Não me sinto decepcionado comigo mesmo."
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Я разочаровался в себе.",
+              "en": "I am disappointed in myself.",
+              "fr": "Je suis déçu par moi-même.",
+              "de": "Ich bin von mir selbst enttäuscht.",
+              "pt": "Estou decepcionado comigo mesmo."
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Я себе противен.",
+              "en": "I am disgusted with myself.",
+              "fr": "Je me dégoûte.",
+              "de": "Ich finde mich ekelhaft.",
+              "pt": "Estou enojado comigo mesmo."
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Я себя ненавижу.",
+              "en": "I hate myself.",
+              "fr": "Je me hais.",
+              "de": "Ich hasse mich.",
+              "pt": "Eu me odeio."
+            },
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "bdi_8",
+        "text": {
+          "ru": "Самообвинение",
+          "en": "Self-Accusations",
+          "fr": "Auto-accusations",
+          "de": "Selbstanklage",
+          "pt": "Auto-acusações"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Я знаю, что я не хуже других.",
+              "en": "I don't feel I am any worse than anybody else.",
+              "fr": "Je n'ai pas le sentiment d'être plus mauvais qu'un autre.",
+              "de": "Ich fühle mich nicht schlechter als andere.",
+              "pt": "Não sinto que seja pior do que qualquer outra pessoa."
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Я критикую себя за ошибки и слабости.",
+              "en": "I am critical of myself for my weaknesses or mistakes.",
+              "fr": "Je me reproche mes faiblesses ou mes erreurs.",
+              "de": "Ich kritisiere mich wegen meiner Fehler und Schwächen.",
+              "pt": "Sou crítico comigo mesmo por minhas fraquezas ou erros."
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Я все время обвиняю себя за свои поступки.",
+              "en": "I blame myself all the time for my faults.",
+              "fr": "Je me blâme tout le temps pour mes défauts.",
+              "de": "Ich gebe mir die ganze Zeit die Schuld an meinen Fehlern.",
+              "pt": "Eu me culpo o tempo todo pelas minhas falhas."
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Я виню себя во всем плохом, что происходит.",
+              "en": "I blame myself for everything bad that happens.",
+              "fr": "Je m'accuse pour tout ce qui arrive de mal.",
+              "de": "Ich gebe mir die Schuld an allem Schlimmen, was passiert.",
+              "pt": "Eu me culpo por tudo de ruim que acontece."
+            },
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "bdi_9",
+        "text": {
+          "ru": "Суицидальные мысли",
+          "en": "Suicidal Ideas",
+          "fr": "Idées suicidaires",
+          "de": "Suizidgedanken",
+          "pt": "Ideias Suicidas"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Я никогда не думал покончить с собой.",
+              "en": "I don't have any thoughts of killing myself.",
+              "fr": "Je n'ai pas de pensées de suicide.",
+              "de": "Ich denke nicht daran, mir etwas anzutun.",
+              "pt": "Não tenho pensamentos de me matar."
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Ко мне приходят мысли покончить с собой, но я не буду их осуществлять.",
+              "en": "I have thoughts of killing myself, but I would not carry them out.",
+              "fr": "J'ai des pensées de suicide, mais je ne les exécuterais pas.",
+              "de": "Ich habe Gedanken, mir das Leben zu nehmen, aber ich würde sie nicht ausführen.",
+              "pt": "Tenho pensamentos de me matar, mas não os levaria adiante."
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Я хотел бы покончить с собой.",
+              "en": "I would like to kill myself.",
+              "fr": "J'aimerais me tuer.",
+              "de": "Ich möchte mich am liebsten umbringen.",
+              "pt": "Eu gostaria de me matar."
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Я бы убил себя, если бы представился случай.",
+              "en": "I would kill myself if I had the chance.",
+              "fr": "Je me tuerais si j'en avais l'occasion.",
+              "de": "Ich würde mich umbringen, wenn ich die Gelegenheit dazu hätte.",
+              "pt": "Eu me mataria se tivesse a chance."
+            },
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "bdi_10",
+        "text": {
+          "ru": "Слезливость",
+          "en": "Crying",
+          "fr": "Pleurs",
+          "de": "Weinen",
+          "pt": "Choro"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Я плачу не больше, чем обычно.",
+              "en": "I don't cry any more than usual.",
+              "fr": "Je ne pleure pas plus que d'habitude.",
+              "de": "Ich weine nicht mehr als früher.",
+              "pt": "Não choro mais do que o habitual."
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Сейчас я плачу чаще, чем раньше.",
+              "en": "I cry more now than I used to.",
+              "fr": "Je pleure plus maintenant que je n'en avais l'habitude.",
+              "de": "Ich weine jetzt mehr als früher.",
+              "pt": "Choro mais agora do que costumava."
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Теперь я все время плачу.",
+              "en": "I cry all the time now.",
+              "fr": "Je pleure tout le temps maintenant.",
+              "de": "Ich weine jetzt die ganze Zeit.",
+              "pt": "Choro o tempo todo agora."
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Раньше я мог плакать, а сейчас не могу, даже если мне хочется.",
+              "en": "I used to be able to cry, but now I can't cry even though I want to.",
+              "fr": "Avant j'étais capable de pleurer, mais maintenant je ne peux plus, même si j'en ai envie.",
+              "de": "Früher konnte ich weinen, aber jetzt kann ich es nicht mehr, selbst wenn ich wollte.",
+              "pt": "Eu costumava ser capaz de chorar, mas agora não consigo, mesmo que queira."
+            },
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "bdi_11",
+        "text": {
+          "ru": "Раздражительность",
+          "en": "Irritability",
+          "fr": "Irritabilité",
+          "de": "Reizbarkeit",
+          "pt": "Irritabilidade"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Сейчас я раздражителен не более, чем обычно.",
+              "en": "I am no more irritated now than I ever am.",
+              "fr": "Je ne suis pas plus irrité maintenant que je ne l'ai jamais été.",
+              "de": "Ich bin nicht reizbarer als sonst.",
+              "pt": "Não sou mais irritado agora do que costumava ser."
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Я более легко раздражаюсь, чем раньше.",
+              "en": "I get annoyed or irritated more easily than I used to.",
+              "fr": "Je m'énerve ou je m'irrite plus facilement qu'avant.",
+              "de": "Ich bin jetzt leichter verärgert oder gereizt als früher.",
+              "pt": "Fico aborrecido ou irritado mais facilmente do que antes."
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Теперь я постоянно чувствую, что раздражен.",
+              "en": "I feel irritated all the time now.",
+              "fr": "Je me sens irrité tout le temps maintenant.",
+              "de": "Ich fühle mich jetzt die ganze Zeit gereizt.",
+              "pt": "Sinto-me irritado o tempo todo agora."
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Я стал равнодушен к вещам, которые меня раньше раздражали.",
+              "en": "I don't get irritated at all by the things that used to irritate me.",
+              "fr": "Je ne suis plus du tout irrité par les choses qui m'irritaient auparavant.",
+              "de": "Die Dinge, die mich früher gereizt haben, lassen mich jetzt völlig kalt.",
+              "pt": "Não me irrito nem um pouco com as coisas que costumavam me irritar."
+            },
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "bdi_12",
+        "text": {
+          "ru": "Интерес к людям",
+          "en": "Social Withdrawal",
+          "fr": "Retrait social",
+          "de": "Sozialer Rückzug",
+          "pt": "Retraimento Social"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Я не утратил интереса к другим людям.",
+              "en": "I have not lost interest in other people.",
+              "fr": "Je n'ai pas perdu l'intérêt pour les autres.",
+              "de": "Ich habe das Interesse an anderen Menschen nicht verloren.",
+              "pt": "Não perdi o interesse pelas outras pessoas."
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Я меньше интересуюсь другими людьми, чем раньше.",
+              "en": "I am less interested in other people than I used to be.",
+              "fr": "Je m'intéresse moins aux autres qu'avant.",
+              "de": "Ich interessiere mich weniger für andere Menschen als früher.",
+              "pt": "Estou menos interessado nas outras pessoas do que costumava estar."
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Я почти потерял интерес к другим людям.",
+              "en": "I have lost most of my interest in other people.",
+              "fr": "J'ai perdu la plus grande partie de mon intérêt pour les autres.",
+              "de": "Ich habe das Interesse an anderen Menschen weitgehend verloren.",
+              "pt": "Perdi a maior parte do meu interesse pelas outras pessoas."
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Я полностью утратил интерес к другим людям.",
+              "en": "I have lost all of my interest in other people.",
+              "fr": "J'ai perdu tout intérêt pour les autres.",
+              "de": "Ich habe jegliches Interesse an anderen Menschen verloren.",
+              "pt": "Perdi todo o interesse pelas outras pessoas."
+            },
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "bdi_13",
+        "text": {
+          "ru": "Нерешительность",
+          "en": "Indecisiveness",
+          "fr": "Indécision",
+          "de": "Entschlussunfähigkeit",
+          "pt": "Indecisão"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Я откладываю принятие решения иногда, как и раньше.",
+              "en": "I make decisions about as well as I ever could.",
+              "fr": "Je prends des décisions aussi bien que d'habitude.",
+              "de": "Ich kann Entscheidungen so gut treffen wie immer.",
+              "pt": "Tomo decisões tão bem como sempre."
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Я чаще, чем раньше, откладываю принятие решения.",
+              "en": "I put off making decisions more than I used to.",
+              "fr": "J'ai tendance à remettre mes décisions à plus tard plus qu'avant.",
+              "de": "Ich schiebe Entscheidungen öfter auf als früher.",
+              "pt": "Adio as decisões mais do que costumava."
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Мне труднее принимать решения, чем раньше.",
+              "en": "I have greater difficulty in making decisions than before.",
+              "fr": "J'ai plus de difficulté qu'avant à prendre des décisions.",
+              "de": "Ich habe größere Schwierigkeiten, Entscheidungen zu treffen als früher.",
+              "pt": "Tenho maior dificuldade em tomar decisões do que antes."
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Я больше не могу принимать решения.",
+              "en": "I can't make decisions at all anymore.",
+              "fr": "Je n'arrive plus du tout à prendre de décisions.",
+              "de": "Ich kann überhaupt keine Entscheidungen mehr treffen.",
+              "pt": "Não consigo mais tomar nenhuma decisão."
+            },
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "bdi_14",
+        "text": {
+          "ru": "Внешность",
+          "en": "Body Image",
+          "fr": "Image corporelle",
+          "de": "Körperbild",
+          "pt": "Imagem Corporal"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Я не чувствую, что выгляжу хуже, чем обычно.",
+              "en": "I don't feel that I look any worse than I used to.",
+              "fr": "Je n'ai pas l'impression d'être plus mal physiquement qu'avant.",
+              "de": "Ich habe nicht das Gefühl, schlechter auszusehen als früher.",
+              "pt": "Não sinto que minha aparência seja pior do que costumava ser."
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Меня тревожит, что я выгляжу старым и непривлекательным.",
+              "en": "I am worried that I am looking old or unattractive.",
+              "fr": "Je m'inquiète d'avoir l'air vieux ou peu attrayant.",
+              "de": "Ich mache mir Sorgen, dass ich alt oder unattraktiv aussehe.",
+              "pt": "Preocupo-me com o fato de parecer velho ou sem atrativos."
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Я знаю, что в моей внешности произошли изменения, делающие меня непривлекательным.",
+              "en": "I feel that there are permanent changes in my appearance that make me look unattractive.",
+              "fr": "Je sens qu'il y a des changements permanents dans mon apparence qui me rendent peu attrayant.",
+              "de": "Ich habe das Gefühl, dass es dauerhafte Veränderungen in meinem Aussehen gibt, die mich unattraktiv machen.",
+              "pt": "Sinto que há mudanças permanentes na minha aparência que me tornam sem atrativos."
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Я знаю, что выгляжу безобразно.",
+              "en": "I believe that I look ugly.",
+              "fr": "Je suis convaincu que je suis laid.",
+              "de": "Ich finde mich hässlich.",
+              "pt": "Acredito que sou feio."
+            },
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "bdi_15",
+        "text": {
+          "ru": "Работоспособность",
+          "en": "Work Inhibition",
+          "fr": "Inhibition au travail",
+          "de": "Arbeitsunfähigkeit",
+          "pt": "Inibição para o Trabalho"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Я могу работать так же хорошо, как и раньше.",
+              "en": "I can work about as well as before.",
+              "fr": "Je peux travailler à peu près aussi bien qu'avant.",
+              "de": "Ich kann so gut arbeiten wie früher.",
+              "pt": "Posso trabalhar tão bem quanto antes."
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Мне необходимо сделать дополнительное усилие, чтобы начать делать что-нибудь.",
+              "en": "It takes an extra effort to get started at doing something.",
+              "fr": "Il me faut un effort supplémentaire pour commencer à faire quelque chose.",
+              "de": "Ich brauche eine besondere Anstrengung, um überhaupt erst etwas anzufangen.",
+              "pt": "É necessário um esforço extra para começar a fazer algo."
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Я с трудом заставляю себя делать что-либо.",
+              "en": "I have to push myself very hard to do anything.",
+              "fr": "Je dois faire un très grand effort pour faire quoi que ce soit.",
+              "de": "Ich muss mich sehr stark überwinden, um überhaupt etwas zu tun.",
+              "pt": "Tenho que me forçar muito para fazer qualquer coisa."
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Я совсем не могу выполнять никакую работу.",
+              "en": "I can't do any work at all.",
+              "fr": "Je ne suis plus capable du tout de travailler.",
+              "de": "Ich kann überhaupt nicht mehr arbeiten.",
+              "pt": "Não consigo fazer nenhum trabalho."
+            },
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "bdi_16",
+        "text": {
+          "ru": "Сон",
+          "en": "Sleep Disturbance",
+          "fr": "Troubles du sommeil",
+          "de": "Schlafstörungen",
+          "pt": "Distúrbio do Sono"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Я сплю так же хорошо, как и раньше.",
+              "en": "I can sleep as well as usual.",
+              "fr": "Je dors aussi bien que d'habitude.",
+              "de": "Ich kann so gut schlafen wie immer.",
+              "pt": "Consigo dormir tão bem quanto o habitual."
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Сейчас я сплю хуже, чем раньше.",
+              "en": "I don't sleep as well as I used to.",
+              "fr": "Je ne dors pas aussi bien qu'avant.",
+              "de": "Ich schlafe nicht mehr so gut wie früher.",
+              "pt": "Não durmo tão bem como costumava."
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Я просыпаюсь на 1–2 часа раньше, и мне трудно заснуть опять.",
+              "en": "I wake up 1-2 hours earlier than usual and find it hard to get back to sleep.",
+              "fr": "Je me réveille 1 à 2 heures plus tôt que d'habitude et j'ai du mal à me rendormir.",
+              "de": "Ich wache 1 bis 2 Stunden früher auf als gewöhnlich und kann schwer wieder einschlafen.",
+              "pt": "Acordo 1 a 2 horas mais cedo do que o habitual e acho difícil voltar a dormir."
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Я просыпаюсь на несколько часов раньше обычного и больше не могу заснуть.",
+              "en": "I wake up several hours earlier than I used to and cannot get back to sleep.",
+              "fr": "Je me réveille plusieurs heures plus tôt qu'avant et je ne peux plus me rendormir.",
+              "de": "Ich wache mehrere Stunden früher auf als früher und kann nicht mehr einschlafen.",
+              "pt": "Acordo várias horas mais cedo do que costumava e não consigo voltar a dormir."
+            },
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "bdi_17",
+        "text": {
+          "ru": "Утомляемость",
+          "en": "Fatigability",
+          "fr": "Fatigabilité",
+          "de": "Ermüdbarkeit",
+          "pt": "Fadiga"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Я устаю не больше, чем обычно.",
+              "en": "I don't get more tired than usual.",
+              "fr": "Je ne me fatigue pas plus que d'habitude.",
+              "de": "Ich werde nicht schneller müde als sonst.",
+              "pt": "Não fico mais cansado do que o habitual."
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Теперь я устаю быстрее, чем раньше.",
+              "en": "I get tired more easily than I used to.",
+              "fr": "Je me fatigue plus facilement qu'avant.",
+              "de": "Ich werde jetzt schneller müde als früher.",
+              "pt": "Canso-me mais facilmente do que antes."
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Я устаю почти от всего, что я делаю.",
+              "en": "I get tired from doing almost anything.",
+              "fr": "Je me fatigue à faire n'importe quoi.",
+              "de": "Ich werde bei fast allem, was ich tue, müde.",
+              "pt": "Fico cansado ao fazer quase qualquer coisa."
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Я не могу ничего делать из-за усталости.",
+              "en": "I am too tired to do anything.",
+              "fr": "Je suis trop fatigué pour faire quoi que ce soit.",
+              "de": "Ich bin zu müde, um überhaupt etwas zu tun.",
+              "pt": "Estou cansado demais para fazer qualquer coisa."
+            },
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "bdi_18",
+        "text": {
+          "ru": "Аппетит",
+          "en": "Appetite",
+          "fr": "Appétit",
+          "de": "Appetit",
+          "pt": "Apetite"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Мой аппетит не хуже, чем обычно.",
+              "en": "My appetite is no worse than usual.",
+              "fr": "Mon appétit n'est pas pire que d'habitude.",
+              "de": "Mein Appetit ist nicht schlechter als sonst.",
+              "pt": "Meu apetite não está pior do que o habitual."
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Мой аппетит стал хуже, чем раньше.",
+              "en": "My appetite is not as good as it used to be.",
+              "fr": "Mon appétit n'est pas aussi bon qu'avant.",
+              "de": "Mein Appetit ist nicht mehr so gut wie früher.",
+              "pt": "Meu apetite não é tão bom quanto costumava ser."
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Мой аппетит теперь значительно хуже.",
+              "en": "My appetite is much worse now.",
+              "fr": "Mon appétit est bien moins bon maintenant.",
+              "de": "Mein Appetit hat sich stark verschlechtert.",
+              "pt": "Meu apetite está muito pior agora."
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "У меня вообще нет аппетита.",
+              "en": "I have no appetite at all anymore.",
+              "fr": "Je n'ai plus d'appétit du tout.",
+              "de": "Ich habe überhaupt keinen Appetit mehr.",
+              "pt": "Não tenho mais nenhum apetite."
+            },
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "bdi_19",
+        "text": {
+          "ru": "Потеря веса",
+          "en": "Weight Loss",
+          "fr": "Perte de poids",
+          "de": "Gewichtsverlust",
+          "pt": "Perda de Peso"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "В последнее время я не похудел.",
+              "en": "I haven't lost much weight, if any, lately.",
+              "fr": "Je n'ai pas perdu beaucoup de poids, si j'en ai perdu, ces derniers temps.",
+              "de": "Ich habe in letzter Zeit kaum oder gar nicht abgenommen.",
+              "pt": "Não perdi muito peso, se é que perdi algum, ultimamente."
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "За последнее время я потерял более 2 кг.",
+              "en": "I have lost more than 5 pounds.",
+              "fr": "J'ai perdu plus de 2 kilos.",
+              "de": "Ich habe mehr als 2,5 Kilo abgenommen.",
+              "pt": "Perdi mais de 2 quilos."
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Я потерял более 5 кг.",
+              "en": "I have lost more than 10 pounds.",
+              "fr": "J'ai perdu plus de 5 kilos.",
+              "de": "Ich habe mehr als 5 Kilo abgenommen.",
+              "pt": "Perdi mais de 5 quilos."
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Я потерял более 7 кг.",
+              "en": "I have lost more than 15 pounds.",
+              "fr": "J'ai perdu plus de 7 kilos.",
+              "de": "Ich habe mehr als 7,5 Kilo abgenommen.",
+              "pt": "Perdi mais de 7 quilos."
+            },
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "bdi_20",
+        "text": {
+          "ru": "Здоровье",
+          "en": "Somatic Preoccupation",
+          "fr": "Préoccupation somatique",
+          "de": "Hypochondrie",
+          "pt": "Preocupação Somática"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Я беспокоюсь о своем здоровье не больше, чем обычно.",
+              "en": "I am no more worried about my health than usual.",
+              "fr": "Je ne suis pas plus inquiet pour ma santé que d'habitude.",
+              "de": "Ich mache mir nicht mehr Sorgen um meine Gesundheit als sonst.",
+              "pt": "Não estou mais preocupado com minha saúde do que o habitual."
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Меня тревожат проблемы моего физического здоровья (боли, расстройства и т.д.).",
+              "en": "I am worried about physical problems such as aches and pains, or upset stomach, or constipation.",
+              "fr": "Je m'inquiète pour des problèmes physiques tels que douleurs, maux d'estomac ou constipation.",
+              "de": "Ich mache mir Sorgen über körperliche Probleme wie Schmerzen, Magenbeschwerden oder Verstopfung.",
+              "pt": "Preocupo-me com problemas físicos, tais como dores, mal-estar gástrico ou prisão de ventre."
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Я очень обеспокоен своим физическим состоянием.",
+              "en": "I am very worried about physical problems and it's hard to think of much else.",
+              "fr": "Je suis très inquiet pour mes problèmes physiques et il m'est difficile de penser à autre chose.",
+              "de": "Ich mache mir große Sorgen über körperliche Probleme, und es ist schwer, an etwas anderes zu denken.",
+              "pt": "Estou muito preocupado com problemas físicos e é difícil pensar em outra coisa."
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Я настолько обеспокоен своим состоянием, что больше ни о чем не могу думать.",
+              "en": "I am so worried about my physical problems that I cannot think about anything else.",
+              "fr": "Je suis si inquiet pour mes problèmes physiques que je ne peux penser à rien d'autre.",
+              "de": "Ich mache mir solche Sorgen über meine körperlichen Probleme, dass ich an gar nichts anderes mehr denken kann.",
+              "pt": "Estou tão preocupado com meus problemas físicos que não consigo pensar em mais nada."
+            },
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "bdi_21",
+        "text": {
+          "ru": "Секс",
+          "en": "Loss of Libido",
+          "fr": "Perte de libido",
+          "de": "Libidoverlust",
+          "pt": "Perda de Libido"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Я не заметил изменения своего интереса к сексу.",
+              "en": "I have not noticed any recent change in my interest in sex.",
+              "fr": "Je n'ai pas remarqué de changement récent dans mon intérêt pour le sexe.",
+              "de": "Ich habe in letzter Zeit keine Veränderung meines Interesses an Sex bemerkt.",
+              "pt": "Não notei qualquer mudança recente em meu interesse por sexo."
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Меня меньше занимают проблемы секса, чем раньше.",
+              "en": "I am less interested in sex than I used to be.",
+              "fr": "Je m'intéresse moins au sexe qu'avant.",
+              "de": "Ich interessiere mich weniger für Sex als früher.",
+              "pt": "Estou menos interessado em sexo do que costumava estar."
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Сейчас я значительно меньше интересуюсь сексом.",
+              "en": "I am much less interested in sex now.",
+              "fr": "Je m'intéresse beaucoup moins au sexe maintenant.",
+              "de": "Ich interessiere mich jetzt wesentlich weniger für Sex.",
+              "pt": "Estou muito menos interessado em sexo agora."
+            },
+            "score": 2
+          },
+          {
+            "label": {
+              "ru": "Я полностью утратил сексуальный интерес.",
+              "en": "I have lost all interest in sex.",
+              "fr": "J'ai perdu tout intérêt pour le sexe.",
+              "de": "Ich habe jegliches Interesse an Sex verloren.",
+              "pt": "Perdi todo o interesse por sexo."
+            },
+            "score": 3
+          }
+        ]
+      }
+    ],
+    "bands": [
+      {
+        "minInclusive": 0,
+        "maxInclusive": 9,
+        "title": {
+          "ru": "Минимальная выраженность",
+          "en": "Minimal symptoms",
+          "fr": "Symptômes minimes",
+          "de": "Minimale Ausprägung",
+          "pt": "Sintomas mínimos"
+        },
+        "description": {
+          "ru": "Отсутствие депрессивных симптомов.",
+          "en": "These ups and downs are considered normal.",
+          "fr": "Absence de symptômes dépressifs (Normal).",
+          "de": "Keine depressiven Symptome (Normalbereich).",
+          "pt": "Essas variações são consideradas normais."
+        }
+      },
+      {
+        "minInclusive": 10,
+        "maxInclusive": 15,
+        "title": {
+          "ru": "Лёгкая выраженность",
+          "en": "Mild symptoms",
+          "fr": "Symptômes légers",
+          "de": "Leichte Ausprägung",
+          "pt": "Sintomas leves"
+        },
+        "description": {
+          "ru": "Легкая депрессия (субдепрессия).",
+          "en": "Mild mood disturbance.",
+          "fr": "Dépression légère.",
+          "de": "Leichte depressive Verstimmung.",
+          "pt": "Perturbação leve do humor."
+        }
+      },
+      {
+        "minInclusive": 16,
+        "maxInclusive": 19,
+        "title": {
+          "ru": "Умеренная выраженность",
+          "en": "Moderate symptoms",
+          "fr": "Symptômes modérés",
+          "de": "Mäßige Ausprägung",
+          "pt": "Sintomas moderados"
+        },
+        "description": {
+          "ru": "Умеренная депрессия.",
+          "en": "Borderline clinical depression.",
+          "fr": "Dépression modérée.",
+          "de": "Mäßige Ausprägung depressiver Symptomatik.",
+          "pt": "Depressão clínica limítrofe."
+        }
+      },
+      {
+        "minInclusive": 20,
+        "maxInclusive": 29,
+        "title": {
+          "ru": "Выраженные симптомы",
+          "en": "Marked symptoms",
+          "fr": "Symptômes marqués",
+          "de": "Ausgeprägte Symptome",
+          "pt": "Sintomas acentuados"
+        },
+        "description": {
+          "ru": "Выраженная депрессия (средней тяжести).",
+          "en": "Moderate depression.",
+          "fr": "Dépression grave.",
+          "de": "Mittelschwere Depression.",
+          "pt": "Depressão moderada."
+        }
+      },
+      {
+        "minInclusive": 30,
+        "maxInclusive": 63,
+        "title": {
+          "ru": "Тяжёлая выраженность",
+          "en": "Severe symptoms",
+          "fr": "Symptômes sévères",
+          "de": "Schwere Ausprägung",
+          "pt": "Sintomas graves"
+        },
+        "description": {
+          "ru": "Тяжелая депрессия.",
+          "en": "Severe depression.",
+          "fr": "Dépression très sévère.",
+          "de": "Schwere Depression.",
+          "pt": "Depressão grave."
+        }
+      }
+    ],
+    "subscales": [
+      {
+        "id": "ca",
+        "label": {
+          "ru": "Когнитивно-аффективная подшкала",
+          "en": "Cognitive-Affective Subscale",
+          "fr": "Sous-échelle cognitive-affective",
+          "de": "Kognitiv-affektive Subskala",
+          "pt": "Subescala Cognitivo-Afetiva"
+        },
+        "itemIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "id": "sp",
+        "label": {
+          "ru": "Подшкала соматизации",
+          "en": "Somatic-Performance Subscale",
+          "fr": "Sous-échelle somatique",
+          "de": "Somatische Subskala",
+          "pt": "Subescala Somático-Motora"
+        },
+        "itemIndices": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    ]
+  }
+]

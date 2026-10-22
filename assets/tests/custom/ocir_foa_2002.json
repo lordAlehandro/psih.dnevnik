@@ -1,0 +1,1313 @@
+{
+  "id": "ocir",
+  "category": "ocd",
+  "title": {
+    "ru": "OCI-R — пересмотренный опросник навязчиво-компульсивной симптоматики",
+    "en": "OCI-R — Obsessive-Compulsive Inventory–Revised",
+    "fr": "OCI-R — Inventaire obsessionnel-compulsif révisé",
+    "de": "OCI-R — Obsessive-Compulsive Inventory–Revised",
+    "pt": "OCI-R — Inventário obsessivo-compulsivo revisado"
+  },
+  "subtitle": {
+    "ru": "Навязчивые мысли и ритуалы: несколько измерений симптомов ОКР.",
+    "en": "Obsessive thoughts and compulsive rituals across symptom clusters.",
+    "fr": "Pensées obsessives et rituels compulsifs (plusieurs dimensions).",
+    "de": "Zwangsgedanken und -rituale in mehreren Symptomclustern.",
+    "pt": "Pensamentos obsessivos e rituais compulsivos em várias dimensões."
+  },
+  "description": {
+    "ru": "Самоотчёт о дистрессе, связанном с навязчивыми мыслями и ритуалами, за последний месяц. Шесть тем: накопительство, проверки, упорядочивание, нейтрализация и счёт, мытьё и загрязнённость, навязчивые мысли. Не диагноз. Foa et al., 2002. Материалы могут охраняться авторским правом.",
+    "en": "Self-report of distress from obsessive thoughts and rituals over the past month, across six areas: hoarding, checking, ordering, neutralizing, washing/contamination, and obsessing. Not a diagnosis. Foa et al., 2002. The OCI-R may be copyrighted.",
+    "fr": "Auto-évaluation du dernier mois sur pensées obsessionnelles et rituels, en six domaines. Pas un diagnostic. Foa et al., 2002.",
+    "de": "Selbstbeurteilung des letzten Monats zu Zwangsgedanken und -ritualen in sechs Bereichen. Keine Diagnose. Foa et al., 2002.",
+    "pt": "Autorrelato do último mês sobre pensamentos obsessivos e rituais em seis áreas. Não é diagnóstico. Foa et al., 2002."
+  },
+  "instructions": {
+    "ru": "Укажите, насколько каждое утверждение относится к вам за последний месяц.",
+    "en": "Please indicate how much each statement has applied to you over the past month.",
+    "fr": "Indiquez dans quelle mesure chaque phrase vous a concerné(e) au cours du dernier mois.",
+    "de": "Geben Sie an, inwieweit jede Aussage im letzten Monat auf Sie zutraf.",
+    "pt": "Indique o quanto cada frase se aplicou a você no último mês."
+  },
+  "maxScore": 72,
+  "bandsBasis": "raw",
+  "bands": [
+    {
+      "minInclusive": 0,
+      "maxInclusive": 20,
+      "title": {
+        "ru": "Относительно меньший дистресс",
+        "en": "Relatively lower distress",
+        "fr": "Détresse relativement plus faible",
+        "de": "Relativ geringere Belastung",
+        "pt": "Sofrimento relativamente menor"
+      },
+      "description": {
+        "ru": "Меньше выраженный дистресс по сравнению с верхними зонами; смотрите также отдельные темы ниже.",
+        "en": "Less distress than higher bands on this screen; check the topic breakdown below too.",
+        "fr": "Moins de détresse que dans les zones supérieures ; voir aussi le détail par thème.",
+        "de": "Geringere Belastung als in höheren Bereichen; auch die Einzelthemen beachten.",
+        "pt": "Menos sofrimento que nas faixas altas; veja também o detalhamento por tema."
+      }
+    },
+    {
+      "minInclusive": 21,
+      "maxInclusive": 39,
+      "title": {
+        "ru": "Выраженный дистресс",
+        "en": "Marked distress",
+        "fr": "Détresse marquée",
+        "de": "Deutliche Belastung",
+        "pt": "Sofrimento marcado"
+      },
+      "description": {
+        "ru": "Симптомы в этой зоне часто считают поводом обсудить оценку со специалистом; это не диагноз ОКР.",
+        "en": "This level often prompts talking with a clinician for a fuller assessment—not an OCD diagnosis by itself.",
+        "fr": "Niveau souvent invitant à un suivi clinique ; pas un diagnostic de TOC.",
+        "de": "Stärkere Belastung; fachliche Abklärung sinnvoll; keine Zwangserkrankungs-Diagnose.",
+        "pt": "Nível que costuma sugerir avaliação profissional; não é diagnóstico de TOC."
+      }
+    },
+    {
+      "minInclusive": 40,
+      "maxInclusive": 72,
+      "title": {
+        "ru": "Очень сильный дистресс",
+        "en": "Very high distress",
+        "fr": "Détresse très élevée",
+        "de": "Sehr hohe Belastung",
+        "pt": "Sofrimento muito alto"
+      },
+      "description": {
+        "ru": "Выраженный дистресс по шкале; рекомендуется обратиться к специалисту по психическому здоровью.",
+        "en": "Substantial distress on this measure; consider mental health assessment.",
+        "fr": "Détresse marquée ; consultation recommandée.",
+        "de": "Erhebliche Belastung; Abklärung empfohlen.",
+        "pt": "Sofrimento elevado; busque avaliação."
+      }
+    }
+  ],
+  "subscales": [
+    {
+      "id": "hoarding",
+      "label": {
+        "ru": "Накопительство",
+        "en": "Hoarding",
+        "fr": "Accumulation",
+        "de": "Hamstern",
+        "pt": "Acumulação"
+      },
+      "itemIndices": [
+        0,
+        6,
+        12
+      ],
+      "maxScore": 12
+    },
+    {
+      "id": "checking",
+      "label": {
+        "ru": "Проверки",
+        "en": "Checking",
+        "fr": "Vérifications",
+        "de": "Kontrollieren",
+        "pt": "Verificação"
+      },
+      "itemIndices": [
+        1,
+        7,
+        13
+      ],
+      "maxScore": 12
+    },
+    {
+      "id": "ordering",
+      "label": {
+        "ru": "Упорядочивание",
+        "en": "Ordering",
+        "fr": "Ordre / symétrie",
+        "de": "Ordnen",
+        "pt": "Ordem"
+      },
+      "itemIndices": [
+        2,
+        8,
+        14
+      ],
+      "maxScore": 12
+    },
+    {
+      "id": "neutralizing",
+      "label": {
+        "ru": "Нейтрализация и счёт",
+        "en": "Neutralizing",
+        "fr": "Neutralisation",
+        "de": "Neutralisieren",
+        "pt": "Neutralização"
+      },
+      "itemIndices": [
+        3,
+        9,
+        15
+      ],
+      "maxScore": 12
+    },
+    {
+      "id": "washing",
+      "label": {
+        "ru": "Мытьё и загрязнённость",
+        "en": "Washing / contamination",
+        "fr": "Lavage / contamination",
+        "de": "Waschen / Kontamination",
+        "pt": "Lavagem / contaminação"
+      },
+      "itemIndices": [
+        4,
+        10,
+        16
+      ],
+      "maxScore": 12
+    },
+    {
+      "id": "obsessing",
+      "label": {
+        "ru": "Навязчивые мысли",
+        "en": "Obsessing",
+        "fr": "Obsessions",
+        "de": "Zwangsgedanken",
+        "pt": "Obsessões cognitivas"
+      },
+      "itemIndices": [
+        5,
+        11,
+        17
+      ],
+      "maxScore": 12
+    }
+  ],
+  "resultNote": {
+    "ru": "Блок «накопительство» близок к теме расстройства накопительства в клинической классификации. Общий профиль и темы ниже — ориентиры, не замена очной оценки.",
+    "en": "The hoarding section relates to symptoms also described as hoarding disorder in clinical manuals. Overall pattern and topics below are guides, not a substitute for in-person assessment.",
+    "fr": "La partie accumulation recoupe le trouble accumulationnel en classification clinique. Vue d’ensemble et thèmes : indications seulement.",
+    "de": "Der Bereich Hamstern hängt mit der Hortenstörung in Klassifikationssystemen zusammen. Gesamtbild und Themen: nur Hinweise.",
+    "pt": "A parte acumulação relaciona-se ao transtorno de acumulação na classificação clínica. Perfil e temas: só orientação."
+  },
+  "questions": [
+    {
+      "id": "ocir_1",
+      "text": {
+        "ru": "Я накопил(а) столько вещей, что они мешают.",
+        "en": "I have saved up so many things that they get in the way.",
+        "fr": "J’ai accumulé tellement d’objets qu’ils me gênent.",
+        "de": "Ich habe so viele Dinge angesammelt, dass sie im Weg sind.",
+        "pt": "Acumulei tantas coisas que elas atrapalham."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "A lot",
+            "fr": "Beaucoup",
+            "de": "Stark",
+            "pt": "Muito"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Крайне сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ocir_2",
+      "text": {
+        "ru": "Я проверяю вещи чаще, чем нужно.",
+        "en": "I check things more often than necessary.",
+        "fr": "Je vérifie les choses plus souvent que nécessaire.",
+        "de": "Ich kontrolliere Dinge öfter als nötig.",
+        "pt": "Verifico as coisas com mais frequência do que o necessário."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "A lot",
+            "fr": "Beaucoup",
+            "de": "Stark",
+            "pt": "Muito"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Крайне сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ocir_3",
+      "text": {
+        "ru": "Меня расстраивает, если предметы расположены неправильно.",
+        "en": "I get upset if objects are not arranged properly.",
+        "fr": "Je suis contrarié(e) si les objets ne sont pas disposés correctement.",
+        "de": "Ich ärgere mich, wenn Dinge nicht richtig angeordnet sind.",
+        "pt": "Fico chateado(a) se os objetos não estão arrumados corretamente."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "A lot",
+            "fr": "Beaucoup",
+            "de": "Stark",
+            "pt": "Muito"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Крайне сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ocir_4",
+      "text": {
+        "ru": "Я чувствую потребность считать во время занятий.",
+        "en": "I feel compelled to count while I am doing things.",
+        "fr": "Je me sens obligé(e) de compter pendant que je fais des activités.",
+        "de": "Ich fühle mich gezwungen zu zählen, während ich etwas tue.",
+        "pt": "Sinto-me compelido(a) a contar enquanto faço as coisas."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "A lot",
+            "fr": "Beaucoup",
+            "de": "Stark",
+            "pt": "Muito"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Крайне сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ocir_5",
+      "text": {
+        "ru": "Мне трудно дотронуться до предмета, если знаю, что к нему прикасались незнакомцы или определённые люди.",
+        "en": "I find it difficult to touch an object when I know it has been touched by strangers or certain people.",
+        "fr": "Il m’est difficile de toucher un objet lorsque je sais qu’il a été touché par des inconnus ou certaines personnes.",
+        "de": "Es fällt mir schwer, einen Gegenstand zu berühren, wenn Fremde oder bestimmte Personen ihn berührt haben.",
+        "pt": "Tenho dificuldade para tocar num objeto quando sei que foi tocado por estranhos ou certas pessoas."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "A lot",
+            "fr": "Beaucoup",
+            "de": "Stark",
+            "pt": "Muito"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Крайне сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ocir_6",
+      "text": {
+        "ru": "Мне трудно контролировать собственные мысли.",
+        "en": "I find it difficult to control my own thoughts.",
+        "fr": "J’ai du mal à contrôler mes propres pensées.",
+        "de": "Ich kann meine eigenen Gedanken schwer kontrollieren.",
+        "pt": "Tenho dificuldade para controlar meus próprios pensamentos."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "A lot",
+            "fr": "Beaucoup",
+            "de": "Stark",
+            "pt": "Muito"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Крайне сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ocir_7",
+      "text": {
+        "ru": "Я собираю вещи, которые мне не нужны.",
+        "en": "I collect things I don't need.",
+        "fr": "Je collectionne des choses dont je n’ai pas besoin.",
+        "de": "Ich sammle Dinge, die ich nicht brauche.",
+        "pt": "Coleciono coisas de que não preciso."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "A lot",
+            "fr": "Beaucoup",
+            "de": "Stark",
+            "pt": "Muito"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Крайне сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ocir_8",
+      "text": {
+        "ru": "Я многократно проверяю двери, окна, ящики и т.п.",
+        "en": "I repeatedly check doors, windows, drawers, etc.",
+        "fr": "Je vérifie à plusieurs reprises portes, fenêtres, tiroirs, etc.",
+        "de": "Ich kontrolliere wiederholt Türen, Fenster, Schubladen usw.",
+        "pt": "Verifico repetidamente portas, janelas, gavetas, etc."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "A lot",
+            "fr": "Beaucoup",
+            "de": "Stark",
+            "pt": "Muito"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Крайне сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ocir_9",
+      "text": {
+        "ru": "Меня расстраивает, если другие меняют то, как я всё расположил(а).",
+        "en": "I get upset if others change the way I have arranged things.",
+        "fr": "Je suis contrarié(e) si d’autres modifient la façon dont j’ai arrangé les choses.",
+        "de": "Ich ärgere mich, wenn andere ändern, wie ich Dinge angeordnet habe.",
+        "pt": "Fico chateado(a) se outras pessoas mudam a forma como arrumei as coisas."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "A lot",
+            "fr": "Beaucoup",
+            "de": "Stark",
+            "pt": "Muito"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Крайне сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ocir_10",
+      "text": {
+        "ru": "Я чувствую, что должен(на) повторять определённые числа.",
+        "en": "I feel I have to repeat certain numbers.",
+        "fr": "J’ai l’impression de devoir répéter certains nombres.",
+        "de": "Ich habe das Gefühl, bestimmte Zahlen wiederholen zu müssen.",
+        "pt": "Sinto que tenho que repetir certos números."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "A lot",
+            "fr": "Beaucoup",
+            "de": "Stark",
+            "pt": "Muito"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Крайне сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ocir_11",
+      "text": {
+        "ru": "Иногда мне приходится мыться или убираться просто потому, что чувствую себя «загрязнённым(ой)».",
+        "en": "I sometimes have to wash or clean myself simply because I feel contaminated.",
+        "fr": "Parfois je dois me laver ou me nettoyer simplement parce que je me sens contaminé(e).",
+        "de": "Manchmal muss ich mich waschen oder reinigen, nur weil ich mich kontaminiert fühle.",
+        "pt": "Às vezes preciso lavar ou limpar-me simplesmente porque me sinto contaminado(a)."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "A lot",
+            "fr": "Beaucoup",
+            "de": "Stark",
+            "pt": "Muito"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Крайне сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ocir_12",
+      "text": {
+        "ru": "Меня расстраивают неприятные мысли, которые приходят в голову против моей воли.",
+        "en": "I am upset by unpleasant thoughts that come into my mind against my will.",
+        "fr": "Je suis perturbé(e) par des pensées désagréables qui me viennent à l’esprit malgré moi.",
+        "de": "Unangenehme Gedanken, die gegen meinen Willen kommen, belasten mich.",
+        "pt": "Fico perturbado(a) com pensamentos desagradáveis que vêm à mente contra a minha vontade."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "A lot",
+            "fr": "Beaucoup",
+            "de": "Stark",
+            "pt": "Muito"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Крайне сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ocir_13",
+      "text": {
+        "ru": "Я избегаю выбрасывать вещи, потому что боюсь, что они могут понадобиться позже.",
+        "en": "I avoid throwing things away because I am afraid I might need them later.",
+        "fr": "J’évite de jeter des objets parce que j’ai peur d’en avoir besoin plus tard.",
+        "de": "Ich vermeide es, Dinge wegzuwerfen, weil ich befürchte, sie später zu brauchen.",
+        "pt": "Evito jogar coisas fora porque tenho medo de precisar delas depois."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "A lot",
+            "fr": "Beaucoup",
+            "de": "Stark",
+            "pt": "Muito"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Крайне сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ocir_14",
+      "text": {
+        "ru": "Я снова и снова проверяю газовые и водяные краны и выключатели света после того, как их выключил(а).",
+        "en": "I repeatedly check gas and water taps and light switches after turning them off.",
+        "fr": "Je vérifie à plusieurs reprises robinets de gaz et d’eau et interrupteurs après les avoir éteints.",
+        "de": "Ich kontrolliere Gas- und Wasserhähne und Lichtschalter wiederholt, nachdem ich sie ausgeschaltet habe.",
+        "pt": "Verifico repetidamente torneiras de gás e água e interruptores depois de os desligar."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "A lot",
+            "fr": "Beaucoup",
+            "de": "Stark",
+            "pt": "Muito"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Крайне сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ocir_15",
+      "text": {
+        "ru": "Мне нужно, чтобы всё было строго на своих местах.",
+        "en": "I need things to be exactly in their proper place.",
+        "fr": "J’ai besoin que les choses soient exactement à leur place.",
+        "de": "Ich brauche Dinge genau an ihrem richtigen Platz.",
+        "pt": "Preciso que as coisas estejam exatamente no lugar certo."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "A lot",
+            "fr": "Beaucoup",
+            "de": "Stark",
+            "pt": "Muito"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Крайне сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ocir_16",
+      "text": {
+        "ru": "Мне нужно повторять действия (например, включать и выключать выключатели, входить и выходить из дверей) определённое число раз или пока не станет «как надо».",
+        "en": "I need to repeat actions (e.g., turning on and off switches, going in and out of doors) a certain number of times or until it feels just right.",
+        "fr": "Je dois répéter des actions (p.ex. allumer/éteindre des interrupteurs, entrer/sortir par une porte) un certain nombre de fois ou jusqu’à ce que ce soit « juste ».",
+        "de": "Ich muss Handlungen wiederholen (z. B. Schalter ein/aus, Türen betreten/verlassen) eine bestimmte Anzahl Male oder bis es sich richtig anfühlt.",
+        "pt": "Preciso repetir ações (p.ex. ligar/desligar interruptores, entrar e sair de portas) um certo número de vezes ou até parecer certo."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "A lot",
+            "fr": "Beaucoup",
+            "de": "Stark",
+            "pt": "Muito"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Крайне сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ocir_17",
+      "text": {
+        "ru": "Я мою руки чаще и дольше, чем нужно.",
+        "en": "I wash my hands more often and longer than necessary.",
+        "fr": "Je me lave les mains plus souvent et plus longtemps que nécessaire.",
+        "de": "Ich wasche meine Hände öfter und länger als nötig.",
+        "pt": "Lavo as mãos com mais frequência e por mais tempo do que o necessário."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "A lot",
+            "fr": "Beaucoup",
+            "de": "Stark",
+            "pt": "Muito"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Крайне сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ocir_18",
+      "text": {
+        "ru": "Мне часто приходят неприятные мысли, и мне трудно от них избавиться.",
+        "en": "I frequently get nasty thoughts and have difficulty getting rid of them.",
+        "fr": "J’ai souvent des pensées désagréables et j’ai du mal à m’en débarrasser.",
+        "de": "Ich bekomme häufig unangenehme Gedanken und kann sie nur schwer loswerden.",
+        "pt": "Frequentemente tenho pensamentos desagradáveis e tenho dificuldade em me livrar deles."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo algum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "A lot",
+            "fr": "Beaucoup",
+            "de": "Stark",
+            "pt": "Muito"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Крайне сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    }
+  ]
+}

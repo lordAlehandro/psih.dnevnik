@@ -1,0 +1,516 @@
+{
+  "id": "ess",
+  "category": "sleep",
+  "title": {
+    "ru": "ESS — шкала сонливости Эпворта",
+    "en": "ESS — Epworth Sleepiness Scale",
+    "fr": "ESS — Échelle d’hypersomnolence d’Epworth",
+    "de": "ESS — Epworth-Schläfrigkeitsskala",
+    "pt": "ESS — Escala de Sonolência de Epworth"
+  },
+  "subtitle": {
+    "ru": "Насколько вероятно, что вы задремёте в типичных повседневных ситуациях.",
+    "en": "How likely you are to doze off in eight common everyday situations.",
+    "fr": "Probabilité de somnoler dans huit situations du quotidien.",
+    "de": "Wahrscheinlichkeit, in acht Alltagssituationen einzunicken.",
+    "pt": "Quão provável é cochilar em oito situações comuns do dia a dia."
+  },
+  "description": {
+    "ru": "Оценивает вероятность задремать в типичных ситуациях в последнее время (Johns, 1991). Не является диагнозом. Права на методику: Dr Murray Johns / MWT Services; коммерческое использование может требовать разрешения (epworthsleepinessscale.com).",
+    "en": "Rates how likely you are to doze off in eight everyday situations (Johns, 1991). Not a diagnosis. Owned by Dr Murray Johns / MWT Services; commercial use may require permission (epworthsleepinessscale.com).",
+    "fr": "Évalue la probabilité de somnoler dans huit situations (Johns, 1991). Pas un diagnostic. Droits : Dr Murray Johns / MWT Services.",
+    "de": "Erfasst die Einschlafwahrscheinlichkeit in acht Alltagssituationen (Johns, 1991). Keine Diagnose. Rechte: Dr Murray Johns / MWT Services.",
+    "pt": "Avalia a chance de cochilar em oito situações (Johns, 1991). Não é diagnóstico. Direitos: Dr Murray Johns / MWT Services."
+  },
+  "instructions": {
+    "ru": "Насколько вероятно, что вы задремёте или уснёте в описанных ситуациях — не просто почувствуете усталость? Имеется в виду ваш обычный образ жизни в последнее время. Если чего-то давно не делали, представьте, как это повлияло бы на вас. Выберите для каждой ситуации один вариант.",
+    "en": "How likely are you to doze off or fall asleep in the following situations—as opposed to just feeling tired? This refers to your usual way of life in recent times. If you have not done some of these things recently, estimate how they would have affected you. Choose one option for each situation.",
+    "fr": "Dans quelle mesure risquez-vous de somnoler ou vous endormir dans les situations ci-dessous (et non seulement d’être fatigué) ? Référez-vous à votre vie habituelle récemment. Si une situation ne s’applique pas, imaginez son effet sur vous.",
+    "de": "Wie wahrscheinlich ist es, dass Sie in den folgenden Situationen einnicken oder einschlafen — nicht nur müde sind? Beziehen Sie sich auf Ihren üblichen Alltag in letzter Zeit. Wenn etwas nicht vorkommt, schätzen Sie, wie es auf Sie gewirkt hätte.",
+    "pt": "Quão provável é que você cochile ou durma nas situações abaixo — não apenas fique cansado(a)? Considere seu modo de vida habitual recentemente. Se algo não se aplica, imagine como seria para você."
+  },
+  "maxScore": 24,
+  "bandsBasis": "raw",
+  "bands": [
+    {
+      "minInclusive": 0,
+      "maxInclusive": 10,
+      "title": {
+        "ru": "Обычный уровень сонливости",
+        "en": "Usual (non‑elevated) range",
+        "fr": "Niveau habituel",
+        "de": "Üblicher Bereich",
+        "pt": "Nível usual"
+      },
+      "description": {
+        "ru": "Обычно соответствует привычному уровню дневной сонливости; оценка зависит от контекста и других симптомов.",
+        "en": "Usually reflects usual daytime sleepiness; interpretation depends on context and other symptoms.",
+        "fr": "Correspond souvent à une somnolence diurne habituelle ; le contexte compte.",
+        "de": "Entspricht meist der gewohnten Tagesschläfrigkeit; Kontext und Begleitsymptome sind wichtig.",
+        "pt": "Costuma refletir sonolência diurna habitual; o contexto e outros sintomas importam."
+      }
+    },
+    {
+      "minInclusive": 11,
+      "maxInclusive": 15,
+      "title": {
+        "ru": "Повышенная сонливость",
+        "en": "Elevated sleepiness",
+        "fr": "Somnolence élevée",
+        "de": "Erhöhte Schläfrigkeit",
+        "pt": "Sonolência elevada"
+      },
+      "description": {
+        "ru": "Повышенная дневная сонливость; при жалобах имеет смысл обсудить сон с врачом.",
+        "en": "Elevated daytime sleepiness; consider discussing sleep with a clinician if you have concerns.",
+        "fr": "Somnolence diurne accrue ; consultez si vous avez des inquiétudes.",
+        "de": "Erhöhte Tagesschläfrigkeit; bei Beschwerden ärztlich besprechen.",
+        "pt": "Sonolência diurna elevada; busque orientação médica se tiver preocupações."
+      }
+    },
+    {
+      "minInclusive": 16,
+      "maxInclusive": 24,
+      "title": {
+        "ru": "Выраженная сонливость",
+        "en": "Markedly elevated sleepiness",
+        "fr": "Somnolence marquée",
+        "de": "Deutlich erhöhte Schläfrigkeit",
+        "pt": "Sonolência acentuada"
+      },
+      "description": {
+        "ru": "Выраженная сонливость — повод обратиться к специалисту по сну или терапевту, особенно при сонливости за рулём или нарушениях ночного сна.",
+        "en": "Marked sleepiness warrants discussion with a clinician—especially if sleepy while driving or if you have other sleep symptoms.",
+        "fr": "Somnolence marquée : consultation recommandée, surtout au volant ou en cas de troubles du sommeil.",
+        "de": "Ausgeprägte Schläfrigkeit: ärztliche Klärung sinnvoll, v. a. beim Fahren oder bei weiteren Schlafsymptomen.",
+        "pt": "Sonolência acentuada: procure avaliação médica, especialmente ao dirigir ou com outros sintomas de sono."
+      }
+    }
+  ],
+  "subscales": [],
+  "resultNote": {
+    "ru": "Опросник не заменяет обследование сна в клинике и сам по себе не ставит диагнозы (в том числе нарколепсию или апноэ).",
+    "en": "This questionnaire does not replace a clinical sleep evaluation and cannot by itself diagnose narcolepsy, sleep apnea, or other disorders.",
+    "fr": "Ce questionnaire ne remplace pas un examen du sommeil et ne permet pas à lui seul de poser un diagnostic.",
+    "de": "Der Fragebogen ersetzt keine schlafmedizinische Untersuchung und liefert allein keine Diagnose.",
+    "pt": "Este questionário não substitui avaliação clínica do sono nem diagnostica transtornos por si só."
+  },
+  "questions": [
+    {
+      "id": "ess_1",
+      "text": {
+        "ru": "Сидя и читая",
+        "en": "Sitting and reading",
+        "fr": "Assis(e) en lisant",
+        "de": "Beim Sitzen und Lesen",
+        "pt": "Sentado(a), lendo"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда не засыпаю",
+            "en": "Would never doze",
+            "fr": "Ne somnolerait jamais",
+            "de": "Würde nie einnicken",
+            "pt": "Nunca cochilaria"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Небольшая вероятность задремать",
+            "en": "Slight chance of dozing",
+            "fr": "Faible risque de somnoler",
+            "de": "Geringe Einschlafneigung",
+            "pt": "Pequena chance de cochilar"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренная вероятность задремать",
+            "en": "Moderate chance of dozing",
+            "fr": "Risque modéré de somnoler",
+            "de": "Mittlere Einschlafneigung",
+            "pt": "Chance moderada de cochilar"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Высокая вероятность задремать",
+            "en": "High chance of dozing",
+            "fr": "Fort risque de somnoler",
+            "de": "Hohe Einschlafneigung",
+            "pt": "Alta chance de cochilar"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "ess_2",
+      "text": {
+        "ru": "Смотря телевизор",
+        "en": "Watching TV",
+        "fr": "En regardant la télévision",
+        "de": "Beim Fernsehen",
+        "pt": "Assistindo TV"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда не засыпаю",
+            "en": "Would never doze",
+            "fr": "Ne somnolerait jamais",
+            "de": "Würde nie einnicken",
+            "pt": "Nunca cochilaria"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Небольшая вероятность задремать",
+            "en": "Slight chance of dozing",
+            "fr": "Faible risque de somnoler",
+            "de": "Geringe Einschlafneigung",
+            "pt": "Pequena chance de cochilar"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренная вероятность задремать",
+            "en": "Moderate chance of dozing",
+            "fr": "Risque modéré de somnoler",
+            "de": "Mittlere Einschlafneigung",
+            "pt": "Chance moderada de cochilar"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Высокая вероятность задремать",
+            "en": "High chance of dozing",
+            "fr": "Fort risque de somnoler",
+            "de": "Hohe Einschlafneigung",
+            "pt": "Alta chance de cochilar"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "ess_3",
+      "text": {
+        "ru": "Сидя без активности в общественном месте (например, в театре или на собрании)",
+        "en": "Sitting, inactive in a public place (e.g., a theatre or a meeting)",
+        "fr": "Assis(e), sans activité, dans un lieu public (ex. théâtre, réunion)",
+        "de": "Sitzend und untätig an einem öffentlichen Ort (z. B. Theater, Sitzung)",
+        "pt": "Sentado(a), inativo(a) em público (ex.: teatro, reunião)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда не засыпаю",
+            "en": "Would never doze",
+            "fr": "Ne somnolerait jamais",
+            "de": "Würde nie einnicken",
+            "pt": "Nunca cochilaria"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Небольшая вероятность задремать",
+            "en": "Slight chance of dozing",
+            "fr": "Faible risque de somnoler",
+            "de": "Geringe Einschlafneigung",
+            "pt": "Pequena chance de cochilar"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренная вероятность задремать",
+            "en": "Moderate chance of dozing",
+            "fr": "Risque modéré de somnoler",
+            "de": "Mittlere Einschlafneigung",
+            "pt": "Chance moderada de cochilar"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Высокая вероятность задремать",
+            "en": "High chance of dozing",
+            "fr": "Fort risque de somnoler",
+            "de": "Hohe Einschlafneigung",
+            "pt": "Alta chance de cochilar"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "ess_4",
+      "text": {
+        "ru": "Как пассажир в машине около часа подряд без остановок",
+        "en": "As a passenger in a car for an hour without a break",
+        "fr": "Comme passager/ère dans une voiture pendant une heure sans pause",
+        "de": "Als Beifahrer/in eine Stunde lang ohne Pause im Auto",
+        "pt": "Como passageiro(a) em carro por cerca de uma hora sem parar"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда не засыпаю",
+            "en": "Would never doze",
+            "fr": "Ne somnolerait jamais",
+            "de": "Würde nie einnicken",
+            "pt": "Nunca cochilaria"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Небольшая вероятность задремать",
+            "en": "Slight chance of dozing",
+            "fr": "Faible risque de somnoler",
+            "de": "Geringe Einschlafneigung",
+            "pt": "Pequena chance de cochilar"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренная вероятность задремать",
+            "en": "Moderate chance of dozing",
+            "fr": "Risque modéré de somnoler",
+            "de": "Mittlere Einschlafneigung",
+            "pt": "Chance moderada de cochilar"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Высокая вероятность задремать",
+            "en": "High chance of dozing",
+            "fr": "Fort risque de somnoler",
+            "de": "Hohe Einschlafneigung",
+            "pt": "Alta chance de cochilar"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "ess_5",
+      "text": {
+        "ru": "Лёжа отдохнуть днём, когда обстоятельства позволяют",
+        "en": "Lying down to rest in the afternoon when circumstances permit",
+        "fr": "Allongé(e) pour vous reposer l’après-midi si possible",
+        "de": "Sich am Nachmittag hinlegen, um zu ruhen, wenn es möglich ist",
+        "pt": "Deitado(a) para descansar à tarde quando possível"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда не засыпаю",
+            "en": "Would never doze",
+            "fr": "Ne somnolerait jamais",
+            "de": "Würde nie einnicken",
+            "pt": "Nunca cochilaria"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Небольшая вероятность задремать",
+            "en": "Slight chance of dozing",
+            "fr": "Faible risque de somnoler",
+            "de": "Geringe Einschlafneigung",
+            "pt": "Pequena chance de cochilar"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренная вероятность задремать",
+            "en": "Moderate chance of dozing",
+            "fr": "Risque modéré de somnoler",
+            "de": "Mittlere Einschlafneigung",
+            "pt": "Chance moderada de cochilar"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Высокая вероятность задремать",
+            "en": "High chance of dozing",
+            "fr": "Fort risque de somnoler",
+            "de": "Hohe Einschlafneigung",
+            "pt": "Alta chance de cochilar"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "ess_6",
+      "text": {
+        "ru": "Сидя и разговаривая с кем‑то",
+        "en": "Sitting and talking to someone",
+        "fr": "Assis(e) en parlant à quelqu’un",
+        "de": "Beim Sitzen und mit jemandem sprechen",
+        "pt": "Sentado(a), conversando com alguém"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда не засыпаю",
+            "en": "Would never doze",
+            "fr": "Ne somnolerait jamais",
+            "de": "Würde nie einnicken",
+            "pt": "Nunca cochilaria"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Небольшая вероятность задремать",
+            "en": "Slight chance of dozing",
+            "fr": "Faible risque de somnoler",
+            "de": "Geringe Einschlafneigung",
+            "pt": "Pequena chance de cochilar"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренная вероятность задремать",
+            "en": "Moderate chance of dozing",
+            "fr": "Risque modéré de somnoler",
+            "de": "Mittlere Einschlafneigung",
+            "pt": "Chance moderada de cochilar"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Высокая вероятность задремать",
+            "en": "High chance of dozing",
+            "fr": "Fort risque de somnoler",
+            "de": "Hohe Einschlafneigung",
+            "pt": "Alta chance de cochilar"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "ess_7",
+      "text": {
+        "ru": "Сидя тихо после обеда без алкоголя",
+        "en": "Sitting quietly after a lunch without alcohol",
+        "fr": "Assis(e) tranquillement après le déjeuner, sans alcool",
+        "de": "Ruhig sitzend nach dem Mittagessen ohne Alkohol",
+        "pt": "Sentado(a) em silêncio após o almoço, sem álcool"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда не засыпаю",
+            "en": "Would never doze",
+            "fr": "Ne somnolerait jamais",
+            "de": "Würde nie einnicken",
+            "pt": "Nunca cochilaria"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Небольшая вероятность задремать",
+            "en": "Slight chance of dozing",
+            "fr": "Faible risque de somnoler",
+            "de": "Geringe Einschlafneigung",
+            "pt": "Pequena chance de cochilar"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренная вероятность задремать",
+            "en": "Moderate chance of dozing",
+            "fr": "Risque modéré de somnoler",
+            "de": "Mittlere Einschlafneigung",
+            "pt": "Chance moderada de cochilar"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Высокая вероятность задремать",
+            "en": "High chance of dozing",
+            "fr": "Fort risque de somnoler",
+            "de": "Hohe Einschlafneigung",
+            "pt": "Alta chance de cochilar"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "ess_8",
+      "text": {
+        "ru": "В машине, остановившись на несколько минут в пробке",
+        "en": "In a car, while stopped for a few minutes in traffic",
+        "fr": "Dans une voiture, à l’arrêt quelques minutes dans les embouteillages",
+        "de": "Im Auto, während Sie im Stau einige Minuten anhalten",
+        "pt": "No carro, parado(a) alguns minutos no trânsito"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда не засыпаю",
+            "en": "Would never doze",
+            "fr": "Ne somnolerait jamais",
+            "de": "Würde nie einnicken",
+            "pt": "Nunca cochilaria"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Небольшая вероятность задремать",
+            "en": "Slight chance of dozing",
+            "fr": "Faible risque de somnoler",
+            "de": "Geringe Einschlafneigung",
+            "pt": "Pequena chance de cochilar"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренная вероятность задремать",
+            "en": "Moderate chance of dozing",
+            "fr": "Risque modéré de somnoler",
+            "de": "Mittlere Einschlafneigung",
+            "pt": "Chance moderada de cochilar"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Высокая вероятность задремать",
+            "en": "High chance of dozing",
+            "fr": "Fort risque de somnoler",
+            "de": "Hohe Einschlafneigung",
+            "pt": "Alta chance de cochilar"
+          },
+          "score": 3
+        }
+      ]
+    }
+  ]
+}

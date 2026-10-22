@@ -1,0 +1,866 @@
+[
+  {
+    "id": "shaps_anhedonia",
+    "category": "depression",
+    "title": {
+      "ru": "Шкала оценки ангедонии Снайта-Гамильтона (SHAPS)",
+      "en": "Snaith-Hamilton Pleasure Scale (SHAPS)",
+      "fr": "Échelle d’anhédonie de Snaith-Hamilton",
+      "de": "Snaith-Hamilton-Lustskala",
+      "pt": "Escala de Prazer de Snaith-Hamilton"
+    },
+    "subtitle": {
+      "ru": "Способность получать удовольствие от повседневных занятий.",
+      "en": "Ability to experience pleasure from everyday activities.",
+      "fr": "Capacité à ressentir du plaisir dans les activités du quotidien.",
+      "de": "Fähigkeit, im Alltag Vergnügen zu empfinden.",
+      "pt": "Capacidade de sentir prazer nas atividades cotidianas."
+    },
+    "description": {
+      "ru": "Валидизированная шкала для оценки ангедонии (неспособности получать удовольствие), разработанная для минимизации влияния пола и возраста[cite: 5, 6].",
+      "en": "A validated scale for assessing anhedonia (the inability to experience pleasure), designed to minimize age and gender bias[cite: 5, 6].",
+      "fr": "Une échelle validée pour évaluer l’anhédonie (l’incapacité à ressentir du plaisir), conçue pour minimiser les biais d'âge et de sexe[cite: 5, 6].",
+      "de": "Eine validierte Skala zur Bewertung der Anhedonie (der Unfähigkeit, Vergnügen zu empfinden), die darauf ausgelegt ist, Alters- und Geschlechtseinflüsse zu minimieren[cite: 5, 6].",
+      "pt": "Uma escala validada para avaliar a anedonia (incapacidade de sentir prazer), projetada para minimizar vieses de idade e sexo[cite: 5, 6]."
+    },
+    "instructions": {
+      "ru": "Пожалуйста, оцените каждое утверждение, выбрав вариант, который лучше всего описывает ваше состояние в последнее время[cite: 4].",
+      "en": "Please rate each statement by choosing the option that best describes how you have been feeling recently[cite: 4].",
+      "fr": "Veuillez évaluer chaque affirmation en choisissant l'option qui décrit le mieux comment vous vous êtes senti récemment[cite: 4].",
+      "de": "Bitte bewerten Sie jede Aussage, indem Sie die Option wählen, die am besten beschreibt, wie Sie sich in letzter Zeit gefühlt haben[cite: 4].",
+      "pt": "Por favor, avalie cada afirmação escolhendo a opção que melhor descreve como você tem se sentido recentemente[cite: 4]."
+    },
+    "questions": [
+      {
+        "id": "shaps_1",
+        "text": {
+          "ru": "Мне доставляет удовольствие просмотр любимой теле- или радиопередачи [cite: 10, 12]",
+          "en": "I would enjoy my favorite television or radio program",
+          "fr": "J’apprécierais mon émission de télévision ou de radio préférée",
+          "de": "Ich würde meine Lieblings-Fernseh- oder Radiosendung genießen",
+          "pt": "Eu apreciaria o meu programa de televisão ou rádio favorito"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Совсем не согласен",
+              "en": "Strongly disagree",
+              "fr": "Tout à fait en désaccord",
+              "de": "Stimme überhaupt nicht zu",
+              "pt": "Discordo totalmente"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Не согласен",
+              "en": "Disagree",
+              "fr": "En désaccord",
+              "de": "Stimme nicht zu",
+              "pt": "Discordo"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Согласен",
+              "en": "Agree",
+              "fr": "D’accord",
+              "de": "Stimme zu",
+              "pt": "Concordo"
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Полностью согласен",
+              "en": "Strongly agree",
+              "fr": "Tout à fait d’accord",
+              "de": "Stimme voll zu",
+              "pt": "Concordo totalmente"
+            },
+            "score": 0
+          }
+        ]
+      },
+      {
+        "id": "shaps_2",
+        "text": {
+          "ru": "Мне доставляет удовольствие проводить время с семьей или близкими друзьями [cite: 22, 23]",
+          "en": "I would enjoy being with my family or close friends",
+          "fr": "J'apprécierais être avec ma famille ou mes amis proches",
+          "de": "Ich würde es genießen, mit meiner Familie oder engen Freunden zusammen zu sein",
+          "pt": "Eu gostaria de estar com a minha família ou amigos próximos"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Совсем не согласен",
+              "en": "Strongly disagree",
+              "fr": "Tout à fait en désaccord",
+              "de": "Stimme überhaupt nicht zu",
+              "pt": "Discordo totalmente"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Не согласен",
+              "en": "Disagree",
+              "fr": "En désaccord",
+              "de": "Stimme nicht zu",
+              "pt": "Discordo"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Согласен",
+              "en": "Agree",
+              "fr": "D’accord",
+              "de": "Stimme zu",
+              "pt": "Concordo"
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Полностью согласен",
+              "en": "Strongly agree",
+              "fr": "Tout à fait d’accord",
+              "de": "Stimme voll zu",
+              "pt": "Concordo totalmente"
+            },
+            "score": 0
+          }
+        ]
+      },
+      {
+        "id": "shaps_3",
+        "text": {
+          "ru": "Мне доставляет удовольствие мое хобби или увлечение [cite: 32]",
+          "en": "I would enjoy my hobbies and pastimes",
+          "fr": "J'apprécierais mes passe-temps et loisirs",
+          "de": "Ich würde meine Hobbies und Freizeitbeschäftigungen genießen",
+          "pt": "Eu apreciaria meus hobbies e passatempos"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Совсем не согласен",
+              "en": "Strongly disagree",
+              "fr": "Tout à fait en désaccord",
+              "de": "Stimme überhaupt nicht zu",
+              "pt": "Discordo totalmente"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Не согласен",
+              "en": "Disagree",
+              "fr": "En désaccord",
+              "de": "Stimme nicht zu",
+              "pt": "Discordo"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Согласен",
+              "en": "Agree",
+              "fr": "D’accord",
+              "de": "Stimme zu",
+              "pt": "Concordo"
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Полностью согласен",
+              "en": "Strongly agree",
+              "fr": "Tout à fait d’accord",
+              "de": "Stimme voll zu",
+              "pt": "Concordo totalmente"
+            },
+            "score": 0
+          }
+        ]
+      },
+      {
+        "id": "shaps_4",
+        "text": {
+          "ru": "Мне доставляет удовольствие моя любимая еда [cite: 40]",
+          "en": "I would enjoy my favorite meal",
+          "fr": "J'apprécierais mon repas préféré",
+          "de": "Ich würde meine Lieblingsmahlzeit genießen",
+          "pt": "Eu apreciaria minha refeição favorita"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Совсем не согласен",
+              "en": "Strongly disagree",
+              "fr": "Tout à fait en désaccord",
+              "de": "Stimme überhaupt nicht zu",
+              "pt": "Discordo totalmente"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Не согласен",
+              "en": "Disagree",
+              "fr": "En désaccord",
+              "de": "Stimme nicht zu",
+              "pt": "Discordo"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Согласен",
+              "en": "Agree",
+              "fr": "D’accord",
+              "de": "Stimme zu",
+              "pt": "Concordo"
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Полностью согласен",
+              "en": "Strongly agree",
+              "fr": "Tout à fait d’accord",
+              "de": "Stimme voll zu",
+              "pt": "Concordo totalmente"
+            },
+            "score": 0
+          }
+        ]
+      },
+      {
+        "id": "shaps_5",
+        "text": {
+          "ru": "Мне доставляет удовольствие теплая ванна или освежающий душ [cite: 50, 51]",
+          "en": "I would enjoy a warm bath or refreshing shower",
+          "fr": "J'apprécierais un bain chaud ou une douche rafraîchissante",
+          "de": "Ich würde ein warmes Bad oder eine erfrischende Dusche genießen",
+          "pt": "Eu apreciaria um banho quente ou um duche refrescante"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Совсем не согласен",
+              "en": "Strongly disagree",
+              "fr": "Tout à fait en désaccord",
+              "de": "Stimme überhaupt nicht zu",
+              "pt": "Discordo totalmente"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Не согласен",
+              "en": "Disagree",
+              "fr": "En désaccord",
+              "de": "Stimme nicht zu",
+              "pt": "Discordo"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Согласен",
+              "en": "Agree",
+              "fr": "D’accord",
+              "de": "Stimme zu",
+              "pt": "Concordo"
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Полностью согласен",
+              "en": "Strongly agree",
+              "fr": "Tout à fait d’accord",
+              "de": "Stimme voll zu",
+              "pt": "Concordo totalmente"
+            },
+            "score": 0
+          }
+        ]
+      },
+      {
+        "id": "shaps_6",
+        "text": {
+          "ru": "Мне доставляет удовольствие запах цветов, свежевыпеченного хлеба или дуновение морского ветра [cite: 60, 61]",
+          "en": "I would enjoy the scent of flowers or the smell of fresh baked bread or sea breeze",
+          "fr": "J'apprécierais l'odeur des fleurs ou l'odeur du pain frais ou une brise marine",
+          "de": "Ich würde den Duft von Blumen, den Geruch von frisch gebackenem Brot oder eine Meeresbrise genießen",
+          "pt": "Eu apreciaria o perfume das flores, o cheiro de pão fresco ou a brisa do mar"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Совсем не согласен",
+              "en": "Strongly disagree",
+              "fr": "Tout à fait en désaccord",
+              "de": "Stimme überhaupt nicht zu",
+              "pt": "Discordo totalmente"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Не согласен",
+              "en": "Disagree",
+              "fr": "En désaccord",
+              "de": "Stimme nicht zu",
+              "pt": "Discordo"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Согласен",
+              "en": "Agree",
+              "fr": "D’accord",
+              "de": "Stimme zu",
+              "pt": "Concordo"
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Полностью согласен",
+              "en": "Strongly agree",
+              "fr": "Tout à fait d’accord",
+              "de": "Stimme voll zu",
+              "pt": "Concordo totalmente"
+            },
+            "score": 0
+          }
+        ]
+      },
+      {
+        "id": "shaps_7",
+        "text": {
+          "ru": "Мне доставляет удовольствие видеть других людей улыбающимися [cite: 69, 70]",
+          "en": "I would enjoy seeing other people's smiling faces",
+          "fr": "J'apprécierais voir les visages souriants des autres",
+          "de": "Ich würde es genießen, die lächelnden Gesichter anderer Menschen zu sehen",
+          "pt": "Eu gostaria de ver os rostos sorridentes de outras pessoas"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Совсем не согласен",
+              "en": "Strongly disagree",
+              "fr": "Tout à fait en désaccord",
+              "de": "Stimme überhaupt nicht zu",
+              "pt": "Discordo totalmente"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Не согласен",
+              "en": "Disagree",
+              "fr": "En désaccord",
+              "de": "Stimme nicht zu",
+              "pt": "Discordo"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Согласен",
+              "en": "Agree",
+              "fr": "D’accord",
+              "de": "Stimme zu",
+              "pt": "Concordo"
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Полностью согласен",
+              "en": "Strongly agree",
+              "fr": "Tout à fait d’accord",
+              "de": "Stimme voll zu",
+              "pt": "Concordo totalmente"
+            },
+            "score": 0
+          }
+        ]
+      },
+      {
+        "id": "shaps_8",
+        "text": {
+          "ru": "Мне доставляет удовольствие выглядеть умным или произвести впечатление своим появлением [cite: 80, 81]",
+          "en": "I would enjoy looking smart or as if I had made an effort with my appearance",
+          "fr": "J'apprécierais être élégant ou avoir fait un effort pour mon apparence",
+          "de": "Ich würde es genießen, schick auszusehen oder so, als hätte ich mir Mühe mit meinem Aussehen gegeben",
+          "pt": "Eu gostaria de estar elegante ou como se tivesse feito um esforço com a minha aparência"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Совсем не согласен",
+              "en": "Strongly disagree",
+              "fr": "Tout à fait en désaccord",
+              "de": "Stimme überhaupt nicht zu",
+              "pt": "Discordo totalmente"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Не согласен",
+              "en": "Disagree",
+              "fr": "En désaccord",
+              "de": "Stimme nicht zu",
+              "pt": "Discordo"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Согласен",
+              "en": "Agree",
+              "fr": "D’accord",
+              "de": "Stimme zu",
+              "pt": "Concordo"
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Полностью согласен",
+              "en": "Strongly agree",
+              "fr": "Tout à fait d’accord",
+              "de": "Stimme voll zu",
+              "pt": "Concordo totalmente"
+            },
+            "score": 0
+          }
+        ]
+      },
+      {
+        "id": "shaps_9",
+        "text": {
+          "ru": "Мне доставляет удовольствие чтение книги, журнала или газеты [cite: 11]",
+          "en": "I would enjoy reading a book, magazine or newspaper",
+          "fr": "J'apprécierais lire un livre, un magazine ou un journal",
+          "de": "Ich würde es genießen, ein Buch, eine Zeitschrift oder eine Zeitung zu lesen",
+          "pt": "Eu gostaria de ler um livro, revista ou jornal"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Совсем не согласен",
+              "en": "Strongly disagree",
+              "fr": "Tout à fait en désaccord",
+              "de": "Stimme überhaupt nicht zu",
+              "pt": "Discordo totalmente"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Не согласен",
+              "en": "Disagree",
+              "fr": "En désaccord",
+              "de": "Stimme nicht zu",
+              "pt": "Discordo"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Согласен",
+              "en": "Agree",
+              "fr": "D’accord",
+              "de": "Stimme zu",
+              "pt": "Concordo"
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Полностью согласен",
+              "en": "Strongly agree",
+              "fr": "Tout à fait d’accord",
+              "de": "Stimme voll zu",
+              "pt": "Concordo totalmente"
+            },
+            "score": 0
+          }
+        ]
+      },
+      {
+        "id": "shaps_10",
+        "text": {
+          "ru": "Мне доставляет удовольствие чашка чая, или кофе, или моего любимого напитка [cite: 11]",
+          "en": "I would enjoy a cup of tea or coffee or my favorite drink",
+          "fr": "J'apprécierais une tasse de thé ou de café ou ma boisson préférée",
+          "de": "Ich würde eine Tasse Tee oder Kaffee oder mein Lieblingsgetränk genießen",
+          "pt": "Eu apreciaria uma xícara de chá ou café ou minha bebida favorita"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Совсем не согласен",
+              "en": "Strongly disagree",
+              "fr": "Tout à fait en désaccord",
+              "de": "Stimme überhaupt nicht zu",
+              "pt": "Discordo totalmente"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Не согласен",
+              "en": "Disagree",
+              "fr": "En désaccord",
+              "de": "Stimme nicht zu",
+              "pt": "Discordo"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Согласен",
+              "en": "Agree",
+              "fr": "D’accord",
+              "de": "Stimme zu",
+              "pt": "Concordo"
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Полностью согласен",
+              "en": "Strongly agree",
+              "fr": "Tout à fait d’accord",
+              "de": "Stimme voll zu",
+              "pt": "Concordo totalmente"
+            },
+            "score": 0
+          }
+        ]
+      },
+      {
+        "id": "shaps_11",
+        "text": {
+          "ru": "Мне доставляют удовольствие обычные вещи — яркий солнечный день, звонок друга [cite: 11]",
+          "en": "I would enjoy small things, e.g., a bright sunny day, a telephone call from a friend",
+          "fr": "J'apprécierais les petites choses, par exemple une belle journée ensoleillée, un appel téléphonique d'un ami",
+          "de": "Ich würde mich über kleine Dinge freuen, z. B. einen sonnigen Tag, den Anruf eines Freundes",
+          "pt": "Eu apreciaria pequenas coisas, por exemplo, um dia ensolarado, um telefonema de um amigo"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Совсем не согласен",
+              "en": "Strongly disagree",
+              "fr": "Tout à fait en désaccord",
+              "de": "Stimme überhaupt nicht zu",
+              "pt": "Discordo totalmente"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Не согласен",
+              "en": "Disagree",
+              "fr": "En désaccord",
+              "de": "Stimme nicht zu",
+              "pt": "Discordo"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Согласен",
+              "en": "Agree",
+              "fr": "D’accord",
+              "de": "Stimme zu",
+              "pt": "Concordo"
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Полностью согласен",
+              "en": "Strongly agree",
+              "fr": "Tout à fait d’accord",
+              "de": "Stimme voll zu",
+              "pt": "Concordo totalmente"
+            },
+            "score": 0
+          }
+        ]
+      },
+      {
+        "id": "shaps_12",
+        "text": {
+          "ru": "Мне доставляет удовольствие красивый ландшафт или вид [cite: 11]",
+          "en": "I would enjoy a beautiful landscape or view",
+          "fr": "J'apprécierais un beau paysage ou une belle vue",
+          "de": "Ich würde eine schöne Landschaft oder Aussicht genießen",
+          "pt": "Eu apreciaria uma bela paisagem ou vista"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Совсем не согласен",
+              "en": "Strongly disagree",
+              "fr": "Tout à fait en désaccord",
+              "de": "Stimme überhaupt nicht zu",
+              "pt": "Discordo totalmente"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Не согласен",
+              "en": "Disagree",
+              "fr": "En désaccord",
+              "de": "Stimme nicht zu",
+              "pt": "Discordo"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Согласен",
+              "en": "Agree",
+              "fr": "D’accord",
+              "de": "Stimme zu",
+              "pt": "Concordo"
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Полностью согласен",
+              "en": "Strongly agree",
+              "fr": "Tout à fait d’accord",
+              "de": "Stimme voll zu",
+              "pt": "Concordo totalmente"
+            },
+            "score": 0
+          }
+        ]
+      },
+      {
+        "id": "shaps_13",
+        "text": {
+          "ru": "Мне доставляет удовольствие помогать другим людям [cite: 11]",
+          "en": "I would enjoy helping others",
+          "fr": "J'apprécierais aider les autres",
+          "de": "Ich würde es genießen, anderen zu helfen",
+          "pt": "Eu gostaria de ajudar os outros"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Совсем не согласен",
+              "en": "Strongly disagree",
+              "fr": "Tout à fait en désaccord",
+              "de": "Stimme überhaupt nicht zu",
+              "pt": "Discordo totalmente"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Не согласен",
+              "en": "Disagree",
+              "fr": "En désaccord",
+              "de": "Stimme nicht zu",
+              "pt": "Discordo"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Согласен",
+              "en": "Agree",
+              "fr": "D’accord",
+              "de": "Stimme zu",
+              "pt": "Concordo"
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Полностью согласен",
+              "en": "Strongly agree",
+              "fr": "Tout à fait d’accord",
+              "de": "Stimme voll zu",
+              "pt": "Concordo totalmente"
+            },
+            "score": 0
+          }
+        ]
+      },
+      {
+        "id": "shaps_14",
+        "text": {
+          "ru": "Мне доставляет удовольствие похвала от других людей [cite: 11]",
+          "en": "I would enjoy when other people praise me",
+          "fr": "J'apprécierais que d'autres personnes me fassent des compliments",
+          "de": "Ich würde es genießen, wenn andere Leute mich loben",
+          "pt": "Eu gostaria que outras pessoas me elogiassem"
+        },
+        "options": [
+          {
+            "label": {
+              "ru": "Совсем не согласен",
+              "en": "Strongly disagree",
+              "fr": "Tout à fait en désaccord",
+              "de": "Stimme überhaupt nicht zu",
+              "pt": "Discordo totalmente"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Не согласен",
+              "en": "Disagree",
+              "fr": "En désaccord",
+              "de": "Stimme nicht zu",
+              "pt": "Discordo"
+            },
+            "score": 1
+          },
+          {
+            "label": {
+              "ru": "Согласен",
+              "en": "Agree",
+              "fr": "D’accord",
+              "de": "Stimme zu",
+              "pt": "Concordo"
+            },
+            "score": 0
+          },
+          {
+            "label": {
+              "ru": "Полностью согласен",
+              "en": "Strongly agree",
+              "fr": "Tout à fait d’accord",
+              "de": "Stimme voll zu",
+              "pt": "Concordo totalmente"
+            },
+            "score": 0
+          }
+        ]
+      }
+    ],
+    "bands": [
+      {
+        "minInclusive": 0,
+        "maxInclusive": 2,
+        "title": {
+          "ru": "Норма",
+          "en": "Normal",
+          "fr": "Normal",
+          "de": "Normal",
+          "pt": "Normal"
+        },
+        "description": {
+          "ru": "Сохранная способность получать удовольствие от обычных занятий.",
+          "en": "Usual capacity to enjoy everyday activities.",
+          "fr": "Capacité habituelle à ressentir du plaisir au quotidien.",
+          "de": "Übliche Fähigkeit, im Alltag Freude zu empfinden.",
+          "pt": "Capacidade habitual de sentir prazer nas atividades do dia a dia."
+        }
+      },
+      {
+        "minInclusive": 3,
+        "maxInclusive": 14,
+        "title": {
+          "ru": "Ангедония",
+          "en": "Anhedonia",
+          "fr": "Anhédonie",
+          "de": "Anhedonie",
+          "pt": "Anedonia"
+        },
+        "description": {
+          "ru": "Повышенный уровень ангедонии — снижение способности получать удовольствие; имеет смысл обсудить с специалистом при стойких симптомах.",
+          "en": "Increased anhedonia—less pleasure from usual activities; consider professional support if this persists.",
+          "fr": "Anhédonie accrue ; parlez-en à un professionnel si cela persiste.",
+          "de": "Mehr Anhedonie — weniger Freude am Üblichen; bei anhaltenden Symptomen Hilfe suchen.",
+          "pt": "Mais anedonia — menos prazer no habitual; busque apoio profissional se persistir."
+        }
+      }
+    ],
+    "subscales": [
+      {
+        "id": "interests",
+        "label": {
+          "ru": "Интересы / Досуг",
+          "en": "Interests / Pastimes",
+          "fr": "Intérêts / Loisirs",
+          "de": "Interessen / Freizeit",
+          "pt": "Interesses / Lazer"
+        },
+        "itemIndices": [
+          0,
+          2,
+          8
+        ]
+      },
+      {
+        "id": "social",
+        "label": {
+          "ru": "Социальное взаимодействие",
+          "en": "Social Interaction",
+          "fr": "Interaction sociale",
+          "de": "Soziale Interaktion",
+          "pt": "Interação social"
+        },
+        "itemIndices": [
+          1,
+          6,
+          7,
+          12,
+          13
+        ]
+      },
+      {
+        "id": "sensory",
+        "label": {
+          "ru": "Чувственные ощущения",
+          "en": "Sensory Experience",
+          "fr": "Expérience sensorielle",
+          "de": "Sensorische Erfahrung",
+          "pt": "Experiência sensorial"
+        },
+        "itemIndices": [
+          4,
+          5,
+          10,
+          11
+        ]
+      },
+      {
+        "id": "food_drink",
+        "label": {
+          "ru": "Еда / Напитки",
+          "en": "Food / Drink",
+          "fr": "Nourriture / Boisson",
+          "de": "Essen / Trinken",
+          "pt": "Comida / Bebida"
+        },
+        "itemIndices": [
+          3,
+          9
+        ]
+      }
+    ]
+  }
+]

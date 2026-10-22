@@ -1,0 +1,527 @@
+{
+  "id": "pdss",
+  "category": "anxiety",
+  "title": {
+    "ru": "PDSS — шкала тяжести панического расстройства (самоотчёт)",
+    "en": "PDSS — Panic Disorder Severity Scale (self-report)",
+    "fr": "PDSS — Échelle de gravité du trouble panique (auto-rapport)",
+    "de": "PDSS — Schweregradskala für Panikstörung (Selbstbeurteilung)",
+    "pt": "PDSS — Escala de gravidade do transtorno de pânico (auto-relato)"
+  },
+  "subtitle": {
+    "ru": "Выраженность панических симптомов за последнюю неделю.",
+    "en": "Panic symptom severity over the past week.",
+    "fr": "Gravité des symptômes paniques sur la semaine passée.",
+    "de": "Schwere panischer Symptome in der letzten Woche.",
+    "pt": "Gravidade dos sintomas de pânico na última semana."
+  },
+  "description": {
+    "ru": "Краткая оценка, насколько панические симптомы мешают жизни: частота приступов, переживание, ожидание новых, избегание и снижение функционирования. Не заменяет диагноз. Оригинальная методика (Shear et al.) охраняется авторским правом; для публикаций и распространения может требоваться разрешение правообладателя.",
+    "en": "A brief look at how panic symptoms affect you—attacks, distress, worry about more, avoidance, and day-to-day functioning. Not a diagnosis. The original PDSS is copyrighted (Shear et al.); permission may be required for some uses.",
+    "fr": "Bref aperçu de l’impact des symptômes paniques (attaques, détresse, anticipation, évitement, fonctionnement). Pas un diagnostic. PDSS protégé.",
+    "de": "Kurze Einschätzung der Belastung durch Panik (Anfälle, Distanz, Vermeidung, Alltag). Keine Diagnose. PDSS urheberrechtlich geschützt.",
+    "pt": "Visão breve do impacto dos sintomas de pânico. Não é diagnóstico. PDSS com direitos autorais."
+  },
+  "instructions": {
+    "ru": "Ответьте по состоянию за последние семь дней. Для первого пункта укажите число приступов по предложенной градации; для остальных — степень выраженности.",
+    "en": "Answer for the past seven days. For item 1, use the frequency scale; for the others, rate how much each problem applied to you.",
+    "fr": "Répondez pour les sept derniers jours. Item 1 : fréquence ; autres items : intensité.",
+    "de": "Beantworten Sie für die letzten sieben Tage. Item 1: Häufigkeit; übrige Items: Ausprägung.",
+    "pt": "Responda pelos últimos sete dias. Item 1: frequência; demais itens: intensidade."
+  },
+  "maxScore": 28,
+  "bandsBasis": "raw",
+  "bands": [
+    {
+      "minInclusive": 0,
+      "maxInclusive": 7,
+      "title": {
+        "ru": "Относительно меньшая тяжесть",
+        "en": "Relatively lower burden",
+        "fr": "Charge relativement plus faible",
+        "de": "Relativ geringere Belastung",
+        "pt": "Carga relativamente menor"
+      },
+      "description": {
+        "ru": "Симптомы в этой зоне часто описывают как менее выраженные; как это переживаете вы, зависит от контекста.",
+        "en": "Symptoms in this band are often described as less intense; your own experience still depends on context.",
+        "fr": "Symptômes souvent moins intenses dans cette zone ; le vécu reste personnel.",
+        "de": "Symptome in dieser Zone oft als geringer beschrieben; Ihr Erleben hängt vom Kontext ab.",
+        "pt": "Sintomas nesta faixa costumam ser descritos como menos intensos; o vivido depende do contexto."
+      }
+    },
+    {
+      "minInclusive": 8,
+      "maxInclusive": 15,
+      "title": {
+        "ru": "Умеренная тяжесть",
+        "en": "Moderate severity",
+        "fr": "Gravité modérée",
+        "de": "Mäßige Schwere",
+        "pt": "Gravidade moderada"
+      },
+      "description": {
+        "ru": "Умеренно выраженные симптомы; имеет смысл обсудить с врачом или психотерапевтом.",
+        "en": "Moderately strong symptoms; consider discussing with a physician or therapist.",
+        "fr": "Symptômes modérément marqués ; un suivi professionnel peut aider.",
+        "de": "Mäßig ausgeprägte Symptome; Abklärung bei Fachperson sinnvoll.",
+        "pt": "Sintomas moderadamente intensos; considere conversar com profissional."
+      }
+    },
+    {
+      "minInclusive": 16,
+      "maxInclusive": 28,
+      "title": {
+        "ru": "Высокая тяжесть",
+        "en": "High severity",
+        "fr": "Gravité élevée",
+        "de": "Hohe Schwere",
+        "pt": "Alta gravidade"
+      },
+      "description": {
+        "ru": "Сильное влияние симптомов на жизнь; рекомендуется обращение к специалисту.",
+        "en": "Strong impact of symptoms on daily life; seek professional assessment.",
+        "fr": "Impact fort sur la vie quotidienne ; évaluation professionnelle recommandée.",
+        "de": "Starke Beeinträchtigung; fachärztliche Abklärung empfohlen.",
+        "pt": "Impacto forte no dia a dia; avaliação profissional recomendada."
+      }
+    }
+  ],
+  "subscales": [],
+  "questions": [
+    {
+      "id": "pdss_1",
+      "text": {
+        "ru": "Сколько за последнюю неделю у вас было полноценных панических атак (или приступов с почти полным набором симптомов)?",
+        "en": "How many full panic attacks (or attacks with almost a full set of symptoms) did you have during the past week?",
+        "fr": "How many full panic attacks (or attacks with almost a full set of symptoms) did you have during the past week?",
+        "de": "How many full panic attacks (or attacks with almost a full set of symptoms) did you have during the past week?",
+        "pt": "How many full panic attacks (or attacks with almost a full set of symptoms) did you have during the past week?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Не было приступов",
+            "en": "No panic attacks",
+            "fr": "Aucune crise",
+            "de": "Keine Attacken",
+            "pt": "Nenhum ataque"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Один приступ",
+            "en": "One attack",
+            "fr": "Une crise",
+            "de": "Eine Attacke",
+            "pt": "Um ataque"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "От двух до трёх приступов",
+            "en": "Two to three attacks",
+            "fr": "Deux à trois crises",
+            "de": "Zwei bis drei Attacken",
+            "pt": "Dois a três ataques"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "От четырёх до шести приступов",
+            "en": "Four to six attacks",
+            "fr": "Quatre à six crises",
+            "de": "Vier bis sechs Attacken",
+            "pt": "Quatro a seis ataques"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Семь и более приступов",
+            "en": "Seven or more attacks",
+            "fr": "Sept crises ou plus",
+            "de": "Sieben oder mehr Attacken",
+            "pt": "Sete ou mais ataques"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "pdss_2",
+      "text": {
+        "ru": "Если приступы были, насколько они были для вас мучительными?",
+        "en": "If you had attacks, how distressing were they for you?",
+        "fr": "If you had attacks, how distressing were they for you?",
+        "de": "If you had attacks, how distressing were they for you?",
+        "pt": "If you had attacks, how distressing were they for you?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Leicht",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Severely",
+            "fr": "Fortement",
+            "de": "Stark",
+            "pt": "Severamente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "pdss_3",
+      "text": {
+        "ru": "Насколько за неделю вас беспокоили ожидание новых приступов и связанные с этим страхи?",
+        "en": "During the past week, how much were you bothered by anticipating attacks and related fears?",
+        "fr": "During the past week, how much were you bothered by anticipating attacks and related fears?",
+        "de": "During the past week, how much were you bothered by anticipating attacks and related fears?",
+        "pt": "During the past week, how much were you bothered by anticipating attacks and related fears?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Leicht",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Severely",
+            "fr": "Fortement",
+            "de": "Stark",
+            "pt": "Severamente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "pdss_4",
+      "text": {
+        "ru": "Насколько за неделю вы избегали ситуаций, где мог бы случиться приступ (агорафобическое избегание)?",
+        "en": "During the past week, how much did you avoid situations where panic might occur?",
+        "fr": "During the past week, how much did you avoid situations where panic might occur?",
+        "de": "During the past week, how much did you avoid situations where panic might occur?",
+        "pt": "During the past week, how much did you avoid situations where panic might occur?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Leicht",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Severely",
+            "fr": "Fortement",
+            "de": "Stark",
+            "pt": "Severamente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "pdss_5",
+      "text": {
+        "ru": "Насколько за неделю вы избегали действий, вызывающих телесные ощущения, похожие на панику (нагрузка, жару и т.п.)?",
+        "en": "During the past week, how much did you avoid activities that trigger bodily sensations similar to panic?",
+        "fr": "During the past week, how much did you avoid activities that trigger bodily sensations similar to panic?",
+        "de": "During the past week, how much did you avoid activities that trigger bodily sensations similar to panic?",
+        "pt": "During the past week, how much did you avoid activities that trigger bodily sensations similar to panic?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Leicht",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Severely",
+            "fr": "Fortement",
+            "de": "Stark",
+            "pt": "Severamente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "pdss_6",
+      "text": {
+        "ru": "Насколько симптомы паники мешали работе или домашним обязанностям за неделю?",
+        "en": "How much did panic symptoms interfere with work or home responsibilities this past week?",
+        "fr": "How much did panic symptoms interfere with work or home responsibilities this past week?",
+        "de": "How much did panic symptoms interfere with work or home responsibilities this past week?",
+        "pt": "How much did panic symptoms interfere with work or home responsibilities this past week?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Leicht",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Severely",
+            "fr": "Fortement",
+            "de": "Stark",
+            "pt": "Severamente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "pdss_7",
+      "text": {
+        "ru": "Насколько симптомы паники мешали общению и социальной жизни за неделю?",
+        "en": "How much did panic symptoms interfere with your social life this past week?",
+        "fr": "How much did panic symptoms interfere with your social life this past week?",
+        "de": "How much did panic symptoms interfere with your social life this past week?",
+        "pt": "How much did panic symptoms interfere with your social life this past week?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "A little",
+            "fr": "Un peu",
+            "de": "Leicht",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Severely",
+            "fr": "Fortement",
+            "de": "Stark",
+            "pt": "Severamente"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    }
+  ]
+}

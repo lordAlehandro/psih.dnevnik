@@ -1,0 +1,1526 @@
+{
+  "id": "ies_r",
+  "category": "stress",
+  "title": {
+    "ru": "IES-R — пересмотренная шкала влияния события",
+    "en": "IES-R — Impact of Event Scale–Revised",
+    "fr": "IES-R — Échelle d’impact d’un événement (révisée)",
+    "de": "IES-R — Impact of Event Scale–Revised",
+    "pt": "IES-R — Escala de impacto do evento (revisada)"
+  },
+  "subtitle": {
+    "ru": "Переработка недавней травмы: навязчивость, избегание, гипервозбуждение.",
+    "en": "Processing a recent trauma: intrusions, avoidance, and hyperarousal.",
+    "fr": "Traitement récent d’un trauma : intrusions, évitement, hyperactivation.",
+    "de": "Verarbeitung eines jüngeren Traumas: Intrusionen, Vermeidung, Hyperarousal.",
+    "pt": "Processamento de trauma recente: intrusões, evitação e hiperexcitação."
+  },
+  "description": {
+    "ru": "Оценивает субъективный дистресс, связанный с конкретным стрессовым или травматическим событием (в формулировках — «это» / «об этом»). Три области: навязчивые переживания, избегание, гипервозбуждение. Не является диагнозом ПТСР. Weiss & Marmar (1996); для коммерческого использования может требоваться разрешение.",
+    "en": "Measures distress tied to one specific stressful or traumatic event (worded as “it”). Three areas: intrusions, avoidance, hyperarousal. Not a PTSD diagnosis. Weiss & Marmar (1996); permission may be required for some uses.",
+    "fr": "Détresse liée à un événement précis. Trois domaines : intrusions, évitement, hyperactivation. Pas un diagnostic PTSD. Weiss & Marmar (1996).",
+    "de": "Belastung durch ein bestimmtes Ereignis. Drei Bereiche: Intrusion, Vermeidung, Hyperarousal. Keine PTSD-Diagnose. Weiss & Marmar (1996).",
+    "pt": "Angústia ligada a um evento específico. Três áreas: intrusões, evitação, hiperexcitação. Não diagnostica TEPT. Weiss & Marmar (1996)."
+  },
+  "instructions": {
+    "ru": "Сначала мысленно выберите одно конкретное стрессовое событие, которое пережили вы (или которое с вами связано). Далее отметьте, насколько вас беспокоило каждое из перечисленных трудностей за последние семь дней.",
+    "en": "First, identify one specific stressful event you experienced (or that affects you). Then rate how much each difficulty bothered you during the past seven days.",
+    "fr": "Identifiez un événement stressant précis, puis indiquez à quel point chaque difficulté vous a gêné(e) durant les 7 derniers jours.",
+    "de": "Wählen Sie ein bestimmtes belastendes Ereignis; bewerten Sie dann die letzten 7 Tage.",
+    "pt": "Identifique um evento estressante específico; depois avalie o quanto cada dificuldade o incomodou nos últimos 7 dias."
+  },
+  "maxScore": 88,
+  "bandsBasis": "raw",
+  "bands": [
+    {
+      "minInclusive": 0,
+      "maxInclusive": 23,
+      "title": {
+        "ru": "Низкий уровень дистресса (ориентир)",
+        "en": "Low distress (approximate band)",
+        "fr": "Détresse faible (indicatif)",
+        "de": "Geringe Belastung (Orientierung)",
+        "pt": "Baixo sofrimento (orientativo)"
+      },
+      "description": {
+        "ru": "Меньше выраженный дистресс по сравнению с верхними зонами; контекст важен, это не замена оценки специалиста.",
+        "en": "Less distress than higher bands; context matters and this does not replace professional assessment.",
+        "fr": "Moins de détresse que dans les zones supérieures ; le contexte compte.",
+        "de": "Geringere Belastung als in höheren Bereichen; Kontext wichtig.",
+        "pt": "Menos sofrimento que nas faixas altas; o contexto importa."
+      }
+    },
+    {
+      "minInclusive": 24,
+      "maxInclusive": 36,
+      "title": {
+        "ru": "Повышенный дистресс",
+        "en": "Elevated distress",
+        "fr": "Détresse élevée",
+        "de": "Erhöhte Belastung",
+        "pt": "Sofrimento elevado"
+      },
+      "description": {
+        "ru": "Умеренно или сильнее выраженный дистресс; при стойких симптомах имеет смысл обратиться к специалисту.",
+        "en": "Moderate to strong distress; consider professional follow-up if symptoms persist.",
+        "fr": "Détresse modérée à marquée ; suivi professionnel si persistance.",
+        "de": "Mäßige bis deutliche Belastung; bei anhaltenden Symptomen Hilfe suchen.",
+        "pt": "Sofrimento moderado a intenso; busque apoio se persistir."
+      }
+    },
+    {
+      "minInclusive": 37,
+      "maxInclusive": 88,
+      "title": {
+        "ru": "Очень сильный дистресс",
+        "en": "Very high distress",
+        "fr": "Détresse très élevée",
+        "de": "Sehr hohe Belastung",
+        "pt": "Sofrimento muito alto"
+      },
+      "description": {
+        "ru": "Сильное переживание события; это не диагноз ПТСР — при необходимости обратитесь к специалисту по психическому здоровью.",
+        "en": "Strong reaction to the event; this does not diagnose PTSD—seek a mental health professional if you need support.",
+        "fr": "Réaction forte à l’événement ; pas un diagnostic de PTSD — consultez si besoin.",
+        "de": "Starke Belastung durch das Ereignis; keine PTSD-Diagnose—bei Bedarf Hilfe suchen.",
+        "pt": "Reação forte ao evento; não diagnostica TEPT — busque apoio se precisar."
+      }
+    }
+  ],
+  "subscales": [
+    {
+      "id": "intrusion",
+      "label": {
+        "ru": "Навязчивые переживания",
+        "en": "Intrusion",
+        "fr": "Intrusions",
+        "de": "Intrusion",
+        "pt": "Intrusões"
+      },
+      "itemIndices": [
+        0,
+        1,
+        2,
+        5,
+        8,
+        13,
+        14,
+        19
+      ],
+      "maxScore": 32
+    },
+    {
+      "id": "avoidance",
+      "label": {
+        "ru": "Избегание",
+        "en": "Avoidance",
+        "fr": "Évitement",
+        "de": "Vermeidung",
+        "pt": "Evitação"
+      },
+      "itemIndices": [
+        4,
+        6,
+        7,
+        10,
+        11,
+        12,
+        16,
+        21
+      ],
+      "maxScore": 32
+    },
+    {
+      "id": "hyperarousal",
+      "label": {
+        "ru": "Гиперстимуляция",
+        "en": "Hyperarousal",
+        "fr": "Hyperactivation",
+        "de": "Hyperarousal",
+        "pt": "Hiperexcitação"
+      },
+      "itemIndices": [
+        3,
+        9,
+        15,
+        17,
+        18,
+        20
+      ],
+      "maxScore": 24
+    }
+  ],
+  "resultNote": {
+    "ru": "Три области ниже дополняют друг друга: сравните, где дистресс выражен сильнее, и обсудите с профессионалом, если переживание мешает жизни.",
+    "en": "The three sections below complement each other—notice where distress is strongest and seek support if it gets in the way of daily life.",
+    "fr": "Les trois parties se complètent ; repérez où la détresse domine et demandez de l’aide si besoin.",
+    "de": "Die drei Bereiche ergänzen sich; achten Sie, wo die Belastung am stärksten ist, und holen Sie Hilfe.",
+    "pt": "As três partes se complementam; veja onde o sofrimento pesa mais e busque apoio se precisar."
+  },
+  "questions": [
+    {
+      "id": "iesr_1",
+      "text": {
+        "ru": "Любые напоминания снова вызывали у меня переживания, связанные с этим событием.",
+        "en": "Any reminders brought back feelings about it.",
+        "fr": "Tout rappel me faisait revivre des sentiments liés à l'événement.",
+        "de": "Jede Erinnerung brachte Gefühle zurück, die mit dem Ereignis zu tun hatten.",
+        "pt": "Qualquer lembrete fazia voltar sentimentos ligados ao evento."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "Nada"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Значительно",
+            "en": "Quite a bit",
+            "fr": "Assez",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно / крайне",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "iesr_2",
+      "text": {
+        "ru": "Мне было трудно не просыпаться ночью.",
+        "en": "I had trouble staying asleep.",
+        "fr": "J'avais du mal à rester endormi(e).",
+        "de": "Ich konnte nicht durchschlafen.",
+        "pt": "Tive dificuldade para permanecer dormindo."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "Nada"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Значительно",
+            "en": "Quite a bit",
+            "fr": "Assez",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно / крайне",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "iesr_3",
+      "text": {
+        "ru": "Другие вещи заставляли меня думать об этом.",
+        "en": "Other things made me think about it.",
+        "fr": "D'autres choses me faisaient penser à cela.",
+        "de": "Andere Dinge ließen mich daran denken.",
+        "pt": "Outras coisas me faziam pensar nisso."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "Nada"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Значительно",
+            "en": "Quite a bit",
+            "fr": "Assez",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно / крайне",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "iesr_4",
+      "text": {
+        "ru": "Я чувствовал(а) раздражение и злость.",
+        "en": "I felt irritable and angry.",
+        "fr": "Je me sentais irritable et en colère.",
+        "de": "Ich fühlte mich reizbar und wütend.",
+        "pt": "Ficava irritável e com raiva."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "Nada"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Значительно",
+            "en": "Quite a bit",
+            "fr": "Assez",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно / крайне",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "iesr_5",
+      "text": {
+        "ru": "Я избегал(а) расстраиваться, когда думал(а) об этом или когда меня о нём напоминали.",
+        "en": "I avoided letting myself get upset when I thought about it or was reminded of it.",
+        "fr": "J'évitais de me laisser bouleverser quand j'y pensais ou qu'on m'en rappelait.",
+        "de": "Ich vermied es, mich aufzuregen, wenn ich daran dachte oder daran erinnert wurde.",
+        "pt": "Evitava ficar chateado(a) quando pensava nisso ou quando algo me lembrava disso."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "Nada"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Значительно",
+            "en": "Quite a bit",
+            "fr": "Assez",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно / крайне",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "iesr_6",
+      "text": {
+        "ru": "Мысли об этом приходили мне в голову, даже когда я не хотел(а) о нём думать.",
+        "en": "I thought about it when I didn't mean to.",
+        "fr": "J'y pensais même quand je ne le voulais pas.",
+        "de": "Ich dachte daran, obwohl ich es nicht wollte.",
+        "pt": "Pensava nisso mesmo quando não queria."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "Nada"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Значительно",
+            "en": "Quite a bit",
+            "fr": "Assez",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно / крайне",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "iesr_7",
+      "text": {
+        "ru": "Мне казалось, что этого не было или что это было нереально.",
+        "en": "I felt as if it hadn't happened or wasn't real.",
+        "fr": "J'avais l'impression que cela ne s'était pas passé ou que ce n'était pas réel.",
+        "de": "Mir kam es vor, als sei es nicht passiert oder nicht wirklich.",
+        "pt": "Sentia como se não tivesse acontecido ou não fosse real."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "Nada"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Значительно",
+            "en": "Quite a bit",
+            "fr": "Assez",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно / крайне",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "iesr_8",
+      "text": {
+        "ru": "Я держался(лась) подальше от всего, что напоминало об этом.",
+        "en": "I stayed away from reminders of it.",
+        "fr": "Je me tenais à l'écart de tout ce qui me rappelait cela.",
+        "de": "Ich blieb weg von allem, was mich daran erinnerte.",
+        "pt": "Me mantinha longe de coisas que me lembravam disso."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "Nada"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Значительно",
+            "en": "Quite a bit",
+            "fr": "Assez",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно / крайне",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "iesr_9",
+      "text": {
+        "ru": "В голове всплывали картины, связанные с этим.",
+        "en": "Pictures about it popped into my mind.",
+        "fr": "Des images liées à cela me venaient à l'esprit.",
+        "de": "Bilder dazu tauchten in meinem Kopf auf.",
+        "pt": "Imagens sobre isso surgiam na minha cabeça."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "Nada"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Значительно",
+            "en": "Quite a bit",
+            "fr": "Assez",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно / крайне",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "iesr_10",
+      "text": {
+        "ru": "Я был(а) взвинченным(ой) и легко пугался(лась).",
+        "en": "I was jumpy and easily startled.",
+        "fr": "J'étais sur les nerfs et me suisais facilement.",
+        "de": "Ich war nervös und leicht erschreckbar.",
+        "pt": "Ficava tenso(a) e assustava-me com facilidade."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "Nada"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Значительно",
+            "en": "Quite a bit",
+            "fr": "Assez",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно / крайне",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "iesr_11",
+      "text": {
+        "ru": "Я старался(лась) не думать об этом.",
+        "en": "I tried not to think about it.",
+        "fr": "J'essayais de ne pas y penser.",
+        "de": "Ich versuchte, nicht daran zu denken.",
+        "pt": "Tentava não pensar nisso."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "Nada"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Значительно",
+            "en": "Quite a bit",
+            "fr": "Assez",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно / крайне",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "iesr_12",
+      "text": {
+        "ru": "Я понимал(а), что переживания по этому поводу у меня ещё сильные, но я с ними не разбирался(лась).",
+        "en": "I was aware that I still had a lot of feelings about it, but I didn't deal with them.",
+        "fr": "Je savais que j'avais encore beaucoup de sentiments à propos de cela, mais je ne les traitais pas.",
+        "de": "Ich war mir vieler Gefühle dazu bewusst, ging ihnen aber nicht nach.",
+        "pt": "Sabia que ainda tinha muitos sentimentos sobre isso, mas não os enfrentava."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "Nada"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Значительно",
+            "en": "Quite a bit",
+            "fr": "Assez",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно / крайне",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "iesr_13",
+      "text": {
+        "ru": "Мои чувства по этому поводу были как будто онемевшими.",
+        "en": "My feelings about it were kind of numb.",
+        "fr": "Mes sentiments à propos de cela étaient comme engourdis.",
+        "de": "Meine Gefühle dazu waren wie betäubt.",
+        "pt": "Meus sentimentos sobre isso estavam meio entorpecidos."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "Nada"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Значительно",
+            "en": "Quite a bit",
+            "fr": "Assez",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно / крайне",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "iesr_14",
+      "text": {
+        "ru": "Я ловил(а) себя на том, что веду себя или чувствую себя так, будто снова там.",
+        "en": "I found myself acting or feeling as though I was back at it again.",
+        "fr": "Je me surprenais à agir ou à me sentir comme si j'y étais de nouveau.",
+        "de": "Ich merkte, dass ich mich verhielt oder fühlte, als wäre ich wieder dort.",
+        "pt": "Percebia que agia ou me sentia como se estivesse de volta à situação."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "Nada"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Значительно",
+            "en": "Quite a bit",
+            "fr": "Assez",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно / крайне",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "iesr_15",
+      "text": {
+        "ru": "Мне было трудно заснуть.",
+        "en": "I had trouble falling asleep.",
+        "fr": "J'avais du mal à m'endormir.",
+        "de": "Ich konnte nicht einschlafen.",
+        "pt": "Tive dificuldade para adormecer."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "Nada"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Значительно",
+            "en": "Quite a bit",
+            "fr": "Assez",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно / крайне",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "iesr_16",
+      "text": {
+        "ru": "Накатывали сильные чувства, связанные с этим.",
+        "en": "I had waves of strong feelings about it.",
+        "fr": "De fortes vagues de sentiments liés à cela m'envahissaient.",
+        "de": "Starke Gefühlswellen dazu überkamen mich.",
+        "pt": "Ondas fortes de sentimentos ligados a isso me invadiam."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "Nada"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Значительно",
+            "en": "Quite a bit",
+            "fr": "Assez",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно / крайне",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "iesr_17",
+      "text": {
+        "ru": "Я пытался(лась) стереть это из памяти.",
+        "en": "I tried to remove it from memory.",
+        "fr": "J'essayais de l'effacer de ma mémoire.",
+        "de": "Ich versuchte, es aus dem Gedächtnis zu streichen.",
+        "pt": "Tentava apagar isso da memória."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "Nada"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Значительно",
+            "en": "Quite a bit",
+            "fr": "Assez",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно / крайне",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "iesr_18",
+      "text": {
+        "ru": "Мне было трудно сосредоточиться.",
+        "en": "I had trouble concentrating.",
+        "fr": "J'avais du mal à me concentrer.",
+        "de": "Ich konnte mich schwer konzentrieren.",
+        "pt": "Tive dificuldade para me concentrar."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "Nada"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Значительно",
+            "en": "Quite a bit",
+            "fr": "Assez",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно / крайне",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "iesr_19",
+      "text": {
+        "ru": "Напоминания об этом вызывали у меня телесные реакции: пот, одышку, тошноту или сердцебиение.",
+        "en": "Reminders of it caused me to have physical reactions such as sweating, trouble breathing, nausea, or a pounding heart.",
+        "fr": "Les rappels m'ont causé des réactions physiques : sueurs, essoufflement, nausées ou palpitations.",
+        "de": "Erinnerungen lösten körperliche Reaktionen aus: Schwitzen, Atemnot, Übelkeit oder Herzklopfen.",
+        "pt": "Lembretes me causaram reações físicas: suor, falta de ar, náuseas ou coração acelerado."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "Nada"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Значительно",
+            "en": "Quite a bit",
+            "fr": "Assez",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно / крайне",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "iesr_20",
+      "text": {
+        "ru": "Мне снились сны об этом.",
+        "en": "I had dreams about it.",
+        "fr": "J'ai fait des rêves à ce sujet.",
+        "de": "Ich träumte davon.",
+        "pt": "Sonhei com isso."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "Nada"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Значительно",
+            "en": "Quite a bit",
+            "fr": "Assez",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно / крайне",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "iesr_21",
+      "text": {
+        "ru": "Я чувствовал(а) настороженность и бдительность.",
+        "en": "I felt watchful and on-guard.",
+        "fr": "Je me sentais sur mes gardes et en alerte.",
+        "de": "Ich fühlte mich wachsam und auf der Hut.",
+        "pt": "Sentia-me vigilante e em alerta."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "Nada"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Значительно",
+            "en": "Quite a bit",
+            "fr": "Assez",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно / крайне",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "iesr_22",
+      "text": {
+        "ru": "Я старался(лась) не говорить об этом.",
+        "en": "I tried not to talk about it.",
+        "fr": "J'essayais de ne pas en parler.",
+        "de": "Ich versuchte, nicht darüber zu sprechen.",
+        "pt": "Tentava não falar sobre isso."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "Nada"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Значительно",
+            "en": "Quite a bit",
+            "fr": "Assez",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно / крайне",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    }
+  ]
+}

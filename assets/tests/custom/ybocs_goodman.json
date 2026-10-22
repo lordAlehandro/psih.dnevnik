@@ -1,0 +1,793 @@
+{
+  "id": "ybocs",
+  "category": "ocd",
+  "title": {
+    "ru": "Y-BOCS — Йельско-брауновская шкала навязчивостей и компульсий",
+    "en": "Y-BOCS — Yale–Brown Obsessive Compulsive Scale",
+    "fr": "Y-BOCS — Échelle obsessionnelle-compulsive de Yale–Brown",
+    "de": "Y-BOCS — Yale-Brown-Zwangsstörungsskala",
+    "pt": "Y-BOCS — Escala obsessivo-compulsiva de Yale–Brown"
+  },
+  "subtitle": {
+    "ru": "Тяжесть навязчивых мыслей и компульсий за последнюю неделю.",
+    "en": "Severity of obsessions and compulsions over the past week.",
+    "fr": "Gravité des obsessions et compulsions sur la semaine passée.",
+    "de": "Schwere von Zwangsgedanken und -handlungen in der letzten Woche.",
+    "pt": "Gravidade de obsessões e compulsões na última semana."
+  },
+  "description": {
+    "ru": "Оценка тяжести навязчивых мыслей и ритуалов за последнюю неделю. Изначально методика для клинициста (Goodman et al., 1989); в приложении — самоотчёт для ориентира, не заменяет очную оценку и не является диагнозом. Y-BOCS охраняется авторским правом.",
+    "en": "Assesses severity of obsessions and compulsions over the past week. The Y-BOCS was developed as a clinician-rated interview (Goodman et al., 1989); this app version is self-report for orientation only—not a substitute for clinical assessment. Copyrighted; permission may be required for some uses.",
+    "fr": "Évalue la gravité des obsessions et compulsions sur la semaine passée. Conçue pour le clinicien (Goodman et al., 1989) ; version auto-rapportée indicative. Pas un diagnostic. Droits d’auteur.",
+    "de": "Erfasst die Schwere von Zwangsgedanken und -ritualen in der letzten Woche. Ursprünglich klinikerbasiert (Goodman et al., 1989); diese Selbstbeurteilung nur zur Orientierung. Urheberrechtlich geschützt.",
+    "pt": "Avalia gravidade de obsessões e rituais na última semana. Originalmente para clínico (Goodman et al., 1989); versão autoaplicada só orientativa. Direitos autorais."
+  },
+  "instructions": {
+    "ru": "Оцените типичное состояние за последние семь дней. Если навязчивости или ритуалов почти нет, в соответствующих пунктах выберите вариант «нет / минимально». Отвечайте по тем симптомам, которые для вас основные сейчас.",
+    "en": "Rate how things have typically been over the past seven days. If you have few or no obsessions or compulsions, pick the lowest/minimal option on those items. Answer for the symptoms that are most characteristic for you now.",
+    "fr": "Évaluez la semaine écoulée. Si peu ou pas d’obsessions/compulsions, choisissez l’option minimale. Répondez pour les symptômes qui vous concernent le plus.",
+    "de": "Beurteilen Sie die letzten sieben Tage. Bei kaum oder keinen Zwangsgedanken/-handlungen wählen Sie die niedrigste Option. Antworten Sie für Ihre derzeit wichtigsten Symptome.",
+    "pt": "Avalie os últimos sete dias. Se há poucas ou nenhuma obsessão/compulsão, escolha a opção mínima. Responda pelos sintomas mais relevantes para você agora."
+  },
+  "maxScore": 40,
+  "bandsBasis": "raw",
+  "bands": [
+    {
+      "minInclusive": 0,
+      "maxInclusive": 7,
+      "title": {
+        "ru": "Субклинический / минимальная тяжесть",
+        "en": "Subclinical / minimal",
+        "fr": "Subclinique / minimal",
+        "de": "Subklinisch / minimal",
+        "pt": "Subclínico / mínimo"
+      },
+      "description": {
+        "ru": "Ниже типичной клинической выраженности; оценка зависит от контекста.",
+        "en": "Below typical clinical severity; interpretation depends on context.",
+        "fr": "En dessous d’une gravité clinique typique ; le contexte compte.",
+        "de": "Unter typischer klinischer Schwere; Kontext wichtig.",
+        "pt": "Abaixo da gravidade clínica usual; o contexto importa."
+      }
+    },
+    {
+      "minInclusive": 8,
+      "maxInclusive": 15,
+      "title": {
+        "ru": "Лёгкая тяжесть",
+        "en": "Mild severity",
+        "fr": "Gravité légère",
+        "de": "Leichte Schwere",
+        "pt": "Gravidade leve"
+      },
+      "description": {
+        "ru": "Лёгкая выраженность симптомов.",
+        "en": "Mild symptom severity.",
+        "fr": "Gravité légère des symptômes.",
+        "de": "Leichte Symptomstärke.",
+        "pt": "Gravidade leve dos sintomas."
+      }
+    },
+    {
+      "minInclusive": 16,
+      "maxInclusive": 23,
+      "title": {
+        "ru": "Умеренная тяжесть",
+        "en": "Moderate severity",
+        "fr": "Gravité modérée",
+        "de": "Mäßige Schwere",
+        "pt": "Gravidade moderada"
+      },
+      "description": {
+        "ru": "Умеренная выраженность симптомов.",
+        "en": "Moderate symptom severity.",
+        "fr": "Gravité modérée des symptômes.",
+        "de": "Mäßige Symptomstärke.",
+        "pt": "Gravidade moderada dos sintomas."
+      }
+    },
+    {
+      "minInclusive": 24,
+      "maxInclusive": 31,
+      "title": {
+        "ru": "Тяжёлая выраженность",
+        "en": "Severe",
+        "fr": "Sévère",
+        "de": "Schwer",
+        "pt": "Grave"
+      },
+      "description": {
+        "ru": "Тяжёлая выраженность симптомов.",
+        "en": "Severe symptom severity.",
+        "fr": "Gravité sévère des symptômes.",
+        "de": "Schwere Symptomstärke.",
+        "pt": "Gravidade severa dos sintomas."
+      }
+    },
+    {
+      "minInclusive": 32,
+      "maxInclusive": 40,
+      "title": {
+        "ru": "Крайне тяжёлая выраженность",
+        "en": "Extreme",
+        "fr": "Extrême",
+        "de": "Extrem",
+        "pt": "Extrema"
+      },
+      "description": {
+        "ru": "Крайне тяжёлая выраженность; рекомендуется обратиться к специалисту.",
+        "en": "Extreme severity; consider professional assessment.",
+        "fr": "Gravité extrême ; consultation recommandée.",
+        "de": "Extreme Schwere; fachliche Abklärung sinnvoll.",
+        "pt": "Gravidade extrema; avaliação profissional recomendada."
+      }
+    }
+  ],
+  "subscales": [
+    {
+      "id": "obsessions",
+      "label": {
+        "ru": "Навязчивые мысли",
+        "en": "Obsessions",
+        "fr": "Obsessions",
+        "de": "Zwangsgedanken",
+        "pt": "Obsessões"
+      },
+      "itemIndices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "maxScore": 20
+    },
+    {
+      "id": "compulsions",
+      "label": {
+        "ru": "Компульсии и ритуалы",
+        "en": "Compulsions",
+        "fr": "Compulsions",
+        "de": "Zwangshandlungen",
+        "pt": "Compulsões"
+      },
+      "itemIndices": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "maxScore": 20
+    }
+  ],
+  "resultNote": {
+    "ru": "Ниже показаны отдельно навязчивости и ритуалы. Оригинальная методика рассчитана на беседу с клиницистом; при сильном дистрессе обратитесь к специалисту.",
+    "en": "Obsessions and compulsions are shown separately below. The original Y-BOCS is meant for clinical interpretation; seek help if distress is severe.",
+    "fr": "Obsessions et compulsions sont séparées ci-dessous. L’outil d’origine vise une interprétation clinique.",
+    "de": "Zwangsgedanken und -handlungen werden getrennt gezeigt. Ursprünglich für die klinische Einordnung gedacht.",
+    "pt": "Obsessões e compulsões aparecem separadas abaixo. A escala original pressupõe interpretação clínica."
+  },
+  "questions": [
+    {
+      "id": "ybocs_1",
+      "text": {
+        "ru": "Сколько времени в день занимают навязчивые мысли? (Как часто они возникают.)",
+        "en": "How much time is occupied by obsessive thoughts? (How frequently do they occur?)",
+        "fr": "Combien de temps vos pensées obsessionnelles occupent-elles votre journée ? (À quelle fréquence apparaissent-elles ?)",
+        "de": "Wie viel Zeit nehmen zwängende Gedanken in Anspruch? (Wie oft treten sie auf?)",
+        "pt": "Quanto tempo do dia é ocupado por pensamentos obsessivos? (Com que frequência ocorrem?)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Меньше часа в день или редкие вкрапления",
+            "en": "Less than 1 hr/day or occasional intrusions",
+            "fr": "Moins d’1 h/j ou intrusions occasionnelles",
+            "de": "Weniger als 1 Std./Tag oder gelegentlich",
+            "pt": "Menos de 1 h/dia ou intrusões ocasionais"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "От 1 до 3 часов в день или частые вкрапления",
+            "en": "1–3 hrs/day or frequent intrusions",
+            "fr": "1 à 3 h/j ou intrusions fréquentes",
+            "de": "1–3 Std./Tag oder häufig",
+            "pt": "1–3 h/dia ou intrusões frequentes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Более 3 и до 8 часов в день или очень частые",
+            "en": "Greater than 3 and up to 8 hrs/day, or very frequent",
+            "fr": "Plus de 3 jusqu’à 8 h/j, ou très fréquent",
+            "de": "Mehr als 3 bis 8 Std./Tag oder sehr häufig",
+            "pt": "Mais de 3 até 8 h/dia, ou muito frequentes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Более 8 часов в день или почти постоянно",
+            "en": "Greater than 8 hrs/day, or nearly constant",
+            "fr": "Plus de 8 h/j, ou presque en continu",
+            "de": "Mehr als 8 Std./Tag oder nahezu ständig",
+            "pt": "Mais de 8 h/dia, ou quase constante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Почти постоянно",
+            "en": "Nearly constant",
+            "fr": "Presque en permanence",
+            "de": "Nahezu durchgehend",
+            "pt": "Quase constantemente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ybocs_2",
+      "text": {
+        "ru": "Насколько навязчивые мешают работе, учёбе или общению?",
+        "en": "How much do obsessive thoughts interfere with work, school, or social functioning?",
+        "fr": "Dans quelle mesure les pensées obsessionnelles gênent le travail, les études ou la vie sociale ?",
+        "de": "Wie sehr stören Zwangsgedanken Arbeit, Schule oder soziales Funktionieren?",
+        "pt": "Quanto os pensamentos obsessivos interferem no trabalho, estudos ou vida social?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Не мешают",
+            "en": "None",
+            "fr": "Aucune",
+            "de": "Keine",
+            "pt": "Nenhuma"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Лёгкое влияние, общая деятельность не страдает",
+            "en": "Slight interference; overall performance not impaired",
+            "fr": "Légère gêne ; performance globale préservée",
+            "de": "Leichte Beeinträchtigung; Leistung insgesamt ok",
+            "pt": "Interferência leve; desempenho global preservado"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Определённое влияние, но ещё можно справляться",
+            "en": "Definite interference but still manageable",
+            "fr": "Gêne nette mais gérable",
+            "de": "Deutlich, aber noch bewältigbar",
+            "pt": "Interferência clara, ainda gerenciável"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Существенное нарушение функционирования",
+            "en": "Substantial impairment",
+            "fr": "Altération substantielle",
+            "de": "Erhebliche Beeinträchtigung",
+            "pt": "Prejuízo substancial"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Дезадаптация, невозможность функционировать",
+            "en": "Incapacitating",
+            "fr": "Incapacitant",
+            "de": "Arbeitsunfähig machend",
+            "pt": "Incapacitante"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ybocs_3",
+      "text": {
+        "ru": "Какой дистресс вызывают навязчивые мысли?",
+        "en": "How much distress do your obsessive thoughts cause you?",
+        "fr": "Quelle détresse vous causent vos pensées obsessionnelles ?",
+        "de": "Wie belastend sind Ihre Zwangsgedanken für Sie?",
+        "pt": "Quanto sofrimento suas obsessões lhe causam?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "None",
+            "fr": "Aucune",
+            "de": "Keine",
+            "pt": "Nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Не очень мучительно",
+            "en": "Not too disturbing",
+            "fr": "Peu gênant",
+            "de": "Nicht sehr belastend",
+            "pt": "Pouco perturbador"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Мучительно, но ещё можно терпеть",
+            "en": "Disturbing but manageable",
+            "fr": "Gênant mais gérable",
+            "de": "Belastend, aber bewältigbar",
+            "pt": "Perturbador, mas gerenciável"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень сильный дистресс",
+            "en": "Very disturbing",
+            "fr": "Très pénible",
+            "de": "Sehr belastend",
+            "pt": "Muito perturbador"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Почти постоянный, дезадаптирующий дистресс",
+            "en": "Near constant and disabling distress",
+            "fr": "Détresse quasi constante et invalidante",
+            "de": "Nahezu ständige, lähmende Belastung",
+            "pt": "Sofrimento quase constante e incapacitante"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ybocs_4",
+      "text": {
+        "ru": "Какие усилия вы прилагаете, чтобы не поддаваться навязчивым мыслям? (Насколько вы им сопротивляетесь.)",
+        "en": "How much of an effort do you make to resist obsessive thoughts? (How much do you try not to give in to them?)",
+        "fr": "Quel effort faites-vous pour résister aux pensées obsessionnelles ?",
+        "de": "Wie sehr bemühen Sie sich, Zwangsgedanken zu widerstehen?",
+        "pt": "Quanto esforço você faz para resistir aos pensamentos obsessivos?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Стараюсь всегда сопротивляться",
+            "en": "Try to resist all the time",
+            "fr": "J’essaie de résister en permanence",
+            "de": "Widerstehe stets",
+            "pt": "Tento resistir o tempo todo"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Сопротивляюсь большую часть времени",
+            "en": "Try to resist most of the time",
+            "fr": "Je résiste la plupart du temps",
+            "de": "Widerstehe meist",
+            "pt": "Resisto na maior parte do tempo"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда сопротивляюсь",
+            "en": "Make some effort to resist",
+            "fr": "Quelque effort de résistance",
+            "de": "Teilweise Widerstand",
+            "pt": "Algum esforço para resistir"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Почти сразу поддаюсь с небольшим усилием",
+            "en": "Yield with minimal effort",
+            "fr": "Je cède avec peu d’effort",
+            "de": "Gebe mit wenig Widerstand nach",
+            "pt": "Cedo com pouco esforço"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Почти не пытаюсь сопротивляться",
+            "en": "Rarely try to resist / completely yield",
+            "fr": "Je résiste rarement / je cède totalement",
+            "de": "Kaum Widerstand / völliges Nachgeben",
+            "pt": "Raramente resisto / cedo totalmente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ybocs_5",
+      "text": {
+        "ru": "Насколько вы контролируете навязчивые мысли? (Можете ли отвлечься или остановить их.)",
+        "en": "How much control do you have over your obsessive thoughts? (Can you dismiss or stop them?)",
+        "fr": "Quel contrôle avez-vous sur vos pensées obsessionnelles ?",
+        "de": "Wie viel Kontrolle haben Sie über Zwangsgedanken?",
+        "pt": "Quanto controle você tem sobre os pensamentos obsessivos?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полный контроль",
+            "en": "Complete control",
+            "fr": "Contrôle complet",
+            "de": "Vollständige Kontrolle",
+            "pt": "Controle completo"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Обычно могу остановить или отвлечься с усилием",
+            "en": "Usually able to stop or divert with effort",
+            "fr": "Souvent capable d’arrêter ou de détourner avec effort",
+            "de": "Meist stopbar/ablenkbar mit Mühe",
+            "pt": "Geralmente consigo parar ou desviar com esforço"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда удаётся остановить",
+            "en": "Sometimes able to stop or divert",
+            "fr": "Parfois capable d’arrêter",
+            "de": "Manchmal stopbar",
+            "pt": "Às vezes consigo parar"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Редко удаётся без ритуалов или с большим трудом",
+            "en": "Rarely successful; only with difficulty or rituals",
+            "fr": "Rarement sans rituels ou avec grande difficulté",
+            "de": "Selten ohne Rituale / nur schwer",
+            "pt": "Raramente sem rituais ou só com grande dificuldade"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нет контроля, мысли полностью захватывают",
+            "en": "No control; thoughts are completely dominating",
+            "fr": "Aucun contrôle ; pensées envahissantes",
+            "de": "Keine Kontrolle; dominierend",
+            "pt": "Sem controle; pensamentos dominam"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ybocs_6",
+      "text": {
+        "ru": "Сколько времени уходит на выполнение принуждений/ритуалов? (Как часто вы ими занимаетесь.)",
+        "en": "How much time do you spend performing compulsive behaviors? (How frequently?)",
+        "fr": "Combien de temps passez-vous à des comportements compulsifs ? (Fréquence ?)",
+        "de": "Wie viel Zeit verbringen Sie mit Zwangshandlungen? (Wie oft?)",
+        "pt": "Quanto tempo você gasta com comportamentos compulsivos? (Frequência?)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Меньше часа в день или редко",
+            "en": "Less than 1 hr/day or occasional",
+            "fr": "Moins d’1 h/j ou rare",
+            "de": "Weniger als 1 Std./Tag oder selten",
+            "pt": "Menos de 1 h/dia ou ocasional"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "От 1 до 3 часов в день или часто",
+            "en": "1–3 hrs/day or frequent",
+            "fr": "1 à 3 h/j ou souvent",
+            "de": "1–3 Std./Tag oder häufig",
+            "pt": "1–3 h/dia ou frequente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Более 3 и до 8 часов в день или очень часто",
+            "en": "Greater than 3 and up to 8 hrs/day, or very frequent",
+            "fr": "Plus de 3 jusqu’à 8 h/j, ou très souvent",
+            "de": "Mehr als 3 bis 8 Std./Tag oder sehr häufig",
+            "pt": "Mais de 3 até 8 h/dia, ou muito frequente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Более 8 часов в день или почти постоянно",
+            "en": "Greater than 8 hrs/day, or nearly constant",
+            "fr": "Plus de 8 h/j, ou presque en continu",
+            "de": "Mehr als 8 Std./Tag oder nahezu ständig",
+            "pt": "Mais de 8 h/dia, ou quase constante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Почти постоянно",
+            "en": "Nearly constant",
+            "fr": "Presque en permanence",
+            "de": "Nahezu durchgehend",
+            "pt": "Quase constantemente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ybocs_7",
+      "text": {
+        "ru": "Насколько ритуалы мешают работе, учёбе или общению?",
+        "en": "How much do compulsive behaviors interfere with work, school, or social functioning?",
+        "fr": "Dans quelle mesure les compulsions gênent le travail, les études ou la vie sociale ?",
+        "de": "Wie sehr stören Zwangshandlungen Arbeit, Schule oder soziales Funktionieren?",
+        "pt": "Quanto as compulsões interferem no trabalho, estudos ou vida social?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Не мешают",
+            "en": "None",
+            "fr": "Aucune",
+            "de": "Keine",
+            "pt": "Nenhuma"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Лёгкое влияние",
+            "en": "Slight interference",
+            "fr": "Légère gêne",
+            "de": "Leicht",
+            "pt": "Leve"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Определённое влияние, но управляемо",
+            "en": "Definite but manageable",
+            "fr": "Nette mais gérable",
+            "de": "Deutlich, bewältigbar",
+            "pt": "Clara, gerenciável"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Существенное нарушение",
+            "en": "Substantial impairment",
+            "fr": "Altération substantielle",
+            "de": "Erheblich",
+            "pt": "Substancial"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Дезадаптация",
+            "en": "Incapacitating",
+            "fr": "Incapacitant",
+            "de": "Arbeitsunfähig machend",
+            "pt": "Incapacitante"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ybocs_8",
+      "text": {
+        "ru": "Как бы вы себя чувствовали, если бы вам не дали выполнить ритуал? (Тревога или дистресс.)",
+        "en": "If you were prevented from performing compulsions, how anxious or distressed would you become?",
+        "fr": "Si on vous empêchait d’accomplir une compulsion, quelle anxiété ou détresse ressentiriez-vous ?",
+        "de": "Wie ängstlich/belastet würden Sie sich fühlen, wenn Sie Zwangshandlungen nicht ausführen dürften?",
+        "pt": "Se o impedissem de fazer a compulsão, quão ansioso ou angustiado ficaria?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Без тревоги",
+            "en": "None",
+            "fr": "Aucune",
+            "de": "Keine",
+            "pt": "Nenhuma"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка тревожно",
+            "en": "Only slightly anxious",
+            "fr": "Légèrement anxieux",
+            "de": "Leicht ängstlich",
+            "pt": "Levemente ansioso"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Тревога растёт, но ещё переносимо",
+            "en": "Anxiety rises but remains manageable",
+            "fr": "Anxiété croissante mais gérable",
+            "de": "Angst steigt, aber bewältigbar",
+            "pt": "Ansiedade aumenta, ainda gerenciável"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильная, очень мучительная тревога",
+            "en": "Prominent, very disturbing anxiety",
+            "fr": "Anxiété marquée et très pénible",
+            "de": "Ausgeprägt, sehr belastend",
+            "pt": "Ansiedade intensa e muito perturbadora"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Невыносимая тревога, неспособность справиться",
+            "en": "Incapacitating anxiety",
+            "fr": "Anxiété incapacitante",
+            "de": "Lähmende Angst",
+            "pt": "Ansiedade incapacitante"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ybocs_9",
+      "text": {
+        "ru": "Какие усилия вы прилагаете, чтобы сопротивляться ритуалам?",
+        "en": "How much effort do you make to resist compulsions?",
+        "fr": "Quel effort faites-vous pour résister aux compulsions ?",
+        "de": "Wie sehr bemühen Sie sich, Zwangshandlungen zu widerstehen?",
+        "pt": "Quanto esforço você faz para resistir às compulsões?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Стараюсь всегда сопротивляться",
+            "en": "Try to resist all the time",
+            "fr": "J’essaie toujours de résister",
+            "de": "Widerstehe stets",
+            "pt": "Tento resistir sempre"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Сопротивляюсь большую часть времени",
+            "en": "Try to resist most of the time",
+            "fr": "Je résiste la plupart du temps",
+            "de": "Meist Widerstand",
+            "pt": "Resisto na maior parte do tempo"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда сопротивляюсь",
+            "en": "Some effort to resist",
+            "fr": "Quelque effort",
+            "de": "Teilweise",
+            "pt": "Algum esforço"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Почти сразу поддаюсь",
+            "en": "Yield with minimal effort",
+            "fr": "Je cède facilement",
+            "de": "Gebe leicht nach",
+            "pt": "Cedo com pouco esforço"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Почти не сопротивляюсь",
+            "en": "Rarely try to resist",
+            "fr": "Je résiste rarement",
+            "de": "Kaum Widerstand",
+            "pt": "Raramente resisto"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "ybocs_10",
+      "text": {
+        "ru": "Насколько вы контролируете ритуалы? (Можете ли остановиться.)",
+        "en": "How much control do you have over compulsions? (Can you stop them?)",
+        "fr": "Quel contrôle avez-vous sur les compulsions ?",
+        "de": "Wie viel Kontrolle haben Sie über Zwangshandlungen?",
+        "pt": "Quanto controle você tem sobre as compulsões?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полный контроль",
+            "en": "Complete control",
+            "fr": "Contrôle complet",
+            "de": "Vollständige Kontrolle",
+            "pt": "Controle completo"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Обычно могу остановить с усилием",
+            "en": "Usually able to stop with effort",
+            "fr": "Souvent capable d’arrêter avec effort",
+            "de": "Meist stopbar mit Mühe",
+            "pt": "Geralmente consigo parar com esforço"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда удаётся остановить",
+            "en": "Sometimes able to stop",
+            "fr": "Parfois capable d’arrêter",
+            "de": "Manchmal",
+            "pt": "Às vezes consigo parar"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Редко удаётся, только с большим трудом",
+            "en": "Rarely successful; only with difficulty",
+            "fr": "Rarement, avec grande difficulté",
+            "de": "Selten, nur schwer",
+            "pt": "Raramente, só com grande dificuldade"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нет контроля",
+            "en": "No control",
+            "fr": "Aucun contrôle",
+            "de": "Keine Kontrolle",
+            "pt": "Sem controle"
+          },
+          "score": 4
+        }
+      ]
+    }
+  ]
+}

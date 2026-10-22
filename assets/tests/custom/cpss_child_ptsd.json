@@ -1,0 +1,1285 @@
+{
+  "id": "cpss",
+  "category": "stress",
+  "title": {
+    "ru": "CPSS — детская шкала симптомов ПТСР (самоотчёт)",
+    "en": "CPSS — Child PTSD Symptom Scale (self-report)",
+    "fr": "CPSS — Échelle des symptômes de stress post‑traumatique chez l’enfant",
+    "de": "CPSS — Kinder‑PTBS‑Symptomskala (Selbstbeurteilung)",
+    "pt": "CPSS — Escala de sintomas de TEPT infantil (autorrelato)"
+  },
+  "subtitle": {
+    "ru": "Посттравматические симптомы и их влияние на жизнь ребёнка или подростка.",
+    "en": "PTSD symptoms and functional impairment in youth.",
+    "fr": "Symptômes de stress post-traumatique et impact chez l’enfant ou l’adolescent.",
+    "de": "PTBS-Symptome und Beeinträchtigung bei Kindern und Jugendlichen.",
+    "pt": "Sintomas de TEPT e prejuízo funcional em crianças e adolescentes."
+  },
+  "description": {
+    "ru": "Оценивает симптомы, связанные с пережитым стрессовым событием, и то, мешают ли они школе, отношениям и другим сферам у детей и подростков 8–18 лет (в тексте — «событие»). Не заменяет клинический диагноз. Foa et al. (2001); при публикации укажите первоисточник.",
+    "en": "Looks at trauma-related symptoms after a stressful event and whether they get in the way of school, relationships, and daily life for ages 8–18. Not a clinical diagnosis. Foa et al. (2001); cite the original publication.",
+    "fr": "Symptômes liés à un événement stressant et impact sur la vie des 8–18 ans. Pas un diagnostic. Foa et al. (2001).",
+    "de": "Symptome nach belastendem Ereignis und Beeinträchtigung im Alltag bei 8–18-Jährigen. Keine Diagnose. Foa et al. (2001).",
+    "pt": "Sintomas após evento estressante e prejuízo na vida de 8–18 anos. Não é diagnóstico. Foa et al. (2001)."
+  },
+  "instructions": {
+    "ru": "Сначала вспомните одно стрессовое или травмирующее событие, которое с вами произошло. Далее ответьте, как часто за последние две недели вас беспокоил каждый симптом. Во второй части отметьте, мешают ли эти трудности разным сторонам вашей жизни.",
+    "en": "Think of one stressful or traumatic event that happened to you. For each symptom, rate how often it bothered you during the past two weeks. In the second section, mark whether these problems have gotten in the way of areas of your life.",
+    "fr": "Pensez à un événement stressant ou traumatique. Pour chaque symptôme, indiquez la fréquence sur les deux dernières semaines. Puis indiquez si cela gêne votre vie.",
+    "de": "Denken Sie an ein belastendes Ereignis. Bewerten Sie die letzten zwei Wochen. Im zweiten Teil: Beeinträchtigungen ja/nein.",
+    "pt": "Pense em um evento estressante ou traumático. Avalie a frequência nas últimas duas semanas. Depois marque se atrapalha sua vida."
+  },
+  "maxScore": 58,
+  "bandsBasis": "raw",
+  "bands": [
+    {
+      "minInclusive": 0,
+      "maxInclusive": 14,
+      "title": {
+        "ru": "Относительно меньшая выраженность",
+        "en": "Relatively lower level",
+        "fr": "Niveau relativement plus bas",
+        "de": "Relativ geringeres Niveau",
+        "pt": "Nível relativamente mais baixo"
+      },
+      "description": {
+        "ru": "Меньше выраженные симптомы и влияние на жизнь по сравнению с верхними зонами; смотрите отдельно блоки симптомов и «мешает ли жизни».",
+        "en": "Less intense symptoms and life impact than higher bands; check the symptom and impairment sections separately.",
+        "fr": "Symptômes et impact moins marqués qu’aux bandes supérieures ; voir les sous-parties.",
+        "de": "Geringere Symptome und Beeinträchtigung als oben; Teile getrennt ansehen.",
+        "pt": "Sintomas e impacto menores que nas faixas altas; veja as partes separadas."
+      }
+    },
+    {
+      "minInclusive": 15,
+      "maxInclusive": 28,
+      "title": {
+        "ru": "Умеренная выраженность",
+        "en": "Moderate level",
+        "fr": "Niveau modéré",
+        "de": "Mäßiges Niveau",
+        "pt": "Nível moderado"
+      },
+      "description": {
+        "ru": "Умеренная выраженность; полезно разобрать симптомы и то, мешают ли они жизни, и при необходимости обратиться к специалисту.",
+        "en": "Moderate level—review symptoms and impairment below and consider professional follow-up if needed.",
+        "fr": "Niveau modéré ; examiner symptômes et préjudice ; suivi si besoin.",
+        "de": "Mäßiges Niveau; Symptome und Beeinträchtigung prüfen; bei Bedarf Hilfe.",
+        "pt": "Nível moderado; veja sintomas e prejuízo; busque apoio se precisar."
+      }
+    },
+    {
+      "minInclusive": 29,
+      "maxInclusive": 58,
+      "title": {
+        "ru": "Высокая выраженность",
+        "en": "High level",
+        "fr": "Niveau élevé",
+        "de": "Hohes Niveau",
+        "pt": "Nível alto"
+      },
+      "description": {
+        "ru": "Сильно выраженные симптомы или сильное влияние на жизнь; это скрининг, не диагноз. Рекомендуется обсуждение с психиатром, психологом или другим специалистом.",
+        "en": "Strong symptoms or strong impact on life—this screen is not a diagnosis. Talk with a qualified mental health professional.",
+        "fr": "Symptômes ou impact marqués ; dépistage seulement ; consultation recommandée.",
+        "de": "Starke Symptome oder starke Beeinträchtigung; nur Screening; fachliche Abklärung.",
+        "pt": "Sintomas ou impacto forte; só triagem; busque avaliação."
+      }
+    }
+  ],
+  "subscales": [
+    {
+      "id": "reexperiencing",
+      "label": {
+        "ru": "Повторное переживание",
+        "en": "Re-experiencing",
+        "fr": "Reviviscence",
+        "de": "Wiedererleben",
+        "pt": "Reexperimentação"
+      },
+      "itemIndices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "maxScore": 15
+    },
+    {
+      "id": "avoidance",
+      "label": {
+        "ru": "Избегание и оцепенение",
+        "en": "Avoidance / numbing",
+        "fr": "Évitement / engourdissement",
+        "de": "Vermeidung / Erstarren",
+        "pt": "Evitação / entorpecimento"
+      },
+      "itemIndices": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "maxScore": 21
+    },
+    {
+      "id": "hyperarousal",
+      "label": {
+        "ru": "Гиперстимуляция",
+        "en": "Hyperarousal",
+        "fr": "Hyperactivation",
+        "de": "Hyperarousal",
+        "pt": "Hiperexcitação"
+      },
+      "itemIndices": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "maxScore": 15
+    },
+    {
+      "id": "impairment",
+      "label": {
+        "ru": "Нарушение функционирования",
+        "en": "Functional impairment",
+        "fr": "Préjudice fonctionnel",
+        "de": "Funktionsbeeinträchtigung",
+        "pt": "Prejuízo funcional"
+      },
+      "itemIndices": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "maxScore": 7
+    }
+  ],
+  "resultNote": {
+    "ru": "Итог объединяет частоту симптомов и то, мешают ли они жизни. Клиники смотрят на каждую группу симптомов и на ответы по отдельности — это ориентир для разговора со взрослым или специалистом, а не диагноз.",
+    "en": "Your result combines how often symptoms show up and how much they get in the way. Clinicians look at symptom groups and individual answers—use this as a conversation starter with a trusted adult or professional, not a diagnosis.",
+    "fr": "Le résultat mélange fréquence des symptômes et impact sur la vie. En clinique on regroupe les symptômes et chaque réponse — point de discussion, pas un diagnostic.",
+    "de": "Das Ergebnis verbindet Häufigkeit und Alltagsbeeinträchtigung. Fachpersonen werten Cluster und Einzelantworten aus—Gesprächsgrundlage, keine Diagnose.",
+    "pt": "O resultado junta frequência dos sintomas e o quanto atrapalham. Na clínica avaliam grupos e respostas — base para conversa, não diagnóstico."
+  },
+  "questions": [
+    {
+      "id": "cpss_1",
+      "text": {
+        "ru": "В голову приходят тревожные мысли или картинки о событии, хотя я не хочу о нём думать.",
+        "en": "Having upsetting thoughts or pictures about the event that come into your head when you don't want them to.",
+        "fr": "Avoir des pensées ou des images pénibles sur l'événement qui vous viennent à l'esprit alors que vous n'en voulez pas.",
+        "de": "Belastende Gedanken oder Bilder zum Ereignis, die Ihnen kommen, obwohl Sie nicht daran denken wollen.",
+        "pt": "Ter pensamentos ou imagens perturbadoras sobre o evento que vêm à sua cabeça quando você não quer."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет или только один раз",
+            "en": "Not at all or only one time",
+            "fr": "Pas du tout ou une seule fois",
+            "de": "Überhaupt nicht oder nur einmal",
+            "pt": "Nada ou apenas uma vez"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Раз в неделю или реже / время от времени",
+            "en": "Once a week or less / once in a while",
+            "fr": "Une fois par semaine ou moins / de temps en temps",
+            "de": "Einmal pro Woche oder seltener / gelegentlich",
+            "pt": "Uma vez por semana ou menos / de vez em quando"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "4 раза в неделю / примерно в половине случаев",
+            "en": "2 to 4 times a week / about half the time",
+            "fr": "2 à 4 fois par semaine / environ la moitié du temps",
+            "de": "4 Mal pro Woche / etwa die Hälfte der Zeit",
+            "pt": "2 a 4 vezes por semana / cerca de metade do tempo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "5 и более раз в неделю / почти всегда",
+            "en": "5 or more times a week / almost always",
+            "fr": "5 fois ou plus par semaine / presque toujours",
+            "de": "5 Mal oder mehr pro Woche / fast immer",
+            "pt": "5 ou mais vezes por semana / quase sempre"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "cpss_2",
+      "text": {
+        "ru": "Мне снятся плохие сны или кошмары о событии.",
+        "en": "Having bad dreams or nightmares about the event.",
+        "fr": "Faire de mauvais rêves ou des cauchemars sur l'événement.",
+        "de": "Albträume oder schlechte Träume über das Ereignis zu haben.",
+        "pt": "Ter sonhos ruins ou pesadelos sobre o evento."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет или только один раз",
+            "en": "Not at all or only one time",
+            "fr": "Pas du tout ou une seule fois",
+            "de": "Überhaupt nicht oder nur einmal",
+            "pt": "Nada ou apenas uma vez"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Раз в неделю или реже / время от времени",
+            "en": "Once a week or less / once in a while",
+            "fr": "Une fois par semaine ou moins / de temps en temps",
+            "de": "Einmal pro Woche oder seltener / gelegentlich",
+            "pt": "Uma vez por semana ou menos / de vez em quando"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "4 раза в неделю / примерно в половине случаев",
+            "en": "2 to 4 times a week / about half the time",
+            "fr": "2 à 4 fois par semaine / environ la moitié du temps",
+            "de": "4 Mal pro Woche / etwa die Hälfte der Zeit",
+            "pt": "2 a 4 vezes por semana / cerca de metade do tempo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "5 и более раз в неделю / почти всегда",
+            "en": "5 or more times a week / almost always",
+            "fr": "5 fois ou plus par semaine / presque toujours",
+            "de": "5 Mal oder mehr pro Woche / fast immer",
+            "pt": "5 ou mais vezes por semana / quase sempre"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "cpss_3",
+      "text": {
+        "ru": "Я веду себя так или чувствую себя так, будто плохое событие снова происходит (как «воспоминание наяву»).",
+        "en": "Acting or feeling as if the stressful event were happening again (like a flashback).",
+        "fr": "Agir ou se sentir comme si l'événement stressant se reproduisait (comme un flashback).",
+        "de": "Sich zu verhalten oder zu fühlen, als würde sich das belastende Ereignis wiederholen (wie ein Flashback).",
+        "pt": "Agir ou sentir como se o evento estressante estivesse acontecendo de novo (como um flashback)."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет или только один раз",
+            "en": "Not at all or only one time",
+            "fr": "Pas du tout ou une seule fois",
+            "de": "Überhaupt nicht oder nur einmal",
+            "pt": "Nada ou apenas uma vez"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Раз в неделю или реже / время от времени",
+            "en": "Once a week or less / once in a while",
+            "fr": "Une fois par semaine ou moins / de temps en temps",
+            "de": "Einmal pro Woche oder seltener / gelegentlich",
+            "pt": "Uma vez por semana ou menos / de vez em quando"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "4 раза в неделю / примерно в половине случаев",
+            "en": "2 to 4 times a week / about half the time",
+            "fr": "2 à 4 fois par semaine / environ la moitié du temps",
+            "de": "4 Mal pro Woche / etwa die Hälfte der Zeit",
+            "pt": "2 a 4 vezes por semana / cerca de metade do tempo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "5 и более раз в неделю / почти всегда",
+            "en": "5 or more times a week / almost always",
+            "fr": "5 fois ou plus par semaine / presque toujours",
+            "de": "5 Mal oder mehr pro Woche / fast immer",
+            "pt": "5 ou mais vezes por semana / quase sempre"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "cpss_4",
+      "text": {
+        "ru": "Мне становится плохо, когда что-то напоминает о событии.",
+        "en": "Feeling upset when things reminded you of the event.",
+        "fr": "Se sentir contrarié(e) quand des choses vous rappellent l'événement.",
+        "de": "Sich aufzuregen, wenn etwas Sie an das Ereignis erinnert.",
+        "pt": "Ficar chateado(a) quando coisas lembram do evento."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет или только один раз",
+            "en": "Not at all or only one time",
+            "fr": "Pas du tout ou une seule fois",
+            "de": "Überhaupt nicht oder nur einmal",
+            "pt": "Nada ou apenas uma vez"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Раз в неделю или реже / время от времени",
+            "en": "Once a week or less / once in a while",
+            "fr": "Une fois par semaine ou moins / de temps en temps",
+            "de": "Einmal pro Woche oder seltener / gelegentlich",
+            "pt": "Uma vez por semana ou menos / de vez em quando"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "4 раза в неделю / примерно в половине случаев",
+            "en": "2 to 4 times a week / about half the time",
+            "fr": "2 à 4 fois par semaine / environ la moitié du temps",
+            "de": "4 Mal pro Woche / etwa die Hälfte der Zeit",
+            "pt": "2 a 4 vezes por semana / cerca de metade do tempo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "5 и более раз в неделю / почти всегда",
+            "en": "5 or more times a week / almost always",
+            "fr": "5 fois ou plus par semaine / presque toujours",
+            "de": "5 Mal oder mehr pro Woche / fast immer",
+            "pt": "5 ou mais vezes por semana / quase sempre"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "cpss_5",
+      "text": {
+        "ru": "У меня бывают телесные реакции, когда что-то напоминает о событии (например: сердце бьётся сильнее, болит голова, дрожь).",
+        "en": "Having physical reactions when things reminded you of the event (for example: heart beating fast, headaches, feeling shaky).",
+        "fr": "Avoir des réactions physiques quand des choses vous rappellent l'événement (par ex. cœur qui bat vite, maux de tête, tremblements).",
+        "de": "Körperliche Reaktionen, wenn etwas Sie an das Ereignis erinnert (z. B. schneller Herzschlag, Kopfschmerzen, Zittern).",
+        "pt": "Ter reações físicas quando coisas lembram do evento (por exemplo: coração acelerado, dor de cabeça, tremores)."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет или только один раз",
+            "en": "Not at all or only one time",
+            "fr": "Pas du tout ou une seule fois",
+            "de": "Überhaupt nicht oder nur einmal",
+            "pt": "Nada ou apenas uma vez"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Раз в неделю или реже / время от времени",
+            "en": "Once a week or less / once in a while",
+            "fr": "Une fois par semaine ou moins / de temps en temps",
+            "de": "Einmal pro Woche oder seltener / gelegentlich",
+            "pt": "Uma vez por semana ou menos / de vez em quando"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "4 раза в неделю / примерно в половине случаев",
+            "en": "2 to 4 times a week / about half the time",
+            "fr": "2 à 4 fois par semaine / environ la moitié du temps",
+            "de": "4 Mal pro Woche / etwa die Hälfte der Zeit",
+            "pt": "2 a 4 vezes por semana / cerca de metade do tempo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "5 и более раз в неделю / почти всегда",
+            "en": "5 or more times a week / almost always",
+            "fr": "5 fois ou plus par semaine / presque toujours",
+            "de": "5 Mal oder mehr pro Woche / fast immer",
+            "pt": "5 ou mais vezes por semana / quase sempre"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "cpss_6",
+      "text": {
+        "ru": "Я стараюсь не думать о событии и не говорить о нём.",
+        "en": "Trying not to think about the event or talk about it.",
+        "fr": "Essayer de ne pas penser à l'événement ni en parler.",
+        "de": "Versuchen, nicht an das Ereignis zu denken oder darüber zu sprechen.",
+        "pt": "Tentar não pensar no evento nem falar dele."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет или только один раз",
+            "en": "Not at all or only one time",
+            "fr": "Pas du tout ou une seule fois",
+            "de": "Überhaupt nicht oder nur einmal",
+            "pt": "Nada ou apenas uma vez"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Раз в неделю или реже / время от времени",
+            "en": "Once a week or less / once in a while",
+            "fr": "Une fois par semaine ou moins / de temps en temps",
+            "de": "Einmal pro Woche oder seltener / gelegentlich",
+            "pt": "Uma vez por semana ou menos / de vez em quando"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "4 раза в неделю / примерно в половине случаев",
+            "en": "2 to 4 times a week / about half the time",
+            "fr": "2 à 4 fois par semaine / environ la moitié du temps",
+            "de": "4 Mal pro Woche / etwa die Hälfte der Zeit",
+            "pt": "2 a 4 vezes por semana / cerca de metade do tempo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "5 и более раз в неделю / почти всегда",
+            "en": "5 or more times a week / almost always",
+            "fr": "5 fois ou plus par semaine / presque toujours",
+            "de": "5 Mal oder mehr pro Woche / fast immer",
+            "pt": "5 ou mais vezes por semana / quase sempre"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "cpss_7",
+      "text": {
+        "ru": "Я стараюсь держаться подальше от людей, мест или вещей, которые напоминают о событии.",
+        "en": "Trying to stay away from people, places, or things that remind you of the event.",
+        "fr": "Essayer de rester loin des personnes, lieux ou choses qui vous rappellent l'événement.",
+        "de": "Sich von Menschen, Orten oder Dingen fernzuhalten, die Sie an das Ereignis erinnert.",
+        "pt": "Tentar ficar longe de pessoas, lugares ou coisas que lembram do evento."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет или только один раз",
+            "en": "Not at all or only one time",
+            "fr": "Pas du tout ou une seule fois",
+            "de": "Überhaupt nicht oder nur einmal",
+            "pt": "Nada ou apenas uma vez"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Раз в неделю или реже / время от времени",
+            "en": "Once a week or less / once in a while",
+            "fr": "Une fois par semaine ou moins / de temps en temps",
+            "de": "Einmal pro Woche oder seltener / gelegentlich",
+            "pt": "Uma vez por semana ou menos / de vez em quando"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "4 раза в неделю / примерно в половине случаев",
+            "en": "2 to 4 times a week / about half the time",
+            "fr": "2 à 4 fois par semaine / environ la moitié du temps",
+            "de": "4 Mal pro Woche / etwa die Hälfte der Zeit",
+            "pt": "2 a 4 vezes por semana / cerca de metade do tempo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "5 и более раз в неделю / почти всегда",
+            "en": "5 or more times a week / almost always",
+            "fr": "5 fois ou plus par semaine / presque toujours",
+            "de": "5 Mal oder mehr pro Woche / fast immer",
+            "pt": "5 ou mais vezes por semana / quase sempre"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "cpss_8",
+      "text": {
+        "ru": "Я не могу вспомнить важные части события.",
+        "en": "Not being able to remember important parts of the event.",
+        "fr": "Ne pas pouvoir vous souvenir de parties importantes de l'événement.",
+        "de": "Sich nicht an wichtige Teile des Ereignisses erinnern zu können.",
+        "pt": "Não conseguir lembrar de partes importantes do evento."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет или только один раз",
+            "en": "Not at all or only one time",
+            "fr": "Pas du tout ou une seule fois",
+            "de": "Überhaupt nicht oder nur einmal",
+            "pt": "Nada ou apenas uma vez"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Раз в неделю или реже / время от времени",
+            "en": "Once a week or less / once in a while",
+            "fr": "Une fois par semaine ou moins / de temps en temps",
+            "de": "Einmal pro Woche oder seltener / gelegentlich",
+            "pt": "Uma vez por semana ou menos / de vez em quando"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "4 раза в неделю / примерно в половине случаев",
+            "en": "2 to 4 times a week / about half the time",
+            "fr": "2 à 4 fois par semaine / environ la moitié du temps",
+            "de": "4 Mal pro Woche / etwa die Hälfte der Zeit",
+            "pt": "2 a 4 vezes por semana / cerca de metade do tempo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "5 и более раз в неделю / почти всегда",
+            "en": "5 or more times a week / almost always",
+            "fr": "5 fois ou plus par semaine / presque toujours",
+            "de": "5 Mal oder mehr pro Woche / fast immer",
+            "pt": "5 ou mais vezes por semana / quase sempre"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "cpss_9",
+      "text": {
+        "ru": "Мне уже не так интересно заниматься тем, чем я любил(а) заниматься до события.",
+        "en": "Having less interest than before in doing things you used to like.",
+        "fr": "Moins d'intérêt qu'avant pour les activités que vous aimiez.",
+        "de": "Weniger Interesse als früher an Dingen, die Ihnen gefallen haben.",
+        "pt": "Menos interesse do que antes em fazer coisas de que gostava."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет или только один раз",
+            "en": "Not at all or only one time",
+            "fr": "Pas du tout ou une seule fois",
+            "de": "Überhaupt nicht oder nur einmal",
+            "pt": "Nada ou apenas uma vez"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Раз в неделю или реже / время от времени",
+            "en": "Once a week or less / once in a while",
+            "fr": "Une fois par semaine ou moins / de temps en temps",
+            "de": "Einmal pro Woche oder seltener / gelegentlich",
+            "pt": "Uma vez por semana ou menos / de vez em quando"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "4 раза в неделю / примерно в половине случаев",
+            "en": "2 to 4 times a week / about half the time",
+            "fr": "2 à 4 fois par semaine / environ la moitié du temps",
+            "de": "4 Mal pro Woche / etwa die Hälfte der Zeit",
+            "pt": "2 a 4 vezes por semana / cerca de metade do tempo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "5 и более раз в неделю / почти всегда",
+            "en": "5 or more times a week / almost always",
+            "fr": "5 fois ou plus par semaine / presque toujours",
+            "de": "5 Mal oder mehr pro Woche / fast immer",
+            "pt": "5 ou mais vezes por semana / quase sempre"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "cpss_10",
+      "text": {
+        "ru": "Я чувствую себя отстранённым(ой) или «отрезанным(ой)» от других людей.",
+        "en": "Feeling distant or cut off from other people.",
+        "fr": "Se sentir distant(e) ou coupé(e) des autres.",
+        "de": "Sich distanziert oder von anderen abgeschnitten zu fühlen.",
+        "pt": "Sentir-se distante ou isolado(a) das outras pessoas."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет или только один раз",
+            "en": "Not at all or only one time",
+            "fr": "Pas du tout ou une seule fois",
+            "de": "Überhaupt nicht oder nur einmal",
+            "pt": "Nada ou apenas uma vez"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Раз в неделю или реже / время от времени",
+            "en": "Once a week or less / once in a while",
+            "fr": "Une fois par semaine ou moins / de temps en temps",
+            "de": "Einmal pro Woche oder seltener / gelegentlich",
+            "pt": "Uma vez por semana ou menos / de vez em quando"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "4 раза в неделю / примерно в половине случаев",
+            "en": "2 to 4 times a week / about half the time",
+            "fr": "2 à 4 fois par semaine / environ la moitié du temps",
+            "de": "4 Mal pro Woche / etwa die Hälfte der Zeit",
+            "pt": "2 a 4 vezes por semana / cerca de metade do tempo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "5 и более раз в неделю / почти всегда",
+            "en": "5 or more times a week / almost always",
+            "fr": "5 fois ou plus par semaine / presque toujours",
+            "de": "5 Mal oder mehr pro Woche / fast immer",
+            "pt": "5 ou mais vezes por semana / quase sempre"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "cpss_11",
+      "text": {
+        "ru": "Я как будто «онемел(а)» эмоционально или мне трудно сильно переживать (в том числе плакать).",
+        "en": "Feeling emotionally numb or unable to have strong feelings (including trouble crying).",
+        "fr": "Se sentir émotionnellement engourdi(e) ou incapable d'avoir de forts sentiments (y compris difficulté à pleurer).",
+        "de": "Sich emotional taub zu fühlen oder keine starken Gefühle haben zu können (einschließlich Schwierigkeiten zu weinen).",
+        "pt": "Sentir-se emocionalmente entorpecido(a) ou incapaz de ter sentimentos fortes (incluindo dificuldade para chorar)."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет или только один раз",
+            "en": "Not at all or only one time",
+            "fr": "Pas du tout ou une seule fois",
+            "de": "Überhaupt nicht oder nur einmal",
+            "pt": "Nada ou apenas uma vez"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Раз в неделю или реже / время от времени",
+            "en": "Once a week or less / once in a while",
+            "fr": "Une fois par semaine ou moins / de temps en temps",
+            "de": "Einmal pro Woche oder seltener / gelegentlich",
+            "pt": "Uma vez por semana ou menos / de vez em quando"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "4 раза в неделю / примерно в половине случаев",
+            "en": "2 to 4 times a week / about half the time",
+            "fr": "2 à 4 fois par semaine / environ la moitié du temps",
+            "de": "4 Mal pro Woche / etwa die Hälfte der Zeit",
+            "pt": "2 a 4 vezes por semana / cerca de metade do tempo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "5 и более раз в неделю / почти всегда",
+            "en": "5 or more times a week / almost always",
+            "fr": "5 fois ou plus par semaine / presque toujours",
+            "de": "5 Mal oder mehr pro Woche / fast immer",
+            "pt": "5 ou mais vezes por semana / quase sempre"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "cpss_12",
+      "text": {
+        "ru": "Мне кажется, что что-то важное в моей жизни или будущем не сбудется (например, что я не вырасту «как все»).",
+        "en": "Feeling like something important about you or your future will not happen (such as not growing up in a normal way).",
+        "fr": "Avoir l'impression qu'il n'arrivera pas quelque chose d'important pour vous ou votre avenir (par ex. ne pas grandir comme les autres).",
+        "de": "Das Gefühl zu haben, dass etwas Wichtiges an Ihnen oder Ihrer Zukunft nicht eintreten wird (z. B. nicht „normal“ aufzuwachsen).",
+        "pt": "Sentir que algo importante em você ou no seu futuro não vai acontecer (como não crescer de um jeito “normal”)."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет или только один раз",
+            "en": "Not at all or only one time",
+            "fr": "Pas du tout ou une seule fois",
+            "de": "Überhaupt nicht oder nur einmal",
+            "pt": "Nada ou apenas uma vez"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Раз в неделю или реже / время от времени",
+            "en": "Once a week or less / once in a while",
+            "fr": "Une fois par semaine ou moins / de temps en temps",
+            "de": "Einmal pro Woche oder seltener / gelegentlich",
+            "pt": "Uma vez por semana ou menos / de vez em quando"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "4 раза в неделю / примерно в половине случаев",
+            "en": "2 to 4 times a week / about half the time",
+            "fr": "2 à 4 fois par semaine / environ la moitié du temps",
+            "de": "4 Mal pro Woche / etwa die Hälfte der Zeit",
+            "pt": "2 a 4 vezes por semana / cerca de metade do tempo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "5 и более раз в неделю / почти всегда",
+            "en": "5 or more times a week / almost always",
+            "fr": "5 fois ou plus par semaine / presque toujours",
+            "de": "5 Mal oder mehr pro Woche / fast immer",
+            "pt": "5 ou mais vezes por semana / quase sempre"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "cpss_13",
+      "text": {
+        "ru": "Мне трудно заснуть или сплю я беспокойно.",
+        "en": "Having trouble falling asleep or staying asleep.",
+        "fr": "Avoir du mal à vous endormir ou à rester endormi(e).",
+        "de": "Schwierigkeiten beim Einschlafen oder Durchschlafen zu haben.",
+        "pt": "Ter dificuldade para adormecer ou permanecer dormindo."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет или только один раз",
+            "en": "Not at all or only one time",
+            "fr": "Pas du tout ou une seule fois",
+            "de": "Überhaupt nicht oder nur einmal",
+            "pt": "Nada ou apenas uma vez"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Раз в неделю или реже / время от времени",
+            "en": "Once a week or less / once in a while",
+            "fr": "Une fois par semaine ou moins / de temps en temps",
+            "de": "Einmal pro Woche oder seltener / gelegentlich",
+            "pt": "Uma vez por semana ou menos / de vez em quando"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "4 раза в неделю / примерно в половине случаев",
+            "en": "2 to 4 times a week / about half the time",
+            "fr": "2 à 4 fois par semaine / environ la moitié du temps",
+            "de": "4 Mal pro Woche / etwa die Hälfte der Zeit",
+            "pt": "2 a 4 vezes por semana / cerca de metade do tempo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "5 и более раз в неделю / почти всегда",
+            "en": "5 or more times a week / almost always",
+            "fr": "5 fois ou plus par semaine / presque toujours",
+            "de": "5 Mal oder mehr pro Woche / fast immer",
+            "pt": "5 ou mais vezes por semana / quase sempre"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "cpss_14",
+      "text": {
+        "ru": "Я раздражаюсь или часто сержусь и вспыхиваю.",
+        "en": "Feeling irritable or having angry outbursts.",
+        "fr": "Se sentir irritable ou avoir des accès de colère.",
+        "de": "Reizbar zu sein oder Wutausbrüche zu haben.",
+        "pt": "Ficar irritável ou ter explosões de raiva."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет или только один раз",
+            "en": "Not at all or only one time",
+            "fr": "Pas du tout ou une seule fois",
+            "de": "Überhaupt nicht oder nur einmal",
+            "pt": "Nada ou apenas uma vez"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Раз в неделю или реже / время от времени",
+            "en": "Once a week or less / once in a while",
+            "fr": "Une fois par semaine ou moins / de temps en temps",
+            "de": "Einmal pro Woche oder seltener / gelegentlich",
+            "pt": "Uma vez por semana ou menos / de vez em quando"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "4 раза в неделю / примерно в половине случаев",
+            "en": "2 to 4 times a week / about half the time",
+            "fr": "2 à 4 fois par semaine / environ la moitié du temps",
+            "de": "4 Mal pro Woche / etwa die Hälfte der Zeit",
+            "pt": "2 a 4 vezes por semana / cerca de metade do tempo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "5 и более раз в неделю / почти всегда",
+            "en": "5 or more times a week / almost always",
+            "fr": "5 fois ou plus par semaine / presque toujours",
+            "de": "5 Mal oder mehr pro Woche / fast immer",
+            "pt": "5 ou mais vezes por semana / quase sempre"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "cpss_15",
+      "text": {
+        "ru": "Мне трудно сосредоточиться.",
+        "en": "Having trouble concentrating.",
+        "fr": "Avoir du mal à vous concentrer.",
+        "de": "Sich schwer konzentrieren zu können.",
+        "pt": "Ter dificuldade para se concentrar."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет или только один раз",
+            "en": "Not at all or only one time",
+            "fr": "Pas du tout ou une seule fois",
+            "de": "Überhaupt nicht oder nur einmal",
+            "pt": "Nada ou apenas uma vez"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Раз в неделю или реже / время от времени",
+            "en": "Once a week or less / once in a while",
+            "fr": "Une fois par semaine ou moins / de temps en temps",
+            "de": "Einmal pro Woche oder seltener / gelegentlich",
+            "pt": "Uma vez por semana ou menos / de vez em quando"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "4 раза в неделю / примерно в половине случаев",
+            "en": "2 to 4 times a week / about half the time",
+            "fr": "2 à 4 fois par semaine / environ la moitié du temps",
+            "de": "4 Mal pro Woche / etwa die Hälfte der Zeit",
+            "pt": "2 a 4 vezes por semana / cerca de metade do tempo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "5 и более раз в неделю / почти всегда",
+            "en": "5 or more times a week / almost always",
+            "fr": "5 fois ou plus par semaine / presque toujours",
+            "de": "5 Mal oder mehr pro Woche / fast immer",
+            "pt": "5 ou mais vezes por semana / quase sempre"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "cpss_16",
+      "text": {
+        "ru": "Я слишком осторожен(на) и присматриваюсь к тому, что вокруг.",
+        "en": "Being more careful or watchful of things around you than you need to be.",
+        "fr": "Être plus prudent(e) ou attentif(ve) aux alentours que nécessaire.",
+        "de": "Achtsamer oder wachsamer auf die Umgebung zu sein, als nötig wäre.",
+        "pt": "Ficar mais cuidadoso(a) ou vigilante ao redor do que o necessário."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет или только один раз",
+            "en": "Not at all or only one time",
+            "fr": "Pas du tout ou une seule fois",
+            "de": "Überhaupt nicht oder nur einmal",
+            "pt": "Nada ou apenas uma vez"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Раз в неделю или реже / время от времени",
+            "en": "Once a week or less / once in a while",
+            "fr": "Une fois par semaine ou moins / de temps en temps",
+            "de": "Einmal pro Woche oder seltener / gelegentlich",
+            "pt": "Uma vez por semana ou menos / de vez em quando"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "4 раза в неделю / примерно в половине случаев",
+            "en": "2 to 4 times a week / about half the time",
+            "fr": "2 à 4 fois par semaine / environ la moitié du temps",
+            "de": "4 Mal pro Woche / etwa die Hälfte der Zeit",
+            "pt": "2 a 4 vezes por semana / cerca de metade do tempo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "5 и более раз в неделю / почти всегда",
+            "en": "5 or more times a week / almost always",
+            "fr": "5 fois ou plus par semaine / presque toujours",
+            "de": "5 Mal oder mehr pro Woche / fast immer",
+            "pt": "5 ou mais vezes por semana / quase sempre"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "cpss_17",
+      "text": {
+        "ru": "Я легко пугаюсь или вздрагиваю.",
+        "en": "Being jumpy or easily startled.",
+        "fr": "Être sur les nerfs ou sursauter facilement.",
+        "de": "Nervös zu sein oder leicht aufzuschrecken.",
+        "pt": "Ficar tenso(a) ou assustar-se com facilidade."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет или только один раз",
+            "en": "Not at all or only one time",
+            "fr": "Pas du tout ou une seule fois",
+            "de": "Überhaupt nicht oder nur einmal",
+            "pt": "Nada ou apenas uma vez"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Раз в неделю или реже / время от времени",
+            "en": "Once a week or less / once in a while",
+            "fr": "Une fois par semaine ou moins / de temps en temps",
+            "de": "Einmal pro Woche oder seltener / gelegentlich",
+            "pt": "Uma vez por semana ou menos / de vez em quando"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "4 раза в неделю / примерно в половине случаев",
+            "en": "2 to 4 times a week / about half the time",
+            "fr": "2 à 4 fois par semaine / environ la moitié du temps",
+            "de": "4 Mal pro Woche / etwa die Hälfte der Zeit",
+            "pt": "2 a 4 vezes por semana / cerca de metade do tempo"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "5 и более раз в неделю / почти всегда",
+            "en": "5 or more times a week / almost always",
+            "fr": "5 fois ou plus par semaine / presque toujours",
+            "de": "5 Mal oder mehr pro Woche / fast immer",
+            "pt": "5 ou mais vezes por semana / quase sempre"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "cpss_18",
+      "text": {
+        "ru": "Мешают ли вам эти трудности молиться или медитировать (если вы обычно это делаете)?",
+        "en": "Have these problems gotten in the way of praying or meditating (if you usually do)?",
+        "fr": "Ces difficultés vous gênent-elles pour prier ou méditer (si vous le faites d'habitude) ?",
+        "de": "Behinderen diese Probleme Sie beim Beten oder Meditieren (wenn Sie das gewöhnlich tun)?",
+        "pt": "Esses problemas atrapalham você a rezar ou meditar (se costuma fazer isso)?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No (not a problem)",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes (a problem)",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "cpss_19",
+      "text": {
+        "ru": "Мешают ли они выполнять домашние обязанности и дела по дому?",
+        "en": "Have these problems gotten in the way of getting your chores and duties done at home?",
+        "fr": "Ces difficultés vous gênent-elles pour faire vos tâches et obligations à la maison ?",
+        "de": "Behinderen diese Probleme Sie bei Hausarbeit und Pflichten zu Hause?",
+        "pt": "Esses problemas atrapalham você a fazer tarefas e obrigações em casa?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No (not a problem)",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes (a problem)",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "cpss_20",
+      "text": {
+        "ru": "Мешают ли они отношениям с друзьями?",
+        "en": "Have these problems gotten in the way of your relationships with friends?",
+        "fr": "Ces difficultés vous gênent-elles dans vos relations avec des ami(e)s ?",
+        "de": "Behinderen diese Probleme Sie in Ihren Beziehungen zu Freundinnen und Freunden?",
+        "pt": "Esses problemas atrapalham suas relações com amigos?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No (not a problem)",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes (a problem)",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "cpss_21",
+      "text": {
+        "ru": "Мешают ли они занятиям, которые вам нравятся, и хобби?",
+        "en": "Have these problems gotten in the way of fun things or hobbies you like?",
+        "fr": "Ces difficultés vous gênent-elles pour les activités amusantes ou passe-temps que vous aimez ?",
+        "de": "Behinderen diese Probleme Sie bei lustigen Aktivitäten oder Hobbys, die Ihnen gefallen?",
+        "pt": "Esses problemas atrapalham coisas divertidas ou hobbies de que você gosta?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No (not a problem)",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes (a problem)",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "cpss_22",
+      "text": {
+        "ru": "Мешают ли они учёбе в школе?",
+        "en": "Have these problems gotten in the way of your schoolwork?",
+        "fr": "Ces difficultés vous gênent-elles pour le travail scolaire ?",
+        "de": "Behinderen diese Probleme Sie bei der Schularbeit?",
+        "pt": "Esses problemas atrapalham seu trabalho escolar?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No (not a problem)",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes (a problem)",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "cpss_23",
+      "text": {
+        "ru": "Мешают ли они отношениям в семье?",
+        "en": "Have these problems gotten in the way of your relationships with family members?",
+        "fr": "Ces difficultés vous gênent-elles dans vos relations avec votre famille ?",
+        "de": "Behinderen diese Probleme Sie in Ihren Beziehungen zu Familienmitgliedern?",
+        "pt": "Esses problemas atrapalham suas relações com a família?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No (not a problem)",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes (a problem)",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "cpss_24",
+      "text": {
+        "ru": "Мешают ли они в целом чувствовать себя счастливым(ой)?",
+        "en": "Have these problems gotten in the way of your feeling happy in general?",
+        "fr": "Ces difficultés vous gênent-elles pour vous sentir heureux(se) en général ?",
+        "de": "Behinderen diese Probleme Sie daran, sich im Allgemeinen glücklich zu fühlen?",
+        "pt": "Esses problemas atrapalham você de se sentir feliz no geral?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет",
+            "en": "No (not a problem)",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да",
+            "en": "Yes (a problem)",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

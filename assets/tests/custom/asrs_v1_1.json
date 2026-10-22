@@ -1,0 +1,1226 @@
+{
+  "id": "asrs",
+  "category": "bipolar",
+  "title": {
+    "ru": "ASRS v1.1 — опросник СДВГ у взрослых",
+    "en": "ASRS v1.1 — Adult ADHD Self-Report Scale",
+    "fr": "ASRS v1.1 — Échelle d’auto‑évaluation du TDAH chez l’adulte",
+    "de": "ASRS v1.1 — Adult ADHD Self-Report Scale",
+    "pt": "ASRS v1.1 — Escala de autorrelato de TDAH em adultos"
+  },
+  "subtitle": {
+    "ru": "Скрининг симптомов СДВГ у взрослых.",
+    "en": "Adult ADHD symptom screening questionnaire.",
+    "fr": "Auto-questionnaire de dépistage du TDAH chez l’adulte.",
+    "de": "Fragebogen zum Screening von ADHS-Symptomen bei Erwachsenen.",
+    "pt": "Questionário de triagem de sintomas de TDAH em adultos."
+  },
+  "description": {
+    "ru": "Скрининг симптомов СДВГ у взрослых по критериям DSM‑IV (за последние 6 месяцев). Разработан при участии ВОЗ и рабочей группы по СДВГ у взрослых (Kessler et al., 2005). Положительный результат не является диагнозом. При публикациях укажите оригинальную работу; для некоторых форм 18‑пунктового чек‑листа может требоваться разрешение правообладателя.",
+    "en": "Adult ADHD symptom checklist aligned with DSM‑IV criteria (past 6 months), developed with the WHO and the Adult ADHD Workgroup (Kessler et al., 2005). A positive screen is not a diagnosis. Cite the original publication; some uses of the 18‑item checklist may require permission from the copyright holder.",
+    "fr": "Liste de symptômes du TDAH chez l’adulte (DSM‑IV, 6 derniers mois), développée avec l’OMS (Kessler et al., 2005). Un résultat positif n’est pas un diagnostic. Citez la publication ; certaines utilisations du questionnaire 18 items peuvent nécessiter une autorisation.",
+    "de": "ADHS‑Symptomcheckliste für Erwachsene nach DSM‑IV‑Kriterien (letzte 6 Monate), entwickelt mit der WHO (Kessler et al., 2005). Positives Screening ≠ Diagnose. Originalpublikation zitieren; für die 18‑Item‑Checkliste kann eine Genehmigung nötig sein.",
+    "pt": "Lista de sintomas de TDAH em adultos alinhada ao DSM‑IV (últimos 6 meses), desenvolvida com a OMS (Kessler et al., 2005). Resultado positivo não é diagnóstico. Cite a publicação original; alguns usos do questionário de 18 itens podem exigir permissão."
+  },
+  "instructions": {
+    "ru": "Оцените, как часто за последние 6 месяцев вы ощущали или вели себя так, как описано в каждом пункте. Выберите один ответ.",
+    "en": "Answer the questions below, rating yourself on each of the criteria using the scale—how you have felt and conducted yourself over the past 6 months.",
+    "fr": "Répondez aux questions en indiquant à quelle fréquence, au cours des 6 derniers mois, vous vous êtes senti ainsi ou vous êtes comporté ainsi.",
+    "de": "Beantworten Sie die Fragen: Wie oft haben Sie sich in den letzten 6 Monaten so gefühlt oder sich so verhalten?",
+    "pt": "Responda indicando com que frequência, nos últimos 6 meses, você se sentiu ou se comportou como descrito em cada frase."
+  },
+  "maxScore": 18,
+  "bandsBasis": "raw",
+  "resultSubscalesOnly": true,
+  "bands": [
+    {
+      "minInclusive": 0,
+      "maxInclusive": 18,
+      "title": {
+        "ru": "Интерпретация ASRS v1.1",
+        "en": "ASRS v1.1 interpretation",
+        "fr": "Interprétation ASRS v1.1",
+        "de": "Auswertung ASRS v1.1",
+        "pt": "Interpretação ASRS v1.1"
+      },
+      "description": {
+        "ru": "Ниже показаны две части опросника. Первая — основной скрининг по методике; вторая добавляет контекст. Подробности — в пояснении после прохождения.",
+        "en": "Two sections appear below: Part A is the main screener; Part B adds context. See the note after you finish for how to read them.",
+        "fr": "Deux parties : A pour le dépistage principal, B pour le contexte. Voir la note après le questionnaire.",
+        "de": "Zwei Teile: A ist das Haupt-Screening, B ergänzt. Hinweis steht nach dem Ausfüllen.",
+        "pt": "Duas partes: A é o rastreio principal, B complementa. Veja a nota ao final."
+      }
+    }
+  ],
+  "subscales": [
+    {
+      "id": "part_a",
+      "label": {
+        "ru": "Часть A (основной скрининг)",
+        "en": "Part A (main screener)",
+        "fr": "Partie A (dépistage principal)",
+        "de": "Teil A (Haupt-Screening)",
+        "pt": "Parte A (triagem principal)"
+      },
+      "itemIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "maxScore": 6
+    },
+    {
+      "id": "part_b",
+      "label": {
+        "ru": "Часть B (дополнительный контекст)",
+        "en": "Part B (additional context)",
+        "fr": "Partie B (contexte supplémentaire)",
+        "de": "Teil B (zusätzlicher Kontext)",
+        "pt": "Parte B (contexto adicional)"
+      },
+      "itemIndices": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "maxScore": 12
+    }
+  ],
+  "resultNote": {
+    "ru": "Скрининг считается положительным, если в части A набралось много ответов из «зоны внимания» по правилам методики (приложение уже считает это за вас). Это не диагноз СДВГ. Часть B помогает уточнить картину. Обсудите результат с врачом или другим квалифицированным специалистом.",
+    "en": "A positive screen means Part A hits the instrument’s attention pattern often enough—the app applies the official weighting for you. That is not an ADHD diagnosis. Part B adds context. Discuss with a qualified clinician.",
+    "fr": "Un dépistage positif correspond au motif d’attention de la partie A (l’appli applique la pondération officielle). Ce n’est pas un diagnostic de TDAH. La partie B complète. Consultez un professionnel.",
+    "de": "Positives Screening, wenn Teil A dem offiziellen Muster entspricht (die App wendet die Regeln an). Keine ADHS-Diagnose. Teil B ergänzt. Mit Fachperson besprechen.",
+    "pt": "Triagem positiva quando a parte A atinge o padrão oficial (o app aplica as regras). Não é diagnóstico de TDAH. A parte B complementa. Consulte um profissional."
+  },
+  "questions": [
+    {
+      "id": "asrs_1",
+      "text": {
+        "ru": "Как часто вам трудно довести до конца финальные детали проекта, когда самая сложная часть уже сделана?",
+        "en": "How often do you have trouble wrapping up the final details of a project, once the challenging parts have been done?",
+        "fr": "À quelle fréquence avez-vous du mal à finaliser les derniers détails d’un projet, une fois les parties les plus difficiles accomplies ?",
+        "de": "Wie oft fällt es Ihnen schwer, die letzten Details eines Projekts abzuschließen, wenn die schwierigen Teile bereits erledigt sind?",
+        "pt": "Com que frequência você tem dificuldade para concluir os detalhes finais de um projeto depois que as partes mais difíceis já foram feitas?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "asrs_2",
+      "text": {
+        "ru": "Как часто вам трудно навести порядок, когда нужно выполнить задачу, требующую организации?",
+        "en": "How often do you have difficulty getting things in order when you have to do a task that requires organization?",
+        "fr": "À quelle fréquence avez-vous du mal à mettre de l’ordre lorsque vous devez accomplir une tâche qui exige de l’organisation ?",
+        "de": "Wie oft haben Sie Schwierigkeiten, Dinge zu ordnen, wenn Sie eine Aufgabe erledigen müssen, die Organisation erfordert?",
+        "pt": "Com que frequência você tem dificuldade para organizar as coisas quando precisa fazer uma tarefa que exige organização?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "asrs_3",
+      "text": {
+        "ru": "Как часто у вас бывают проблемы с запоминанием встреч или обязательств?",
+        "en": "How often do you have problems remembering appointments or obligations?",
+        "fr": "À quelle fréquence avez-vous des difficultés à vous rappeler des rendez-vous ou des obligations ?",
+        "de": "Wie oft haben Sie Probleme, sich an Termine oder Verpflichtungen zu erinnern?",
+        "pt": "Com que frequência você tem problemas para lembrar de compromissos ou obrigações?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "asrs_4",
+      "text": {
+        "ru": "Когда перед вами задача, требующая много размышлений, как часто вы откладываете начало или избегаете приступить к ней?",
+        "en": "When you have a task that requires a lot of thought, how often do you avoid or delay getting started?",
+        "fr": "Lorsqu’une tâche exige beaucoup de réflexion, à quelle fréquence évitez-vous ou reportez-vous le commencement ?",
+        "de": "Wenn eine Aufgabe viel Nachdenken erfordert, wie oft vermeiden oder verzögern Sie den Anfang?",
+        "pt": "Quando você tem uma tarefa que exige muito raciocínio, com que frequência evita ou adia começar?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "asrs_5",
+      "text": {
+        "ru": "Как часто вы ёрзаете или не можете усидеть на месте руками или ногами, когда нужно долго сидеть?",
+        "en": "How often do you fidget or squirm with your hands or feet when you have to sit down for a long time?",
+        "fr": "À quelle fréquence bougez-vous sur votre chaise ou remuez-vous les mains ou les pieds lorsque vous devez rester assis longtemps ?",
+        "de": "Wie oft zappeln oder winden Sie sich mit Händen oder Füßen, wenn Sie lange sitzen müssen?",
+        "pt": "Com que frequência você se mexe ou se contorce com as mãos ou os pés quando precisa ficar sentado por muito tempo?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "asrs_6",
+      "text": {
+        "ru": "Как часто вы чувствуете избыточную активность и навязчивую потребность что-то делать, как будто вас «завели»?",
+        "en": "How often do you feel overly active and compelled to do things, like you were driven by a motor?",
+        "fr": "À quelle fréquence vous sentez-vous trop actif et poussé à faire des choses, comme si un moteur vous animait ?",
+        "de": "Wie oft fühlen Sie sich überaktiv und getrieben, Dinge zu tun, als würde ein Motor in Ihnen laufen?",
+        "pt": "Com que frequência você se sente excessivamente ativo e compelido a fazer coisas, como se estivesse a motor?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "asrs_7",
+      "text": {
+        "ru": "Как часто вы делаете небрежные ошибки, когда работаете над скучным или трудным проектом?",
+        "en": "How often do you make careless mistakes when you have to work on a boring or difficult project?",
+        "fr": "À quelle fréquence faites-vous des erreurs d’inattention lorsque vous travaillez sur un projet ennuyeux ou difficile ?",
+        "de": "Wie oft machen Sie unachtsame Fehler, wenn Sie an einem langweiligen oder schwierigen Projekt arbeiten müssen?",
+        "pt": "Com que frequência você comete erros por descuido quando precisa trabalhar em um projeto chato ou difícil?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "asrs_8",
+      "text": {
+        "ru": "Как часто вам трудно удерживать внимание, когда вы занимаетесь скучной или повторяющейся работой?",
+        "en": "How often do you have difficulty keeping your attention when you are doing boring or repetitive work?",
+        "fr": "À quelle fréquence avez-vous du mal à maintenir votre attention lorsque vous faites un travail ennuyeux ou répétitif ?",
+        "de": "Wie oft fällt es Ihnen schwer, die Aufmerksamkeit zu halten, wenn Sie langweilige oder monotone Arbeit machen?",
+        "pt": "Com que frequência você tem dificuldade para manter a atenção quando faz um trabalho chato ou repetitivo?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "asrs_9",
+      "text": {
+        "ru": "Как часто вам трудно сосредоточиться на том, что говорят люди, даже когда они обращаются к вам напрямую?",
+        "en": "How often do you have difficulty concentrating on what people say to you, even when they are speaking to you directly?",
+        "fr": "À quelle fréquence avez-vous du mal à vous concentrer sur ce que les gens vous disent, même lorsqu’ils vous parlent directement ?",
+        "de": "Wie oft fällt es Ihnen schwer, sich auf das zu konzentrieren, was Menschen Ihnen sagen, auch wenn sie direkt mit Ihnen sprechen?",
+        "pt": "Com que frequência você tem dificuldade para se concentrar no que as pessoas dizem, mesmo quando falam diretamente com você?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "asrs_10",
+      "text": {
+        "ru": "Как часто вы кладёте вещи не туда или не можете их найти дома или на работе?",
+        "en": "How often do you misplace or have difficulty finding things at home or at work?",
+        "fr": "À quelle fréquence égarez-vous des objets ou avez-vous du mal à les retrouver chez vous ou au travail ?",
+        "de": "Wie oft legen Sie Dinge verkehrt ab oder haben Sie Schwierigkeiten, sie zu Hause oder bei der Arbeit zu finden?",
+        "pt": "Com que frequência você perde ou tem dificuldade para encontrar coisas em casa ou no trabalho?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "asrs_11",
+      "text": {
+        "ru": "Как часто вас отвлекает активность или шум вокруг?",
+        "en": "How often are you distracted by activity or noise around you?",
+        "fr": "À quelle fréquence êtes-vous distrait par l’activité ou le bruit autour de vous ?",
+        "de": "Wie oft werden Sie durch Aktivität oder Geräusche in Ihrer Umgebung abgelenkt?",
+        "pt": "Com que frequência você se distrai com movimento ou barulho ao redor?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "asrs_12",
+      "text": {
+        "ru": "Как часто вы встаёте со своего места на собраниях или в других ситуациях, где ожидается, что вы останетесь сидеть?",
+        "en": "How often do you leave your seat in meetings or other situations in which you are expected to remain seated?",
+        "fr": "À quelle fréquence quittez-vous votre siège lors de réunions ou dans d’autres situations où l’on attend que vous restiez assis ?",
+        "de": "Wie oft verlassen Sie Ihren Platz in Besprechungen oder anderen Situationen, in denen Sie sitzen bleiben sollten?",
+        "pt": "Com que frequência você se levanta em reuniões ou em outras situações em que se espera que você permaneça sentado?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "asrs_13",
+      "text": {
+        "ru": "Как часто вы чувствуете беспокойство или сильную потребность пошевелиться?",
+        "en": "How often do you feel restless or fidgety?",
+        "fr": "À quelle fréquence vous sentez-vous agité ou nerveux ?",
+        "de": "Wie oft fühlen Sie sich rastlos oder zappelig?",
+        "pt": "Com que frequência você se sente inquieto ou irrequieto?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "asrs_14",
+      "text": {
+        "ru": "Как часто вам трудно расслабиться и отдохнуть, когда у вас есть время для себя?",
+        "en": "How often do you have difficulty unwinding and relaxing when you have time to yourself?",
+        "fr": "À quelle fréquence avez-vous du mal à vous détendre et à vous relaxer lorsque vous avez du temps pour vous ?",
+        "de": "Wie oft fällt es Ihnen schwer abzuschalten und sich zu entspannen, wenn Sie Zeit für sich haben?",
+        "pt": "Com que frequência você tem dificuldade para descontrair e relaxar quando tem tempo para si?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "asrs_15",
+      "text": {
+        "ru": "Как часто вы замечаете, что говорите слишком много в общественных ситуациях?",
+        "en": "How often do you find yourself talking too much when you are in social situations?",
+        "fr": "À quelle fréquence vous surprenez-vous à parler trop lorsque vous êtes en situation sociale ?",
+        "de": "Wie oft merken Sie, dass Sie in sozialen Situationen zu viel reden?",
+        "pt": "Com que frequência você percebe que fala demais em situações sociais?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "asrs_16",
+      "text": {
+        "ru": "В разговоре как часто вы заканчиваете фразы собеседников за них, не дожидаясь, пока они сами договорят?",
+        "en": "When you're in a conversation, how often do you find yourself finishing the sentences of the people you are talking to, before they can finish them themselves?",
+        "fr": "En conversation, à quelle fréquence vous surprenez-vous à finir les phrases de vos interlocuteurs avant qu’ils ne les terminent eux-mêmes ?",
+        "de": "Wie oft beenden Sie in einem Gespräch die Sätze Ihrer Gesprächspartner, bevor diese sie selbst beenden können?",
+        "pt": "Em uma conversa, com que frequência você se pega terminando as frases das pessoas antes que elas mesmas terminem?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "asrs_17",
+      "text": {
+        "ru": "Как часто вам трудно дождаться своей очереди, когда нужно соблюдать очерёдность?",
+        "en": "How often do you have difficulty waiting your turn in situations when turn taking is required?",
+        "fr": "À quelle fréquence avez-vous du mal à attendre votre tour lorsqu’il faut respecter une prise de parole à tour de rôle ?",
+        "de": "Wie oft fällt es Ihnen schwer, auf Ihre Reihe zu warten, wenn abwechselnd dran sein verlangt wird?",
+        "pt": "Com que frequência você tem dificuldade para esperar a sua vez quando é preciso alternar?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "asrs_18",
+      "text": {
+        "ru": "Как часто вы перебиваете других, когда они заняты?",
+        "en": "How often do you interrupt others when they are busy?",
+        "fr": "À quelle fréquence interrompez-vous les autres lorsqu’ils sont occupés ?",
+        "de": "Wie oft unterbrechen Sie andere, wenn diese beschäftigt sind?",
+        "pt": "Com que frequência você interrompe os outros quando estão ocupados?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Редко",
+            "en": "Rarely",
+            "fr": "Rarement",
+            "de": "Selten",
+            "pt": "Raramente"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often",
+            "fr": "Souvent",
+            "de": "Oft",
+            "pt": "Frequentemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

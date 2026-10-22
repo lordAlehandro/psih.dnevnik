@@ -1,0 +1,825 @@
+{
+  "id": "bsds",
+  "category": "bipolar",
+  "title": {
+    "ru": "BSDS — шкала диагностики биполярного спектра",
+    "en": "BSDS — Bipolar Spectrum Diagnostic Scale",
+    "fr": "BSDS — Échelle diagnostique du spectre bipolaire",
+    "de": "BSDS — Bipolares-Spektrum-Diagnostikskala",
+    "pt": "BSDS — Escala de diagnóstico do espectro bipolar"
+  },
+  "subtitle": {
+    "ru": "Насколько ваш опыт похож на описание биполярного спектра.",
+    "en": "How well your experience matches a bipolar-spectrum narrative.",
+    "fr": "Adéquation de votre vécu à un récit du spectre bipolaire.",
+    "de": "Wie gut Ihre Erfahrung zu einer bipolaren-Spektrum-Beschreibung passt.",
+    "pt": "Quão bem sua experiência se encaixa num relato do espectro bipolar."
+  },
+  "description": {
+    "ru": "Описательный скрининг биполярного спектра: отмечаете подходящие фразы и в конце оцениваете, насколько вся история похожа на вашу жизнь. Не диагноз. Pies; пересмотр Ghaemi et al. (2005). Интерпретация — вместе с клинической беседой.",
+    "en": "A descriptive bipolar-spectrum screen: mark sentences that fit you, then rate how well the whole story matches your life. Not a diagnosis. Pies; revised Ghaemi et al. (2005). Interpret with a clinical conversation.",
+    "fr": "Dépistage descriptif : cocher les phrases qui vous correspondent, puis l’adéquation globale. Pas un diagnostic. Ghaemi et al. (2005).",
+    "de": "Deskriptives Screening: passende Sätze markieren, dann globale Passung. Keine Diagnose. Ghaemi et al. (2005).",
+    "pt": "Triagem descritiva: marque o que combina e avalie o encaixe geral. Não é diagnóstico. Ghaemi et al. (2005)."
+  },
+  "instructions": {
+    "ru": "Ниже — описание типичного опыта при сменах настроения и энергии. Отметьте каждое предложение, которое относится лично к вам. В конце оцените, насколько вся история в целом похожа на вашу жизнь.",
+    "en": "Below is a story about shifts in mood and energy. Mark each sentence that applies to you personally. Then rate how well the whole story fits your life.",
+    "fr": "Ci-dessous, un récit sur les variations d’humeur et d’énergie. Cochez ce qui vous concerne, puis évaluez l’adéquation globale.",
+    "de": "Unten eine Beschreibung von Stimmungs- und Energieschwankungen. Markieren Sie, was auf Sie zutrifft, dann die globale Passung.",
+    "pt": "Abaixo, uma descrição de mudanças de humor e energia. Marque o que se aplica a você; depois avalie o encaixe geral."
+  },
+  "maxScore": 25,
+  "bandsBasis": "raw",
+  "bands": [
+    {
+      "minInclusive": 0,
+      "maxInclusive": 6,
+      "title": {
+        "ru": "Мало совпадений с описанием",
+        "en": "Few matches to the story",
+        "fr": "Peu de correspondances",
+        "de": "Wenig Übereinstimmung",
+        "pt": "Poucas correspondências"
+      },
+      "description": {
+        "ru": "Нижняя зона по сравнению с верхом шкалы; не диагноз.",
+        "en": "Lower band relative to the top of this screen; not a diagnosis.",
+        "fr": "Zone basse sur cette échelle ; pas un diagnostic.",
+        "de": "Unterer Bereich relativ zum oberen; keine Diagnose.",
+        "pt": "Faixa baixa nesta escala; não é diagnóstico."
+      }
+    },
+    {
+      "minInclusive": 7,
+      "maxInclusive": 12,
+      "title": {
+        "ru": "Низкая вероятность",
+        "en": "Low probability",
+        "fr": "Faible probabilité",
+        "de": "Geringe Wahrscheinlichkeit",
+        "pt": "Baixa probabilidade"
+      },
+      "description": {
+        "ru": "Умеренное число совпадений; сравните с тем, как вы себя чувствуете в жизни.",
+        "en": "A moderate number of matches—compare with your lived experience.",
+        "fr": "Nombre modéré de correspondances ; comparer à votre vécu.",
+        "de": "Mittlere Übereinstimmung; mit dem eigenen Erleben vergleichen.",
+        "pt": "Número moderado de correspondências; compare com sua experiência."
+      }
+    },
+    {
+      "minInclusive": 13,
+      "maxInclusive": 19,
+      "title": {
+        "ru": "Заметное совпадение с описанием",
+        "en": "Notable match to the story",
+        "fr": "Correspondance notable",
+        "de": "Deutliche Übereinstimmung",
+        "pt": "Correspondência notável"
+      },
+      "description": {
+        "ru": "Много совпадений с текстом скрининга; это повод обсудить настроение и энергию с врачом, не заключение о диагнозе.",
+        "en": "Many lines fit the screening story—worth discussing mood and energy with a clinician; not a diagnosis by itself.",
+        "fr": "Beaucoup de phrases correspondent ; à discuter avec un clinicien ; pas un diagnostic.",
+        "de": "Viele Treffer mit dem Text; Stimmung ärztlich besprechen; keine Diagnose.",
+        "pt": "Muitas frases combinam; converse com um profissional; não é diagnóstico."
+      }
+    },
+    {
+      "minInclusive": 20,
+      "maxInclusive": 25,
+      "title": {
+        "ru": "Очень сильное совпадение",
+        "en": "Very strong match",
+        "fr": "Très forte correspondance",
+        "de": "Sehr starke Übereinstimmung",
+        "pt": "Correspondência muito forte"
+      },
+      "description": {
+        "ru": "Описание сильно перекликается с вашим опытом; рекомендуется клиническая оценка.",
+        "en": "The story aligns closely with your experience; seek clinical assessment.",
+        "fr": "Le récit colle fortement à votre vécu ; évaluation clinique recommandée.",
+        "de": "Die Beschreibung passt sehr gut; klinische Abklärung empfohlen.",
+        "pt": "A descrição combina muito; avaliação clínica recomendada."
+      }
+    }
+  ],
+  "subscales": [
+    {
+      "id": "narrative",
+      "label": {
+        "ru": "Отмеченные предложения",
+        "en": "Sentences you marked",
+        "fr": "Phrases cochées",
+        "de": "Zutreffende Sätze",
+        "pt": "Frases marcadas"
+      },
+      "itemIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "maxScore": 19
+    },
+    {
+      "id": "story_fit",
+      "label": {
+        "ru": "Насколько вся история похожа на вашу жизнь",
+        "en": "How well the whole story fits your life",
+        "fr": "Adéquation globale du récit",
+        "de": "Globale Passung der Geschichte",
+        "pt": "Quão bem a história toda combina com você"
+      },
+      "itemIndices": [
+        19
+      ],
+      "maxScore": 6
+    }
+  ],
+  "resultNote": {
+    "ru": "Результат сочетает, сколько фраз вам подошло, и оценку совпадения истории в целом. Используйте вместе с беседой со специалистом и при необходимости с другими скринингами — не как единственный источник вывода.",
+    "en": "Your result combines how many lines fit and how well the full story matches you. Use it alongside a clinical conversation—and other screens if needed—not as the only basis for conclusions.",
+    "fr": "Le résultat mélange le nombre de phrases et l’adéquation globale. À croiser avec un entretien clinique.",
+    "de": "Das Ergebnis verbindet Trefferzahl und globale Passung. Im Gespräch mit Fachperson einordnen.",
+    "pt": "O resultado junta quantas frases combinam e o encaixe geral. Use junto de conversa clínica."
+  },
+  "questions": [
+    {
+      "id": "bsds_1",
+      "text": {
+        "ru": "Некоторые люди замечают, что их настроение и/или уровень энергии время от времени резко меняются.",
+        "en": "Some individuals notice that their mood and/or energy levels shift drastically from time to time.",
+        "fr": "Certaines personnes remarquent que leur humeur et/ou leur niveau d'énergie change fortement d'un moment à l'autre.",
+        "de": "Manche Menschen bemerken, dass sich ihre Stimmung und/oder ihr Energieniveau mit der Zeit stark verschieben.",
+        "pt": "Algumas pessoas notam que o humor e/ou o nível de energia mudam muito de um momento para outro."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, не про меня",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да, это про меня",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "bsds_2",
+      "text": {
+        "ru": "Они замечают, что иногда настроение и/или энергия очень низкие, а в другие периоды — очень высокие.",
+        "en": "They notice that at times their mood and/or energy level is very low, and at other times very high.",
+        "fr": "Elles remarquent qu'à certains moments leur humeur et/ou leur énergie sont très basses, et à d'autres très élevées.",
+        "de": "Sie bemerken, dass Stimmung und/oder Energie zu Zeiten sehr niedrig und zu anderen Zeiten sehr hoch sind.",
+        "pt": "Elas notam que, às vezes, o humor e/ou a energia ficam muito baixos e, em outros momentos, muito altos."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, не про меня",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да, это про меня",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "bsds_3",
+      "text": {
+        "ru": "В «низкие» периоды им часто не хватает энергии, хочется оставаться в постели или спать больше обычного, и почти нет сил на дела, которые нужно сделать.",
+        "en": "During their \"low\" phases, they often feel a lack of energy, a need to stay in bed or get extra sleep, and little or no motivation to do a lot of what they need to do.",
+        "fr": "Pendant les phases « basses », elles ressentent souvent un manque d'énergie, le besoin de rester au lit ou de dormir plus, et peu ou pas de motivation pour faire beaucoup de ce qu'elles doivent faire.",
+        "de": "In „tiefen“ Phasen fühlen sie oft Energiemangel, das Bedürfnis, im Bett zu bleiben oder mehr zu schlafen, und wenig oder keine Motivation für vieles von dem, was zu tun ist.",
+        "pt": "Nas fases “baixas”, costumam sentir falta de energia, vontade de ficar na cama ou dormir mais, e pouca ou nenhuma motivação para fazer muito do que precisam fazer."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, не про меня",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да, это про меня",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "bsds_4",
+      "text": {
+        "ru": "В такие периоды они часто набирают вес.",
+        "en": "They often put on weight during these periods.",
+        "fr": "Elles prennent souvent du poids pendant ces périodes.",
+        "de": "In diesen Zeiten nehmen sie oft zu.",
+        "pt": "Costumam ganhar peso nesses períodos."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, не про меня",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да, это про меня",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "bsds_5",
+      "text": {
+        "ru": "В низкие периоды они часто чувствуют подавленность, постоянную грусть или депрессию.",
+        "en": "During their low phases, they often feel \"blue,\" sad all the time, or depressed.",
+        "fr": "Pendant les phases basses, elles se sentent souvent « déprimées », tristes tout le temps ou en dépression.",
+        "de": "In tiefen Phasen fühlen sie sich oft „niedergeschlagen“, dauernd traurig oder depressiv.",
+        "pt": "Nas fases baixas, costumam se sentir “para baixo”, tristes o tempo todo ou deprimidas."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, не про меня",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да, это про меня",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "bsds_6",
+      "text": {
+        "ru": "Иногда в низкие периоды они чувствуют себя беспомощными или даже думают о суициде.",
+        "en": "Sometimes, during these low phases, they feel helpless or even suicidal.",
+        "fr": "Parfois, pendant ces phases basses, elles se sentent impuissantes ou même suicidaires.",
+        "de": "Manchmal fühlen sie sich in diesen tiefen Phasen hilflos oder sogar suizidal.",
+        "pt": "Às vezes, nessas fases baixas, sentem-se impotentes ou até com pensamentos suicidas."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, не про меня",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да, это про меня",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "bsds_7",
+      "text": {
+        "ru": "Их способность работать или общаться с людьми страдает.",
+        "en": "Their ability to function at work or socially is impaired.",
+        "fr": "Leur capacité à fonctionner au travail ou socialement est diminuée.",
+        "de": "Ihre Fähigkeit, bei der Arbeit oder sozial zu funktionieren, ist beeinträchtigt.",
+        "pt": "A capacidade de funcionar no trabalho ou socialmente fica prejudicada."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, не про меня",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да, это про меня",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "bsds_8",
+      "text": {
+        "ru": "Обычно низкие фазы длятся несколько недель, но иногда — всего несколько дней.",
+        "en": "Typically, the low phases last for a few weeks, but sometimes they last only a few days.",
+        "fr": "En général, les phases basses durent quelques semaines, mais parfois seulement quelques jours.",
+        "de": "Meist dauern die tiefen Phasen einige Wochen, manchmal aber nur einige Tage.",
+        "pt": "Em geral, as fases baixas duram algumas semanas, mas às vezes só alguns dias."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, не про меня",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да, это про меня",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "bsds_9",
+      "text": {
+        "ru": "У людей с таким рисунком могут быть периоды «нормального» настроения между сдвигами, когда энергия кажется «как надо» и дела получаются без особых трудностей.",
+        "en": "Individuals with this kind of pattern may experience a period of \"normal\" mood in between mood swings, when their mood and energy level feel \"right\" and their ability to function is not disturbed.",
+        "fr": "Les personnes avec ce type de schéma peuvent avoir des périodes d'humeur « normale » entre les changements, quand l'humeur et l'énergie semblent « justes » et que le fonctionnement n'est pas perturbé.",
+        "de": "Menschen mit diesem Muster können zwischen den Schwankungen Phasen „normaler“ Stimmung haben, wenn Stimmung und Energie „stimmen“ und das Funktionieren nicht gestört ist.",
+        "pt": "Quem tem esse tipo de padrão pode ter períodos de humor “normal” entre as mudanças, quando o humor e a energia parecem “certos” e o funcionamento não é afetado."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, не про меня",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да, это про меня",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "bsds_10",
+      "text": {
+        "ru": "Потом они могут заметить резкий перелом или «переключение» в самочувствии.",
+        "en": "They may then notice a marked shift or \"switch\" in the way they feel.",
+        "fr": "Elles peuvent alors remarquer un changement marqué ou un « basculement » dans leur façon de se sentir.",
+        "de": "Dann können sie einen deutlichen Wechsel oder „Schalter“ in ihrem Befinden bemerken.",
+        "pt": "Então podem notar uma mudança clara ou uma “virada” na forma como se sentem."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, не про меня",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да, это про меня",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "bsds_11",
+      "text": {
+        "ru": "Энергия становится выше, чем обычно для них, и они успевают сделать много того, что в обычное время было бы трудно.",
+        "en": "Their energy increases above what is normal for them, and they often get many things done they would not ordinarily be able to do.",
+        "fr": "Leur énergie augmente au-dessus de ce qui est normal pour elles, et elles réalisent souvent beaucoup de choses qu'elles ne pourraient pas faire d'habitude.",
+        "de": "Ihre Energie steigt über das für sie Übliche, und sie erledigen oft vieles, was sie gewöhnlich nicht schaffen würden.",
+        "pt": "A energia sobe acima do que é normal para elas e costumam fazer muita coisa que normalmente não conseguiriam."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, не про меня",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да, это про меня",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "bsds_12",
+      "text": {
+        "ru": "Иногда в такие «высокие» периоды кажется, что энергии слишком много, или они чувствуют себя «накрученными».",
+        "en": "Sometimes during those \"high\" periods they feel as if they have too much energy or feel \"hyper.\"",
+        "fr": "Parfois, pendant ces périodes « hautes », elles ont l'impression d'avoir trop d'énergie ou de se sentir « hyper ».",
+        "de": "Manchmal haben sie in diesen „hohen“ Phasen das Gefühl, zu viel Energie zu haben oder „hyper“ zu sein.",
+        "pt": "Às vezes, nessas fases “altas”, sentem como se tivessem energia demais ou ficam “hiper”."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, не про меня",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да, это про меня",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "bsds_13",
+      "text": {
+        "ru": "В высокие периоды некоторые раздражительны, «на взводе» или агрессивны.",
+        "en": "Some individuals, during these high periods, feel irritable, \"on edge,\" or aggressive.",
+        "fr": "Certaines personnes, pendant ces périodes hautes, se sentent irritables, « sur les nerfs » ou agressives.",
+        "de": "Manche fühlen sich in hohen Phasen reizbar, „auf Kante genäht“ oder aggressiv.",
+        "pt": "Algumas pessoas, nessas fases altas, ficam irritáveis, “à flor da pele” ou agressivas."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, не про меня",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да, это про меня",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "bsds_14",
+      "text": {
+        "ru": "В высокие периоды некоторые берут на себя слишком много дел сразу.",
+        "en": "Some individuals, during the high periods, take on too many activities at once.",
+        "fr": "Certaines personnes, pendant les périodes hautes, prennent trop d'activités en même temps.",
+        "de": "Manche nehmen in hohen Phasen zu viele Aktivitäten auf einmal auf.",
+        "pt": "Algumas pessoas, nas fases altas, assumem atividades demais ao mesmo tempo."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, не про меня",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да, это про меня",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "bsds_15",
+      "text": {
+        "ru": "В высокие периоды некоторые тратят деньги так, что потом возникают проблемы.",
+        "en": "During the high periods, some may spend money in ways that cause them trouble.",
+        "fr": "Pendant les périodes hautes, certaines dépensent de l'argent de façon à avoir des problèmes.",
+        "de": "In hohen Phasen geben manche Geld so aus, dass es Probleme macht.",
+        "pt": "Nas fases altas, algumas gastam dinheiro de um jeito que lhes causa problemas."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, не про меня",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да, это про меня",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "bsds_16",
+      "text": {
+        "ru": "В эти периоды они могут быть более разговорчивыми, общительными или с повышенным интересом к сексу.",
+        "en": "They may be more talkative, outgoing, or sexual during these periods.",
+        "fr": "Elles peuvent être plus bavardes, plus extraverties ou plus portées sur le sexe pendant ces périodes.",
+        "de": "In diesen Phasen können sie gesprächiger, extrovertierter oder sexuell interessierter sein.",
+        "pt": "Nesses períodos podem ficar mais falantes, extrovertidas ou com mais interesse sexual."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, не про меня",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да, это про меня",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "bsds_17",
+      "text": {
+        "ru": "Иногда их поведение в высокие периоды кажется окружающим странным или раздражающим.",
+        "en": "Sometimes their behavior during the high periods seems strange or annoying to others.",
+        "fr": "Parfois leur comportement pendant les périodes hautes semble étrange ou agaçant pour les autres.",
+        "de": "Manchmal wirkt ihr Verhalten in hohen Phasen anderen seltsam oder nervig.",
+        "pt": "Às vezes o comportamento nas fases altas parece estranho ou irritante para os outros."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, не про меня",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да, это про меня",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "bsds_18",
+      "text": {
+        "ru": "Иногда в высокие периоды возникают конфликты на работе или проблемы с полицией.",
+        "en": "Sometimes they get into difficulty with co-workers or the police during these high periods.",
+        "fr": "Parfois elles ont des problèmes avec des collègues ou la police pendant ces périodes hautes.",
+        "de": "Manchmal geraten sie in hohen Phasen mit Kolleginnen und Kollegen oder der Polizei in Schwierigkeiten.",
+        "pt": "Às vezes têm problemas com colegas de trabalho ou com a polícia nessas fases altas."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, не про меня",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да, это про меня",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "bsds_19",
+      "text": {
+        "ru": "Иногда в высокие периоды они чаще пьют алкоголь или употребляют лекарства без назначения врача.",
+        "en": "Sometimes they increase their alcohol or nonprescription drug use during the high periods.",
+        "fr": "Parfois elles augmentent leur consommation d'alcool ou de médicaments sans ordonnance pendant les périodes hautes.",
+        "de": "Manchmal steigern sie in hohen Phasen Alkohol oder Medikamente ohne Rezept.",
+        "pt": "Às vezes aumentam o uso de álcool ou de remédios sem receita nas fases altas."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, не про меня",
+            "en": "No",
+            "fr": "Non",
+            "de": "Nein",
+            "pt": "Não"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Да, это про меня",
+            "en": "Yes",
+            "fr": "Oui",
+            "de": "Ja",
+            "pt": "Sim"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "bsds_20",
+      "text": {
+        "ru": "Прочитав это описание, насколько оно в целом похоже на ваш собственный опыт?",
+        "en": "After reading this description, how well does this story fit your own experience?",
+        "fr": "Après avoir lu cette description, dans quelle mesure cette histoire correspond-elle à votre propre expérience ?",
+        "de": "Wie gut passt diese Geschichte nach dem Lesen auf Ihre eigenen Erfahrungen?",
+        "pt": "Depois de ler esta descrição, até que ponto essa história se parece com a sua própria experiência?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Очень хорошо подходит, почти идеально",
+            "en": "This story fits me very well, or almost perfectly",
+            "fr": "Cette histoire me correspond très bien, ou presque parfaitement",
+            "de": "Diese Geschichte passt sehr gut oder fast perfekt auf mich",
+            "pt": "Esta história me descreve muito bem, ou quase perfeitamente"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Довольно хорошо подходит",
+            "en": "This story fits me fairly well",
+            "fr": "Cette histoire me correspond assez bien",
+            "de": "Diese Geschichte passt ziemlich gut auf mich",
+            "pt": "Esta história me descreve razoavelmente bem"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Отчасти подходит, но в целом нет",
+            "en": "This story fits me to some degree, but not in most respects",
+            "fr": "Un peu, mais pas dans l’ensemble",
+            "de": "Trifft teilweise zu, aber meist nicht",
+            "pt": "Em parte, mas não na maior parte"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Почти не описывает меня",
+            "en": "This story does not really describe me at all",
+            "fr": "Cette histoire ne me décrit pas vraiment",
+            "de": "Diese Geschichte trifft auf mich kaum zu",
+            "pt": "Esta história não me descreve de fato"
+          },
+          "score": 0
+        }
+      ]
+    }
+  ]
+}

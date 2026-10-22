@@ -1,0 +1,3380 @@
+{
+  "id": "das",
+  "category": "depression",
+  "title": {
+    "ru": "DAS — шкала дисфункциональных установок (форма A)",
+    "en": "DAS — Dysfunctional Attitude Scale (Form A)",
+    "fr": "DAS — Échelle des attitudes dysfonctionnelles (forme A)",
+    "de": "DAS — Dysfunktionale Einstellungsskala (Form A)",
+    "pt": "DAS — Escala de Atitudes Disfuncionais (Forma A)"
+  },
+  "subtitle": {
+    "ru": "Установки и схемы мышления, связанные с уязвимостью к депрессии.",
+    "en": "Dysfunctional attitudes and beliefs linked to depression vulnerability.",
+    "fr": "Attitudes dysfonctionnelles liées à la vulnérabilité à la dépression.",
+    "de": "Dysfunktionale Einstellungen im Zusammenhang mit Depressionsanfälligkeit.",
+    "pt": "Atitudes disfuncionais ligadas à vulnerabilidade à depressão."
+  },
+  "description": {
+    "ru": "Самооценка дисфункциональных установок и схем, связанных с уязвимостью к депрессии (Weissman & Beck, 1978). Не диагноз. Материалы могут охраняться правами; коммерческое использование может требовать разрешения.",
+    "en": "Self-report of dysfunctional attitudes linked to depression vulnerability (Weissman & Beck, 1978). Not a diagnosis. May be copyrighted; permission may be required for commercial use.",
+    "fr": "Auto-évaluation des attitudes dysfonctionnelles (Weissman & Beck, 1978). Pas un diagnostic. Droits possibles ; permissions selon les usages.",
+    "de": "Selbstbeschreibung dysfunktionaler Einstellungen (Weissman & Beck, 1978). Keine Diagnose. Urheberrechte möglich.",
+    "pt": "Autorrelato de atitudes disfuncionais (Weissman & Beck, 1978). Não é diagnóstico. Pode haver direitos autorais."
+  },
+  "instructions": {
+    "ru": "Прочитайте каждое утверждение и выберите вариант, который лучше всего отражает вашу степень согласия. Нет правильных или неправильных ответов — важны ваши личные убеждения.",
+    "en": "Read each statement and choose the option that best reflects how much you agree. There are no right or wrong answers—pick what matches your beliefs.",
+    "fr": "Lisez chaque phrase et choisissez la réponse qui reflète le mieux votre accord. Il n’y a pas de bonnes ou mauvaises réponses.",
+    "de": "Lesen Sie jede Aussage und wählen Sie die Antwort, die Ihre Zustimmung am besten widerspiegelt. Es gibt keine richtigen oder falschen Antworten.",
+    "pt": "Leia cada frase e escolha a opção que melhor reflete o quanto concorda. Não há respostas certas ou erradas."
+  },
+  "maxScore": 280,
+  "bandsBasis": "raw",
+  "bands": [
+    {
+      "minInclusive": 40,
+      "maxInclusive": 120,
+      "title": {
+        "ru": "Нижняя часть диапазона",
+        "en": "Lower part of the range",
+        "fr": "Partie basse",
+        "de": "Unterer Bereich",
+        "pt": "Parte baixa"
+      },
+      "description": {
+        "ru": "Более низкая выраженность дисфункциональных установок в сравнении с верхними зонами шкалы; ориентир, не диагноз.",
+        "en": "Lower endorsement of dysfunctional attitudes relative to higher bands; a guide, not a diagnosis.",
+        "fr": "Moins d’adhésion aux attitudes dysfonctionnelles qu’aux zones supérieures ; indicatif seulement.",
+        "de": "Geringere Zustimmung zu dysfunktionalen Einstellungen als in höheren Bereichen; nur Orientierung.",
+        "pt": "Menor adesão a atitudes disfuncionais que nas faixas altas; só orientação."
+      }
+    },
+    {
+      "minInclusive": 121,
+      "maxInclusive": 180,
+      "title": {
+        "ru": "Средняя зона",
+        "en": "Middle range",
+        "fr": "Zone moyenne",
+        "de": "Mittlerer Bereich",
+        "pt": "Faixa média"
+      },
+      "description": {
+        "ru": "Средняя зона по сравнению с верхом и низом шкалы; сравнивайте с прошлыми прохождениями и текущим настроением.",
+        "en": "A middle band relative to higher and lower areas; compare with your past results and current mood.",
+        "fr": "Zone intermédiaire par rapport au haut et au bas ; comparer avec vos références.",
+        "de": "Mittlerer Bereich relativ zu höheren und niederen Zonen; mit früheren Ergebnissen vergleichen.",
+        "pt": "Faixa intermediária em relação às áreas altas e baixas; compare com resultados anteriores e humor atual."
+      }
+    },
+    {
+      "minInclusive": 181,
+      "maxInclusive": 280,
+      "title": {
+        "ru": "Верхняя часть диапазона",
+        "en": "Upper part of the range",
+        "fr": "Partie haute",
+        "de": "Oberer Bereich",
+        "pt": "Parte alta"
+      },
+      "description": {
+        "ru": "Более выраженные дисфункциональные убеждения; в исследованиях это связано с большей уязвимостью к депрессии. Не диагноз — при страдании обратитесь к специалисту.",
+        "en": "Stronger dysfunctional beliefs; in research this links to greater depression vulnerability. Not a diagnosis—seek help if you are struggling.",
+        "fr": "Croyances plus dysfonctionnelles ; en recherche, lien avec la vulnérabilité dépressive. Pas un diagnostic.",
+        "de": "Stärkere dysfunktionale Überzeugungen; in Studien mit Depressionsanfälligkeit verknüpft. Keine Diagnose.",
+        "pt": "Crenças mais disfuncionais; em estudos, ligadas a maior vulnerabilidade à depressão. Não é diagnóstico."
+      }
+    }
+  ],
+  "subscales": [],
+  "resultNote": {
+    "ru": "Часть утверждений сформулирована в позитивном ключе — варианты ответа в приложении уже учитывают это, чтобы итог отражал силу дисфункциональных установок. Это не диагноз.",
+    "en": "Some items are positively worded; the app adjusts responses so the overall pattern still reflects how strong dysfunctional attitudes feel for you. Not a diagnosis.",
+    "fr": "Certaines phrases sont positives ; l’application harmonise les réponses pour que le profil reflète l’intensité des attitudes dysfonctionnelles. Pas un diagnostic.",
+    "de": "Einige Aussagen sind positiv formuliert; die App gewichtet Antworten so, dass das Gesamtbild die Stärke dysfunktionaler Einstellungen widerspiegelt. Keine Diagnose.",
+    "pt": "Algumas frases são positivas; o app ajusta as respostas para o perfil refletir o quanto as atitudes disfuncionais pesam para você. Não é diagnóstico."
+  },
+  "questions": [
+    {
+      "id": "das_a_1",
+      "text": {
+        "ru": "Трудно быть счастливым, если ты не красивый, не умный, не богатый и не творческий.",
+        "en": "It is difficult to be happy unless one is good looking, intelligent, rich and creative.",
+        "fr": "Il est difficile d’être heureux sans être beau, intelligent, riche et créatif.",
+        "de": "Es ist schwer glücklich zu sein, wenn man nicht gut aussieht, intelligent, reich und kreativ ist.",
+        "pt": "É difícil ser feliz sem ser bonito, inteligente, rico e criativo."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_2",
+      "text": {
+        "ru": "Счастье больше зависит от моего отношения к себе, чем от того, как ко мне относятся другие.",
+        "en": "Happiness is more a matter of my attitude towards myself than the way other people feel about me.",
+        "fr": "Le bonheur dépend davantage de mon attitude envers moi-même que du regard des autres.",
+        "de": "Glück hängt mehr von meiner Einstellung zu mir selbst ab als davon, wie andere über mich denken.",
+        "pt": "A felicidade depende mais da minha atitude para comigo do que do que os outros sentem por mim."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "das_a_3",
+      "text": {
+        "ru": "Если я ошибусь, люди, вероятно, станут хуже обо мне думать.",
+        "en": "People will probably think less of me if I make a mistake.",
+        "fr": "Les gens penseront probablement moins bien de moi si je fais une erreur.",
+        "de": "Die Leute werden wohl schlechter über mich denken, wenn ich einen Fehler mache.",
+        "pt": "As pessoas provavelmente pensarão pior de mim se eu errar."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_4",
+      "text": {
+        "ru": "Если я не буду всегда хорошо справляться, меня не будут уважать.",
+        "en": "If I do not do well all the time, people will not respect me.",
+        "fr": "Si je ne réussis pas tout le temps, on ne me respectera pas.",
+        "de": "Wenn ich nicht immer gut abschneide, respektieren mich die Leute nicht.",
+        "pt": "Se eu não for bem o tempo todo, as pessoas não me respeitarão."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_5",
+      "text": {
+        "ru": "Даже небольшой риск глуп — ведь потеря, скорее всего, будет катастрофой.",
+        "en": "Taking even a small risk is foolish because the loss is likely to be a disaster.",
+        "fr": "Prendre un petit risque est stupide, car la perte risque d’être un désastre.",
+        "de": "Selbst ein kleines Risiko einzugehen ist töricht, denn der Verlust wird wahrscheinlich eine Katastrophe sein.",
+        "pt": "Correr até um pequeno risco é tolo, porque a perda provavelmente será um desastre."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_6",
+      "text": {
+        "ru": "Можно заслужить уважение другого человека, не будя выдающимся талантом ни в чём.",
+        "en": "It is possible to gain another person's respect without being especially talented at anything.",
+        "fr": "On peut gagner le respect d’autrui sans être particulièrement doué pour quoi que ce soit.",
+        "de": "Man kann den Respekt eines anderen gewinnen, ohne in irgendetwas besonders talentiert zu sein.",
+        "pt": "É possível ganhar o respeito de outra pessoa sem ser especialmente talentoso em nada."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "das_a_7",
+      "text": {
+        "ru": "Я не могу быть счастливым, если большинство знакомых мне людей не восхищаются мной.",
+        "en": "I cannot be happy unless most people I know admire me.",
+        "fr": "Je ne peux pas être heureux si la plupart des gens que je connais ne m’admirent pas.",
+        "de": "Ich kann nicht glücklich sein, wenn mich die meisten Menschen, die ich kenne, nicht bewundern.",
+        "pt": "Não posso ser feliz se a maioria das pessoas que conheço não me admira."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_8",
+      "text": {
+        "ru": "Если человек просит о помощи, это признак слабости.",
+        "en": "If a person asks for help, it is a sign of weakness.",
+        "fr": "Demander de l’aide est un signe de faiblesse.",
+        "de": "Wenn jemand um Hilfe bittet, ist das ein Zeichen von Schwäche.",
+        "pt": "Se alguém pede ajuda, é sinal de fraqueza."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_9",
+      "text": {
+        "ru": "Если я справляюсь не так хорошо, как другие, значит, я как личность ниже их.",
+        "en": "If I do not do as well as other people, it means I am an inferior human being.",
+        "fr": "Si je ne fais pas aussi bien que les autres, cela veut dire que je suis inférieur.",
+        "de": "Wenn ich nicht so gut abschneide wie andere, bedeutet das, dass ich minderwertig bin.",
+        "pt": "Se eu não me saio tão bem quanto os outros, sou inferior como ser humano."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_10",
+      "text": {
+        "ru": "Если я терплю неудачу в работе, значит, я неудачник как человек.",
+        "en": "If I fail at my work, then I am a failure as a person.",
+        "fr": "Si j’échoue dans mon travail, alors je suis un raté en tant que personne.",
+        "de": "Wenn ich in meiner Arbeit versage, bin ich als Mensch ein Versager.",
+        "pt": "Se falho no trabalho, sou um fracasso como pessoa."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_11",
+      "text": {
+        "ru": "Если нельзя сделать что-то хорошо, в этом мало смысла.",
+        "en": "If you cannot do something well, there is little point in doing it at all.",
+        "fr": "Si on ne peut pas bien faire quelque chose, autant ne pas le faire.",
+        "de": "Wenn man etwas nicht gut kann, lohnt es sich kaum, es überhaupt zu tun.",
+        "pt": "Se não dá para fazer algo bem, quase não vale a pena fazer."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_12",
+      "text": {
+        "ru": "Ошибаться нормально — я могу учиться на ошибках.",
+        "en": "Making mistakes is fine because I can learn from them.",
+        "fr": "Se tromper n’est pas grave car j’en apprends.",
+        "de": "Fehler sind in Ordnung, weil ich aus ihnen lernen kann.",
+        "pt": "Errar é aceitável porque posso aprender com os erros."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "das_a_13",
+      "text": {
+        "ru": "Если кто-то со мной не согласен, это, скорее всего, значит, что он меня не любит.",
+        "en": "If someone disagrees with me, it probably indicates that he does not like me.",
+        "fr": "Si quelqu’un n’est pas d’accord avec moi, c’est probablement qu’il ne m’aime pas.",
+        "de": "Wenn jemand mir widerspricht, bedeutet das wahrscheinlich, dass er mich nicht mag.",
+        "pt": "Se alguém discorda de mim, provavelmente não gosta de mim."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_14",
+      "text": {
+        "ru": "Частичная неудача так же плоха, как полный провал.",
+        "en": "If I fail partly, it is as bad as being a complete failure.",
+        "fr": "Échouer en partie, c’est aussi grave qu’un échec total.",
+        "de": "Teilweise zu versagen ist genauso schlimm wie völlig zu versagen.",
+        "pt": "Falhar em parte é tão ruim quanto falhar por completo."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_15",
+      "text": {
+        "ru": "Если люди узнают, какой ты есть на самом деле, они станут хуже о тебе думать.",
+        "en": "If other people know what you are really like, they will think less of you.",
+        "fr": "Si les autres savent ce que vous êtes vraiment, ils penseront moins bien de vous.",
+        "de": "Wenn andere wissen, wie man wirklich ist, werden sie schlechter über einen denken.",
+        "pt": "Se as pessoas souberem como você é de verdade, pensarão pior de você."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_16",
+      "text": {
+        "ru": "Я — ничто, если человек, которого я люблю, не любит меня.",
+        "en": "I am nothing if a person I love does not love me.",
+        "fr": "Je ne suis rien si la personne que j’aime ne m’aime pas.",
+        "de": "Ich bin nichts, wenn der Mensch, den ich liebe, mich nicht liebt.",
+        "pt": "Eu não sou nada se a pessoa que amo não me ama."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_17",
+      "text": {
+        "ru": "Можно получать удовольствие от занятия независимо от результата.",
+        "en": "One can get pleasure from an activity regardless of the result.",
+        "fr": "On peut prendre plaisir à une activité quel qu’en soit le résultat.",
+        "de": "Man kann Freude an einer Tätigkeit haben, unabhängig vom Ergebnis.",
+        "pt": "Dá para ter prazer numa atividade independentemente do resultado."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "das_a_18",
+      "text": {
+        "ru": "Люди должны иметь разумные шансы на успех, прежде чем что-то предпринимать.",
+        "en": "People should have a reasonable likelihood of success before undertaking anything.",
+        "fr": "On devrait avoir des chances raisonnables de réussir avant de se lancer.",
+        "de": "Menschen sollten eine vernünftige Erfolgsaussicht haben, bevor sie etwas unternehmen.",
+        "pt": "As pessoas deveriam ter chance razoável de sucesso antes de empreender algo."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_19",
+      "text": {
+        "ru": "Моя ценность как личности сильно зависит от того, что обо мне думают другие.",
+        "en": "My value as a person depends greatly on what others think of me.",
+        "fr": "Ma valeur en tant que personne dépend beaucoup de ce que les autres pensent de moi.",
+        "de": "Mein Wert als Person hängt stark davon ab, was andere über mich denken.",
+        "pt": "Meu valor como pessoa depende muito do que os outros pensam de mim."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_20",
+      "text": {
+        "ru": "Если я не задаю себе самые высокие стандарты, я, скорее всего, окажусь «вторым сортом».",
+        "en": "If I don't set the highest standards for myself, I am likely to end up a second-rate person.",
+        "fr": "Si je ne me fixe pas les plus hauts standards, je finirai probablement médiocre.",
+        "de": "Wenn ich mir nicht die höchsten Standards setze, werde ich wahrscheinlich mittelmäßig.",
+        "pt": "Se não exijo o máximo de mim, provavelmente serei medíocre."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_21",
+      "text": {
+        "ru": "Чтобы быть достойным человеком, я должен быть по-настоящему выдающимся хотя бы в одной важной области.",
+        "en": "If I am to be a worthwhile person, I must be truly outstanding in at least one major respect.",
+        "fr": "Pour valoir quelque chose, je dois être vraiment exceptionnel dans au moins un domaine majeur.",
+        "de": "Um ein wertvoller Mensch zu sein, muss ich in mindestens einem großen Bereich wirklich herausragend sein.",
+        "pt": "Para ser uma pessoa que vale a pena, preciso ser realmente excepcional em pelo menos uma área importante."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_22",
+      "text": {
+        "ru": "Люди с хорошими идеями достойнее тех, у кого их нет.",
+        "en": "People who have good ideas are more worthy than those who do not.",
+        "fr": "Les gens qui ont de bonnes idées valent plus que ceux qui n’en ont pas.",
+        "de": "Menschen mit guten Ideen sind wertvoller als die ohne.",
+        "pt": "Quem tem boas ideias vale mais do que quem não tem."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_23",
+      "text": {
+        "ru": "Мне следует расстраиваться, если я совершаю ошибку.",
+        "en": "I should be upset if I make a mistake.",
+        "fr": "Je devrais être contrarié si je fais une erreur.",
+        "de": "Ich sollte verärgert sein, wenn ich einen Fehler mache.",
+        "pt": "Devo ficar chateado se cometo um erro."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_24",
+      "text": {
+        "ru": "Моё собственное мнение о себе важнее мнения других обо мне.",
+        "en": "My own opinions of myself are more important than others' opinions of me.",
+        "fr": "Mon opinion de moi-même compte plus que celle des autres.",
+        "de": "Meine eigene Meinung über mich ist wichtiger als die Meinung anderer.",
+        "pt": "Minha própria opinião sobre mim é mais importante que a dos outros."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "das_a_25",
+      "text": {
+        "ru": "Чтобы быть хорошим, нравственным, достойным человеком, я должен помогать всем, кому нужна помощь.",
+        "en": "To be a good, moral, worthwhile person, I must help everyone who needs it.",
+        "fr": "Pour être une bonne personne, je dois aider tous ceux qui en ont besoin.",
+        "de": "Um ein guter, moralischer Mensch zu sein, muss ich jedem helfen, der Hilfe braucht.",
+        "pt": "Para ser uma pessoa boa, moral e que vale a pena, devo ajudar todos que precisam."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_26",
+      "text": {
+        "ru": "Если я задаю вопрос, это делает меня ущербным в глазах других.",
+        "en": "If I ask a question, it makes me look inferior.",
+        "fr": "Si je pose une question, j’ai l’air inférieur.",
+        "de": "Wenn ich eine Frage stelle, wirke ich minderwertig.",
+        "pt": "Se faço uma pergunta, pareço inferior."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_27",
+      "text": {
+        "ru": "Ужасно, если тебя не одобряют важные для тебя люди.",
+        "en": "It is awful to be disapproved of by other people important to you.",
+        "fr": "C’est terrible d’être désapprouvé par des gens importants pour vous.",
+        "de": "Es ist schrecklich, von wichtigen Menschen missbilligt zu werden.",
+        "pt": "É terrível ser desaprovado por pessoas importantes para você."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_28",
+      "text": {
+        "ru": "Если нет людей, на которых можно опереться, неизбежно будет грустно.",
+        "en": "If you don't have other people to lean on, you are bound to be sad.",
+        "fr": "Sans personne sur qui s’appuyer, on est condamné à la tristesse.",
+        "de": "Ohne andere, auf die man sich stützen kann, ist man dem Unglück ausgeliefert.",
+        "pt": "Se você não tem ninguém em quem se apoiar, ficará triste."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_29",
+      "text": {
+        "ru": "Я могу достичь важных целей, не изнуряя себя.",
+        "en": "I can reach important goals without slave driving myself.",
+        "fr": "Je peux atteindre des objectifs importants sans m’épuiser.",
+        "de": "Ich kann wichtige Ziele erreichen, ohne mich zu quälen.",
+        "pt": "Posso alcançar metas importantes sem me escravizar."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "das_a_30",
+      "text": {
+        "ru": "Человека могут отчитать — и он может не расстроиться.",
+        "en": "It is possible for a person to be scolded and not get upset.",
+        "fr": "On peut être grondé et ne pas être contrarié.",
+        "de": "Man kann getadelt werden und sich nicht aufregen.",
+        "pt": "É possível uma pessoa ser repreendida e não ficar chateada."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "das_a_31",
+      "text": {
+        "ru": "Я не могу доверять другим: они могут быть жестоки ко мне.",
+        "en": "I cannot trust other people because they might be cruel to me.",
+        "fr": "Je ne peux pas faire confiance aux autres : ils pourraient être cruels.",
+        "de": "Ich kann anderen nicht vertrauen — sie könnten grausam zu mir sein.",
+        "pt": "Não posso confiar nas outras pessoas — podem ser cruéis comigo."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_32",
+      "text": {
+        "ru": "Если другие тебя не любят, ты не можешь быть счастливым.",
+        "en": "If others dislike you, you cannot be happy.",
+        "fr": "Si les autres ne vous aiment pas, vous ne pouvez pas être heureux.",
+        "de": "Wenn andere dich nicht mögen, kannst du nicht glücklich sein.",
+        "pt": "Se os outros não gostam de você, você não pode ser feliz."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_33",
+      "text": {
+        "ru": "Лучше отказаться от своих интересов, чтобы угодить другим.",
+        "en": "It is best to give up your own interests in order to please other people.",
+        "fr": "Il vaut mieux renoncer à ses intérêts pour plaire aux autres.",
+        "de": "Es ist am besten, eigene Interessen aufzugeben, um anderen zu gefallen.",
+        "pt": "É melhor abrir mão dos próprios interesses para agradar os outros."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_34",
+      "text": {
+        "ru": "Моё счастье больше зависит от других людей, чем от меня самого.",
+        "en": "My happiness depends more on other people than it does on me.",
+        "fr": "Mon bonheur dépend plus des autres que de moi.",
+        "de": "Mein Glück hängt mehr von anderen ab als von mir selbst.",
+        "pt": "Minha felicidade depende mais dos outros do que de mim."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_35",
+      "text": {
+        "ru": "Мне не нужно одобрение других, чтобы быть счастливым.",
+        "en": "I do not need the approval of other people in order to be happy.",
+        "fr": "Je n’ai pas besoin de l’approbation des autres pour être heureux.",
+        "de": "Ich brauche die Zustimmung anderer nicht, um glücklich zu sein.",
+        "pt": "Não preciso da aprovação dos outros para ser feliz."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "das_a_36",
+      "text": {
+        "ru": "Если человек избегает проблем, проблемы имеют тенденцию исчезать.",
+        "en": "If a person avoids problems, the problems tend to go away.",
+        "fr": "Si on évite les problèmes, ils ont tendance à disparaître.",
+        "de": "Wenn man Problemen ausweicht, neigen sie dazu, zu verschwinden.",
+        "pt": "Se a pessoa evita problemas, os problemas tendem a sumir."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_37",
+      "text": {
+        "ru": "Я могу быть счастливым, даже если упускаю много хорошего в жизни.",
+        "en": "I can be happy even if I miss out on many of the good things in life.",
+        "fr": "Je peux être heureux même si je rate beaucoup de bonnes choses dans la vie.",
+        "de": "Ich kann glücklich sein, auch wenn mir vieles Gute im Leben entgeht.",
+        "pt": "Posso ser feliz mesmo perdendo muitas coisas boas na vida."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": "das_a_38",
+      "text": {
+        "ru": "То, что другие думают обо мне, очень важно.",
+        "en": "What other people think about me is very important.",
+        "fr": "Ce que les autres pensent de moi est très important.",
+        "de": "Was andere über mich denken, ist sehr wichtig.",
+        "pt": "O que os outros pensam de mim é muito importante."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_39",
+      "text": {
+        "ru": "Изоляция от других людей неизбежно ведёт к несчастью.",
+        "en": "Being isolated from other people is bound to lead to unhappiness.",
+        "fr": "Être isolé des autres mène forcément au malheur.",
+        "de": "Von anderen isoliert zu sein führt unweigerlich zum Unglück.",
+        "pt": "Ficar isolado das outras pessoas leva ao infelicidade."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 7
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "das_a_40",
+      "text": {
+        "ru": "Я могу быть счастливым, даже если меня не любит другой человек.",
+        "en": "I can find happiness without being loved by another person.",
+        "fr": "Je peux trouver le bonheur sans être aimé par une autre personne.",
+        "de": "Ich kann Glück finden, ohne von einem anderen Menschen geliebt zu werden.",
+        "pt": "Posso encontrar felicidade sem ser amado por outra pessoa."
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Полностью согласен(на)",
+            "en": "Totally agree",
+            "fr": "Tout à fait d’accord",
+            "de": "Stimme voll zu",
+            "pt": "Concordo totalmente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Скорее согласен(на)",
+            "en": "Agree very much",
+            "fr": "Plutôt d’accord",
+            "de": "Stimme weitgehend zu",
+            "pt": "Concordo muito"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Слегка согласен(на)",
+            "en": "Agree slightly",
+            "fr": "Légèrement d’accord",
+            "de": "Stimme leicht zu",
+            "pt": "Concordo um pouco"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Нейтрально",
+            "en": "Neutral",
+            "fr": "Neutre",
+            "de": "Neutral",
+            "pt": "Neutro"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Слегка не согласен(на)",
+            "en": "Disagree slightly",
+            "fr": "Légèrement pas d’accord",
+            "de": "Stimme leicht nicht zu",
+            "pt": "Discordo um pouco"
+          },
+          "score": 5
+        },
+        {
+          "label": {
+            "ru": "Скорее не согласен(на)",
+            "en": "Disagree very much",
+            "fr": "Plutôt pas d’accord",
+            "de": "Stimme weitgehend nicht zu",
+            "pt": "Discordo muito"
+          },
+          "score": 6
+        },
+        {
+          "label": {
+            "ru": "Полностью не согласен(на)",
+            "en": "Totally disagree",
+            "fr": "Pas du tout d’accord",
+            "de": "Stimme überhaupt nicht zu",
+            "pt": "Discordo totalmente"
+          },
+          "score": 7
+        }
+      ]
+    }
+  ]
+}

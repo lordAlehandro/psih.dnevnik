@@ -1,0 +1,1647 @@
+{
+  "id": "stai",
+  "category": "anxiety",
+  "resultSubscalesOnly": true,
+  "title": {
+    "ru": "STAI — опросник Спилбергера",
+    "en": "STAI — Spielberger State-Trait Anxiety Inventory",
+    "fr": "STAI — Inventaire d’anxiété état-trait de Spielberger",
+    "de": "STAI — Spielberger Zustands- und Eigenschaftsangstinventar",
+    "pt": "STAI — Inventário de ansiedade traço-estado de Spielberger"
+  },
+  "subtitle": {
+    "ru": "Текущее состояние тревожности и устойчивая склонность к тревоге.",
+    "en": "Current anxiety state versus stable trait-like anxiety tendencies.",
+    "fr": "Anxiété actuelle versus tendance stable de type « trait ».",
+    "de": "Aktuelle Angst versus stabile ängstliche Veranlagung.",
+    "pt": "Ansiedade no momento versus tendência estável de traço."
+  },
+  "description": {
+    "ru": "Оценивает реактивную (ситуативную) тревожность и более устойчивую личностную склонность к тревоге (Spielberger).",
+    "en": "Measures state anxiety (how you feel right now) and trait anxiety (how you usually feel) (Spielberger).",
+    "fr": "Mesure l’anxiété d’état (moment présent) et l’anxiété de trait (habituelle) (Spielberger).",
+    "de": "Erfasst Zustandsangst (jetzt) und Eigenschaftsangst (gewöhnlich) (Spielberger).",
+    "pt": "Avalia ansiedade estado (agora) e traço (como costuma se sentir) (Spielberger)."
+  },
+  "instructions": {
+    "ru": "Сначала ответьте на первую половину утверждений, опираясь на то, как вы себя чувствуете сейчас. Затем — на вторую половину, думая о том, как вы обычно себя чувствуете. Не задерживайтесь на одном пункте: чаще всего верен первый пришедший в голову ответ.",
+    "en": "Answer the first half of the statements based on how you feel right now, then the second half based on how you generally feel. Do not dwell on each item—your first impulse is usually the most accurate.",
+    "fr": "Répondez à la première moitié selon votre ressenti du moment, puis à la seconde selon votre ressenti habituel. Ne restez pas bloqué(e) sur un item : le premier mouvement est souvent le plus juste.",
+    "de": "Beantworten Sie die erste Hälfte nach dem aktuellen Befinden, die zweite nach dem gewöhnlichen. Verweilen Sie nicht lange bei einzelnen Sätzen — meist trifft der erste Eindruck zu.",
+    "pt": "Na primeira metade, pense em como se sente agora; na segunda, em como costuma se sentir. Não demore em cada frase — em geral a primeira resposta é a mais adequada."
+  },
+  "resultNote": {
+    "ru": "Сравните две области ниже отдельно: «сейчас» и «обычно». Это не диагноз; при сильной тревоге обратитесь к специалисту.",
+    "en": "Read the two areas below separately (right now vs. usually). Not a diagnosis; seek professional help if anxiety is severe or disabling.",
+    "fr": "Lisez séparément les deux domaines (moment présent vs. habituel). Pas un diagnostic ; consultez si l’anxiété est forte ou invalidante.",
+    "de": "Lesen Sie die beiden Bereiche getrennt (jetzt vs. gewöhnlich). Keine Diagnose; holen Sie Hilfe bei starker oder beeinträchtigender Angst.",
+    "pt": "Leia as duas áreas separadamente (agora vs. habitualmente). Não é diagnóstico; busque ajuda se a ansiedade for intensa ou incapacitante."
+  },
+  "bandsBasis": "raw",
+  "bands": [
+    {
+      "minInclusive": 0,
+      "maxInclusive": 30,
+      "title": {
+        "ru": "Низкая тревожность",
+        "en": "Low anxiety",
+        "fr": "Anxiété faible",
+        "de": "Geringe Angst",
+        "pt": "Ansiedade baixa"
+      },
+      "description": {
+        "ru": "Относительно низкая выраженность тревожности на этой шкале.",
+        "en": "Relatively low anxiety on this scale.",
+        "fr": "Anxiété relativement faible sur cette échelle.",
+        "de": "Relativ geringe Angst auf dieser Skala.",
+        "pt": "Ansiedade relativamente baixa nesta escala."
+      }
+    },
+    {
+      "minInclusive": 31,
+      "maxInclusive": 45,
+      "title": {
+        "ru": "Умеренная тревожность",
+        "en": "Moderate anxiety",
+        "fr": "Anxiété modérée",
+        "de": "Mäßige Angst",
+        "pt": "Ansiedade moderada"
+      },
+      "description": {
+        "ru": "Умеренная выраженность тревожности.",
+        "en": "Moderate anxiety.",
+        "fr": "Anxiété modérée.",
+        "de": "Mäßige Angst.",
+        "pt": "Ansiedade moderada."
+      }
+    },
+    {
+      "minInclusive": 46,
+      "maxInclusive": 80,
+      "title": {
+        "ru": "Высокая тревожность",
+        "en": "High anxiety",
+        "fr": "Anxiété élevée",
+        "de": "Hohe Angst",
+        "pt": "Ansiedade elevada"
+      },
+      "description": {
+        "ru": "Высокая выраженность тревожности; имеет смысл обсудить переживания со специалистом.",
+        "en": "High anxiety; consider discussing your symptoms with a professional.",
+        "fr": "Anxiété élevée ; envisagez d’en parler à un professionnel.",
+        "de": "Hohe Angst; sprechen Sie bei Bedarf mit Fachpersonen.",
+        "pt": "Ansiedade elevada; considere conversar com um profissional."
+      }
+    }
+  ],
+  "subscales": [
+    {
+      "id": "stai_state",
+      "maxScore": 80,
+      "label": {
+        "ru": "Реактивная (ситуативная) тревожность",
+        "en": "State anxiety",
+        "fr": "Anxiété d’état",
+        "de": "Zustandsangst",
+        "pt": "Ansiedade estado"
+      },
+      "itemIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "stai_trait",
+      "maxScore": 80,
+      "label": {
+        "ru": "Личностная тревожность",
+        "en": "Trait anxiety",
+        "fr": "Anxiété de trait",
+        "de": "Eigenschaftsangst",
+        "pt": "Ansiedade traço"
+      },
+      "itemIndices": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "stai_1",
+      "text": {
+        "ru": "Я спокоен",
+        "en": "I feel calm"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, это не так",
+            "en": "Not at all"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Пожалуй, так",
+            "en": "Somewhat"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Верно",
+            "en": "Moderately so"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Совершенно верно",
+            "en": "Very much so"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "stai_2",
+      "text": {
+        "ru": "Мне ничто не угрожает",
+        "en": "I feel secure"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, это не так",
+            "en": "Not at all"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Пожалуй, так",
+            "en": "Somewhat"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Верно",
+            "en": "Moderately so"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Совершенно верно",
+            "en": "Very much so"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "stai_3",
+      "text": {
+        "ru": "Я нахожусь в напряжении",
+        "en": "I feel tense"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, это не так",
+            "en": "Not at all"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Пожалуй, так",
+            "en": "Somewhat"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Верно",
+            "en": "Moderately so"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Совершенно верно",
+            "en": "Very much so"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "stai_4",
+      "text": {
+        "ru": "Я испытываю сожаление",
+        "en": "I feel strained"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, это не так",
+            "en": "Not at all"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Пожалуй, так",
+            "en": "Somewhat"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Верно",
+            "en": "Moderately so"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Совершенно верно",
+            "en": "Very much so"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "stai_5",
+      "text": {
+        "ru": "Я чувствую себя свободно",
+        "en": "I feel at ease"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, это не так",
+            "en": "Not at all"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Пожалуй, так",
+            "en": "Somewhat"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Верно",
+            "en": "Moderately so"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Совершенно верно",
+            "en": "Very much so"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "stai_6",
+      "text": {
+        "ru": "Я расстроен",
+        "en": "I feel upset"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, это не так",
+            "en": "Not at all"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Пожалуй, так",
+            "en": "Somewhat"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Верно",
+            "en": "Moderately so"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Совершенно верно",
+            "en": "Very much so"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "stai_7",
+      "text": {
+        "ru": "Меня волнуют возможные неудачи",
+        "en": "I am worrying over possible misfortunes"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, это не так",
+            "en": "Not at all"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Пожалуй, так",
+            "en": "Somewhat"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Верно",
+            "en": "Moderately so"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Совершенно верно",
+            "en": "Very much so"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "stai_8",
+      "text": {
+        "ru": "Я чувствую себя отдохнувшим",
+        "en": "I feel satisfied"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, это не так",
+            "en": "Not at all"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Пожалуй, так",
+            "en": "Somewhat"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Верно",
+            "en": "Moderately so"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Совершенно верно",
+            "en": "Very much so"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "stai_9",
+      "text": {
+        "ru": "Я встревожен",
+        "en": "I feel frightened"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, это не так",
+            "en": "Not at all"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Пожалуй, так",
+            "en": "Somewhat"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Верно",
+            "en": "Moderately so"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Совершенно верно",
+            "en": "Very much so"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "stai_10",
+      "text": {
+        "ru": "Я испытываю чувство внутреннего удовлетворения",
+        "en": "I feel comfortable"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, это не так",
+            "en": "Not at all"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Пожалуй, так",
+            "en": "Somewhat"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Верно",
+            "en": "Moderately so"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Совершенно верно",
+            "en": "Very much so"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "stai_11",
+      "text": {
+        "ru": "Я уверен в себе",
+        "en": "I feel self-confident"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, это не так",
+            "en": "Not at all"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Пожалуй, так",
+            "en": "Somewhat"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Верно",
+            "en": "Moderately so"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Совершенно верно",
+            "en": "Very much so"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "stai_12",
+      "text": {
+        "ru": "Я нервничаю",
+        "en": "I feel nervous"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, это не так",
+            "en": "Not at all"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Пожалуй, так",
+            "en": "Somewhat"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Верно",
+            "en": "Moderately so"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Совершенно верно",
+            "en": "Very much so"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "stai_13",
+      "text": {
+        "ru": "Я не нахожу себе места",
+        "en": "I feel jittery"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, это не так",
+            "en": "Not at all"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Пожалуй, так",
+            "en": "Somewhat"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Верно",
+            "en": "Moderately so"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Совершенно верно",
+            "en": "Very much so"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "stai_14",
+      "text": {
+        "ru": "Я взвинчен",
+        "en": "I feel indecisive"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, это не так",
+            "en": "Not at all"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Пожалуй, так",
+            "en": "Somewhat"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Верно",
+            "en": "Moderately so"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Совершенно верно",
+            "en": "Very much so"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "stai_15",
+      "text": {
+        "ru": "Я не чувствую скованности",
+        "en": "I am relaxed"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, это не так",
+            "en": "Not at all"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Пожалуй, так",
+            "en": "Somewhat"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Верно",
+            "en": "Moderately so"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Совершенно верно",
+            "en": "Very much so"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "stai_16",
+      "text": {
+        "ru": "Я доволен",
+        "en": "I feel content"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, это не так",
+            "en": "Not at all"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Пожалуй, так",
+            "en": "Somewhat"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Верно",
+            "en": "Moderately so"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Совершенно верно",
+            "en": "Very much so"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "stai_17",
+      "text": {
+        "ru": "Я озабочен",
+        "en": "I am worried"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, это не так",
+            "en": "Not at all"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Пожалуй, так",
+            "en": "Somewhat"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Верно",
+            "en": "Moderately so"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Совершенно верно",
+            "en": "Very much so"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "stai_18",
+      "text": {
+        "ru": "Я слишком возбужден и мне не по себе",
+        "en": "I feel confused"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, это не так",
+            "en": "Not at all"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Пожалуй, так",
+            "en": "Somewhat"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Верно",
+            "en": "Moderately so"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Совершенно верно",
+            "en": "Very much so"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "stai_19",
+      "text": {
+        "ru": "Мне радостно",
+        "en": "I feel steady"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, это не так",
+            "en": "Not at all"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Пожалуй, так",
+            "en": "Somewhat"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Верно",
+            "en": "Moderately so"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Совершенно верно",
+            "en": "Very much so"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "stai_20",
+      "text": {
+        "ru": "Мне приятно",
+        "en": "I feel pleasant"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Нет, это не так",
+            "en": "Not at all"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Пожалуй, так",
+            "en": "Somewhat"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Верно",
+            "en": "Moderately so"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Совершенно верно",
+            "en": "Very much so"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "stai_21",
+      "text": {
+        "ru": "Я испытываю удовольствие",
+        "en": "I feel pleasant"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Почти всегда",
+            "en": "Almost always"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "stai_22",
+      "text": {
+        "ru": "Я обычно быстро устаю",
+        "en": "I feel nervous and restless"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Почти всегда",
+            "en": "Almost always"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "stai_23",
+      "text": {
+        "ru": "Я легко могу заплакать",
+        "en": "I feel satisfied with myself"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Почти всегда",
+            "en": "Almost always"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "stai_24",
+      "text": {
+        "ru": "Я хотел бы быть таким же счастливым, как и другие",
+        "en": "I wish I could be as happy as others seem to be"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Почти всегда",
+            "en": "Almost always"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "stai_25",
+      "text": {
+        "ru": "Нередко я проигрываю из-за того, что недостаточно быстро принимаю решения",
+        "en": "I feel like a failure"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Почти всегда",
+            "en": "Almost always"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "stai_26",
+      "text": {
+        "ru": "Обычно я чувствую себя бодрым",
+        "en": "I feel rested"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Почти всегда",
+            "en": "Almost always"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "stai_27",
+      "text": {
+        "ru": "Я спокоен, хладнокровен и собран",
+        "en": "I am calm, cool, and collected"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Почти всегда",
+            "en": "Almost always"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "stai_28",
+      "text": {
+        "ru": "Ожидаемые трудности обычно очень тревожат меня",
+        "en": "I feel that difficulties are piling up so that I cannot overcome them"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Почти всегда",
+            "en": "Almost always"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "stai_29",
+      "text": {
+        "ru": "Я слишком переживаю из-за пустяков",
+        "en": "I worry too much over something that doesn't really matter"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Почти всегда",
+            "en": "Almost always"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "stai_30",
+      "text": {
+        "ru": "Я вполне счастлив",
+        "en": "I am happy"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Почти всегда",
+            "en": "Almost always"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "stai_31",
+      "text": {
+        "ru": "Я принимаю все слишком близко к сердцу",
+        "en": "I have disturbing thoughts"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Почти всегда",
+            "en": "Almost always"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "stai_32",
+      "text": {
+        "ru": "Мне не хватает уверенности в себе",
+        "en": "I lack self-confidence"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Почти всегда",
+            "en": "Almost always"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "stai_33",
+      "text": {
+        "ru": "Обычно я чувствую себя в безопасности",
+        "en": "I feel secure"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Почти всегда",
+            "en": "Almost always"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "stai_34",
+      "text": {
+        "ru": "Я стараюсь избегать критических ситуаций и трудностей",
+        "en": "I make decisions easily"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Почти всегда",
+            "en": "Almost always"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "stai_35",
+      "text": {
+        "ru": "У меня бывает хандра",
+        "en": "I feel inadequate"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Почти всегда",
+            "en": "Almost always"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "stai_36",
+      "text": {
+        "ru": "Я доволен",
+        "en": "I am content"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Почти всегда",
+            "en": "Almost always"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "stai_37",
+      "text": {
+        "ru": "Всякие пустяки отвлекают и волнуют меня",
+        "en": "Some unimportant thought runs through my mind and bothers me"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Почти всегда",
+            "en": "Almost always"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "stai_38",
+      "text": {
+        "ru": "Я так сильно переживаю свои разочарования, что потом долго не могу о них забыть",
+        "en": "I take disappointments so keenly that I can't put them out of my mind"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Почти всегда",
+            "en": "Almost always"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "stai_39",
+      "text": {
+        "ru": "Я уравновешенный человек",
+        "en": "I am a steady person"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Почти всегда",
+            "en": "Almost always"
+          },
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "stai_40",
+      "text": {
+        "ru": "Меня охватывает беспокойство, когда я думаю о своих делах и заботах",
+        "en": "I get in a state of tension or turmoil as I think over my recent concerns"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Часто",
+            "en": "Often"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Почти всегда",
+            "en": "Almost always"
+          },
+          "score": 4
+        }
+      ]
+    }
+  ]
+}

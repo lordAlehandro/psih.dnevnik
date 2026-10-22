@@ -1,0 +1,713 @@
+{
+  "id": "pss",
+  "category": "stress",
+  "title": {
+    "ru": "PSS — шкала воспринимаемого стресса",
+    "en": "PSS — Perceived Stress Scale",
+    "fr": "PSS — Échelle de stress perçu",
+    "de": "PSS — Wahrgenommene-Stress-Skala",
+    "pt": "PSS — Escala de estresse percebido"
+  },
+  "subtitle": {
+    "ru": "Насколько жизнь кажется непредсказуемой и перегружающей за последний месяц.",
+    "en": "How unpredictable and overloaded life has felt over the past month.",
+    "fr": "Imprévisibilité et surcharge perçues sur le dernier mois.",
+    "de": "Wie unvorhersehbar und überfordernd sich das Leben im letzten Monat angefühlt hat.",
+    "pt": "Quão imprevisível e sobrecarregada a vida pareceu no último mês."
+  },
+  "description": {
+    "ru": "Оценивает, насколько сильно вы переживали стресс за последний месяц (S. Cohen et al.). Часть утверждений в приложении сформулирована в обратном ключе — варианты ответа уже учитывают это. Не диагноз. Коммерческое использование может требовать разрешения; указывайте первоисточник.",
+    "en": "Measures how stressed you have felt over the past month (S. Cohen et al.). Some items are worded positively; answer options already account for that. Not a diagnosis. Commercial use may require permission—cite the original publication.",
+    "fr": "Mesure le stress perçu sur le dernier mois (S. Cohen et al.). Certaines phrases sont positives ; les réponses sont déjà harmonisées. Pas un diagnostic.",
+    "de": "Erfasst wahrgenommenen Stress im letzten Monat (S. Cohen et al.). Einige Aussagen sind positiv formuliert; Antworten sind angepasst. Keine Diagnose.",
+    "pt": "Mede o estresse percebido no último mês (S. Cohen et al.). Algumas frases são positivas; as opções já estão ajustadas. Não é diagnóstico."
+  },
+  "instructions": {
+    "ru": "Отвечайте по тому, как вы себя чувствовали и вели в течение последнего месяца. В каждой строке отметьте, как часто это было справедливо для вас.",
+    "en": "For each question, indicate how often you felt or thought a certain way during the last month.",
+    "fr": "Pour chaque question, indiquez à quelle fréquence vous vous êtes senti ainsi au cours du dernier mois.",
+    "de": "Geben Sie für jede Frage an, wie oft Sie sich im letzten Monat so gefühlt oder gedacht haben.",
+    "pt": "Para cada pergunta, indique com que frequência você se sentiu ou pensou assim no último mês."
+  },
+  "maxScore": 40,
+  "bandsBasis": "raw",
+  "bands": [
+    {
+      "minInclusive": 0,
+      "maxInclusive": 13,
+      "title": {
+        "ru": "Относительно низкий воспринимаемый стресс",
+        "en": "Relatively low perceived stress",
+        "fr": "Stress perçu relativement faible",
+        "de": "Relativ geringer wahrgenommener Stress",
+        "pt": "Estresse percebido relativamente baixo"
+      },
+      "description": {
+        "ru": "Стресс в этой зоне обычно описывают как относительно низкий; как вы это переживаете, зависит от вашей ситуации.",
+        "en": "Stress in this band is often described as relatively low; how it feels for you depends on your situation.",
+        "fr": "Stress perçu souvent plus faible dans cette zone ; le vécu reste personnel.",
+        "de": "In dieser Zone oft als geringerer Stress beschrieben; Ihr Erleben hängt von der Situation ab.",
+        "pt": "Estresse nesta faixa costuma ser visto como relativamente baixo; o vivido depende do contexto."
+      }
+    },
+    {
+      "minInclusive": 14,
+      "maxInclusive": 26,
+      "title": {
+        "ru": "Умеренный воспринимаемый стресс",
+        "en": "Moderate perceived stress",
+        "fr": "Stress perçu modéré",
+        "de": "Mäßiger wahrgenommener Stress",
+        "pt": "Estresse percebido moderado"
+      },
+      "description": {
+        "ru": "Умеренный уровень воспринимаемого стресса; при стойком дистрессе имеет смысл обсудить самочувствие со специалистом.",
+        "en": "Moderate perceived stress; if distress persists, consider discussing with a professional.",
+        "fr": "Stress perçu modéré ; si la détresse persiste, un suivi peut aider.",
+        "de": "Mäßiger wahrgenommener Stress; bei anhaltender Belastung professionelle Klärung erwägen.",
+        "pt": "Estresse percebido moderado; se o sofrimento persistir, considere apoio profissional."
+      }
+    },
+    {
+      "minInclusive": 27,
+      "maxInclusive": 40,
+      "title": {
+        "ru": "Высокий воспринимаемый стресс",
+        "en": "High perceived stress",
+        "fr": "Stress perçu élevé",
+        "de": "Hoher wahrgenommener Stress",
+        "pt": "Estresse percebido alto"
+      },
+      "description": {
+        "ru": "Высокий воспринимаемый стресс; это не клинический диагноз само по себе, но повод обратить внимание на отдых и при необходимости — на консультацию.",
+        "en": "High perceived stress; not a clinical diagnosis on its own, but a signal to care for yourself and seek follow-up if needed.",
+        "fr": "Stress perçu élevé ; pas un diagnostic clinique seul, mais un signal d’attention et d’éventuel suivi.",
+        "de": "Hoher wahrgenommener Stress; keine alleinige Klinikdiagnose, aber Anlass für Selbstfürsorge und ggf. Rücksprache.",
+        "pt": "Estresse percebido alto; não é diagnóstico clínico por si, mas sinal de cuidar de si e buscar apoio se precisar."
+      }
+    }
+  ],
+  "subscales": [],
+  "questions": [
+    {
+      "id": "pss_1",
+      "text": {
+        "ru": "За последний месяц как часто вас расстраивали события, которые происходили неожиданно?",
+        "en": "In the last month, how often have you been upset because of something that happened unexpectedly?",
+        "fr": "Au cours du dernier mois, à quelle fréquence avez-vous été contrarié(e) par quelque chose qui s'est produit de façon inattendue ?",
+        "de": "Im letzten Monat, wie oft waren Sie wegen etwas verärgert, das unerwartet passiert ist?",
+        "pt": "No último mês, com que frequência você ficou chateado(a) por algo que aconteceu de forma inesperada?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never",
+            "fr": "Presque jamais",
+            "de": "Fast nie",
+            "pt": "Quase nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Довольно часто",
+            "en": "Fairly often",
+            "fr": "Assez souvent",
+            "de": "Ziemlich oft",
+            "pt": "Com certa frequência"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "pss_2",
+      "text": {
+        "ru": "За последний месяц как часто вы чувствовали, что не можете контролировать важные вещи в своей жизни?",
+        "en": "In the last month, how often have you felt that you were unable to control the important things in your life?",
+        "fr": "Au cours du dernier mois, à quelle fréquence avez-vous eu l'impression de ne pas pouvoir contrôler les choses importantes de votre vie ?",
+        "de": "Im letzten Monat, wie oft hatten Sie das Gefühl, die wichtigen Dinge in Ihrem Leben nicht kontrollieren zu können?",
+        "pt": "No último mês, com que frequência você sentiu que não conseguia controlar as coisas importantes da sua vida?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never",
+            "fr": "Presque jamais",
+            "de": "Fast nie",
+            "pt": "Quase nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Довольно часто",
+            "en": "Fairly often",
+            "fr": "Assez souvent",
+            "de": "Ziemlich oft",
+            "pt": "Com certa frequência"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "pss_3",
+      "text": {
+        "ru": "За последний месяц как часто вы чувствовали себя нервным(ой) и «на взводе»?",
+        "en": "In the last month, how often have you felt nervous and \"stressed\"?",
+        "fr": "Au cours du dernier mois, à quelle fréquence vous êtes-vous senti(e) nerveux(se) et « sous pression » ?",
+        "de": "Im letzten Monat, wie oft fühlten Sie sich nervös und „unter Strom\"?",
+        "pt": "No último mês, com que frequência você se sentiu nervoso(a) e \"estressado(a)\"?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never",
+            "fr": "Presque jamais",
+            "de": "Fast nie",
+            "pt": "Quase nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Довольно часто",
+            "en": "Fairly often",
+            "fr": "Assez souvent",
+            "de": "Ziemlich oft",
+            "pt": "Com certa frequência"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "pss_4",
+      "text": {
+        "ru": "За последний месяц как часто вы чувствовали уверенность в том, что справитесь со своими личными проблемами?",
+        "en": "In the last month, how often have you felt confident about your ability to handle your personal problems?",
+        "fr": "Au cours du dernier mois, à quelle fréquence vous êtes-vous senti(e) confiant(e) dans votre capacité à gérer vos problèmes personnels ?",
+        "de": "Im letzten Monat, wie oft fühlten Sie sich zuversichtlich, Ihre persönlichen Probleme bewältigen zu können?",
+        "pt": "No último mês, com que frequência você se sentiu confiante na sua capacidade de lidar com seus problemas pessoais?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never",
+            "fr": "Presque jamais",
+            "de": "Fast nie",
+            "pt": "Quase nunca"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Довольно часто",
+            "en": "Fairly often",
+            "fr": "Assez souvent",
+            "de": "Ziemlich oft",
+            "pt": "Com certa frequência"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "pss_5",
+      "text": {
+        "ru": "За последний месяц как часто вы чувствовали, что всё складывается удачно для вас?",
+        "en": "In the last month, how often have you felt that things were going your way?",
+        "fr": "Au cours du dernier mois, à quelle fréquence avez-vous eu l'impression que les choses tournaient en votre faveur ?",
+        "de": "Im letzten Monat, wie oft hatten Sie das Gefühl, dass die Dinge für Sie günstig laufen?",
+        "pt": "No último mês, com que frequência você sentiu que as coisas estavam a seu favor?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never",
+            "fr": "Presque jamais",
+            "de": "Fast nie",
+            "pt": "Quase nunca"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Довольно часто",
+            "en": "Fairly often",
+            "fr": "Assez souvent",
+            "de": "Ziemlich oft",
+            "pt": "Com certa frequência"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "pss_6",
+      "text": {
+        "ru": "За последний месяц как часто вы замечали, что не в силах справиться со всем, что должны были сделать?",
+        "en": "In the last month, how often have you found that you could not cope with all the things that you had to do?",
+        "fr": "Au cours du dernier mois, à quelle fréquence avez-vous constaté que vous n'arriviez pas à faire face à tout ce que vous aviez à faire ?",
+        "de": "Im letzten Monat, wie oft fanden Sie, dass Sie mit allem, was zu tun war, nicht zurechtkamen?",
+        "pt": "No último mês, com que frequência você percebeu que não conseguia lidar com tudo o que tinha para fazer?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never",
+            "fr": "Presque jamais",
+            "de": "Fast nie",
+            "pt": "Quase nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Довольно часто",
+            "en": "Fairly often",
+            "fr": "Assez souvent",
+            "de": "Ziemlich oft",
+            "pt": "Com certa frequência"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "pss_7",
+      "text": {
+        "ru": "За последний месяц как часто вам удавалось держать под контролем раздражители в вашей жизни?",
+        "en": "In the last month, how often have you been able to control irritations in your life?",
+        "fr": "Au cours du dernier mois, à quelle fréquence avez-vous pu maîtriser les irritations dans votre vie ?",
+        "de": "Im letzten Monat, wie oft gelang es Ihnen, Ärger in Ihrem Leben zu kontrollieren?",
+        "pt": "No último mês, com que frequência você conseguiu controlar as irritações na sua vida?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never",
+            "fr": "Presque jamais",
+            "de": "Fast nie",
+            "pt": "Quase nunca"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Довольно часто",
+            "en": "Fairly often",
+            "fr": "Assez souvent",
+            "de": "Ziemlich oft",
+            "pt": "Com certa frequência"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "pss_8",
+      "text": {
+        "ru": "За последний месяц как часто вы чувствовали, что всё у вас под контролем?",
+        "en": "In the last month, how often have you felt that you were on top of things?",
+        "fr": "Au cours du dernier mois, à quelle fréquence avez-vous eu l'impression de maîtriser la situation ?",
+        "de": "Im letzten Monat, wie oft hatten Sie das Gefühl, die Dinge im Griff zu haben?",
+        "pt": "No último mês, com que frequência você sentiu que estava no controle das coisas?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 4
+        },
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never",
+            "fr": "Presque jamais",
+            "de": "Fast nie",
+            "pt": "Quase nunca"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Довольно часто",
+            "en": "Fairly often",
+            "fr": "Assez souvent",
+            "de": "Ziemlich oft",
+            "pt": "Com certa frequência"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "pss_9",
+      "text": {
+        "ru": "За последний месяц как часто вас злило то, что происходило независимо от вашей воли?",
+        "en": "In the last month, how often have you been angered because of things that were outside of your control?",
+        "fr": "Au cours du dernier mois, à quelle fréquence avez-vous été en colère à cause de choses sur lesquelles vous n'aviez aucun contrôle ?",
+        "de": "Im letzten Monat, wie oft waren Sie wütend wegen Dingen, die außerhalb Ihrer Kontrolle lagen?",
+        "pt": "No último mês, com que frequência você ficou com raiva por coisas que estavam fora do seu controle?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never",
+            "fr": "Presque jamais",
+            "de": "Fast nie",
+            "pt": "Quase nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Довольно часто",
+            "en": "Fairly often",
+            "fr": "Assez souvent",
+            "de": "Ziemlich oft",
+            "pt": "Com certa frequência"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "pss_10",
+      "text": {
+        "ru": "За последний месяц как часто вы чувствовали, что трудности накапливаются так, что вы не можете с ними справиться?",
+        "en": "In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",
+        "fr": "Au cours du dernier mois, à quelle fréquence avez-vous eu l'impression que les difficultés s'accumulaient au point de ne plus pouvoir les surmonter ?",
+        "de": "Im letzten Monat, wie oft hatten Sie das Gefühl, dass sich Schwierigkeiten so häuften, dass Sie sie nicht mehr bewältigen konnten?",
+        "pt": "No último mês, com que frequência você sentiu que as dificuldades se acumulavam tanto que não conseguia superá-las?"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Никогда",
+            "en": "Never",
+            "fr": "Jamais",
+            "de": "Nie",
+            "pt": "Nunca"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Почти никогда",
+            "en": "Almost never",
+            "fr": "Presque jamais",
+            "de": "Fast nie",
+            "pt": "Quase nunca"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Иногда",
+            "en": "Sometimes",
+            "fr": "Parfois",
+            "de": "Manchmal",
+            "pt": "Às vezes"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Довольно часто",
+            "en": "Fairly often",
+            "fr": "Assez souvent",
+            "de": "Ziemlich oft",
+            "pt": "Com certa frequência"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень часто",
+            "en": "Very often",
+            "fr": "Très souvent",
+            "de": "Sehr oft",
+            "pt": "Muito frequentemente"
+          },
+          "score": 4
+        }
+      ]
+    }
+  ]
+}

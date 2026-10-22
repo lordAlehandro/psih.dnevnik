@@ -1,0 +1,5637 @@
+{
+  "id": "scl_90_r",
+  "category": "depression",
+  "title": {
+    "ru": "SCL‑90‑R — опросник симптомов (шаблон)",
+    "en": "SCL‑90‑R — symptom checklist (template)",
+    "fr": "SCL‑90‑R — liste de symptômes (modèle)",
+    "de": "SCL‑90‑R — Symptom‑Checkliste (Vorlage)",
+    "pt": "SCL‑90‑R — checklist de sintomas (modelo)"
+  },
+  "subtitle": {
+    "ru": "Широкий перечень психологических и соматических симптомов за последний месяц.",
+    "en": "Broad checklist of psychological and somatic symptoms over the past month.",
+    "fr": "Liste large de symptômes psychologiques et somatiques sur le dernier mois.",
+    "de": "Breite Erfassung psychischer und somatischer Symptome im letzten Monat.",
+    "pt": "Lista ampla de sintomas psicológicos e somáticos no último mês."
+  },
+  "description": {
+    "ru": "Шаблон перечня симптомов за последний месяц по структуре SCL‑90‑R (все пункты на месте). Не заменяет клиническую оценку.",
+    "en": "Symptom checklist template structured like the SCL‑90‑R (all items included). Not a substitute for clinical assessment.",
+    "fr": "Modèle de liste de symptômes sur le dernier mois (structure proche du SCL‑90‑R). Ne remplace pas une évaluation clinique.",
+    "de": "Symptom-Checklisten-Vorlage in SCL‑90‑R-Struktur (alle Items). Ersetzt keine klinische Beurteilung.",
+    "pt": "Modelo de checklist de sintomas no último mês (estrutura tipo SCL‑90‑R). Não substitui avaliação clínica."
+  },
+  "instructions": {
+    "ru": "Прочитайте каждый пункт и выберите, насколько сильно вас тревожил симптом в течение последнего месяца, включая сегодняшний день.",
+    "en": "Read each item and rate how much the symptom has bothered you during the past month, including today.",
+    "fr": "Lisez chaque item et indiquez à quel point le symptôme vous a dérangé(e) au cours du dernier mois, y compris aujourd’hui.",
+    "de": "Lesen Sie jedes Item und bewerten Sie, wie stark Sie das Symptom im letzten Monat (einschließlich heute) belastet hat.",
+    "pt": "Leia cada item e avalie o quanto o sintoma incomodou você no último mês, incluindo hoje."
+  },
+  "maxScore": 360,
+  "bandsBasis": "raw",
+  "questions": [
+    {
+      "id": "scl_1",
+      "text": {
+        "ru": "Пункт 1 (вставьте текст)",
+        "en": "Item 1 (paste text)",
+        "fr": "Item 1 (collez le texte)",
+        "de": "Item 1 (Text einfügen)",
+        "pt": "Item 1 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_2",
+      "text": {
+        "ru": "Пункт 2 (вставьте текст)",
+        "en": "Item 2 (paste text)",
+        "fr": "Item 2 (collez le texte)",
+        "de": "Item 2 (Text einfügen)",
+        "pt": "Item 2 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_3",
+      "text": {
+        "ru": "Пункт 3 (вставьте текст)",
+        "en": "Item 3 (paste text)",
+        "fr": "Item 3 (collez le texte)",
+        "de": "Item 3 (Text einfügen)",
+        "pt": "Item 3 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_4",
+      "text": {
+        "ru": "Пункт 4 (вставьте текст)",
+        "en": "Item 4 (paste text)",
+        "fr": "Item 4 (collez le texte)",
+        "de": "Item 4 (Text einfügen)",
+        "pt": "Item 4 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_5",
+      "text": {
+        "ru": "Пункт 5 (вставьте текст)",
+        "en": "Item 5 (paste text)",
+        "fr": "Item 5 (collez le texte)",
+        "de": "Item 5 (Text einfügen)",
+        "pt": "Item 5 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_6",
+      "text": {
+        "ru": "Пункт 6 (вставьте текст)",
+        "en": "Item 6 (paste text)",
+        "fr": "Item 6 (collez le texte)",
+        "de": "Item 6 (Text einfügen)",
+        "pt": "Item 6 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_7",
+      "text": {
+        "ru": "Пункт 7 (вставьте текст)",
+        "en": "Item 7 (paste text)",
+        "fr": "Item 7 (collez le texte)",
+        "de": "Item 7 (Text einfügen)",
+        "pt": "Item 7 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_8",
+      "text": {
+        "ru": "Пункт 8 (вставьте текст)",
+        "en": "Item 8 (paste text)",
+        "fr": "Item 8 (collez le texte)",
+        "de": "Item 8 (Text einfügen)",
+        "pt": "Item 8 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_9",
+      "text": {
+        "ru": "Пункт 9 (вставьте текст)",
+        "en": "Item 9 (paste text)",
+        "fr": "Item 9 (collez le texte)",
+        "de": "Item 9 (Text einfügen)",
+        "pt": "Item 9 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_10",
+      "text": {
+        "ru": "Пункт 10 (вставьте текст)",
+        "en": "Item 10 (paste text)",
+        "fr": "Item 10 (collez le texte)",
+        "de": "Item 10 (Text einfügen)",
+        "pt": "Item 10 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_11",
+      "text": {
+        "ru": "Пункт 11 (вставьте текст)",
+        "en": "Item 11 (paste text)",
+        "fr": "Item 11 (collez le texte)",
+        "de": "Item 11 (Text einfügen)",
+        "pt": "Item 11 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_12",
+      "text": {
+        "ru": "Пункт 12 (вставьте текст)",
+        "en": "Item 12 (paste text)",
+        "fr": "Item 12 (collez le texte)",
+        "de": "Item 12 (Text einfügen)",
+        "pt": "Item 12 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_13",
+      "text": {
+        "ru": "Пункт 13 (вставьте текст)",
+        "en": "Item 13 (paste text)",
+        "fr": "Item 13 (collez le texte)",
+        "de": "Item 13 (Text einfügen)",
+        "pt": "Item 13 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_14",
+      "text": {
+        "ru": "Пункт 14 (вставьте текст)",
+        "en": "Item 14 (paste text)",
+        "fr": "Item 14 (collez le texte)",
+        "de": "Item 14 (Text einfügen)",
+        "pt": "Item 14 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_15",
+      "text": {
+        "ru": "Пункт 15 (вставьте текст)",
+        "en": "Item 15 (paste text)",
+        "fr": "Item 15 (collez le texte)",
+        "de": "Item 15 (Text einfügen)",
+        "pt": "Item 15 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_16",
+      "text": {
+        "ru": "Пункт 16 (вставьте текст)",
+        "en": "Item 16 (paste text)",
+        "fr": "Item 16 (collez le texte)",
+        "de": "Item 16 (Text einfügen)",
+        "pt": "Item 16 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_17",
+      "text": {
+        "ru": "Пункт 17 (вставьте текст)",
+        "en": "Item 17 (paste text)",
+        "fr": "Item 17 (collez le texte)",
+        "de": "Item 17 (Text einfügen)",
+        "pt": "Item 17 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_18",
+      "text": {
+        "ru": "Пункт 18 (вставьте текст)",
+        "en": "Item 18 (paste text)",
+        "fr": "Item 18 (collez le texte)",
+        "de": "Item 18 (Text einfügen)",
+        "pt": "Item 18 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_19",
+      "text": {
+        "ru": "Пункт 19 (вставьте текст)",
+        "en": "Item 19 (paste text)",
+        "fr": "Item 19 (collez le texte)",
+        "de": "Item 19 (Text einfügen)",
+        "pt": "Item 19 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_20",
+      "text": {
+        "ru": "Пункт 20 (вставьте текст)",
+        "en": "Item 20 (paste text)",
+        "fr": "Item 20 (collez le texte)",
+        "de": "Item 20 (Text einfügen)",
+        "pt": "Item 20 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_21",
+      "text": {
+        "ru": "Пункт 21 (вставьте текст)",
+        "en": "Item 21 (paste text)",
+        "fr": "Item 21 (collez le texte)",
+        "de": "Item 21 (Text einfügen)",
+        "pt": "Item 21 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_22",
+      "text": {
+        "ru": "Пункт 22 (вставьте текст)",
+        "en": "Item 22 (paste text)",
+        "fr": "Item 22 (collez le texte)",
+        "de": "Item 22 (Text einfügen)",
+        "pt": "Item 22 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_23",
+      "text": {
+        "ru": "Пункт 23 (вставьте текст)",
+        "en": "Item 23 (paste text)",
+        "fr": "Item 23 (collez le texte)",
+        "de": "Item 23 (Text einfügen)",
+        "pt": "Item 23 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_24",
+      "text": {
+        "ru": "Пункт 24 (вставьте текст)",
+        "en": "Item 24 (paste text)",
+        "fr": "Item 24 (collez le texte)",
+        "de": "Item 24 (Text einfügen)",
+        "pt": "Item 24 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_25",
+      "text": {
+        "ru": "Пункт 25 (вставьте текст)",
+        "en": "Item 25 (paste text)",
+        "fr": "Item 25 (collez le texte)",
+        "de": "Item 25 (Text einfügen)",
+        "pt": "Item 25 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_26",
+      "text": {
+        "ru": "Пункт 26 (вставьте текст)",
+        "en": "Item 26 (paste text)",
+        "fr": "Item 26 (collez le texte)",
+        "de": "Item 26 (Text einfügen)",
+        "pt": "Item 26 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_27",
+      "text": {
+        "ru": "Пункт 27 (вставьте текст)",
+        "en": "Item 27 (paste text)",
+        "fr": "Item 27 (collez le texte)",
+        "de": "Item 27 (Text einfügen)",
+        "pt": "Item 27 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_28",
+      "text": {
+        "ru": "Пункт 28 (вставьте текст)",
+        "en": "Item 28 (paste text)",
+        "fr": "Item 28 (collez le texte)",
+        "de": "Item 28 (Text einfügen)",
+        "pt": "Item 28 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_29",
+      "text": {
+        "ru": "Пункт 29 (вставьте текст)",
+        "en": "Item 29 (paste text)",
+        "fr": "Item 29 (collez le texte)",
+        "de": "Item 29 (Text einfügen)",
+        "pt": "Item 29 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_30",
+      "text": {
+        "ru": "Пункт 30 (вставьте текст)",
+        "en": "Item 30 (paste text)",
+        "fr": "Item 30 (collez le texte)",
+        "de": "Item 30 (Text einfügen)",
+        "pt": "Item 30 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_31",
+      "text": {
+        "ru": "Пункт 31 (вставьте текст)",
+        "en": "Item 31 (paste text)",
+        "fr": "Item 31 (collez le texte)",
+        "de": "Item 31 (Text einfügen)",
+        "pt": "Item 31 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_32",
+      "text": {
+        "ru": "Пункт 32 (вставьте текст)",
+        "en": "Item 32 (paste text)",
+        "fr": "Item 32 (collez le texte)",
+        "de": "Item 32 (Text einfügen)",
+        "pt": "Item 32 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_33",
+      "text": {
+        "ru": "Пункт 33 (вставьте текст)",
+        "en": "Item 33 (paste text)",
+        "fr": "Item 33 (collez le texte)",
+        "de": "Item 33 (Text einfügen)",
+        "pt": "Item 33 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_34",
+      "text": {
+        "ru": "Пункт 34 (вставьте текст)",
+        "en": "Item 34 (paste text)",
+        "fr": "Item 34 (collez le texte)",
+        "de": "Item 34 (Text einfügen)",
+        "pt": "Item 34 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_35",
+      "text": {
+        "ru": "Пункт 35 (вставьте текст)",
+        "en": "Item 35 (paste text)",
+        "fr": "Item 35 (collez le texte)",
+        "de": "Item 35 (Text einfügen)",
+        "pt": "Item 35 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_36",
+      "text": {
+        "ru": "Пункт 36 (вставьте текст)",
+        "en": "Item 36 (paste text)",
+        "fr": "Item 36 (collez le texte)",
+        "de": "Item 36 (Text einfügen)",
+        "pt": "Item 36 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_37",
+      "text": {
+        "ru": "Пункт 37 (вставьте текст)",
+        "en": "Item 37 (paste text)",
+        "fr": "Item 37 (collez le texte)",
+        "de": "Item 37 (Text einfügen)",
+        "pt": "Item 37 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_38",
+      "text": {
+        "ru": "Пункт 38 (вставьте текст)",
+        "en": "Item 38 (paste text)",
+        "fr": "Item 38 (collez le texte)",
+        "de": "Item 38 (Text einfügen)",
+        "pt": "Item 38 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_39",
+      "text": {
+        "ru": "Пункт 39 (вставьте текст)",
+        "en": "Item 39 (paste text)",
+        "fr": "Item 39 (collez le texte)",
+        "de": "Item 39 (Text einfügen)",
+        "pt": "Item 39 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_40",
+      "text": {
+        "ru": "Пункт 40 (вставьте текст)",
+        "en": "Item 40 (paste text)",
+        "fr": "Item 40 (collez le texte)",
+        "de": "Item 40 (Text einfügen)",
+        "pt": "Item 40 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_41",
+      "text": {
+        "ru": "Пункт 41 (вставьте текст)",
+        "en": "Item 41 (paste text)",
+        "fr": "Item 41 (collez le texte)",
+        "de": "Item 41 (Text einfügen)",
+        "pt": "Item 41 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_42",
+      "text": {
+        "ru": "Пункт 42 (вставьте текст)",
+        "en": "Item 42 (paste text)",
+        "fr": "Item 42 (collez le texte)",
+        "de": "Item 42 (Text einfügen)",
+        "pt": "Item 42 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_43",
+      "text": {
+        "ru": "Пункт 43 (вставьте текст)",
+        "en": "Item 43 (paste text)",
+        "fr": "Item 43 (collez le texte)",
+        "de": "Item 43 (Text einfügen)",
+        "pt": "Item 43 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_44",
+      "text": {
+        "ru": "Пункт 44 (вставьте текст)",
+        "en": "Item 44 (paste text)",
+        "fr": "Item 44 (collez le texte)",
+        "de": "Item 44 (Text einfügen)",
+        "pt": "Item 44 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extrêmement"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_45",
+      "text": {
+        "ru": "Пункт 45 (вставьте текст)",
+        "en": "Item 45 (paste text)",
+        "fr": "Item 45 (collez le texte)",
+        "de": "Item 45 (Text einfügen)",
+        "pt": "Item 45 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_46",
+      "text": {
+        "ru": "Пункт 46 (вставьте текст)",
+        "en": "Item 46 (paste text)",
+        "fr": "Item 46 (collez le texte)",
+        "de": "Item 46 (Text einfügen)",
+        "pt": "Item 46 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_47",
+      "text": {
+        "ru": "Пункт 47 (вставьте текст)",
+        "en": "Item 47 (paste text)",
+        "fr": "Item 47 (collez le texte)",
+        "de": "Item 47 (Text einfügen)",
+        "pt": "Item 47 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremamente"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_48",
+      "text": {
+        "ru": "Пункт 48 (вставьте текст)",
+        "en": "Item 48 (paste text)",
+        "fr": "Item 48 (collez le texte)",
+        "de": "Item 48 (Text einfügen)",
+        "pt": "Item 48 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extrêmement"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_49",
+      "text": {
+        "ru": "Пункт 49 (вставьте текст)",
+        "en": "Item 49 (paste text)",
+        "fr": "Item 49 (collez le texte)",
+        "de": "Item 49 (Text einfügen)",
+        "pt": "Item 49 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_50",
+      "text": {
+        "ru": "Пункт 50 (вставьте текст)",
+        "en": "Item 50 (paste text)",
+        "fr": "Item 50 (collez le texte)",
+        "de": "Item 50 (Text einfügen)",
+        "pt": "Item 50 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_51",
+      "text": {
+        "ru": "Пункт 51 (вставьте текст)",
+        "en": "Item 51 (paste text)",
+        "fr": "Item 51 (collez le texte)",
+        "de": "Item 51 (Text einfügen)",
+        "pt": "Item 51 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_52",
+      "text": {
+        "ru": "Пункт 52 (вставьте текст)",
+        "en": "Item 52 (paste text)",
+        "fr": "Item 52 (collez le texte)",
+        "de": "Item 52 (Text einfügen)",
+        "pt": "Item 52 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_53",
+      "text": {
+        "ru": "Пункт 53 (вставьте текст)",
+        "en": "Item 53 (paste text)",
+        "fr": "Item 53 (collez le texte)",
+        "de": "Item 53 (Text einfügen)",
+        "pt": "Item 53 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_54",
+      "text": {
+        "ru": "Пункт 54 (вставьте текст)",
+        "en": "Item 54 (paste text)",
+        "fr": "Item 54 (collez le texte)",
+        "de": "Item 54 (Text einfügen)",
+        "pt": "Item 54 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_55",
+      "text": {
+        "ru": "Пункт 55 (вставьте текст)",
+        "en": "Item 55 (paste text)",
+        "fr": "Item 55 (collez le texte)",
+        "de": "Item 55 (Text einfügen)",
+        "pt": "Item 55 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um poco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_56",
+      "text": {
+        "ru": "Пункт 56 (вставьте текст)",
+        "en": "Item 56 (paste text)",
+        "fr": "Item 56 (collez le texte)",
+        "de": "Item 56 (Text einfügen)",
+        "pt": "Item 56 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_57",
+      "text": {
+        "ru": "Пункт 57 (вставьте текст)",
+        "en": "Item 57 (paste text)",
+        "fr": "Item 57 (collez le texte)",
+        "de": "Item 57 (Text einfügen)",
+        "pt": "Item 57 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_58",
+      "text": {
+        "ru": "Пункт 58 (вставьте текст)",
+        "en": "Item 58 (paste text)",
+        "fr": "Item 58 (collez le texte)",
+        "de": "Item 58 (Text einfügen)",
+        "pt": "Item 58 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_59",
+      "text": {
+        "ru": "Пункт 59 (вставьте текст)",
+        "en": "Item 59 (paste text)",
+        "fr": "Item 59 (collez le texte)",
+        "de": "Item 59 (Text einfügen)",
+        "pt": "Item 59 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_60",
+      "text": {
+        "ru": "Пункт 60 (вставьте текст)",
+        "en": "Item 60 (paste text)",
+        "fr": "Item 60 (collez le texte)",
+        "de": "Item 60 (Text einfügen)",
+        "pt": "Item 60 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_61",
+      "text": {
+        "ru": "Пункт 61 (вставьте текст)",
+        "en": "Item 61 (paste text)",
+        "fr": "Item 61 (collez le texte)",
+        "de": "Item 61 (Text einfügen)",
+        "pt": "Item 61 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_62",
+      "text": {
+        "ru": "Пункт 62 (вставьте текст)",
+        "en": "Item 62 (paste text)",
+        "fr": "Item 62 (collez le texte)",
+        "de": "Item 62 (Text einfügen)",
+        "pt": "Item 62 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_63",
+      "text": {
+        "ru": "Пункт 63 (вставьте текст)",
+        "en": "Item 63 (paste text)",
+        "fr": "Item 63 (collez le texte)",
+        "de": "Item 63 (Text einfügen)",
+        "pt": "Item 63 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_64",
+      "text": {
+        "ru": "Пункт 64 (вставьте текст)",
+        "en": "Item 64 (paste text)",
+        "fr": "Item 64 (collez le texte)",
+        "de": "Item 64 (Text einfügen)",
+        "pt": "Item 64 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_65",
+      "text": {
+        "ru": "Пункт 65 (вставьте текст)",
+        "en": "Item 65 (paste text)",
+        "fr": "Item 65 (collez le texte)",
+        "de": "Item 65 (Text einfügen)",
+        "pt": "Item 65 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_66",
+      "text": {
+        "ru": "Пункт 66 (вставьте текст)",
+        "en": "Item 66 (paste text)",
+        "fr": "Item 66 (collez le texte)",
+        "de": "Item 66 (Text einfügen)",
+        "pt": "Item 66 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_67",
+      "text": {
+        "ru": "Пункт 67 (вставьте текст)",
+        "en": "Item 67 (paste text)",
+        "fr": "Item 67 (collez le texte)",
+        "de": "Item 67 (Text einfügen)",
+        "pt": "Item 67 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_68",
+      "text": {
+        "ru": "Пункт 68 (вставьте текст)",
+        "en": "Item 68 (paste text)",
+        "fr": "Item 68 (collez le texte)",
+        "de": "Item 68 (Text einfügen)",
+        "pt": "Item 68 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_69",
+      "text": {
+        "ru": "Пункт 69 (вставьте текст)",
+        "en": "Item 69 (paste text)",
+        "fr": "Item 69 (collez le texte)",
+        "de": "Item 69 (Text einfügen)",
+        "pt": "Item 69 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um poco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_70",
+      "text": {
+        "ru": "Пункт 70 (вставьте текст)",
+        "en": "Item 70 (paste text)",
+        "fr": "Item 70 (collez le texte)",
+        "de": "Item 70 (Text einfügen)",
+        "pt": "Item 70 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_71",
+      "text": {
+        "ru": "Пункт 71 (вставьте текст)",
+        "en": "Item 71 (paste text)",
+        "fr": "Item 71 (collez le texte)",
+        "de": "Item 71 (Text einfügen)",
+        "pt": "Item 71 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_72",
+      "text": {
+        "ru": "Пункт 72 (вставьте текст)",
+        "en": "Item 72 (paste text)",
+        "fr": "Item 72 (collez le texte)",
+        "de": "Item 72 (Text einfügen)",
+        "pt": "Item 72 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_73",
+      "text": {
+        "ru": "Пункт 73 (вставьте текст)",
+        "en": "Item 73 (paste text)",
+        "fr": "Item 73 (collez le texte)",
+        "de": "Item 73 (Text einfügen)",
+        "pt": "Item 73 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_74",
+      "text": {
+        "ru": "Пункт 74 (вставьте текст)",
+        "en": "Item 74 (paste text)",
+        "fr": "Item 74 (collez le texte)",
+        "de": "Item 74 (Text einfügen)",
+        "pt": "Item 74 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_75",
+      "text": {
+        "ru": "Пункт 75 (вставьте текст)",
+        "en": "Item 75 (paste text)",
+        "fr": "Item 75 (collez le texte)",
+        "de": "Item 75 (Text einfügen)",
+        "pt": "Item 75 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_76",
+      "text": {
+        "ru": "Пункт 76 (вставьте текст)",
+        "en": "Item 76 (paste text)",
+        "fr": "Item 76 (collez le texte)",
+        "de": "Item 76 (Text einfügen)",
+        "pt": "Item 76 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_77",
+      "text": {
+        "ru": "Пункт 77 (вставьте текст)",
+        "en": "Item 77 (paste text)",
+        "fr": "Item 77 (collez le texte)",
+        "de": "Item 77 (Text einfügen)",
+        "pt": "Item 77 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_78",
+      "text": {
+        "ru": "Пункт 78 (вставьте текст)",
+        "en": "Item 78 (paste text)",
+        "fr": "Item 78 (collez le texte)",
+        "de": "Item 78 (Text einfügen)",
+        "pt": "Item 78 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_79",
+      "text": {
+        "ru": "Пункт 79 (вставьте текст)",
+        "en": "Item 79 (paste text)",
+        "fr": "Item 79 (collez le texte)",
+        "de": "Item 79 (Text einfügen)",
+        "pt": "Item 79 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_80",
+      "text": {
+        "ru": "Пункт 80 (вставьте текст)",
+        "en": "Item 80 (paste text)",
+        "fr": "Item 80 (collez le texte)",
+        "de": "Item 80 (Text einfügen)",
+        "pt": "Item 80 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_81",
+      "text": {
+        "ru": "Пункт 81 (вставьте текст)",
+        "en": "Item 81 (paste text)",
+        "fr": "Item 81 (collez le texte)",
+        "de": "Item 81 (Text einfügen)",
+        "pt": "Item 81 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_82",
+      "text": {
+        "ru": "Пункт 82 (вставьте текст)",
+        "en": "Item 82 (paste text)",
+        "fr": "Item 82 (collez le texte)",
+        "de": "Item 82 (Text einfügen)",
+        "pt": "Item 82 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_83",
+      "text": {
+        "ru": "Пункт 83 (вставьте текст)",
+        "en": "Item 83 (paste text)",
+        "fr": "Item 83 (collez le texte)",
+        "de": "Item 83 (Text einfügen)",
+        "pt": "Item 83 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_84",
+      "text": {
+        "ru": "Пункт 84 (вставьте текст)",
+        "en": "Item 84 (paste text)",
+        "fr": "Item 84 (collez le texte)",
+        "de": "Item 84 (Text einfügen)",
+        "pt": "Item 84 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_85",
+      "text": {
+        "ru": "Пункт 85 (вставьте текст)",
+        "en": "Item 85 (paste text)",
+        "fr": "Item 85 (collez le texte)",
+        "de": "Item 85 (Text einfügen)",
+        "pt": "Item 85 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_86",
+      "text": {
+        "ru": "Пункт 86 (вставьте текст)",
+        "en": "Item 86 (paste text)",
+        "fr": "Item 86 (collez le texte)",
+        "de": "Item 86 (Text einfügen)",
+        "pt": "Item 86 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_87",
+      "text": {
+        "ru": "Пункт 87 (вставьте текст)",
+        "en": "Item 87 (paste text)",
+        "fr": "Item 87 (collez le texte)",
+        "de": "Item 87 (Text einfügen)",
+        "pt": "Item 87 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_88",
+      "text": {
+        "ru": "Пункт 88 (вставьте текст)",
+        "en": "Item 88 (paste text)",
+        "fr": "Item 88 (collez le texte)",
+        "de": "Item 88 (Text einfügen)",
+        "pt": "Item 88 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_89",
+      "text": {
+        "ru": "Пункт 89 (вставьте текст)",
+        "en": "Item 89 (paste text)",
+        "fr": "Item 89 (collez le texte)",
+        "de": "Item 89 (Text einfügen)",
+        "pt": "Item 89 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "scl_90",
+      "text": {
+        "ru": "Пункт 90 (вставьте текст)",
+        "en": "Item 90 (paste text)",
+        "fr": "Item 90 (collez le texte)",
+        "de": "Item 90 (Text einfügen)",
+        "pt": "Item 90 (cole o texto)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем нет",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Überhaupt nicht",
+            "pt": "De modo nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Немного",
+            "en": "A little bit",
+            "fr": "Un peu",
+            "de": "Ein wenig",
+            "pt": "Um pouco"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Сильно",
+            "en": "Quite a bit",
+            "fr": "Beaucoup",
+            "de": "Ziemlich stark",
+            "pt": "Bastante"
+          },
+          "score": 3
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Extremely",
+            "fr": "Extrêmement",
+            "de": "Extrem",
+            "pt": "Extremely"
+          },
+          "score": 4
+        }
+      ]
+    }
+  ],
+  "bands": [
+    {
+      "minInclusive": 0,
+      "maxInclusive": 360,
+      "title": {
+        "ru": "Общий профиль симптомов",
+        "en": "Overall symptom pattern",
+        "fr": "Profil global des symptômes",
+        "de": "Gesamtbild der Symptome",
+        "pt": "Perfil geral de sintomas"
+      },
+      "description": {
+        "ru": "Отражает, насколько сильно симптомы беспокоили вас в целом за последний месяц. Не диагноз.",
+        "en": "Reflects how much symptoms bothered you overall in the past month. Not a diagnosis.",
+        "fr": "Reflet à quel point les symptômes vous ont gêné(e) globalement sur le dernier mois. Pas un diagnostic.",
+        "de": "Spiegelt wider, wie stark die Symptome Sie im letzten Monat insgesamt belastet haben. Keine Diagnose.",
+        "pt": "Reflete o quanto os sintomas incomodaram você no último mês, no geral. Não é diagnóstico."
+      }
+    }
+  ],
+  "subscales": []
+}

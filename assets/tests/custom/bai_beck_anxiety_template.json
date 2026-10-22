@@ -1,0 +1,1185 @@
+{
+  "id": "bai",
+  "category": "anxiety",
+  "title": {
+    "ru": "BAI — шкала тревоги Бека",
+    "en": "BAI — Beck Anxiety Inventory",
+    "fr": "BAI — Inventaire d’anxiété de Beck",
+    "de": "BAI — Beck-Angst-Inventar",
+    "pt": "BAI — Inventário de Ansiedade de Beck"
+  },
+  "subtitle": {
+    "ru": "Телесные и когнитивные симптомы тревоги за последнюю неделю.",
+    "en": "Somatic and cognitive anxiety symptoms over the past week.",
+    "fr": "Symptômes somatiques et cognitifs d’anxiété sur la semaine passée.",
+    "de": "Körperliche und kognitive Angstsymptome in der letzten Woche.",
+    "pt": "Sintomas somáticos e cognitivos de ansiedade na última semana."
+  },
+  "description": {
+    "ru": "Опросник для оценки выраженности симптомов тревоги за последнюю неделю.",
+    "en": "Inventory to assess the severity of anxiety symptoms over the past week.",
+    "fr": "Inventaire pour évaluer la sévérité des symptômes d'anxiété au cours de la semaine écoulée.",
+    "de": "Inventar zur Beurteilung der Schwere von Angstsymptomen in der letzten Woche.",
+    "pt": "Inventário para avaliar a gravidade dos sintomas de ansiedade na última semana."
+  },
+  "instructions": {
+    "ru": "Данный список содержит наиболее распространенные симптомы тревоги. Отметьте, насколько вас беспокоил каждый симптом в течение последней недели, включая сегодняшний день.",
+    "en": "This list contains the most common symptoms of anxiety. Rate how much each symptom has bothered you during the past week, including today.",
+    "fr": "Cette liste contient les symptômes d'anxiété les plus courants. Indiquez à quel point chaque symptôme vous a dérangé(e) au cours de la dernière semaine, y compris aujourd’hui.",
+    "de": "Diese Liste enthält die häufigsten Angstsymptome. Bewerten Sie, wie stark Sie jedes Symptom in der letzten Woche (einschließlich heute) belastet hat.",
+    "pt": "Esta lista contém os sintomas mais comuns de ansiedade. Avalie o quanto cada sintoma incomodou você na última semana, incluindo hoje."
+  },
+  "maxScore": 63,
+  "bandsBasis": "raw",
+  "questions": [
+    {
+      "id": "bai_1",
+      "text": {
+        "ru": "Ощущение онемения или покалывания в теле",
+        "en": "Numbness or tingling",
+        "fr": "Engourdissement ou picotements",
+        "de": "Taubheitsgefühl oder Kribbeln",
+        "pt": "Dormência ou formigamento"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не беспокоил",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Gar nicht",
+            "pt": "De jeito nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "Mildly",
+            "fr": "Légèrement",
+            "de": "Leicht",
+            "pt": "Levemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Severely",
+            "fr": "Sévèrement",
+            "de": "Sehr stark",
+            "pt": "Gravemente"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "bai_2",
+      "text": {
+        "ru": "Ощущение жары",
+        "en": "Feeling hot",
+        "fr": "Sensation de chaleur",
+        "de": "Hitzegefühl",
+        "pt": "Sensação de calor"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не беспокоил",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Gar nicht",
+            "pt": "De jeito nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "Mildly",
+            "fr": "Légèrement",
+            "de": "Leicht",
+            "pt": "Levemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Severely",
+            "fr": "Sévèrement",
+            "de": "Sehr stark",
+            "pt": "Gravemente"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "bai_3",
+      "text": {
+        "ru": "Дрожь в ногах",
+        "en": "Wobbliness in legs",
+        "fr": "Tremblements dans les jambes",
+        "de": "Wackelige Beine",
+        "pt": "Pernas bambas"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не беспокоил",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Gar nicht",
+            "pt": "De jeito nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "Mildly",
+            "fr": "Légèrement",
+            "de": "Leicht",
+            "pt": "Levemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Severely",
+            "fr": "Sévèrement",
+            "de": "Sehr stark",
+            "pt": "Gravemente"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "bai_4",
+      "text": {
+        "ru": "Неспособность расслабиться",
+        "en": "Unable to relax",
+        "fr": "Incapacité à se détendre",
+        "de": "Unfähigkeit zu entspannen",
+        "pt": "Incapacidade de relaxar"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не беспокоил",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Gar nicht",
+            "pt": "De jeito nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "Mildly",
+            "fr": "Légèrement",
+            "de": "Leicht",
+            "pt": "Levemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Severely",
+            "fr": "Sévèrement",
+            "de": "Sehr stark",
+            "pt": "Gravemente"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "bai_5",
+      "text": {
+        "ru": "Страх, что произойдет самое плохое",
+        "en": "Fear of worst happening",
+        "fr": "Peur que le pire n'arrive",
+        "de": "Angst, dass das Schlimmste passiert",
+        "pt": "Medo de que o pior aconteça"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не беспокоил",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Gar nicht",
+            "pt": "De jeito nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "Mildly",
+            "fr": "Légèrement",
+            "de": "Leicht",
+            "pt": "Levemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Severely",
+            "fr": "Sévèrement",
+            "de": "Sehr stark",
+            "pt": "Gravemente"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "bai_6",
+      "text": {
+        "ru": "Головокружение или ощущение легкости в голове",
+        "en": "Dizzy or lightheaded",
+        "fr": "Étourdissements ou vertiges",
+        "de": "Schwindel oder Benommenheit",
+        "pt": "Tonturas ou vertigens"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не беспокоил",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Gar nicht",
+            "pt": "De jeito nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "Mildly",
+            "fr": "Légèrement",
+            "de": "Leicht",
+            "pt": "Levemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Severely",
+            "fr": "Sévèrement",
+            "de": "Sehr stark",
+            "pt": "Gravemente"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "bai_7",
+      "text": {
+        "ru": "Ускоренное сердцебиение",
+        "en": "Heart pounding/racing",
+        "fr": "Palpitations cardiaques",
+        "de": "Herzklopfen oder Herzrasen",
+        "pt": "Batimento cardíaco acelerado"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не беспокоил",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Gar nicht",
+            "pt": "De jeito nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "Mildly",
+            "fr": "Légèrement",
+            "de": "Leicht",
+            "pt": "Levemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Severely",
+            "fr": "Sévèrement",
+            "de": "Sehr stark",
+            "pt": "Gravemente"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "bai_8",
+      "text": {
+        "ru": "Неустойчивость",
+        "en": "Unsteady",
+        "fr": "Instabilité",
+        "de": "Unsicherheit",
+        "pt": "Instabilidade"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не беспокоил",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Gar nicht",
+            "pt": "De jeito nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "Mildly",
+            "fr": "Légèrement",
+            "de": "Leicht",
+            "pt": "Levemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Severely",
+            "fr": "Sévèrement",
+            "de": "Sehr stark",
+            "pt": "Gravemente"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "bai_9",
+      "text": {
+        "ru": "Ощущение ужаса",
+        "en": "Terrified or afraid",
+        "fr": "Sensation de terreur",
+        "de": "Gefühl des Schreckens",
+        "pt": "Sensação de pavor"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не беспокоил",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Gar nicht",
+            "pt": "De jeito nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "Mildly",
+            "fr": "Légèrement",
+            "de": "Leicht",
+            "pt": "Levemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Severely",
+            "fr": "Sévèrement",
+            "de": "Sehr stark",
+            "pt": "Gravemente"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "bai_10",
+      "text": {
+        "ru": "Нервозность",
+        "en": "Nervous",
+        "fr": "Nervosité",
+        "de": "Nervosität",
+        "pt": "Nervosismo"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не беспокоил",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Gar nicht",
+            "pt": "De jeito nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "Mildly",
+            "fr": "Légèrement",
+            "de": "Leicht",
+            "pt": "Levemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Severely",
+            "fr": "Sévèrement",
+            "de": "Sehr stark",
+            "pt": "Gravemente"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "bai_11",
+      "text": {
+        "ru": "Дрожь в руках",
+        "en": "Hands trembling",
+        "fr": "Tremblement des mains",
+        "de": "Zittern der Hände",
+        "pt": "Tremor nas mãos"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не беспокоил",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Gar nicht",
+            "pt": "De jeito nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "Mildly",
+            "fr": "Légèrement",
+            "de": "Leicht",
+            "pt": "Levemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Severely",
+            "fr": "Sévèrement",
+            "de": "Sehr stark",
+            "pt": "Gravemente"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "bai_12",
+      "text": {
+        "ru": "Ощущение удушья",
+        "en": "Feeling of choking",
+        "fr": "Sensation d'étouffement",
+        "de": "Erstickungsgefühl",
+        "pt": "Sensação de sufocamento"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не беспокоил",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Gar nicht",
+            "pt": "De jeito nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "Mildly",
+            "fr": "Légèrement",
+            "de": "Leicht",
+            "pt": "Levemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Severely",
+            "fr": "Sévèrement",
+            "de": "Sehr stark",
+            "pt": "Gravemente"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "bai_13",
+      "text": {
+        "ru": "Шаткость походки",
+        "en": "Shaky / unsteady",
+        "fr": "Démarche chancelante",
+        "de": "Unsicherer Gang",
+        "pt": "Instabilidade ao caminhar"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не беспокоил",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Gar nicht",
+            "pt": "De jeito nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "Mildly",
+            "fr": "Légèrement",
+            "de": "Leicht",
+            "pt": "Levemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Severely",
+            "fr": "Sévèrement",
+            "de": "Sehr stark",
+            "pt": "Gravemente"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "bai_14",
+      "text": {
+        "ru": "Страх утраты контроля",
+        "en": "Fear of losing control",
+        "fr": "Peur de perdre le contrôle",
+        "de": "Angst vor Kontrollverlust",
+        "pt": "Medo de perder o controle"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не беспокоил",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Gar nicht",
+            "pt": "De jeito nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "Mildly",
+            "fr": "Légèrement",
+            "de": "Leicht",
+            "pt": "Levemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Severely",
+            "fr": "Sévèrement",
+            "de": "Sehr stark",
+            "pt": "Gravemente"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "bai_15",
+      "text": {
+        "ru": "Затрудненность дыхания",
+        "en": "Difficulty in breathing",
+        "fr": "Difficultés respiratoires",
+        "de": "Atembeschwerden",
+        "pt": "Dificuldade em respirar"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не беспокоил",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Gar nicht",
+            "pt": "De jeito nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "Mildly",
+            "fr": "Légèrement",
+            "de": "Leicht",
+            "pt": "Levemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Severely",
+            "fr": "Sévèrement",
+            "de": "Sehr stark",
+            "pt": "Gravemente"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "bai_16",
+      "text": {
+        "ru": "Страх смерти",
+        "en": "Fear of dying",
+        "fr": "Peur de mourir",
+        "de": "Todesangst",
+        "pt": "Medo de morrer"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не беспокоил",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Gar nicht",
+            "pt": "De jeito nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "Mildly",
+            "fr": "Légèrement",
+            "de": "Leicht",
+            "pt": "Levemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Severely",
+            "fr": "Sévèrement",
+            "de": "Sehr stark",
+            "pt": "Gravemente"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "bai_17",
+      "text": {
+        "ru": "Испуг",
+        "en": "Scared",
+        "fr": "Effrayé",
+        "de": "Verängstigt",
+        "pt": "Susto / Medo"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не беспокоил",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Gar nicht",
+            "pt": "De jeito nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "Mildly",
+            "fr": "Légèrement",
+            "de": "Leicht",
+            "pt": "Levemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Severely",
+            "fr": "Sévèrement",
+            "de": "Sehr stark",
+            "pt": "Gravemente"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "bai_18",
+      "text": {
+        "ru": "Желудочно-кишечные расстройства",
+        "en": "Indigestion",
+        "fr": "Troubles gastro-intestinaux",
+        "de": "Magen-Darm-Beschwerden",
+        "pt": "Problemas gastrointestinais"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не беспокоил",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Gar nicht",
+            "pt": "De jeito nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "Mildly",
+            "fr": "Légèrement",
+            "de": "Leicht",
+            "pt": "Levemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Severely",
+            "fr": "Sévèrement",
+            "de": "Sehr stark",
+            "pt": "Gravemente"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "bai_19",
+      "text": {
+        "ru": "Обмороки",
+        "en": "Faint / lightheaded",
+        "fr": "Évanouissements",
+        "de": "Ohnmachtsanfälle",
+        "pt": "Desmaios"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не беспокоил",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Gar nicht",
+            "pt": "De jeito nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "Mildly",
+            "fr": "Légèrement",
+            "de": "Leicht",
+            "pt": "Levemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Severely",
+            "fr": "Sévèrement",
+            "de": "Sehr stark",
+            "pt": "Gravemente"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "bai_20",
+      "text": {
+        "ru": "Приливы крови к лицу",
+        "en": "Face flushed",
+        "fr": "Bouffées vasomotrices (visage rouge)",
+        "de": "Erröten des Gesichts",
+        "pt": "Rubor facial"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не беспокоил",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Gar nicht",
+            "pt": "De jeito nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "Mildly",
+            "fr": "Légèrement",
+            "de": "Leicht",
+            "pt": "Levemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Severely",
+            "fr": "Sévèrement",
+            "de": "Sehr stark",
+            "pt": "Gravemente"
+          },
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "bai_21",
+      "text": {
+        "ru": "Усиление потоотделения (не связанное с жарой)",
+        "en": "Hot/cold sweats",
+        "fr": "Transpiration accrue (non liée à la chaleur)",
+        "de": "Verstärktes Schwitzen (nicht hitzebedingt)",
+        "pt": "Suor excessivo (não relacionado ao calor)"
+      },
+      "options": [
+        {
+          "label": {
+            "ru": "Совсем не беспокоил",
+            "en": "Not at all",
+            "fr": "Pas du tout",
+            "de": "Gar nicht",
+            "pt": "De jeito nenhum"
+          },
+          "score": 0
+        },
+        {
+          "label": {
+            "ru": "Слегка",
+            "en": "Mildly",
+            "fr": "Légèrement",
+            "de": "Leicht",
+            "pt": "Levemente"
+          },
+          "score": 1
+        },
+        {
+          "label": {
+            "ru": "Умеренно",
+            "en": "Moderately",
+            "fr": "Modérément",
+            "de": "Mäßig",
+            "pt": "Moderadamente"
+          },
+          "score": 2
+        },
+        {
+          "label": {
+            "ru": "Очень сильно",
+            "en": "Severely",
+            "fr": "Sévèrement",
+            "de": "Sehr stark",
+            "pt": "Gravemente"
+          },
+          "score": 3
+        }
+      ]
+    }
+  ],
+  "bands": [
+    {
+      "minInclusive": 0,
+      "maxInclusive": 21,
+      "title": {
+        "ru": "Незначительный уровень тревоги",
+        "en": "Minimal anxiety level",
+        "fr": "Niveau d'anxiété minime",
+        "de": "Minimales Angstniveau",
+        "pt": "Nível de ansiedade mínima"
+      },
+      "description": {
+        "ru": "Тревога в этой зоне обычно описывается как слабо выраженная относительно верхних диапазонов шкалы.",
+        "en": "Anxiety in this band is often described as mild relative to higher ranges on the scale.",
+        "fr": "Anxiété souvent décrite comme légère par rapport aux bandes supérieures.",
+        "de": "Angst in dieser Zone wird oft als gering im Vergleich zu höheren Bereichen beschrieben.",
+        "pt": "Ansiedade nesta faixa costuma ser descrita como leve em relação às faixas altas."
+      }
+    },
+    {
+      "minInclusive": 22,
+      "maxInclusive": 35,
+      "title": {
+        "ru": "Средняя выраженность тревоги",
+        "en": "Moderate anxiety",
+        "fr": "Anxiété modérée",
+        "de": "Mittelschwere Angst",
+        "pt": "Ansiedade moderada"
+      },
+      "description": {
+        "ru": "Умеренная выраженность тревоги; при стойком дискомфорте имеет смысл обсудить со специалистом.",
+        "en": "Moderate anxiety; if it persists or interferes with life, consider talking with a professional.",
+        "fr": "Anxiété modérée ; si elle persiste, un suivi peut aider.",
+        "de": "Mäßige Angst; bei anhaltender Belastung professionell besprechen.",
+        "pt": "Ansiedade moderada; se persistir, considere apoio profissional."
+      }
+    },
+    {
+      "minInclusive": 36,
+      "maxInclusive": 63,
+      "title": {
+        "ru": "Очень высокая тревога",
+        "en": "Severe anxiety",
+        "fr": "Anxiété sévère",
+        "de": "Sehr schwere Angst",
+        "pt": "Ansiedade grave"
+      },
+      "description": {
+        "ru": "Сильная тревога по этой шкале; рекомендуется обратиться за профессиональной поддержкой.",
+        "en": "Strong anxiety on this measure; consider seeking professional support.",
+        "fr": "Anxiété marquée ; un accompagnement professionnel est recommandé.",
+        "de": "Ausgeprägte Angst; professionelle Unterstützung empfohlen.",
+        "pt": "Ansiedade intensa; busque apoio profissional."
+      }
+    }
+  ],
+  "subscales": []
+}
